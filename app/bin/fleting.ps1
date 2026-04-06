@@ -1,0 +1,1 @@
+& "C:\Users\bernardo.silva\AppData\Roaming\Python\Python313\Scripts\fleting.exe" @args
