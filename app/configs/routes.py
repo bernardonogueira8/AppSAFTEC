@@ -3,6 +3,9 @@ import flet as ft
 import importlib
 
 ROUTES = [
+    
+
+
     {
         "path": "/test",
         "view": "views.pages.test_view.TestView",
@@ -21,21 +24,22 @@ ROUTES = [
         "show_in_bottom": True,
     },
     {
-        "path": "/settings",
-        "view": "views.pages.settings_view.SettingsView",
-        "label": "menu.settings",
-        "icon": ft.Icons.SETTINGS,
-        "show_in_top": True,
-        "show_in_bottom": False,
-    },
-    {
         "path": "/help",
         "view": "views.pages.help_view.HelpView",
         "label": "menu.help",
         "icon": ft.Icons.HELP,
         "show_in_top": True,
         "show_in_bottom": True,
-    }
+    },
+    {
+        "path": "/exit",
+        "view": "views.pages.exit_view.ExitView",
+        "label": "Exit",
+        "icon": ft.Icons.CHEVRON_RIGHT,
+        "show_in_top": False,
+        "show_in_bottom": True,
+    },
+    
 ]
 
 def load_view(view_path: str):

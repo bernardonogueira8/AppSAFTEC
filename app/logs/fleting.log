@@ -98,3 +98,70 @@
 2026-04-06 12:24:50,782 | INFO | Router | Navigating to: /settings
 2026-04-06 12:24:52,199 | INFO | Router | Navigating to: /settings
 2026-04-06 12:24:54,246 | INFO | flet | Session was garbage collected: vFalt1PbyUiSzntC
+2026-04-06 12:36:31,249 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 12:36:31,251 | INFO | flet | Starting up TCP server on localhost:61916
+2026-04-06 12:36:31,259 | INFO | flet | Flet app has started...
+2026-04-06 12:36:31,676 | INFO | flet | App session started
+2026-04-06 12:36:31,681 | INFO | Router | Navigating to: /
+2026-04-06 12:36:31,694 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 12:37:29,595 | INFO | flet | Session was garbage collected: KF70wHJucXFIs9dU
+2026-04-06 12:37:34,822 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 12:37:34,825 | INFO | flet | Starting up TCP server on localhost:61941
+2026-04-06 12:37:34,834 | INFO | flet | Flet app has started...
+2026-04-06 12:37:35,243 | INFO | flet | App session started
+2026-04-06 12:37:35,248 | INFO | Router | Navigating to: /
+2026-04-06 12:37:35,259 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 12:37:54,636 | INFO | flet | Session was garbage collected: 3m6DPCgFClO8OCLR
+2026-04-06 12:39:46,191 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 12:39:46,194 | INFO | flet | Starting up TCP server on localhost:61992
+2026-04-06 12:39:46,205 | INFO | flet | Flet app has started...
+2026-04-06 12:39:46,621 | INFO | flet | App session started
+2026-04-06 12:39:46,626 | INFO | Router | Navigating to: /
+2026-04-06 12:39:46,640 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 12:39:48,169 | INFO | Router | Navigating to: /help
+2026-04-06 12:39:49,025 | ERROR | flet | Unhandled error in 'on_change' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 93, in <lambda>
+    on_change=lambda e: self._handle_sidebar_change(e, destinations),
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 100, in _handle_sidebar_change
+    selected_route = target_routes[e.control.selected_index]
+                     ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+2026-04-06 12:39:53,110 | INFO | flet | Session was garbage collected: AZkY9yJeydgKkvNX
+2026-04-06 12:39:59,187 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 12:39:59,189 | INFO | flet | Starting up TCP server on localhost:61998
+2026-04-06 12:39:59,198 | INFO | flet | Flet app has started...
+2026-04-06 12:39:59,697 | INFO | flet | App session started
+2026-04-06 12:39:59,701 | INFO | Router | Navigating to: /
+2026-04-06 12:39:59,711 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 12:40:04,010 | INFO | Router | Navigating to: /exit
+2026-04-06 12:40:05,298 | INFO | Router | Navigating to: /
+2026-04-06 12:40:06,074 | INFO | Router | Navigating to: /help
+2026-04-06 12:40:06,850 | INFO | Router | Navigating to: /exit
+2026-04-06 12:40:07,891 | INFO | Router | Navigating to: /help
+2026-04-06 12:40:08,372 | INFO | Router | Navigating to: /
+2026-04-06 12:40:09,451 | INFO | Router | Navigating to: /exit
+2026-04-06 12:40:10,314 | INFO | Router | Navigating to: /exit
+2026-04-06 12:40:10,930 | INFO | Router | Navigating to: /exit
+2026-04-06 12:40:11,171 | INFO | Router | Navigating to: /exit
+2026-04-06 12:40:12,723 | INFO | Router | Navigating to: /help
+2026-04-06 12:40:13,789 | INFO | Router | Navigating to: /
+2026-04-06 12:40:16,323 | INFO | Router | Navigating to: /
+2026-04-06 12:40:17,715 | INFO | Router | Navigating to: /help
+2026-04-06 12:40:19,275 | INFO | Router | Navigating to: /exit
+2026-04-06 12:40:22,179 | INFO | Router | Navigating to: /
+2026-04-06 12:40:23,619 | INFO | Router | Navigating to: /help
+2026-04-06 12:40:25,172 | INFO | Router | Navigating to: /exit
+2026-04-06 12:40:27,099 | INFO | Router | Navigating to: /
+2026-04-06 12:40:28,132 | INFO | Router | Navigating to: /
+2026-04-06 12:40:28,732 | INFO | Router | Navigating to: /
+2026-04-06 12:40:29,556 | INFO | Router | Navigating to: /
+2026-04-06 12:40:30,716 | INFO | Router | Navigating to: /help
+2026-04-06 12:40:32,605 | INFO | Router | Navigating to: /exit
+2026-04-06 12:40:37,319 | INFO | flet | Session was garbage collected: wqn0irFrwlELcIn7

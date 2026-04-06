@@ -41,7 +41,7 @@ class MainLayout(ft.Column):
         # Mantida a lógica original de AppBar
         items = []
         for r in ROUTES:
-            if not r.get("show_in_top"):
+            if not r.get("show_in_bottom"):
                 continue
 
             items.append(
@@ -73,7 +73,7 @@ class MainLayout(ft.Column):
 
         # Filtramos as rotas que devem aparecer na sidebar
         for r in ROUTES:
-            if not r.get("show_in_bottom"): # Mantendo a flag original para não quebrar sua config
+            if not r.get("show_in_top"): # Mantendo a flag original para não quebrar sua config
                 continue
             
             destinations.append(
