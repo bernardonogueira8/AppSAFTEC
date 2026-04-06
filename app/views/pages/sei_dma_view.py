@@ -1,12 +1,12 @@
 import flet as ft
 from views.layouts.main_layout import MainLayout
-from controllers.test_controller import TestController
+from controllers.sei_dma_controller import SeiDmaController
 
-class TestView:
+class Sei_dmaView:
     def __init__(self, page, router):
         self.page = page
         self.router = router
-        self.controller = TestController()
+        self.controller = SeiDmaController()
 
     def render(self):
         content = ft.Column(

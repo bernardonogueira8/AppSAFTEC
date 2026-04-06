@@ -318,3 +318,1197 @@ Traceback (most recent call last):
 AttributeError: 'Router' object has no attribute 'current_path'. Did you mean: 'current_route'?
 2026-04-06 12:49:30,093 | INFO | App | Aplicação iniciada com sucesso
 2026-04-06 12:49:32,180 | INFO | flet | Session was garbage collected: nZEPplQO2X1CQNzX
+2026-04-06 12:54:45,978 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 12:54:45,980 | INFO | flet | Starting up TCP server on localhost:63958
+2026-04-06 12:54:45,991 | INFO | flet | Flet app has started...
+2026-04-06 12:54:46,403 | INFO | flet | App session started
+2026-04-06 12:54:46,409 | INFO | Router | Navigating to: /
+2026-04-06 12:54:46,435 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 12:54:50,380 | INFO | Router | Navigating to: /
+2026-04-06 12:54:51,611 | INFO | flet | Session was garbage collected: t0CtzvusAhDWSMY5
+2026-04-06 12:54:57,264 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 12:54:57,266 | INFO | flet | Starting up TCP server on localhost:63963
+2026-04-06 12:54:57,275 | INFO | flet | Flet app has started...
+2026-04-06 12:54:57,693 | INFO | flet | App session started
+2026-04-06 12:54:57,699 | INFO | Router | Navigating to: /
+2026-04-06 12:54:57,715 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 12:55:01,893 | INFO | Router | Navigating to: /
+2026-04-06 12:55:03,145 | INFO | flet | Session was garbage collected: nyiNeOGYMoByw2Rh
+2026-04-06 13:49:50,081 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 13:49:50,084 | INFO | flet | Starting up TCP server on localhost:49188
+2026-04-06 13:49:50,093 | INFO | flet | Flet app has started...
+2026-04-06 13:49:51,178 | INFO | flet | App session started
+2026-04-06 13:49:51,188 | INFO | Router | Navigating to: /
+2026-04-06 13:49:51,197 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 13:49:52,632 | INFO | Router | Navigating to: /help
+2026-04-06 13:49:54,296 | INFO | Router | Navigating to: /exit
+2026-04-06 13:49:55,224 | INFO | Router | Navigating to: /
+2026-04-06 13:49:56,217 | INFO | Router | Navigating to: /
+2026-04-06 13:49:56,729 | INFO | Router | Navigating to: /
+2026-04-06 13:49:56,970 | INFO | Router | Navigating to: /
+2026-04-06 13:49:57,585 | INFO | Router | Navigating to: /
+2026-04-06 13:49:58,217 | INFO | Router | Navigating to: /help
+2026-04-06 13:49:58,793 | INFO | Router | Navigating to: /exit
+2026-04-06 13:49:59,825 | INFO | Router | Navigating to: /
+2026-04-06 13:50:00,754 | INFO | Router | Navigating to: /help
+2026-04-06 13:50:01,241 | INFO | Router | Navigating to: /exit
+2026-04-06 13:50:13,244 | INFO | flet | Session was garbage collected: 4PpVK39kdrTCtDmj
+2026-04-06 13:50:17,085 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 13:50:17,087 | INFO | flet | Starting up TCP server on localhost:49200
+2026-04-06 13:50:17,095 | INFO | flet | Flet app has started...
+2026-04-06 13:50:17,510 | INFO | flet | App session started
+2026-04-06 13:50:17,516 | INFO | Router | Navigating to: /
+2026-04-06 13:50:17,526 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 13:50:18,667 | INFO | Router | Navigating to: /
+2026-04-06 13:50:19,394 | INFO | Router | Navigating to: /help
+2026-04-06 13:50:20,282 | INFO | Router | Navigating to: /exit
+2026-04-06 13:50:21,082 | INFO | Router | Navigating to: /help
+2026-04-06 13:50:21,738 | INFO | Router | Navigating to: /
+2026-04-06 13:50:23,058 | INFO | Router | Navigating to: /
+2026-04-06 13:50:23,683 | INFO | Router | Navigating to: /help
+2026-04-06 13:50:24,026 | INFO | Router | Navigating to: /exit
+2026-04-06 13:50:25,994 | INFO | flet | Session was garbage collected: UMAxitiIbyvICyMS
+2026-04-06 13:51:27,118 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 13:51:27,120 | INFO | flet | Starting up TCP server on localhost:49223
+2026-04-06 13:51:27,128 | INFO | flet | Flet app has started...
+2026-04-06 13:51:27,539 | INFO | flet | App session started
+2026-04-06 13:51:27,545 | INFO | Router | Navigating to: /
+2026-04-06 13:51:27,556 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 13:51:30,311 | INFO | Router | Navigating to: /help
+2026-04-06 13:51:31,696 | INFO | Router | Navigating to: /
+2026-04-06 13:51:33,358 | INFO | flet | Session was garbage collected: KpcHl0Y63RoPKRul
+2026-04-06 13:51:38,937 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 13:51:38,939 | INFO | flet | Starting up TCP server on localhost:49232
+2026-04-06 13:51:38,947 | INFO | flet | Flet app has started...
+2026-04-06 13:51:39,347 | INFO | flet | App session started
+2026-04-06 13:51:39,353 | INFO | Router | Navigating to: /
+2026-04-06 13:51:39,369 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 13:51:43,353 | INFO | Router | Navigating to: /help
+2026-04-06 13:51:44,939 | INFO | flet | Session was garbage collected: Y3tTdhHsfYQdEYNu
+2026-04-06 13:51:53,509 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 13:51:53,511 | INFO | flet | Starting up TCP server on localhost:49259
+2026-04-06 13:51:53,520 | INFO | flet | Flet app has started...
+2026-04-06 13:51:53,928 | INFO | flet | App session started
+2026-04-06 13:51:53,934 | INFO | Router | Navigating to: /
+2026-04-06 13:51:53,946 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 13:51:55,058 | INFO | Router | Navigating to: /
+2026-04-06 13:51:55,490 | INFO | Router | Navigating to: /help
+2026-04-06 13:51:55,922 | INFO | Router | Navigating to: /exit
+2026-04-06 13:51:56,794 | INFO | Router | Navigating to: /
+2026-04-06 13:51:59,733 | INFO | flet | Session was garbage collected: UyMiRAoUkhhwJsqO
+2026-04-06 13:53:04,583 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 13:53:04,585 | INFO | flet | Starting up TCP server on localhost:49296
+2026-04-06 13:53:04,592 | INFO | flet | Flet app has started...
+2026-04-06 13:53:04,978 | INFO | flet | App session started
+2026-04-06 13:53:04,984 | INFO | Router | Navigating to: /
+2026-04-06 13:53:04,995 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 13:53:10,448 | INFO | Router | Navigating to: /
+2026-04-06 13:53:11,128 | INFO | Router | Navigating to: /help
+2026-04-06 13:53:12,000 | INFO | Router | Navigating to: /exit
+2026-04-06 13:53:15,435 | INFO | flet | Session was garbage collected: HTIQIu3MFGzubkkj
+2026-04-06 13:58:15,787 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 13:58:15,790 | INFO | flet | Starting up TCP server on localhost:63070
+2026-04-06 13:58:15,799 | INFO | flet | Flet app has started...
+2026-04-06 13:58:16,316 | INFO | flet | App session started
+2026-04-06 13:58:16,323 | INFO | Router | Navigating to: /
+2026-04-06 13:58:16,324 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 61, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 12, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 23, in _build
+    self.controls.append(self._top_bar())
+                         ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 49, in _top_bar
+    ft.PopupMenuItem(
+    ~~~~~~~~~~~~~~~~^
+        text=self._get_title(r), # Foco total no título aqui
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        on_click=lambda e, p=r["path"]: self.router.navigate(p),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: PopupMenuItem.__init__() got an unexpected keyword argument 'text'
+2026-04-06 13:58:16,332 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 13:58:18,188 | INFO | flet | Session was garbage collected: IifygpqCqg96qMPN
+2026-04-06 13:58:31,567 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 13:58:31,570 | INFO | flet | Starting up TCP server on localhost:63083
+2026-04-06 13:58:31,577 | INFO | flet | Flet app has started...
+2026-04-06 13:58:32,068 | INFO | flet | App session started
+2026-04-06 13:58:32,073 | INFO | Router | Navigating to: /
+2026-04-06 13:58:32,075 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 61, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 12, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 23, in _build
+    self.controls.append(self._top_bar())
+                         ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 49, in _top_bar
+    ft.PopupMenuItem(
+    ~~~~~~~~~~~~~~~~^
+        text=self._get_title(r), # Foco total no título aqui
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        on_click=lambda e, p=r["path"]: self.router.navigate(p),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: PopupMenuItem.__init__() got an unexpected keyword argument 'text'
+2026-04-06 13:58:32,080 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 13:58:55,698 | INFO | flet | Session was garbage collected: vygMzraP0SEVKJF5
+2026-04-06 13:59:55,659 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 13:59:55,661 | INFO | flet | Starting up TCP server on localhost:63114
+2026-04-06 13:59:55,671 | INFO | flet | Flet app has started...
+2026-04-06 13:59:56,171 | INFO | flet | App session started
+2026-04-06 13:59:56,176 | INFO | Router | Navigating to: /
+2026-04-06 13:59:56,187 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:00:00,966 | INFO | Router | Navigating to: /
+2026-04-06 14:00:02,206 | INFO | Router | Navigating to: /help
+2026-04-06 14:00:03,118 | INFO | Router | Navigating to: /exit
+2026-04-06 14:00:45,885 | INFO | flet | Session was garbage collected: qdLvH151C7ghLSmO
+2026-04-06 14:00:57,816 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:00:57,818 | INFO | flet | Starting up TCP server on localhost:63139
+2026-04-06 14:00:57,827 | INFO | flet | Flet app has started...
+2026-04-06 14:00:58,406 | INFO | flet | App session started
+2026-04-06 14:00:58,412 | INFO | Router | Navigating to: /
+2026-04-06 14:00:58,416 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 61, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 13, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 28, in _build
+    self._sidebar(), # Agora uma lista real de itens
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 89, in _sidebar
+    hover_color=ft.Colors.with_opacity(0.1, ft.Colors.SURFACE_VARIANT),
+                                            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\utils\deprecated_enum.py", line 49, in __getattr__
+    return super().__getattr__(name)
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'super' object has no attribute '__getattr__'. Did you mean: '__setattr__'?
+2026-04-06 14:00:58,422 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:01:01,307 | INFO | flet | Session was garbage collected: uD982ZpUeoZvfWWq
+2026-04-06 14:02:03,310 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:02:03,312 | INFO | flet | Starting up TCP server on localhost:63172
+2026-04-06 14:02:03,319 | INFO | flet | Flet app has started...
+2026-04-06 14:02:03,700 | INFO | flet | App session started
+2026-04-06 14:02:03,705 | INFO | Router | Navigating to: /
+2026-04-06 14:02:03,707 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 61, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 13, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 28, in _build
+    self._sidebar(),
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 89, in _sidebar
+    hover_color=ft.colors.with_opacity(0.1, "surfacevariant"),
+                ^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\__init__.py", line 1190, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+AttributeError: module 'flet' has no attribute 'colors'. Did you mean: 'Colors'?
+2026-04-06 14:02:03,713 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:02:17,103 | INFO | flet | Session was garbage collected: jDndlKlbZOB9WaQy
+2026-04-06 14:02:40,963 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:02:40,965 | INFO | flet | Starting up TCP server on localhost:63185
+2026-04-06 14:02:40,972 | INFO | flet | Flet app has started...
+2026-04-06 14:02:41,359 | INFO | flet | App session started
+2026-04-06 14:02:41,366 | INFO | Router | Navigating to: /
+2026-04-06 14:02:41,368 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 61, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 13, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 28, in _build
+    self._sidebar(),
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 91, in _sidebar
+    cursor=ft.Cursor.POINTER,
+           ^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\__init__.py", line 1190, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+AttributeError: module 'flet' has no attribute 'Cursor'
+2026-04-06 14:02:41,374 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:02:43,919 | INFO | flet | Session was garbage collected: b2MYUSXtHKpVlClx
+2026-04-06 14:03:08,544 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:03:08,546 | INFO | flet | Starting up TCP server on localhost:63204
+2026-04-06 14:03:08,553 | INFO | flet | Flet app has started...
+2026-04-06 14:03:08,982 | INFO | flet | App session started
+2026-04-06 14:03:08,987 | INFO | Router | Navigating to: /
+2026-04-06 14:03:08,989 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 61, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 13, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 28, in _build
+    self._sidebar(),
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 91, in _sidebar
+    cursor=ft.MouseCursor.POINTER,
+           ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: type object 'MouseCursor' has no attribute 'POINTER'
+2026-04-06 14:03:08,994 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:03:12,171 | INFO | flet | Session was garbage collected: CfF6PDPRxBiuosbW
+2026-04-06 14:03:20,170 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:03:20,171 | INFO | flet | Starting up TCP server on localhost:63212
+2026-04-06 14:03:20,230 | INFO | flet | Flet app has started...
+2026-04-06 14:03:20,642 | INFO | flet | App session started
+2026-04-06 14:03:20,648 | INFO | Router | Navigating to: /
+2026-04-06 14:03:20,650 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 61, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 13, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 28, in _build
+    self._sidebar(),
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 79, in _sidebar
+    ft.Container(
+    ~~~~~~~~~~~~^
+        content=ft.Text(
+        ^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    
+    
+    )
+    ^
+TypeError: Container.__init__() got an unexpected keyword argument 'hover_color'
+2026-04-06 14:03:20,656 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:03:22,939 | INFO | flet | Session was garbage collected: c7T9eTqAGh8A55jx
+2026-04-06 14:04:22,824 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:04:22,826 | INFO | flet | Starting up TCP server on localhost:63240
+2026-04-06 14:04:22,834 | INFO | flet | Flet app has started...
+2026-04-06 14:04:23,244 | INFO | flet | App session started
+2026-04-06 14:04:23,250 | INFO | Router | Navigating to: /
+2026-04-06 14:04:23,252 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 61, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 8, in __init__
+    self.page = page
+    ^^^^^^^^^
+AttributeError: property 'page' of 'MainLayout' object has no setter
+2026-04-06 14:04:23,256 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:04:25,414 | INFO | flet | Session was garbage collected: 1wuDcdFBTtoX9OQ8
+2026-04-06 14:04:37,611 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:04:37,613 | INFO | flet | Starting up TCP server on localhost:63259
+2026-04-06 14:04:37,621 | INFO | flet | Flet app has started...
+2026-04-06 14:04:38,019 | INFO | flet | App session started
+2026-04-06 14:04:38,024 | INFO | Router | Navigating to: /
+2026-04-06 14:04:38,037 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:04:42,255 | INFO | flet | Session was garbage collected: qJdHv2sYE8dnhT0A
+2026-04-06 14:04:56,774 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:04:56,776 | INFO | flet | Starting up TCP server on localhost:63272
+2026-04-06 14:04:56,785 | INFO | flet | Flet app has started...
+2026-04-06 14:04:57,185 | INFO | flet | App session started
+2026-04-06 14:04:57,190 | INFO | Router | Navigating to: /
+2026-04-06 14:04:57,192 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 61, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 12, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 23, in _build
+    self.controls.append(self._top_bar())
+                         ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 49, in _top_bar
+    ft.PopupMenuItem(
+    ~~~~~~~~~~~~~~~~^
+        text=self._get_title(r), # Foco total no título aqui
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        on_click=lambda e, p=r["path"]: self.router.navigate(p),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: PopupMenuItem.__init__() got an unexpected keyword argument 'text'
+2026-04-06 14:04:57,199 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:04:59,885 | INFO | flet | Session was garbage collected: dbB9fgVgqqf1n4XR
+2026-04-06 14:16:51,364 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:16:51,366 | INFO | flet | Starting up TCP server on localhost:63555
+2026-04-06 14:16:51,374 | INFO | flet | Flet app has started...
+2026-04-06 14:16:51,790 | INFO | flet | App session started
+2026-04-06 14:16:51,797 | INFO | Router | Navigating to: /
+2026-04-06 14:16:51,806 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:16:55,370 | INFO | Router | Navigating to: /
+2026-04-06 14:16:56,610 | INFO | flet | Session was garbage collected: l4rSJGD0AByANcX9
+2026-04-06 14:18:42,045 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:18:42,047 | INFO | flet | Starting up TCP server on localhost:63626
+2026-04-06 14:18:42,056 | INFO | flet | Flet app has started...
+2026-04-06 14:18:42,468 | INFO | flet | App session started
+2026-04-06 14:18:42,473 | INFO | Router | Navigating to: /
+2026-04-06 14:18:42,483 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:18:48,179 | INFO | flet | Session was garbage collected: asHxMqnJvo4iTFKG
+2026-04-06 14:18:58,577 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:18:58,580 | INFO | flet | Starting up TCP server on localhost:63632
+2026-04-06 14:18:58,591 | INFO | flet | Flet app has started...
+2026-04-06 14:18:59,042 | INFO | flet | App session started
+2026-04-06 14:18:59,049 | INFO | Router | Navigating to: /
+2026-04-06 14:18:59,063 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:19:04,753 | INFO | Router | Navigating to: /help
+2026-04-06 14:19:06,290 | INFO | Router | Navigating to: /
+2026-04-06 14:19:07,562 | INFO | Router | Navigating to: /exit
+2026-04-06 14:19:08,671 | INFO | flet | Session was garbage collected: rKkQq9sbAZdB1JP7
+2026-04-06 14:24:37,909 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:24:37,911 | INFO | flet | Starting up TCP server on localhost:63781
+2026-04-06 14:24:37,919 | INFO | flet | Flet app has started...
+2026-04-06 14:24:38,432 | INFO | flet | App session started
+2026-04-06 14:24:38,438 | INFO | Router | Navigating to: /
+2026-04-06 14:24:38,439 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 49, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 13, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 19, in _build
+    self.controls.append(self._top_bar())
+                         ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 38, in _top_bar
+    ft.ListTile(
+    ~~~~~~~~~~~^
+        content=ft.Row(
+        ^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        on_click=lambda e, p=r["path"]: self.router.navigate(p),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: ListTile.__init__() got an unexpected keyword argument 'content'
+2026-04-06 14:24:38,447 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:24:40,377 | INFO | flet | Session was garbage collected: FNbtce2jt9Abhr1I
+2026-04-06 14:27:52,790 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:27:52,793 | INFO | flet | Starting up TCP server on localhost:63857
+2026-04-06 14:27:52,803 | INFO | flet | Flet app has started...
+2026-04-06 14:27:53,195 | INFO | flet | App session started
+2026-04-06 14:27:53,200 | INFO | Router | Navigating to: /
+2026-04-06 14:27:53,201 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 49, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 13, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 25, in _build
+    self._sidebar(), # Chamada renomeada para _sidebar()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 82, in _sidebar
+    if r["path"] == self.router.current_path:
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Router' object has no attribute 'current_path'. Did you mean: 'current_route'?
+2026-04-06 14:27:53,209 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:27:56,035 | INFO | flet | Session was garbage collected: kz8dEoxtl4mdDFCk
+2026-04-06 14:28:05,586 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:28:05,588 | INFO | flet | Starting up TCP server on localhost:63870
+2026-04-06 14:28:05,596 | INFO | flet | Flet app has started...
+2026-04-06 14:28:05,983 | INFO | flet | App session started
+2026-04-06 14:28:05,990 | INFO | Router | Navigating to: /
+2026-04-06 14:28:05,993 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 49, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 13, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 25, in _build
+    self._sidebar(), # Chamada renomeada para _sidebar()
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 82, in _sidebar
+    if r["path"] == self.router.current_path:
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Router' object has no attribute 'current_path'. Did you mean: 'current_route'?
+2026-04-06 14:28:06,001 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:28:08,642 | INFO | flet | Session was garbage collected: jzZNCu7tek6n9YNP
+2026-04-06 14:28:26,741 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:28:26,743 | INFO | flet | Starting up TCP server on localhost:63893
+2026-04-06 14:28:26,751 | INFO | flet | Flet app has started...
+2026-04-06 14:28:27,150 | INFO | flet | App session started
+2026-04-06 14:28:27,155 | INFO | Router | Navigating to: /
+2026-04-06 14:28:27,166 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:28:28,932 | INFO | Router | Navigating to: /
+2026-04-06 14:28:29,588 | INFO | Router | Navigating to: /help
+2026-04-06 14:28:30,715 | INFO | Router | Navigating to: /exit
+2026-04-06 14:28:31,995 | INFO | Router | Navigating to: /
+2026-04-06 14:28:33,852 | INFO | Router | Navigating to: /exit
+2026-04-06 14:28:34,843 | INFO | Router | Navigating to: /help
+2026-04-06 14:28:35,531 | INFO | Router | Navigating to: /
+2026-04-06 14:28:37,692 | INFO | Router | Navigating to: /exit
+2026-04-06 14:28:47,013 | INFO | Router | Navigating to: /
+2026-04-06 14:28:47,613 | INFO | Router | Navigating to: /help
+2026-04-06 14:28:48,101 | INFO | Router | Navigating to: /exit
+2026-04-06 14:29:19,942 | INFO | flet | Session was garbage collected: 7nlA964mS7GUP8XW
+2026-04-06 14:30:17,990 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:30:17,993 | INFO | flet | Starting up TCP server on localhost:63955
+2026-04-06 14:30:18,006 | INFO | flet | Flet app has started...
+2026-04-06 14:30:18,453 | INFO | flet | App session started
+2026-04-06 14:30:18,460 | INFO | Router | Navigating to: /
+2026-04-06 14:30:18,462 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 49, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 13, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 24, in _build
+    self._sidebar(),
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 60, in _sidebar
+    if r["path"] == self.router.current_path:
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Router' object has no attribute 'current_path'. Did you mean: 'current_route'?
+2026-04-06 14:30:18,468 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:30:20,840 | INFO | flet | Session was garbage collected: a7qq959WtUjS2CQb
+2026-04-06 14:30:33,623 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:30:33,626 | INFO | flet | Starting up TCP server on localhost:63965
+2026-04-06 14:30:33,636 | INFO | flet | Flet app has started...
+2026-04-06 14:30:34,062 | INFO | flet | App session started
+2026-04-06 14:30:34,068 | INFO | Router | Navigating to: /
+2026-04-06 14:30:34,076 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:30:35,322 | INFO | Router | Navigating to: /
+2026-04-06 14:30:35,858 | INFO | Router | Navigating to: /help
+2026-04-06 14:30:36,587 | INFO | Router | Navigating to: /exit
+2026-04-06 14:30:40,314 | INFO | Router | Navigating to: /
+2026-04-06 14:30:43,035 | INFO | flet | Session was garbage collected: cToIWm1vzp68tHWA
+2026-04-06 14:30:53,144 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:30:53,146 | INFO | flet | Starting up TCP server on localhost:63983
+2026-04-06 14:30:53,187 | INFO | flet | Flet app has started...
+2026-04-06 14:30:53,609 | INFO | flet | App session started
+2026-04-06 14:30:53,615 | INFO | Router | Navigating to: /
+2026-04-06 14:30:53,623 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:31:21,527 | WARNING | Router | Route not found: /settings
+2026-04-06 14:31:21,528 | INFO | Router | Navigating to: /
+2026-04-06 14:31:23,767 | WARNING | Router | Route not found: /settings
+2026-04-06 14:31:23,768 | INFO | Router | Navigating to: /
+2026-04-06 14:31:24,199 | WARNING | Router | Route not found: /settings
+2026-04-06 14:31:24,200 | INFO | Router | Navigating to: /
+2026-04-06 14:31:30,481 | INFO | Router | Navigating to: /help
+2026-04-06 14:31:31,280 | INFO | Router | Navigating to: /exit
+2026-04-06 14:31:32,008 | INFO | Router | Navigating to: /help
+2026-04-06 14:31:47,666 | INFO | Router | Navigating to: /
+2026-04-06 14:32:02,949 | INFO | flet | Session was garbage collected: mPrJ9GgguigccGl4
+2026-04-06 14:32:45,950 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:32:45,952 | INFO | flet | Starting up TCP server on localhost:64043
+2026-04-06 14:32:45,961 | INFO | flet | Flet app has started...
+2026-04-06 14:32:46,499 | INFO | flet | App session started
+2026-04-06 14:32:46,506 | INFO | Router | Navigating to: /
+2026-04-06 14:32:46,508 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 49, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 13, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 24, in _build
+    self._sidebar(),
+    ~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 71, in _sidebar
+    ft.NavigationRailDestination(
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        # Removemos o ícone visualmente passando um container Python zerado [1]
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        icon_content=ft.Container(width=0, height=0),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        label=label_text,
+        ^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: NavigationRailDestination.__init__() got an unexpected keyword argument 'icon_content'
+2026-04-06 14:32:46,514 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:32:48,965 | INFO | flet | Session was garbage collected: yGiPEAdiS4P916k5
+2026-04-06 14:33:34,006 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:33:34,008 | INFO | flet | Starting up TCP server on localhost:64065
+2026-04-06 14:33:34,015 | INFO | flet | Flet app has started...
+2026-04-06 14:33:34,409 | INFO | flet | App session started
+2026-04-06 14:33:34,415 | INFO | Router | Navigating to: /
+2026-04-06 14:33:34,417 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 49, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\home_view.py", line 59, in render
+    return MainLayout(
+        page=self.page,
+        content=content,
+        router=self.router,
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 13, in __init__
+    self._build()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 25, in _build
+    self._bottom_bar(), # Agora atua como Sidebar
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 81, in _bottom_bar
+    if r["path"] == self.router.current_path:
+                    ^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Router' object has no attribute 'current_path'. Did you mean: 'current_route'?
+2026-04-06 14:33:34,422 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:33:36,473 | INFO | flet | Session was garbage collected: YMH6bLslDxP7RopS
+2026-04-06 14:33:49,944 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:33:49,947 | INFO | flet | Starting up TCP server on localhost:64077
+2026-04-06 14:33:49,958 | INFO | flet | Flet app has started...
+2026-04-06 14:33:50,436 | INFO | flet | App session started
+2026-04-06 14:33:50,440 | INFO | Router | Navigating to: /
+2026-04-06 14:33:50,449 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:34:06,706 | INFO | Router | Navigating to: /help
+2026-04-06 14:34:07,291 | INFO | Router | Navigating to: /exit
+2026-04-06 14:34:09,110 | INFO | flet | Session was garbage collected: RRmjXwTrfsTK0Tug
+2026-04-06 14:34:26,820 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:34:26,822 | INFO | flet | Starting up TCP server on localhost:64087
+2026-04-06 14:34:26,832 | INFO | flet | Flet app has started...
+2026-04-06 14:34:27,342 | INFO | flet | App session started
+2026-04-06 14:34:27,349 | INFO | Router | Navigating to: /
+2026-04-06 14:34:27,360 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:34:30,228 | INFO | flet | Session was garbage collected: 0VBLPos0Sls1an9d
+2026-04-06 14:35:35,854 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:35:35,856 | INFO | flet | Starting up TCP server on localhost:64119
+2026-04-06 14:35:35,864 | INFO | flet | Flet app has started...
+2026-04-06 14:35:36,246 | INFO | flet | App session started
+2026-04-06 14:35:36,252 | INFO | Router | Navigating to: /
+2026-04-06 14:35:36,262 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:36:07,829 | INFO | flet | Session was garbage collected: rkEBnlXr3SjrQGUK
+2026-04-06 14:36:12,328 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:36:12,331 | INFO | flet | Starting up TCP server on localhost:64135
+2026-04-06 14:36:12,340 | INFO | flet | Flet app has started...
+2026-04-06 14:36:12,762 | INFO | flet | App session started
+2026-04-06 14:36:12,768 | INFO | Router | Navigating to: /
+2026-04-06 14:36:12,783 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:36:16,482 | INFO | Router | Navigating to: /exit
+2026-04-06 14:36:49,066 | INFO | flet | Session was garbage collected: 5DUXcOm8KchrerLz
+2026-04-06 14:36:53,379 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:36:53,381 | INFO | flet | Starting up TCP server on localhost:64153
+2026-04-06 14:36:53,390 | INFO | flet | Flet app has started...
+2026-04-06 14:36:53,851 | INFO | flet | App session started
+2026-04-06 14:36:53,860 | INFO | Router | Navigating to: /
+2026-04-06 14:36:53,872 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:36:56,342 | INFO | Router | Navigating to: /exit
+2026-04-06 14:36:56,346 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 49, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 37, in load_view
+    module = importlib.import_module(module_name)
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\exit_view.py", line 3, in <module>
+    from controllers.exit_controller import ExitController
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\exit_controller.py", line 14
+    exit(self):
+              ^
+SyntaxError: invalid syntax
+2026-04-06 14:36:58,908 | INFO | flet | Session was garbage collected: morpN6KkFL2NU1XO
+2026-04-06 14:37:12,665 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:37:12,667 | INFO | flet | Starting up TCP server on localhost:64169
+2026-04-06 14:37:12,675 | INFO | flet | Flet app has started...
+2026-04-06 14:37:13,051 | INFO | flet | App session started
+2026-04-06 14:37:13,056 | INFO | Router | Navigating to: /
+2026-04-06 14:37:13,065 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:37:15,089 | INFO | Router | Navigating to: /exit
+2026-04-06 14:37:15,100 | INFO | flet | Session was garbage collected: dFonlsYtXuUzHJKG
+2026-04-06 14:37:15,126 | ERROR | asyncio | Task exception was never retrieved
+future: <Task finished name='Task-12' coro=<Session.dispatch_event() done, defined at C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py:315> exception=SystemExit(None)>
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\main.py", line 33, in <module>
+    ft.app(main)
+    ~~~~~~^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\utils\deprecated.py", line 85, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\app.py", line 49, in app
+    return run(*new_args, **kwargs)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\app.py", line 125, in run
+    return asyncio.run(
+           ~~~~~~~~~~~^
+        run_async(
+        ^^^^^^^^^^
+    ...<11 lines>...
+        )
+        ^
+    )
+    ^
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\asyncio\runners.py", line 204, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\asyncio\runners.py", line 127, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\asyncio\base_events.py", line 706, in run_until_complete
+    self.run_forever()
+    ~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\asyncio\base_events.py", line 677, in run_forever
+    self._run_once()
+    ~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\asyncio\base_events.py", line 2046, in _run_once
+    handle._run()
+    ~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 57, in <lambda>
+    on_click=lambda e, p=r["path"]: self.router.navigate(p),
+                                    ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 49, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 37, in load_view
+    module = importlib.import_module(module_name)
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\exit_view.py", line 3, in <module>
+    from controllers.exit_controller import ExitController
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\exit_controller.py", line 3, in <module>
+    class ExitController:
+    ...<10 lines>...
+        exit()
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\exit_controller.py", line 14, in ExitController
+    exit()
+    ~~~~^^
+  File "<frozen _sitebuiltins>", line 26, in __call__
+SystemExit: None
+2026-04-06 14:38:18,127 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:38:18,129 | INFO | flet | Starting up TCP server on localhost:64207
+2026-04-06 14:38:18,137 | INFO | flet | Flet app has started...
+2026-04-06 14:38:18,545 | INFO | flet | App session started
+2026-04-06 14:38:18,551 | INFO | Router | Navigating to: /
+2026-04-06 14:38:18,563 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:38:22,008 | INFO | Router | Navigating to: /exit
+2026-04-06 14:38:22,015 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 49, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 37, in load_view
+    module = importlib.import_module(module_name)
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\exit_view.py", line 3, in <module>
+    from controllers.exit_controller import ExitController
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\exit_controller.py", line 3, in <module>
+    class ExitController:
+    ...<10 lines>...
+        page.window.destroy()
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\exit_controller.py", line 14, in ExitController
+    page.window.destroy()
+    ^^^^
+NameError: name 'page' is not defined. Did you mean: 'range'?
+2026-04-06 14:38:23,521 | INFO | flet | Session was garbage collected: 9AmGAUuzZXnKPIuS
+2026-04-06 14:39:14,335 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:39:14,337 | INFO | flet | Starting up TCP server on localhost:64238
+2026-04-06 14:39:14,345 | INFO | flet | Flet app has started...
+2026-04-06 14:39:14,827 | INFO | flet | App session started
+2026-04-06 14:39:14,833 | INFO | Router | Navigating to: /
+2026-04-06 14:39:14,845 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:39:16,823 | INFO | Router | Navigating to: /exit
+2026-04-06 14:39:16,830 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 49, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\exit_view.py", line 9, in __init__
+    self.controller = ExitController()
+                      ~~~~~~~~~~~~~~^^
+TypeError: ExitController.__init__() missing 1 required positional argument: 'page'
+2026-04-06 14:39:19,664 | INFO | flet | Session was garbage collected: wV6NGbUSApUgl4yD
+2026-04-06 14:41:29,814 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 14:41:29,816 | INFO | flet | Starting up TCP server on localhost:64293
+2026-04-06 14:41:29,823 | INFO | flet | Flet app has started...
+2026-04-06 14:41:30,205 | INFO | flet | App session started
+2026-04-06 14:41:30,211 | INFO | Router | Navigating to: /
+2026-04-06 14:41:30,221 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 14:41:32,487 | INFO | Router | Navigating to: /exit
+2026-04-06 14:41:32,495 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 49, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\exit_view.py", line 21, in render
+    ft.ElevatedButton(
+    ~~~~~~~~~~~~~~~~~^
+        text="Sair do Aplicativo",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        icon=ft.Icons.EXIT_TO_APP,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        on_click=self.controller.close_app
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\utils\deprecated.py", line 122, in new_init
+    orig_init(self, *args, **kwargs)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Button.__init__() got an unexpected keyword argument 'text'
+2026-04-06 14:41:34,796 | INFO | flet | Session was garbage collected: FlU9MGqE5tiNWmVX
+2026-04-06 15:00:55,400 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:00:55,403 | INFO | flet | Starting up TCP server on localhost:56242
+2026-04-06 15:00:55,412 | INFO | flet | Flet app has started...
+2026-04-06 15:00:55,868 | INFO | flet | App session started
+2026-04-06 15:00:55,876 | INFO | Router | Navigating to: /
+2026-04-06 15:00:55,888 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:00:59,971 | INFO | Router | Navigating to: /help
+2026-04-06 15:01:01,234 | INFO | Router | Navigating to: /
+2026-04-06 15:01:02,776 | INFO | flet | Session was garbage collected: SUGWgbrM7KGKoMUa
+2026-04-06 15:01:22,134 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:01:22,136 | INFO | flet | Starting up TCP server on localhost:56258
+2026-04-06 15:01:22,144 | INFO | flet | Flet app has started...
+2026-04-06 15:01:22,519 | INFO | flet | App session started
+2026-04-06 15:01:22,524 | INFO | Router | Navigating to: /
+2026-04-06 15:01:22,534 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:01:24,220 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:01:24,232 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-06 15:01:26,078 | INFO | flet | Session was garbage collected: vve5w3ncSEBpZJU0
+2026-04-06 15:01:47,383 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:01:47,386 | INFO | flet | Starting up TCP server on localhost:56275
+2026-04-06 15:01:47,393 | INFO | flet | Flet app has started...
+2026-04-06 15:01:47,786 | INFO | flet | App session started
+2026-04-06 15:01:47,793 | INFO | Router | Navigating to: /
+2026-04-06 15:01:47,803 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:01:48,893 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:01:48,898 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-06 15:01:51,467 | INFO | flet | Session was garbage collected: 1wfmT5XNklTWLjdf
+2026-04-06 15:01:56,947 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:01:56,950 | INFO | flet | Starting up TCP server on localhost:56279
+2026-04-06 15:01:56,959 | INFO | flet | Flet app has started...
+2026-04-06 15:01:57,387 | INFO | flet | App session started
+2026-04-06 15:01:57,394 | INFO | Router | Navigating to: /
+2026-04-06 15:01:57,406 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:01:58,391 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:01:58,394 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-06 15:01:59,975 | INFO | flet | Session was garbage collected: 5QaKYuGJxYAmHmKg
+2026-04-06 15:02:30,450 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:02:30,452 | INFO | flet | Starting up TCP server on localhost:56295
+2026-04-06 15:02:30,459 | INFO | flet | Flet app has started...
+2026-04-06 15:02:30,837 | INFO | flet | App session started
+2026-04-06 15:02:30,842 | INFO | Router | Navigating to: /
+2026-04-06 15:02:30,856 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:02:32,136 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:02:32,142 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-06 15:02:35,073 | INFO | flet | Session was garbage collected: nAOz2bv2xdnNv3xY
+2026-04-06 15:06:12,883 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:06:12,885 | INFO | flet | Starting up TCP server on localhost:56448
+2026-04-06 15:06:12,891 | INFO | flet | Flet app has started...
+2026-04-06 15:06:13,302 | INFO | flet | App session started
+2026-04-06 15:06:13,308 | INFO | Router | Navigating to: /
+2026-04-06 15:06:13,318 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:06:44,124 | INFO | flet | Session was garbage collected: j9DePfZcFlonLR8q
+2026-04-06 15:06:48,603 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:06:48,605 | INFO | flet | Starting up TCP server on localhost:56460
+2026-04-06 15:06:48,616 | INFO | flet | Flet app has started...
+2026-04-06 15:06:49,049 | INFO | flet | App session started
+2026-04-06 15:06:49,055 | INFO | Router | Navigating to: /
+2026-04-06 15:06:49,066 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:06:53,156 | INFO | Router | Navigating to: /help
+2026-04-06 15:06:54,042 | INFO | Router | Navigating to: /exit
+2026-04-06 15:06:54,053 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\exit_view.py", line 9, in __init__
+    self.controller = ExitController()
+                      ~~~~~~~~~~~~~~^^
+TypeError: ExitController.__init__() missing 1 required positional argument: 'page'
+2026-04-06 15:06:56,974 | INFO | flet | Session was garbage collected: gnKDyaUCD1wsZP6b
+2026-04-06 15:07:02,885 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:07:02,887 | INFO | flet | Starting up TCP server on localhost:56467
+2026-04-06 15:07:02,895 | INFO | flet | Flet app has started...
+2026-04-06 15:07:03,288 | INFO | flet | App session started
+2026-04-06 15:07:03,294 | INFO | Router | Navigating to: /
+2026-04-06 15:07:03,305 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:07:29,857 | INFO | flet | Session was garbage collected: h7HDcGwJ8WmXpyeQ
+2026-04-06 15:07:35,023 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:07:35,025 | INFO | flet | Starting up TCP server on localhost:56480
+2026-04-06 15:07:35,033 | INFO | flet | Flet app has started...
+2026-04-06 15:07:35,527 | INFO | flet | App session started
+2026-04-06 15:07:35,533 | INFO | Router | Navigating to: /
+2026-04-06 15:07:35,542 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:07:38,014 | INFO | Router | Navigating to: /
+2026-04-06 15:07:38,934 | INFO | Router | Navigating to: /exit
+2026-04-06 15:07:40,022 | INFO | Router | Navigating to: /help
+2026-04-06 15:07:40,910 | INFO | Router | Navigating to: /exit
+2026-04-06 15:07:41,846 | INFO | Router | Navigating to: /help
+2026-04-06 15:07:42,406 | INFO | Router | Navigating to: /exit
+2026-04-06 15:07:43,432 | INFO | Router | Navigating to: /help
+2026-04-06 15:07:44,790 | INFO | Router | Navigating to: /
+2026-04-06 15:07:45,950 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:07:45,954 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-06 15:07:47,373 | INFO | flet | Session was garbage collected: pyPmj9dVGD9D6B4F
+2026-04-06 15:20:15,453 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:20:15,455 | INFO | flet | Starting up TCP server on localhost:56611
+2026-04-06 15:20:15,465 | INFO | flet | Flet app has started...
+2026-04-06 15:20:15,887 | INFO | flet | App session started
+2026-04-06 15:20:15,892 | INFO | Router | Navigating to: /
+2026-04-06 15:20:15,905 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:20:17,140 | INFO | Router | Navigating to: /
+2026-04-06 15:20:17,524 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:20:17,531 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-06 15:20:19,209 | INFO | flet | Session was garbage collected: LNF3jbv0phjaziMh
+2026-04-06 15:20:24,357 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:20:24,360 | INFO | flet | Starting up TCP server on localhost:56619
+2026-04-06 15:20:24,374 | INFO | flet | Flet app has started...
+2026-04-06 15:20:24,824 | INFO | flet | App session started
+2026-04-06 15:20:24,831 | INFO | Router | Navigating to: /
+2026-04-06 15:20:24,845 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:20:26,086 | INFO | Router | Navigating to: /exit
+2026-04-06 15:20:39,414 | INFO | Router | Navigating to: /
+2026-04-06 15:23:10,403 | INFO | flet | Session was garbage collected: zqhnqTmqKjLptiZt
+2026-04-06 15:23:14,757 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:23:14,759 | INFO | flet | Starting up TCP server on localhost:56671
+2026-04-06 15:23:14,769 | INFO | flet | Flet app has started...
+2026-04-06 15:23:15,189 | INFO | flet | App session started
+2026-04-06 15:23:15,196 | INFO | Router | Navigating to: /
+2026-04-06 15:23:15,208 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:23:18,487 | INFO | Router | Navigating to: /
+2026-04-06 15:23:19,856 | INFO | Router | Navigating to: /exit
+2026-04-06 15:23:21,496 | INFO | Router | Navigating to: /
+2026-04-06 15:23:22,912 | INFO | Router | Navigating to: /exit
+2026-04-06 15:23:29,041 | INFO | Router | Navigating to: /
+2026-04-06 15:23:29,625 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:23:29,628 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-06 15:25:35,047 | INFO | flet | Session was garbage collected: TuSACb2tj9S9l04D
+2026-04-06 15:25:39,796 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:25:39,798 | INFO | flet | Starting up TCP server on localhost:56775
+2026-04-06 15:25:39,808 | INFO | flet | Flet app has started...
+2026-04-06 15:25:40,304 | INFO | flet | App session started
+2026-04-06 15:25:40,310 | INFO | Router | Navigating to: /
+2026-04-06 15:25:40,319 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:25:42,743 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:25:42,746 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-06 15:25:45,238 | INFO | flet | Session was garbage collected: QS8BJSVdQz6wcSgh
+2026-04-06 15:25:49,962 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:25:49,964 | INFO | flet | Starting up TCP server on localhost:56782
+2026-04-06 15:25:49,972 | INFO | flet | Flet app has started...
+2026-04-06 15:25:50,461 | INFO | flet | App session started
+2026-04-06 15:25:50,467 | INFO | Router | Navigating to: /
+2026-04-06 15:25:50,475 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:27:50,993 | INFO | flet | Session was garbage collected: ucBJmCrBtdil3onn
+2026-04-06 15:27:55,088 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:27:55,090 | INFO | flet | Starting up TCP server on localhost:56815
+2026-04-06 15:27:55,097 | INFO | flet | Flet app has started...
+2026-04-06 15:27:55,496 | INFO | flet | App session started
+2026-04-06 15:27:55,502 | INFO | Router | Navigating to: /
+2026-04-06 15:27:55,514 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:28:35,082 | ERROR | flet | Unhandled error in 'on_change' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\layouts\main_layout.py", line 100, in <lambda>
+    on_change=lambda e: self._handle_sidebar_change(e, nav_routes),
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'MainLayout' object has no attribute '_handle_sidebar_change'
+2026-04-06 15:28:37,499 | INFO | flet | Session was garbage collected: Y5fTBnROXLjv27c2
+2026-04-06 15:30:42,062 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:30:42,064 | INFO | flet | Starting up TCP server on localhost:56861
+2026-04-06 15:30:42,072 | INFO | flet | Flet app has started...
+2026-04-06 15:30:42,468 | INFO | flet | App session started
+2026-04-06 15:30:42,474 | INFO | Router | Navigating to: /
+2026-04-06 15:30:42,486 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:30:44,009 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:30:44,012 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-06 15:30:49,935 | INFO | flet | Session was garbage collected: KkP41Rvjs65CcAWn
+2026-04-06 15:30:54,423 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:30:54,425 | INFO | flet | Starting up TCP server on localhost:56878
+2026-04-06 15:30:54,433 | INFO | flet | Flet app has started...
+2026-04-06 15:30:54,850 | INFO | flet | App session started
+2026-04-06 15:30:54,857 | INFO | Router | Navigating to: /
+2026-04-06 15:30:54,869 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:30:56,186 | INFO | Router | Navigating to: /help
+2026-04-06 15:31:03,075 | INFO | Router | Navigating to: /help
+2026-04-06 15:31:04,947 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:31:04,951 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-06 15:31:09,253 | INFO | flet | Session was garbage collected: 4llt5C8sSCPJSpWC
+2026-04-06 15:31:47,373 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:31:47,375 | INFO | flet | Starting up TCP server on localhost:56897
+2026-04-06 15:31:47,384 | INFO | flet | Flet app has started...
+2026-04-06 15:31:47,797 | INFO | flet | App session started
+2026-04-06 15:31:47,803 | INFO | Router | Navigating to: /
+2026-04-06 15:31:47,817 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:31:48,680 | INFO | Router | Navigating to: /help
+2026-04-06 15:31:55,641 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:31:55,644 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-06 15:33:04,109 | INFO | flet | Session was garbage collected: wpCdEkQuR6Ir0SPW
+2026-04-06 15:33:20,635 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:33:23,067 | INFO | Router | Navigating to: /help
+2026-04-06 15:33:23,699 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:33:24,356 | INFO | Router | Navigating to: /help
+2026-04-06 15:33:24,755 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:33:26,787 | INFO | Router | Navigating to: /help
+2026-04-06 15:33:27,843 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:33:29,892 | INFO | Router | Navigating to: /help
+2026-04-06 15:33:30,420 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:33:30,836 | INFO | Router | Navigating to: /help
+2026-04-06 15:33:31,228 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:33:31,708 | INFO | Router | Navigating to: /help
+2026-04-06 15:33:32,260 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:33:32,965 | INFO | Router | Navigating to: /help
+2026-04-06 15:33:34,548 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:33:36,293 | INFO | Router | Navigating to: /help
+2026-04-06 15:33:36,629 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:33:37,301 | INFO | Router | Navigating to: /help
+2026-04-06 15:33:37,620 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:33:42,225 | INFO | flet | Session was garbage collected: 5rsmIwfhCtCLkGJJ
+2026-04-06 15:33:46,958 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 15:33:46,960 | INFO | flet | Starting up TCP server on localhost:56944
+2026-04-06 15:33:46,968 | INFO | flet | Flet app has started...
+2026-04-06 15:33:47,365 | INFO | flet | App session started
+2026-04-06 15:33:47,372 | INFO | Router | Navigating to: /
+2026-04-06 15:33:47,386 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 15:33:50,046 | INFO | Router | Navigating to: /sei_dma
+2026-04-06 15:33:52,656 | INFO | flet | Session was garbage collected: ynvKweDesoLWK3K0
