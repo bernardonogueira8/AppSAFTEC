@@ -67,42 +67,27 @@ class MainLayout(ft.Column):
             ],
         )
 
-    # ---------- BOTTOM BAR (AGORA SIDEBAR) ----------
     # ---------- BOTTOM BAR (SIDEBAR) ----------
     def _bottom_bar(self):
-        # 1. Filtramos as rotas UMA VEZ para garantir que o índice seja consistente
-        # Usei 'show_in_bottom' como base, ajuste se preferir 'show_in_top'
-        nav_routes = [r for r in ROUTES if r.get("show_in_bottom")]
-        
         destinations = []
-        selected_idx = None
+        paths = []
 
-        for index, r in enumerate(nav_routes):
-            # 2. Verificamos se esta rota é a atual para marcar o índice selecionado
-            # Comparamos o path da rota com a rota atual do router
-            if r["path"] == self.router.current_path:
-                selected_idx = index
-
-            destinations.append(
-                ft.NavigationRailDestination(
-                    icon=r.get("icon", ft.Icons.CIRCLE), # Ícone é importante no Rail
-                    label=I18n.t(r["label"]) if "." in r["label"] else r["label"],
+        for r in ROUTES:
+            if r.get("show_in_bottom"):
+                destinations.append(
+                    ft.NavigationBarDestination(
+                        icon=r["icon"],
+                        label=I18n.t(r["label"]),
+                    )
                 )
-            )
+                paths.append(r["path"])
 
-        return ft.NavigationRail(
-            selected_index=selected_idx,
-            label_type=ft.NavigationRailLabelType.ALL,
-            min_width=100,
-            extended=True,
+        def on_change(e):
+            self.router.navigate(paths[e.control.selected_index])
+
+        return ft.NavigationBar(
             destinations=destinations,
-            # Passamos a lista filtrada 'nav_routes' para o handler
-            on_change=lambda e: self._handle_sidebar_change(e, nav_routes),
+            selected_index=paths.index(AppState.current_route)
+            if AppState.current_route in paths else 0,
+            on_change=on_change,
         )
-
-    def _handle_sidebar_change(self, e, nav_routes):
-        # Agora o índice do clique bate exatamente com a lista nav_routes
-        idx = e.control.selected_index
-        if 0 <= idx < len(nav_routes):
-            selected_route = nav_routes[idx]
-            self.router.navigate(selected_route["path"])
