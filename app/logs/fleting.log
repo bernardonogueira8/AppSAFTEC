@@ -77,3 +77,24 @@
 2026-04-06 12:17:02,396 | INFO | Router | Navigating to: /
 2026-04-06 12:17:03,716 | INFO | Router | Navigating to: /test
 2026-04-06 12:17:07,435 | INFO | flet | Session was garbage collected: nHjDmxULDNyYjelJ
+2026-04-06 12:19:34,407 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 12:19:34,409 | INFO | flet | Starting up TCP server on localhost:61537
+2026-04-06 12:19:34,417 | INFO | flet | Flet app has started...
+2026-04-06 12:19:34,850 | INFO | flet | App session started
+2026-04-06 12:19:34,861 | INFO | Router | Navigating to: /
+2026-04-06 12:19:34,872 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 12:19:52,798 | INFO | Router | Navigating to: /
+2026-04-06 12:19:54,965 | INFO | flet | Session was garbage collected: L4ZI5S7ahmu4jbVJ
+2026-04-06 12:24:37,629 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-06 12:24:37,631 | INFO | flet | Starting up TCP server on localhost:61664
+2026-04-06 12:24:37,640 | INFO | flet | Flet app has started...
+2026-04-06 12:24:38,183 | INFO | flet | App session started
+2026-04-06 12:24:38,198 | INFO | Router | Navigating to: /
+2026-04-06 12:24:38,214 | INFO | App | Aplicação iniciada com sucesso
+2026-04-06 12:24:45,142 | INFO | Router | Navigating to: /
+2026-04-06 12:24:45,758 | INFO | Router | Navigating to: /help
+2026-04-06 12:24:47,710 | INFO | Router | Navigating to: /test
+2026-04-06 12:24:49,134 | INFO | Router | Navigating to: /
+2026-04-06 12:24:50,782 | INFO | Router | Navigating to: /settings
+2026-04-06 12:24:52,199 | INFO | Router | Navigating to: /settings
+2026-04-06 12:24:54,246 | INFO | flet | Session was garbage collected: vFalt1PbyUiSzntC
