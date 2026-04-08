@@ -10,6 +10,7 @@ from models.sei_dma_model import Sei_dmaModel
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
+
 class SeiDmaController:
     """
     Controller for sei_dma page
@@ -65,7 +66,7 @@ class SeiDmaController:
         # 2. Chama a função que conterá seu script do Playwright
         automacao_thread = threading.Thread(
             target=self._run_playwright_script,
-            args=(credentials[0], credentials[1], titulo, texto)
+            args=(credentials[0], credentials[1], titulo, texto),
         )
         automacao_thread.start()  # Inicia a thread para não travar a UI
 
@@ -74,7 +75,7 @@ class SeiDmaController:
         self.page.snack_bar = ft.SnackBar(ft.Text(message))
         self.page.snack_bar.open = True
         self.page.update()
-    
+
     def _run_playwright_script(self, username, password, titulo, texto):
         """
         Executa a rotina de automação no sistema SEI.
@@ -82,7 +83,9 @@ class SeiDmaController:
         Esta função recebe apenas dados puros (strings, dicionários, etc.)
         e não tem NENHUMA dependência da interface gráfica (Tkinter).
         """
-        logger.info(f"Iniciando automação no SEI para o usuário: {username} | Título: {titulo}")
+        logger.info(
+            f"Iniciando automação no SEI para o usuário: {username} | Título: {titulo}"
+        )
         try:
             # Inicializa o Playwright de forma síncrona
             with sync_playwright() as p:
@@ -99,7 +102,7 @@ class SeiDmaController:
         except Exception as e:
             logger.error(f"Erro: {e}")
             raise e
-        
+
     def formatar_para_sei(self, content):
         if not content:
             return ""
@@ -132,7 +135,9 @@ class SeiDmaController:
         # 2. Criar Processo
         page.get_by_role("link", name="Iniciar Processo").click()
         # Ajuste o nome do tipo de processo conforme sua necessidade real
-        page.get_by_role("link", name="Documento tramitável: Comunicação Interna").click()
+        page.get_by_role(
+            "link", name="Documento tramitável: Comunicação Interna"
+        ).click()
         page.get_by_role("textbox", name="Especificação:").click()
         page.get_by_role("textbox", name="Especificação:").fill(title)
         page.locator("#divInfraBarraComandosSuperior").get_by_role(
@@ -145,9 +150,9 @@ class SeiDmaController:
         page.locator('iframe[name="ifrVisualizacao"]').content_frame.locator("a").nth(
             1
         ).click()
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.locator("a").filter(
-            has_text="TI/DMA"
-        ).click()
+        page.locator('iframe[name="ifrVisualizacao"]').content_frame.locator(
+            "a"
+        ).filter(has_text="TI/DMA").click()
         page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
             "button", name="Salvar"
         ).click()
@@ -174,12 +179,12 @@ class SeiDmaController:
 
         # 3. Editando o Despacho
         page1 = page1_info.value
-        page1.locator('iframe[title="Processo e Interessado"]').content_frame.get_by_text(
-            "Insira aqui o órgão"
-        ).click()
-        page1.locator('iframe[title="Processo e Interessado"]').content_frame.get_by_role(
-            "cell", name="[Insira aqui o órgão"
-        ).fill("CGTICS")
+        page1.locator(
+            'iframe[title="Processo e Interessado"]'
+        ).content_frame.get_by_text("Insira aqui o órgão").click()
+        page1.locator(
+            'iframe[title="Processo e Interessado"]'
+        ).content_frame.get_by_role("cell", name="[Insira aqui o órgão").fill("CGTICS")
         page1.locator('iframe[title="Corpo do Texto"]').content_frame.get_by_text(
             "[Insira aqui o conteúdo do"
         ).click()
@@ -223,7 +228,9 @@ class SeiDmaController:
         tree_frame.locator("a:has(.infraArvoreNoSelecionado)").click()
 
         # 2. Acessa o frame de visualização
-        visualizacao_frame = page.locator('iframe[name="ifrVisualizacao"]').content_frame
+        visualizacao_frame = page.locator(
+            'iframe[name="ifrVisualizacao"]'
+        ).content_frame
 
         # 3. Clica para abrir a tela de geração de PDF
         visualizacao_frame.get_by_role(
