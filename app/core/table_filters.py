@@ -1,4 +1,3 @@
-
 DEFAULT_EXCLUDED_TABLES = {
     "_fleting_migrations",
     "migrations",
@@ -8,6 +7,7 @@ DEFAULT_EXCLUDED_TABLES = {
     "flyway_schema_history",
 }
 
+
 def is_internal_table(table_name: str) -> bool:
 
     return (
@@ -15,6 +15,7 @@ def is_internal_table(table_name: str) -> bool:
         or table_name.startswith("sys_")
         or table_name.startswith("tmp_")
     )
+
 
 def should_generate_model(table_name: str, config_excludes=None) -> bool:
 
@@ -30,4 +31,3 @@ def should_generate_model(table_name: str, config_excludes=None) -> bool:
         return False
 
     return True
- 

@@ -1,4 +1,3 @@
-
 class AppState:
     device = "desktop"  # mobile | tablet | desktop
     initial_device = "desktop"

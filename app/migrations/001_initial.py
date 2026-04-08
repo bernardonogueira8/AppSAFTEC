@@ -1,14 +1,14 @@
-
 def up(db):
-    db.execute('''
+    db.execute("""
         CREATE TABLE IF NOT EXISTS users (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             username TEXT UNIQUE,
             password TEXT
         )
-    ''')
+    """)
+
 
 def down(db):
-    db.execute('''
+    db.execute("""
         DROP TABLE IF EXISTS users
-    ''')               
+    """)

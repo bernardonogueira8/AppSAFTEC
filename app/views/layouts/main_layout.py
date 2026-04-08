@@ -3,6 +3,7 @@ from core.state import AppState
 from core.i18n import I18n
 from configs.routes import ROUTES
 
+
 class MainLayout(ft.Column):
     def __init__(self, page, content, router):
         super().__init__(expand=True)
@@ -22,13 +23,13 @@ class MainLayout(ft.Column):
         # O expand=True aqui faz esse Row ocupar todo o resto da tela
         main_content_area = ft.Row(
             controls=[
-                self._sidebar(), # Chamada renomeada para _sidebar()
-                ft.VerticalDivider(width=1), # Linha sutil de separação
+                self._sidebar(),  # Chamada renomeada para _sidebar()
+                ft.VerticalDivider(width=1),  # Linha sutil de separação
                 ft.Container(
                     content=self.content,
                     expand=True,
-                    padding=20, # Um respiro para o conteúdo não colar na borda
-                )
+                    padding=20,  # Um respiro para o conteúdo não colar na borda
+                ),
             ],
             expand=True,
             spacing=0,
@@ -49,7 +50,9 @@ class MainLayout(ft.Column):
                     content=ft.Row(
                         controls=[
                             ft.Icon(r["icon"]),
-                            ft.Text(I18n.t(r["label"]) if "." in r["label"] else r["label"]),
+                            ft.Text(
+                                I18n.t(r["label"]) if "." in r["label"] else r["label"]
+                            ),
                         ],
                         spacing=10,
                     ),
@@ -81,16 +84,19 @@ class MainLayout(ft.Column):
                     content=ft.Text(
                         label_text,
                         size=14,
-                        weight=ft.FontWeight.BOLD if is_selected else ft.FontWeight.NORMAL,
+                        weight=(
+                            ft.FontWeight.BOLD if is_selected else ft.FontWeight.NORMAL
+                        ),
                         color=ft.Colors.WHITE if is_selected else ft.Colors.WHITE70,
                     ),
                     padding=ft.Padding.symmetric(vertical=12, horizontal=15),
                     border_radius=8,
                     # Cor de destaque se estiver selecionado
                     bgcolor=ft.Colors.WHITE10 if is_selected else None,
-
                     ink=True,
-                    on_click=lambda e, path=r["path"]: self._handle_sidebar_change(path),
+                    on_click=lambda e, path=r["path"]: self._handle_sidebar_change(
+                        path
+                    ),
                 )
             )
 

@@ -1,8 +1,9 @@
-
 import flet as ft
 from core.logger import get_logger
 
 logger = get_logger("Router")
+
+
 class Router:
     def __init__(self, page):
         self.page = page
@@ -11,6 +12,7 @@ class Router:
 
     def _load_routes(self):
         from configs.routes import routes
+
         return routes
 
     def navigate(self, route):

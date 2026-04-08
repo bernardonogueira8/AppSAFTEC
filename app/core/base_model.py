@@ -1,37 +1,31 @@
-
 # core/base_model.py
 from core.database import get_connection
 from core.orm import ForeignKey, HasMany
 from typing import Any
+
 
 class QuerySet:
 
     def __init__(self, model, relations=None):
         self.model = model
         self.relations = relations or []
-    
+
     def _cursor(self):
         conn = get_connection()
-        conn.row_factory = lambda c, r: dict(
-            zip([col[0] for col in c.description], r)
-        )
+        conn.row_factory = lambda c, r: dict(zip([col[0] for col in c.description], r))
         return conn, conn.cursor()
 
     def all(self):
         conn, cursor = self._cursor()
 
-        cursor.execute(
-            f"SELECT * FROM {self.model.table_name}"
-        )
+        cursor.execute(f"SELECT * FROM {self.model.table_name}")
         rows = cursor.fetchall()
 
         return self._attach_relations(cursor, rows)
-    
+
     def first(self):
         conn, cursor = self._cursor()
-        cursor.execute(
-            f"SELECT * FROM {self.model.table_name} LIMIT 1"
-        )
+        cursor.execute(f"SELECT * FROM {self.model.table_name} LIMIT 1")
         row = cursor.fetchone()
         if not row:
             return None
@@ -40,10 +34,7 @@ class QuerySet:
     def find(self, id):
         conn, cursor = self._cursor()
 
-        cursor.execute(
-            f"SELECT * FROM {self.model.table_name} WHERE id = ?",
-            (id,)
-        )
+        cursor.execute(f"SELECT * FROM {self.model.table_name} WHERE id = ?", (id,))
         row = cursor.fetchone()
 
         if not row:
@@ -58,24 +49,19 @@ class QuerySet:
         values = tuple(filters.values())
         cond = " AND ".join(f"{k}=?" for k in keys)
 
-        cursor.execute(
-            f"SELECT * FROM {self.model.table_name} WHERE {cond}",
-            values
-        )
+        cursor.execute(f"SELECT * FROM {self.model.table_name} WHERE {cond}", values)
 
         rows = cursor.fetchall()
         return self._attach_relations(cursor, rows)
-    
+
     def count(self):
         conn, cursor = self._cursor()
-        cursor.execute(
-            f"SELECT COUNT(*) as total FROM {self.model.table_name}"
-        )
+        cursor.execute(f"SELECT COUNT(*) as total FROM {self.model.table_name}")
         return cursor.fetchone()["total"]
-    
+
     def exists(self, **filters):
         return len(self.where(**filters)) > 0
-    
+
     # =========================
     # Relations
     # =========================
@@ -98,8 +84,10 @@ class QuerySet:
 
         return rows
 
+
 class BaseModel:
     table_name: str
+
     # ---------- Query ----------
     @classmethod
     def with_(cls, *relations):
@@ -108,7 +96,7 @@ class BaseModel:
     @classmethod
     def all(cls):
         return cls.with_().all()
-    
+
     @classmethod
     def first(cls):
         return cls.with_().first()
@@ -120,11 +108,11 @@ class BaseModel:
     @classmethod
     def where(cls, **filters):
         return cls.with_().where(**filters)
-    
+
     @classmethod
     def count(cls):
         return cls.with_().count()
-    
+
     @classmethod
     def exists(cls, **filters):
         return cls.with_().exists(**filters)
@@ -140,19 +128,14 @@ class BaseModel:
         values = tuple(data.values())
 
         cursor.execute(
-            f"INSERT INTO {cls.table_name} ({keys}) VALUES ({placeholders})",
-            values
+            f"INSERT INTO {cls.table_name} ({keys}) VALUES ({placeholders})", values
         )
         conn.commit()
 
         return cls.find(cursor.lastrowid)
 
     def to_dict(self):
-        return {
-            k: v
-            for k, v in self.__dict__.items()
-            if not k.startswith("_")
-        }
+        return {k: v for k, v in self.__dict__.items() if not k.startswith("_")}
 
     def save(self):
         data = self.__dict__.copy()
@@ -176,10 +159,7 @@ class BaseModel:
         assigns = ", ".join(f"{k}=?" for k in data)
         values = tuple(data.values()) + (id,)
 
-        cursor.execute(
-            f"UPDATE {self.table_name} SET {assigns} WHERE id = ?",
-            values
-        )
+        cursor.execute(f"UPDATE {self.table_name} SET {assigns} WHERE id = ?", values)
         conn.commit()
         return self
 
@@ -190,9 +170,5 @@ class BaseModel:
         conn = get_connection()
         cursor = conn.cursor()
 
-        cursor.execute(
-            f"DELETE FROM {self.table_name} WHERE id = ?",
-            (self.id,)
-        )
+        cursor.execute(f"DELETE FROM {self.table_name} WHERE id = ?", (self.id,))
         conn.commit()
- 
