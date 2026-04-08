@@ -1,6 +1,6 @@
-
 # configs/app_config.py
 import flet as ft
+
 
 class ScreenConfig:
     MOBILE = {
@@ -20,6 +20,7 @@ class ScreenConfig:
         "height": 800,
         "max_content_width": None,  # no limit
     }
+
 
 class AppConfig:
     APP_NAME = "{project_name}"

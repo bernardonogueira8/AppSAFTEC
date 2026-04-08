@@ -256,3 +256,146 @@ Traceback (most recent call last):
   File "<frozen importlib._bootstrap_external>", line 823, in source_to_code
   File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
 SyntaxError: source code string cannot contain null bytes
+2026-04-08 12:43:03,775 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:43:03,776 | INFO | flet | Starting up TCP server on localhost:54729
+2026-04-08 12:43:03,784 | INFO | flet | Flet app has started...
+2026-04-08 12:43:04,306 | INFO | flet | App session started
+2026-04-08 12:43:04,311 | INFO | Router | Navigating to: /
+2026-04-08 12:43:04,324 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:43:05,483 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:43:23,145 | INFO | flet | Session was garbage collected: hjrk7wqGVF8I5N3U
+2026-04-08 12:43:37,010 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:43:37,012 | INFO | flet | Starting up TCP server on localhost:54750
+2026-04-08 12:43:37,020 | INFO | flet | Flet app has started...
+2026-04-08 12:43:37,408 | INFO | flet | App session started
+2026-04-08 12:43:37,413 | INFO | Router | Navigating to: /
+2026-04-08 12:43:37,423 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:43:40,118 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:43:40,127 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_dma_view.py", line 38, in render
+    ft.Icon(ft.Icons.ACCOUNT_CIRCLE, size=70, color=ft.colors.BLUE_700),
+                                                    ^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\__init__.py", line 1190, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+AttributeError: module 'flet' has no attribute 'colors'. Did you mean: 'Colors'?
+2026-04-08 12:43:43,316 | INFO | flet | Session was garbage collected: u1ICJgx4ShK6pJM2
+2026-04-08 12:44:46,335 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:44:46,336 | INFO | flet | Starting up TCP server on localhost:61460
+2026-04-08 12:44:46,343 | INFO | flet | Flet app has started...
+2026-04-08 12:44:46,870 | INFO | flet | App session started
+2026-04-08 12:44:46,875 | INFO | Router | Navigating to: /
+2026-04-08 12:44:46,886 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:44:47,805 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:45:50,930 | INFO | flet | Session was garbage collected: sFMvTVH1GsEw9wiO
+2026-04-08 12:47:40,972 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:47:40,974 | INFO | flet | Starting up TCP server on localhost:61525
+2026-04-08 12:47:40,981 | INFO | flet | Flet app has started...
+2026-04-08 12:47:41,365 | INFO | flet | App session started
+2026-04-08 12:47:41,371 | INFO | Router | Navigating to: /
+2026-04-08 12:47:41,382 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:47:42,797 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:47:58,472 | INFO | flet | Session was garbage collected: pSxiLyTsjZ5sSg95
+2026-04-08 12:48:42,224 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:48:42,227 | INFO | flet | Starting up TCP server on localhost:61545
+2026-04-08 12:48:42,238 | INFO | flet | Flet app has started...
+2026-04-08 12:48:42,758 | INFO | flet | App session started
+2026-04-08 12:48:42,763 | INFO | Router | Navigating to: /
+2026-04-08 12:48:42,776 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:48:43,626 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:48:43,631 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 46, in load_view
+    module = importlib.import_module(module_name)
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 893, in get_code
+  File "<frozen importlib._bootstrap_external>", line 823, in source_to_code
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_dma_view.py", line 34
+    self.login_step = 
+                      ^
+SyntaxError: invalid syntax
+2026-04-08 12:48:45,359 | INFO | flet | Session was garbage collected: C0mRxJ89xESs5nT1
+2026-04-08 12:49:15,321 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:49:15,323 | INFO | flet | Starting up TCP server on localhost:61565
+2026-04-08 12:49:15,332 | INFO | flet | Flet app has started...
+2026-04-08 12:49:15,742 | INFO | flet | App session started
+2026-04-08 12:49:15,748 | INFO | Router | Navigating to: /
+2026-04-08 12:49:15,761 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:49:17,165 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:49:33,642 | INFO | flet | Session was garbage collected: JSgvnInF2Gus3KF3
+2026-04-08 12:50:26,285 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:50:26,287 | INFO | flet | Starting up TCP server on localhost:61588
+2026-04-08 12:50:26,294 | INFO | flet | Flet app has started...
+2026-04-08 12:50:26,678 | INFO | flet | App session started
+2026-04-08 12:50:26,684 | INFO | Router | Navigating to: /
+2026-04-08 12:50:26,694 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:50:28,844 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:51:26,846 | INFO | flet | Session was garbage collected: EJmYUUNXUXP9E3cI
+2026-04-08 12:52:06,148 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:52:06,150 | INFO | flet | Starting up TCP server on localhost:61650
+2026-04-08 12:52:06,158 | INFO | flet | Flet app has started...
+2026-04-08 12:52:06,613 | INFO | flet | App session started
+2026-04-08 12:52:06,619 | INFO | Router | Navigating to: /
+2026-04-08 12:52:06,628 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:52:07,381 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:52:24,975 | INFO | flet | Session was garbage collected: NEmrTWSz4aKxOwb7
+2026-04-08 12:53:44,766 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:53:44,768 | INFO | flet | Starting up TCP server on localhost:61709
+2026-04-08 12:53:44,774 | INFO | flet | Flet app has started...
+2026-04-08 12:53:45,162 | INFO | flet | App session started
+2026-04-08 12:53:45,176 | INFO | Router | Navigating to: /
+2026-04-08 12:53:45,189 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:53:46,725 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:53:46,740 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_dma_view.py", line 18, in render
+    self.user_input = ft.TextField(
+                      ~~~~~~~~~~~~^
+        label="Usuário SEI",
+        ^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+        padding=ft.Padding.all(20)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+TypeError: TextField.__init__() got an unexpected keyword argument 'padding'
+2026-04-08 12:53:50,153 | INFO | flet | Session was garbage collected: Rbe9KzMoxyfy9cWP
+2026-04-08 12:54:01,180 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:54:01,182 | INFO | flet | Starting up TCP server on localhost:61727
+2026-04-08 12:54:01,190 | INFO | flet | Flet app has started...
+2026-04-08 12:54:01,616 | INFO | flet | App session started
+2026-04-08 12:54:01,628 | INFO | Router | Navigating to: /
+2026-04-08 12:54:01,655 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:54:02,647 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:54:07,306 | INFO | flet | Session was garbage collected: ybZj10BGOxJVP4bX
+2026-04-08 12:54:18,263 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:54:18,265 | INFO | flet | Starting up TCP server on localhost:61755
+2026-04-08 12:54:18,273 | INFO | flet | Flet app has started...
+2026-04-08 12:54:18,790 | INFO | flet | App session started
+2026-04-08 12:54:18,797 | INFO | Router | Navigating to: /
+2026-04-08 12:54:18,808 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:54:19,825 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:54:23,846 | INFO | flet | Session was garbage collected: nDBx6LwZPsXE06rW

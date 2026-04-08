@@ -1,4 +1,3 @@
-
 import flet as ft
 import importlib
 
@@ -11,7 +10,6 @@ ROUTES = [
         "show_in_top": False,
         "show_in_slidebar": True,
     },
-
     {
         "path": "/",
         "view": "views.pages.home_view.HomeView",
@@ -36,12 +34,12 @@ ROUTES = [
         "show_in_top": True,
         "show_in_slidebar": False,
     },
-    
 ]
+
 
 def load_view(view_path: str):
     module_name, class_name = view_path.rsplit(".", 1)
-    
+
     try:
         module = importlib.import_module(module_name)
         view_class = getattr(module, class_name)
@@ -50,10 +48,12 @@ def load_view(view_path: str):
         print(f"Erro ao carregar view {view_path}: {e}")
         return None
 
+
 def get_routes():
     routes = {}
 
     for r in ROUTES:
+
         def create_view_lambda(path=r["view"]):
             return lambda page, router: load_view(path)(page, router).render()
 
@@ -61,5 +61,5 @@ def get_routes():
 
     return routes
 
-routes = get_routes()
 
+routes = get_routes()

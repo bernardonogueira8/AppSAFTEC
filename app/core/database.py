@@ -1,12 +1,12 @@
-
-
 import sqlite3
-# import mysql.connector  
+
+# import mysql.connector
 from configs.database import DATABASE
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 _connection = None
+
 
 def get_connection():
     global _connection
@@ -25,6 +25,7 @@ def get_connection():
 
     return _connection
 
+
 # =========================
 # SQLITE
 # =========================
@@ -36,6 +37,7 @@ def _connect_sqlite():
     db_path.parent.mkdir(parents=True, exist_ok=True)
 
     return sqlite3.connect(db_path)
+
 
 # =========================
 # MYSQL
@@ -60,4 +62,3 @@ def _connect_mysql():
     #     database=cfg.get("NAME"),
     #     charset=cfg.get("OPTIONS", {}).get("charset", "utf8mb4"),
     # )
-

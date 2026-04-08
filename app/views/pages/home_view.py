@@ -1,12 +1,12 @@
-
 import flet as ft
 from views.layouts.main_layout import MainLayout
+
 
 class HomeView:
     def __init__(self, page, router):
         self.page = page
         self.router = router
-    
+
     def render(self):
         content = ft.Column(
             alignment=ft.MainAxisAlignment.CENTER,
@@ -36,7 +36,6 @@ class HomeView:
                     text_align=ft.TextAlign.CENTER,
                     width=420,
                 ),
-
                 ft.Row(
                     alignment=ft.MainAxisAlignment.CENTER,
                     spacing=16,

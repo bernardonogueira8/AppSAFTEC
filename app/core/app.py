@@ -1,8 +1,8 @@
-
 import flet as ft
 from core.responsive import get_device_type
 from core.state import AppState
 from core.i18n import I18n
+
 
 class FletingApp:
     def __init__(self, page):
@@ -12,9 +12,10 @@ class FletingApp:
         I18n.load(AppState.language)
         self.page.appbar = self.build_topbar()
         from core.router import Router
+
         self.router = Router(page)
         self.router.navigate("/")
-    
+
     def build_topbar(self):
         menu_items = []
 
