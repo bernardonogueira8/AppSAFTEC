@@ -172,3 +172,87 @@ IndexError: tuple index out of range
 2026-04-08 12:03:52,621 | INFO | Router | Navigating to: /sei_dma
 2026-04-08 12:05:26,618 | INFO | flet | Session was garbage collected: LekU50sXSGzSeWLv
 2026-04-08 12:06:11,703 | INFO | flet | Session was garbage collected: yhoRju0NHyINLPDX
+2026-04-08 12:32:40,168 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:32:40,171 | INFO | flet | Starting up TCP server on localhost:54417
+2026-04-08 12:32:40,179 | INFO | flet | Flet app has started...
+2026-04-08 12:32:40,619 | INFO | flet | App session started
+2026-04-08 12:32:40,624 | INFO | Router | Navigating to: /
+2026-04-08 12:32:40,641 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:32:41,618 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:32:41,632 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_dma_view.py", line 56, in render
+    controls=[ft.Icon(ft.Icons.PLAY_ARROW, color=ft.colors.WHITE), ft.Text("Iniciar Automação Playwright", color=ft.colors.WHITE)],
+                                                 ^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\__init__.py", line 1190, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+AttributeError: module 'flet' has no attribute 'colors'. Did you mean: 'Colors'?
+2026-04-08 12:33:05,796 | INFO | flet | Session was garbage collected: E6B06UXBcL8zo5fW
+2026-04-08 12:33:10,772 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:33:10,774 | INFO | flet | Starting up TCP server on localhost:54435
+2026-04-08 12:33:10,782 | INFO | flet | Flet app has started...
+2026-04-08 12:33:11,200 | INFO | flet | App session started
+2026-04-08 12:33:11,207 | INFO | Router | Navigating to: /
+2026-04-08 12:33:11,221 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:33:12,188 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:33:12,199 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_dma_view.py", line 77, in render
+    content.get_title = self.get_title
+                        ^^^^^^^^^^^^^^
+AttributeError: 'Sei_dmaView' object has no attribute 'get_title'
+2026-04-08 12:33:25,808 | INFO | flet | Session was garbage collected: 0uflU9VE2guTVfh8
+2026-04-08 12:33:29,942 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:33:29,944 | INFO | flet | Starting up TCP server on localhost:54444
+2026-04-08 12:33:29,953 | INFO | flet | Flet app has started...
+2026-04-08 12:33:30,369 | INFO | flet | App session started
+2026-04-08 12:33:30,375 | INFO | Router | Navigating to: /
+2026-04-08 12:33:30,388 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:33:31,454 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:34:15,916 | INFO | flet | Session was garbage collected: er22lIxBlXKt9IDX
+2026-04-08 12:36:25,987 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:36:25,989 | INFO | flet | Starting up TCP server on localhost:54537
+2026-04-08 12:36:25,998 | INFO | flet | Flet app has started...
+2026-04-08 12:36:26,416 | INFO | flet | App session started
+2026-04-08 12:36:26,422 | INFO | Router | Navigating to: /
+2026-04-08 12:36:26,435 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:36:27,735 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:36:51,093 | INFO | flet | Session was garbage collected: qp00Lft5ZXnHeiJv
+2026-04-08 12:37:37,648 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 12:37:37,651 | INFO | flet | Starting up TCP server on localhost:54582
+2026-04-08 12:37:37,658 | INFO | flet | Flet app has started...
+2026-04-08 12:37:38,063 | INFO | flet | App session started
+2026-04-08 12:37:38,069 | INFO | Router | Navigating to: /
+2026-04-08 12:37:38,085 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 12:37:39,350 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 12:37:39,353 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 28, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 58, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 46, in load_view
+    module = importlib.import_module(module_name)
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 893, in get_code
+  File "<frozen importlib._bootstrap_external>", line 823, in source_to_code
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+SyntaxError: source code string cannot contain null bytes
