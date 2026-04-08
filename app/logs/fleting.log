@@ -1,0 +1,7 @@
+2026-04-08 14:21:15,510 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:21:15,512 | INFO | flet | Starting up TCP server on localhost:50468
+2026-04-08 14:21:15,520 | INFO | flet | Flet app has started...
+2026-04-08 14:21:15,940 | INFO | flet | App session started
+2026-04-08 14:21:15,946 | INFO | Router | Navigating to: /
+2026-04-08 14:21:15,956 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:21:17,500 | INFO | flet | Session was garbage collected: nIMh2F66X7nOv69m
