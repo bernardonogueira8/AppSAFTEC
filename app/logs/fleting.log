@@ -5,3 +5,219 @@
 2026-04-08 14:21:15,946 | INFO | Router | Navigating to: /
 2026-04-08 14:21:15,956 | INFO | App | Aplicação iniciada com sucesso
 2026-04-08 14:21:17,500 | INFO | flet | Session was garbage collected: nIMh2F66X7nOv69m
+2026-04-08 14:25:14,310 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:25:14,319 | INFO | flet | Starting up TCP server on localhost:50594
+2026-04-08 14:25:14,333 | INFO | flet | Flet app has started...
+2026-04-08 14:25:15,084 | INFO | flet | App session started
+2026-04-08 14:25:15,091 | INFO | Router | Navigating to: /
+2026-04-08 14:25:15,107 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:25:16,018 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 14:25:17,314 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 14:25:20,621 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: asd
+2026-04-08 14:25:26,959 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-08 14:25:29,268 | ERROR | App | Erro: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://seibahia.ba.gov.br/", waiting until "load"
+
+2026-04-08 14:25:29,419 | INFO | flet | Session was garbage collected: 5DhgatYWWoicOD5d
+2026-04-08 14:29:05,638 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:29:05,640 | INFO | flet | Starting up TCP server on localhost:50698
+2026-04-08 14:29:05,647 | INFO | flet | Flet app has started...
+2026-04-08 14:29:06,082 | INFO | flet | App session started
+2026-04-08 14:29:06,088 | INFO | Router | Navigating to: /
+2026-04-08 14:29:06,103 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:29:07,279 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 14:29:15,654 | INFO | flet | Session was garbage collected: 1GFtWRb2nss8qPCa
+2026-04-08 14:30:03,382 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:30:03,384 | INFO | flet | Starting up TCP server on localhost:50722
+2026-04-08 14:30:03,392 | INFO | flet | Flet app has started...
+2026-04-08 14:30:03,848 | INFO | flet | App session started
+2026-04-08 14:30:03,853 | INFO | Router | Navigating to: /
+2026-04-08 14:30:03,863 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:32:04,235 | INFO | flet | Session was garbage collected: TstbMj3FUMY6NBZN
+2026-04-08 14:32:08,255 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:32:08,257 | INFO | flet | Starting up TCP server on localhost:50790
+2026-04-08 14:32:08,264 | INFO | flet | Flet app has started...
+2026-04-08 14:32:08,668 | INFO | flet | App session started
+2026-04-08 14:32:08,672 | INFO | Router | Navigating to: /
+2026-04-08 14:32:08,687 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:32:11,160 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 14:32:12,008 | INFO | Router | Navigating to: /esus_treina
+2026-04-08 14:32:12,012 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 121, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-08 14:32:28,085 | INFO | flet | Session was garbage collected: q0TXPFVDu6JSDGak
+2026-04-08 14:32:32,982 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:32:32,983 | INFO | flet | Starting up TCP server on localhost:50799
+2026-04-08 14:32:32,991 | INFO | flet | Flet app has started...
+2026-04-08 14:32:33,403 | INFO | flet | App session started
+2026-04-08 14:32:33,408 | INFO | Router | Navigating to: /
+2026-04-08 14:32:33,420 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:32:34,858 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:32:34,867 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 121, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-08 14:32:37,524 | INFO | flet | Session was garbage collected: M81Ut8dW6oJkCMg5
+2026-04-08 14:36:02,092 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:36:02,094 | INFO | flet | Starting up TCP server on localhost:50896
+2026-04-08 14:36:02,102 | INFO | flet | Flet app has started...
+2026-04-08 14:36:02,584 | INFO | flet | App session started
+2026-04-08 14:36:02,589 | INFO | Router | Navigating to: /
+2026-04-08 14:36:02,602 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:36:04,485 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:36:04,493 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 121, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-08 14:36:08,058 | INFO | flet | Session was garbage collected: cr6AKIukVVgFzZ1j
+2026-04-08 14:37:18,778 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:37:18,779 | INFO | flet | Starting up TCP server on localhost:50937
+2026-04-08 14:37:18,788 | INFO | flet | Flet app has started...
+2026-04-08 14:37:19,202 | INFO | flet | App session started
+2026-04-08 14:37:19,206 | INFO | Router | Navigating to: /
+2026-04-08 14:37:19,220 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:37:24,893 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:37:28,733 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 14:37:28,742 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 121, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-08 14:37:30,285 | INFO | flet | Session was garbage collected: iqLJsvFmeZNwevbj
+2026-04-08 14:38:39,880 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:38:39,881 | INFO | flet | Starting up TCP server on localhost:50979
+2026-04-08 14:38:39,890 | INFO | flet | Flet app has started...
+2026-04-08 14:38:40,405 | INFO | flet | App session started
+2026-04-08 14:38:40,409 | INFO | Router | Navigating to: /
+2026-04-08 14:38:40,423 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:38:41,294 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:38:41,870 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 14:38:42,350 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-08 14:38:42,766 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-08 14:38:43,214 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 14:38:43,662 | INFO | Router | Navigating to: /esus_treina
+2026-04-08 14:38:43,668 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 121, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-08 14:38:45,945 | INFO | flet | Session was garbage collected: Oo83x6xl8xG4Mbt9
+2026-04-08 14:38:59,019 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:38:59,021 | INFO | flet | Starting up TCP server on localhost:50990
+2026-04-08 14:38:59,028 | INFO | flet | Flet app has started...
+2026-04-08 14:38:59,438 | INFO | flet | App session started
+2026-04-08 14:38:59,442 | INFO | Router | Navigating to: /
+2026-04-08 14:38:59,454 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:39:00,529 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:39:00,928 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 14:39:01,312 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-08 14:39:01,665 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-08 14:39:02,033 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 14:39:02,433 | INFO | Router | Navigating to: /esus_treina
+2026-04-08 14:39:02,825 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 14:39:03,745 | INFO | Router | Navigating to: /help
+2026-04-08 14:39:04,649 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:39:05,073 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 14:39:05,481 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-08 14:39:06,305 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-08 14:39:06,682 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 14:39:08,697 | INFO | Router | Navigating to: /
+2026-04-08 14:39:10,386 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:39:10,714 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 14:39:11,066 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-08 14:39:11,474 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-08 14:39:11,834 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 14:39:12,138 | INFO | Router | Navigating to: /esus_treina
+2026-04-08 14:39:12,466 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 14:39:12,802 | INFO | Router | Navigating to: /help
+2026-04-08 14:39:14,090 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:39:16,539 | INFO | flet | Session was garbage collected: eHJtSmO2AI5B7OVk
+2026-04-08 14:41:23,875 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:41:23,877 | INFO | flet | Starting up TCP server on localhost:51043
+2026-04-08 14:41:23,884 | INFO | flet | Flet app has started...
+2026-04-08 14:41:24,310 | INFO | flet | App session started
+2026-04-08 14:41:24,326 | INFO | Router | Navigating to: /
+2026-04-08 14:41:24,338 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:41:46,341 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 14:41:47,325 | INFO | Router | Navigating to: /esus_treina
+2026-04-08 14:41:47,331 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 121, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\esus_treina_view.py", line 9, in __init__
+    self.controller = EsusTreinaController(page=self.page)
+                      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+TypeError: EsusTreinaController.__init__() got an unexpected keyword argument 'page'
+2026-04-08 14:41:52,089 | INFO | flet | Session was garbage collected: iHs7bTsHFGpCbbZ9
+2026-04-08 14:42:20,264 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:42:20,266 | INFO | flet | Starting up TCP server on localhost:51066
+2026-04-08 14:42:20,276 | INFO | flet | Flet app has started...
+2026-04-08 14:42:20,691 | INFO | flet | App session started
+2026-04-08 14:42:20,696 | INFO | Router | Navigating to: /
+2026-04-08 14:42:20,707 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:42:21,522 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-08 14:42:22,178 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 14:42:22,746 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:42:23,322 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 14:42:23,826 | INFO | Router | Navigating to: /esus_treina
+2026-04-08 14:42:25,138 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 14:42:26,010 | INFO | Router | Navigating to: /help
+2026-04-08 14:42:26,594 | INFO | Router | Navigating to: /esus_treina
+2026-04-08 14:42:27,099 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 14:42:27,555 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-08 14:42:27,995 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-08 14:42:28,379 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 14:42:29,859 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:42:30,971 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 14:42:31,459 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-08 14:42:31,939 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-08 14:42:32,395 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 14:42:33,276 | INFO | Router | Navigating to: /esus_treina
+2026-04-08 14:42:34,124 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 14:42:35,052 | INFO | Router | Navigating to: /help
+2026-04-08 14:42:35,636 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 14:42:37,170 | INFO | flet | Session was garbage collected: kEiOFazge33T7njt
+2026-04-08 14:50:00,650 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 14:50:00,653 | INFO | flet | Starting up TCP server on localhost:56204
+2026-04-08 14:50:00,660 | INFO | flet | Flet app has started...
+2026-04-08 14:50:01,079 | INFO | flet | App session started
+2026-04-08 14:50:01,085 | INFO | Router | Navigating to: /
+2026-04-08 14:50:01,097 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 14:50:04,111 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:50:04,559 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 14:50:05,063 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-08 14:50:05,616 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-08 14:50:06,103 | INFO | Router | Navigating to: /esus_treina
+2026-04-08 14:50:06,583 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 14:50:07,175 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 14:50:08,456 | INFO | Router | Navigating to: /help
+2026-04-08 14:50:09,360 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 14:50:10,152 | INFO | Router | Navigating to: /esus_treina
+2026-04-08 14:50:10,576 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-08 14:50:10,960 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 14:50:11,920 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 14:50:12,256 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 14:50:51,312 | INFO | flet | Session was garbage collected: P8XBfKRoW7xELtfM

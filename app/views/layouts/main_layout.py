@@ -42,7 +42,7 @@ class MainLayout(ft.Column):
         # Mantida a lógica original de AppBar
         items = []
         for r in ROUTES:
-            if not r.get("show_in_top"):
+            if not r.get("show_in_bottom"):
                 continue
 
             items.append(
@@ -72,7 +72,7 @@ class MainLayout(ft.Column):
 
     # ---------- SIDEBAR ----------
     def _sidebar(self):
-        nav_routes = [r for r in ROUTES if r.get("show_in_slidebar")]
+        nav_routes = [r for r in ROUTES if r.get("show_in_top")]
         sidebar_items = []
         for r in nav_routes:
             # Verifica se esta é a rota ativa

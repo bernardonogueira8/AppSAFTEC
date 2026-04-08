@@ -1,14 +1,12 @@
 import flet as ft
 import json
 import os
-import logging
 import threading
+from core.logger import get_logger
 from playwright.sync_api import sync_playwright
 from models.sei_dma_model import Sei_dmaModel
 
-# Configuração de um logger para rastrear os passos da automação
-logger = logging.getLogger(__name__)
-logger.setLevel(logging.INFO)
+logger = get_logger("App")
 
 
 class SeiDmaController:
@@ -45,6 +43,7 @@ class SeiDmaController:
             return False
 
     def _show_snack(self, message):
+        """Método auxiliar para exibir alertas rápidos na tela"""
         self.page.snack_bar = ft.SnackBar(ft.Text(message))
         self.page.snack_bar.open = True
         self.page.update()
@@ -69,12 +68,6 @@ class SeiDmaController:
             args=(credentials[0], credentials[1], titulo, texto),
         )
         automacao_thread.start()  # Inicia a thread para não travar a UI
-
-    def _show_snack(self, message):
-        """Método auxiliar para exibir alertas rápidos na tela"""
-        self.page.snack_bar = ft.SnackBar(ft.Text(message))
-        self.page.snack_bar.open = True
-        self.page.update()
 
     def _run_playwright_script(self, username, password, titulo, texto):
         """

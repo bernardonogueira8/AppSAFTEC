@@ -1,13 +1,12 @@
 import flet as ft
 from views.layouts.main_layout import MainLayout
-from controllers.esus_treina_controller import EsusTreinaController
+from controllers.simpas_estoque_controller import SimpasEstoqueController
 
-class Esus_treinaView:
+class Simpas_estoqueView:
     def __init__(self, page, router):
         self.page = page
         self.router = router
-        self.controller = EsusTreinaController()
-        self.system_name = "ESUS_TREINA"
+        self.controller = SimpasEstoqueController()
 
     def render(self):
         content = ft.Column(

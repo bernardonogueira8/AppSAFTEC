@@ -11,6 +11,21 @@
     "title": "Bem-vindo ao fleting"
   },
   "sei": {
-    "Sei_dma": "Automação SEI para DMA"
+    "dma": "Automação: SEI para DMA",
+    "caj":"Automação: SEI para CAJ"
+
+  },
+  "sigaf": {
+    "prefeitura": "SIGAF: Informações do Secretarias de saúde",
+    "contrapartida": "SIGAF: Repasse de Contrapartida"
+  },
+  "simpas": {
+    "entradas_saidas": "SIMPAS: Entradas e Saídas",
+    "estoque": "SIMPAS: Cruzamento de Estoque"
+  },
+  "outros": {
+    "esus_treina": "E-SUS Treinamento",
+    "plan_ceaf": "Planilhas de Avaliação CEAF"
   }
+  
 }

@@ -1,13 +1,12 @@
 import flet as ft
 from views.layouts.main_layout import MainLayout
-from controllers.esus_treina_controller import EsusTreinaController
+from controllers.plan_ceaf_controller import PlanCeafController
 
-class Esus_treinaView:
+class Plan_ceafView:
     def __init__(self, page, router):
         self.page = page
         self.router = router
-        self.controller = EsusTreinaController()
-        self.system_name = "ESUS_TREINA"
+        self.controller = PlanCeafController()
 
     def render(self):
         content = ft.Column(
