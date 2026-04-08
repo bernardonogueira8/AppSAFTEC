@@ -1,0 +1,17 @@
+{
+  "app": {
+    "name": "fleting"
+  },
+  "menu": {
+    "home": "Inicio",
+    "settings": "Configurações",
+    "help": "Ajuda"
+  },
+  "home": {
+    "title": "Bem-vindo ao fleting"
+  },
+  "settings": {
+    "title": "Configurações",
+    "language": "Idioma"
+  }
+}
