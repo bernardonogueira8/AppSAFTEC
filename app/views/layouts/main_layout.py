@@ -84,7 +84,7 @@ class MainLayout(ft.Column):
                         weight=ft.FontWeight.BOLD if is_selected else ft.FontWeight.NORMAL,
                         color=ft.Colors.WHITE if is_selected else ft.Colors.WHITE70,
                     ),
-                    padding=ft.padding.symmetric(vertical=12, horizontal=15),
+                    padding=ft.Padding.symmetric(vertical=12, horizontal=15),
                     border_radius=8,
                     # Cor de destaque se estiver selecionado
                     bgcolor=ft.Colors.WHITE10 if is_selected else None,
@@ -101,7 +101,7 @@ class MainLayout(ft.Column):
                 spacing=5,
                 expand=True,
             ),
-            padding=ft.padding.all(10),
+            padding=ft.Padding.all(10),
             width=250,
         )
 
