@@ -1,17 +1,16 @@
 {
   "app": {
-    "name": "fleting"
+    "name": "SAFTEC"
   },
   "menu": {
     "home": "Inicio",
-    "settings": "Configurações",
-    "help": "Ajuda"
+    "help": "Ajuda",
+    "exit": "Sair"
   },
   "home": {
     "title": "Bem-vindo ao fleting"
   },
-  "settings": {
-    "title": "Configurações",
-    "language": "Idioma"
+  "sei": {
+    "Sei_dma": "Automação SEI para DMA"
   }
 }

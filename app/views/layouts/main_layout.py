@@ -18,11 +18,11 @@ class MainLayout(ft.Column):
         # TOP BAR continua no topo (dentro da Column principal)
         self.controls.append(self._top_bar())
 
-        # Criamos um Row para colocar a Sidebar (antiga bottom_bar) e o Content lado a lado
+        # Criamos um Row para colocar a Sidebar e o Content lado a lado
         # O expand=True aqui faz esse Row ocupar todo o resto da tela
         main_content_area = ft.Row(
             controls=[
-                self._bottom_bar(), # Agora atua como Sidebar
+                self._sidebar(), # Chamada renomeada para _sidebar()
                 ft.VerticalDivider(width=1), # Linha sutil de separação
                 ft.Container(
                     content=self.content,
@@ -67,35 +67,44 @@ class MainLayout(ft.Column):
             ],
         )
 
-    # ---------- BOTTOM BAR (AGORA SIDEBAR) ----------
-    def _bottom_bar(self):
-        destinations = []
+    # ---------- SIDEBAR ----------
+    def _sidebar(self):
+        nav_routes = [r for r in ROUTES if r.get("show_in_slidebar")]
+        sidebar_items = []
+        for r in nav_routes:
+            # Verifica se esta é a rota ativa
+            is_selected = r["path"] == self.router.current_route
+            label_text = I18n.t(r["label"]) if "." in r["label"] else r["label"]
+            # Cada item é um Container para podermos estilizar o fundo/clique
+            sidebar_items.append(
+                ft.Container(
+                    content=ft.Text(
+                        label_text,
+                        size=14,
+                        weight=ft.FontWeight.BOLD if is_selected else ft.FontWeight.NORMAL,
+                        color=ft.Colors.WHITE if is_selected else ft.Colors.WHITE70,
+                    ),
+                    padding=ft.Padding.symmetric(vertical=12, horizontal=15),
+                    border_radius=8,
+                    # Cor de destaque se estiver selecionado
+                    bgcolor=ft.Colors.WHITE10 if is_selected else None,
 
-        # Filtramos as rotas que devem aparecer na sidebar
-        for r in ROUTES:
-            if not r.get("show_in_bottom"): # Mantendo a flag original para não quebrar sua config
-                continue
-            
-            destinations.append(
-                ft.NavigationRailDestination(
-                    icon=r["icon"],
-                    label=I18n.t(r["label"]) if "." in r["label"] else r["label"],
+                    ink=True,
+                    on_click=lambda e, path=r["path"]: self._handle_sidebar_change(path),
                 )
             )
 
-        # Retornamos o NavigationRail (Sidebar)
-        return ft.NavigationRail(
-            selected_index=None, # Você pode lógica para setar o índice baseado na rota atual
-            label_type=ft.NavigationRailLabelType.ALL,
-            min_width=100,
-            extended=True, # Mostra os nomes ao lado dos ícones
-            destinations=destinations,
-            on_change=lambda e: self._handle_sidebar_change(e, destinations),
+        # Retornamos o ListView com os itens
+        return ft.Container(
+            content=ft.ListView(
+                controls=sidebar_items,
+                spacing=5,
+                expand=True,
+            ),
+            padding=ft.Padding.all(10),
+            width=250,
         )
 
-    def _handle_sidebar_change(self, e, destinations):
-        # Lógica para navegar baseada no clique da sidebar
-        # Como o NavigationRail usa índice, precisamos mapear de volta para a rota
-        target_routes = [r for r in ROUTES if r.get("show_in_bottom")]
-        selected_route = target_routes[e.control.selected_index]
-        self.router.navigate(selected_route["path"])
+    def _handle_sidebar_change(self, route_path):
+        self.router.navigate(route_path)
+        self.page.update()
