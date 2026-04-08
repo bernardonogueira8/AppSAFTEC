@@ -643,3 +643,234 @@ SyntaxError: source code string cannot contain null bytes
 2026-04-08 13:11:50,162 | INFO | Router | Navigating to: /
 2026-04-08 13:11:50,172 | INFO | App | Aplicação iniciada com sucesso
 2026-04-08 13:11:54,109 | INFO | flet | Session was garbage collected: zgQrSBO95mq6mvaY
+2026-04-08 13:17:00,214 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:17:00,216 | INFO | flet | Starting up TCP server on localhost:62313
+2026-04-08 13:17:00,223 | INFO | flet | Flet app has started...
+2026-04-08 13:17:00,674 | INFO | flet | App session started
+2026-04-08 13:17:00,678 | INFO | Router | Navigating to: /
+2026-04-08 13:17:00,690 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:17:04,556 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:17:05,852 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:17:29,886 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_dma_view.py", line 144, in <lambda>
+    on_click=lambda e: self.controller.start_automation(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.title_input.value, self.text_input.value
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_dma_controller.py", line 50, in start_automation
+    username = self.client_storage.get("sei_user")
+               ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SeiDmaController' object has no attribute 'client_storage'
+2026-04-08 13:18:50,453 | INFO | flet | Session was garbage collected: eDX7J1dSqosr4xm0
+2026-04-08 13:19:48,936 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:19:48,938 | INFO | flet | Starting up TCP server on localhost:62352
+2026-04-08 13:19:48,946 | INFO | flet | Flet app has started...
+2026-04-08 13:19:49,453 | INFO | flet | App session started
+2026-04-08 13:19:49,458 | INFO | Router | Navigating to: /
+2026-04-08 13:19:49,472 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:19:50,637 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:19:53,798 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_dma_view.py", line 144, in <lambda>
+    on_click=lambda e: self.controller.start_automation(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.title_input.value, self.text_input.value
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_dma_controller.py", line 59, in start_automation
+    self._run_playwright_script(credentials["username"], credentials["password"], titulo, texto)
+                                ~~~~~~~~~~~^^^^^^^^^^^^
+TypeError: tuple indices must be integers or slices, not str
+2026-04-08 13:19:56,181 | INFO | flet | Session was garbage collected: 0019O0bzEAvjQuHy
+2026-04-08 13:20:09,662 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:20:09,664 | INFO | flet | Starting up TCP server on localhost:62366
+2026-04-08 13:20:09,670 | INFO | flet | Flet app has started...
+2026-04-08 13:20:10,046 | INFO | flet | App session started
+2026-04-08 13:20:10,050 | INFO | Router | Navigating to: /
+2026-04-08 13:20:10,061 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:20:12,430 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:20:16,064 | INFO | controllers.sei_dma_controller | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: asddsa
+2026-04-08 13:20:16,065 | ERROR | controllers.sei_dma_controller | Erro: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-04-08 13:20:16,065 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_dma_view.py", line 144, in <lambda>
+    on_click=lambda e: self.controller.start_automation(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.title_input.value, self.text_input.value
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_dma_controller.py", line 59, in start_automation
+    self._run_playwright_script(credentials[0], credentials[1], titulo, texto)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_dma_controller.py", line 90, in _run_playwright_script
+    raise e
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_dma_controller.py", line 77, in _run_playwright_script
+    with sync_playwright() as p:
+         ~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 47, in __enter__
+                raise Error(
+    ...<2 lines>...
+                )
+playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-04-08 13:20:23,591 | INFO | flet | Session was garbage collected: yy0WVENWsRnXKNlr
+2026-04-08 13:21:26,080 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:21:26,082 | INFO | flet | Starting up TCP server on localhost:62402
+2026-04-08 13:21:26,089 | INFO | flet | Flet app has started...
+2026-04-08 13:21:26,471 | INFO | flet | App session started
+2026-04-08 13:21:26,475 | INFO | Router | Navigating to: /
+2026-04-08 13:21:26,489 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:21:27,981 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:21:31,127 | INFO | controllers.sei_dma_controller | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: asd
+2026-04-08 13:21:31,128 | ERROR | controllers.sei_dma_controller | Erro: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-04-08 13:21:31,128 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_dma_view.py", line 144, in <lambda>
+    on_click=lambda e: self.controller.start_automation(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.title_input.value, self.text_input.value
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_dma_controller.py", line 59, in start_automation
+    self._run_playwright_script(credentials[0], credentials[1], titulo, texto)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_dma_controller.py", line 90, in _run_playwright_script
+    raise e
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_dma_controller.py", line 77, in _run_playwright_script
+    with sync_playwright() as p:
+         ~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\playwright\sync_api\_context_manager.py", line 47, in __enter__
+                raise Error(
+    ...<2 lines>...
+                )
+playwright._impl._errors.Error: It looks like you are using Playwright Sync API inside the asyncio loop.
+Please use the Async API instead.
+2026-04-08 13:21:35,451 | INFO | flet | Session was garbage collected: rERPcyp5WfLOO2t0
+2026-04-08 13:24:32,345 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:24:32,347 | INFO | flet | Starting up TCP server on localhost:62456
+2026-04-08 13:24:32,355 | INFO | flet | Flet app has started...
+2026-04-08 13:24:32,746 | INFO | flet | App session started
+2026-04-08 13:24:32,749 | INFO | Router | Navigating to: /
+2026-04-08 13:24:32,760 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:24:35,943 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:24:39,511 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_dma_view.py", line 144, in <lambda>
+    on_click=lambda e: self.controller.start_automation(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.title_input.value, self.text_input.value
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_dma_controller.py", line 51, in start_automation
+    credentials = self.load_saved_credentials(self.system_name)
+                                              ^^^^^^^^^^^^^^^^
+AttributeError: 'SeiDmaController' object has no attribute 'system_name'
+2026-04-08 13:24:42,596 | INFO | flet | Session was garbage collected: g3baC4mGzWpR3VPj
+2026-04-08 13:25:01,981 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:25:01,983 | INFO | flet | Starting up TCP server on localhost:62469
+2026-04-08 13:25:01,990 | INFO | flet | Flet app has started...
+2026-04-08 13:25:02,391 | INFO | flet | App session started
+2026-04-08 13:25:02,395 | INFO | Router | Navigating to: /
+2026-04-08 13:25:02,405 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:25:03,370 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:25:06,596 | INFO | controllers.sei_dma_controller | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: addassda
+2026-04-08 13:25:11,449 | INFO | controllers.sei_dma_controller | Navegador aberto. Acessando a página de login...
+2026-04-08 13:25:12,535 | ERROR | controllers.sei_dma_controller | Erro: name 'open_browser' is not defined
+2026-04-08 13:26:01,768 | INFO | flet | Session was garbage collected: 5exrNOYQAWVr5TI5
+2026-04-08 13:26:06,040 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:26:06,042 | INFO | flet | Starting up TCP server on localhost:62503
+2026-04-08 13:26:06,049 | INFO | flet | Flet app has started...
+2026-04-08 13:26:06,448 | INFO | flet | App session started
+2026-04-08 13:26:06,452 | INFO | Router | Navigating to: /
+2026-04-08 13:26:06,463 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:26:07,711 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:26:11,266 | INFO | controllers.sei_dma_controller | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: adsasd
+2026-04-08 13:26:14,567 | INFO | controllers.sei_dma_controller | Navegador aberto. Acessando a página de login...
+2026-04-08 13:26:46,603 | ERROR | controllers.sei_dma_controller | Erro: name 'json' is not defined
+2026-04-08 13:26:50,828 | INFO | flet | Session was garbage collected: IYkySVM1UrGJE9Mj
+2026-04-08 13:28:36,284 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:28:36,286 | INFO | flet | Starting up TCP server on localhost:62576
+2026-04-08 13:28:36,293 | INFO | flet | Flet app has started...
+2026-04-08 13:28:36,698 | INFO | flet | App session started
+2026-04-08 13:28:36,702 | INFO | Router | Navigating to: /
+2026-04-08 13:28:36,712 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:28:49,382 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:35:29,055 | INFO | flet | Session was garbage collected: 8Zvi5YeHU13TpoHi
+2026-04-08 13:35:33,352 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:35:33,354 | INFO | flet | Starting up TCP server on localhost:62708
+2026-04-08 13:35:33,362 | INFO | flet | Flet app has started...
+2026-04-08 13:35:33,762 | INFO | flet | App session started
+2026-04-08 13:35:33,767 | INFO | Router | Navigating to: /
+2026-04-08 13:35:33,778 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:35:34,674 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:35:46,927 | INFO | controllers.sei_dma_controller | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: FEAT(Farmacia): Incluir exportação de relatório de posição de estoque em PDF
+2026-04-08 13:35:50,183 | INFO | controllers.sei_dma_controller | Navegador aberto. Acessando a página de login...
+2026-04-08 13:36:13,965 | ERROR | controllers.sei_dma_controller | Erro: name 'os' is not defined
+2026-04-08 13:36:21,606 | INFO | flet | Session was garbage collected: N73nojQ4pcwQuQyo
+2026-04-08 13:38:01,587 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:38:01,589 | INFO | flet | Starting up TCP server on localhost:62775
+2026-04-08 13:38:01,596 | INFO | flet | Flet app has started...
+2026-04-08 13:38:01,980 | INFO | flet | App session started
+2026-04-08 13:38:01,983 | INFO | Router | Navigating to: /
+2026-04-08 13:38:01,994 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:38:03,266 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:38:12,630 | INFO | controllers.sei_dma_controller | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: FEAT(Farmacia): Incluir exportação de relatório de posição de estoque em PDF
+2026-04-08 13:38:16,001 | INFO | controllers.sei_dma_controller | Navegador aberto. Acessando a página de login...
+2026-04-08 13:39:00,400 | INFO | Router | Navigating to: /
+2026-04-08 13:39:01,880 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:39:05,168 | INFO | Router | Navigating to: /
+2026-04-08 13:39:08,024 | WARNING | Router | Route not found: /settings
+2026-04-08 13:39:08,025 | INFO | Router | Navigating to: /
+2026-04-08 13:44:41,941 | INFO | flet | Session was garbage collected: IZK3V7676lrgVNpR
+2026-04-08 13:44:46,005 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:44:46,007 | INFO | flet | Starting up TCP server on localhost:49447
+2026-04-08 13:44:46,015 | INFO | flet | Flet app has started...
+2026-04-08 13:44:46,408 | INFO | flet | App session started
+2026-04-08 13:44:46,413 | INFO | Router | Navigating to: /
+2026-04-08 13:44:46,421 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:45:43,604 | INFO | flet | Session was garbage collected: zbBtYhMbou6MVKxG
+2026-04-08 13:45:47,549 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-08 13:45:47,552 | INFO | flet | Starting up TCP server on localhost:49468
+2026-04-08 13:45:47,560 | INFO | flet | Flet app has started...
+2026-04-08 13:45:47,977 | INFO | flet | App session started
+2026-04-08 13:45:47,981 | INFO | Router | Navigating to: /
+2026-04-08 13:45:47,991 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 13:45:59,098 | INFO | Router | Navigating to: /help
+2026-04-08 13:46:04,874 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:46:31,892 | INFO | Router | Navigating to: /help
+2026-04-08 13:46:32,517 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 13:46:34,307 | INFO | flet | Session was garbage collected: NSNSFVuoKh60cuO8
