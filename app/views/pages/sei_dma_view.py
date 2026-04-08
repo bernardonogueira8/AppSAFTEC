@@ -34,55 +34,46 @@ class Sei_dmaView:
             filled=True,
         )
         # PASSO 1: CONTAINER DE LOGIN (Visível no Início)
-        self.login_step = ft.Container(
-            content=ft.Column(
-                controls=[
-                    # Ícone de Avatar no topo do Card
-                    ft.Icon(ft.Icons.ACCOUNT_CIRCLE, size=70, color=ft.Colors.BLUE_700),
-                    ft.Text(
-                        f"Autenticação {self.system_name}",
-                        size=26,
-                        weight=ft.FontWeight.BOLD,
+        self.login_step = ft.Column(
+            controls=[
+                # Ícone de Avatar no topo do Card
+                ft.Icon(ft.Icons.ACCOUNT_CIRCLE, size=70, color=ft.Colors.BLUE_700),
+                ft.Text(
+                    f"Autenticação {self.system_name}",
+                    size=26,
+                    weight=ft.FontWeight.BOLD,
+                ),
+                ft.Text(
+                    "Verifique suas credenciais para acessar a automação.",
+                    color=ft.Colors.GREY_500,
+                ),
+                self.user_input,
+                self.pass_input,
+                ft.Button(
+                    content=ft.Row(
+                        controls=[
+                            ft.Text(
+                                "Acessar e Continuar",
+                                color=ft.Colors.WHITE,
+                                size=16,
+                                weight=ft.FontWeight.W_600,
+                            ),
+                            ft.Icon(ft.Icons.ARROW_FORWARD, color=ft.Colors.WHITE),
+                        ],
+                        alignment=ft.MainAxisAlignment.CENTER,
                     ),
-                    ft.Text(
-                        "Verifique suas credenciais para acessar a automação.",
-                        color=ft.Colors.GREY_500,
-                        text_align=ft.TextAlign.CENTER,
+                    style=ft.ButtonStyle(
+                        bgcolor=ft.Colors.BLUE_700,
+                        shape=ft.RoundedRectangleBorder(radius=10),
+                        padding=ft.Padding.all(20),
                     ),
-                    ft.Divider(height=20, color=ft.Colors.TRANSPARENT),  # Espaçador
-                    self.user_input,
-                    self.pass_input,
-                    ft.Divider(height=10, color=ft.Colors.TRANSPARENT),  # Espaçador
-                    # Botão Estilizado
-                    ft.Button(
-                        content=ft.Row(
-                            controls=[
-                                ft.Text(
-                                    "Acessar e Continuar",
-                                    color=ft.Colors.WHITE,
-                                    size=16,
-                                    weight=ft.FontWeight.W_600,
-                                ),
-                                ft.Icon(ft.Icons.ARROW_FORWARD, color=ft.Colors.WHITE),
-                            ],
-                            alignment=ft.MainAxisAlignment.CENTER,
-                        ),
-                        style=ft.ButtonStyle(
-                            bgcolor=ft.Colors.BLUE_700,
-                            shape=ft.RoundedRectangleBorder(radius=10),
-                            padding=ft.Padding.all(
-                                20
-                            ),  # Botão mais "gordinho" e fácil de clicar
-                        ),
-                        on_click=self.avancar_passo,
-                    ),
-                ],
-                horizontal_alignment=ft.CrossAxisAlignment.CENTER,  # Centraliza tudo na vertical
-                alignment=ft.MainAxisAlignment.SPACE_BETWEEN,  # Centraliza tudo na horizontal
-            ),
-            # Estilo da "Caixa" (Card)
-            expand=True,
+                    on_click=self.avancar_passo,
+                ),
+            ],
             visible=True,
+            expand=True,
+            alignment=ft.MainAxisAlignment.CENTER,
+            horizontal_alignment=ft.CrossAxisAlignment.CENTER,
         )
 
         # PASSO 2: CONTAINER DE AUTOMAÇÃO (Oculto no Início)
@@ -104,71 +95,65 @@ class Sei_dmaView:
             expand=True,
         )
 
-        self.automacao_step = ft.Container(
-            content=ft.Column(
-                controls=[
-                    ft.Icon(
-                        ft.Icons.ROCKET_LAUNCH, size=60, color=ft.Colors.ORANGE_500
-                    ),
-                    ft.Text("Dados da Automação", size=26, weight=ft.FontWeight.BOLD),
-                    ft.Text(
-                        "Preencha os dados abaixo para rodar o script no Playwright.",
-                        color=ft.Colors.GREY_500,
-                        text_align=ft.TextAlign.CENTER,
-                    ),
-                    ft.Divider(height=20, color=ft.Colors.TRANSPARENT),
-                    self.title_input,
-                    self.text_input,
-                    ft.Divider(height=10, color=ft.Colors.TRANSPARENT),
-                    # Botão de Ação Principal
-                    ft.Button(
-                        content=ft.Row(
-                            controls=[
-                                ft.Icon(ft.Icons.PLAY_ARROW, color=ft.Colors.WHITE),
-                                ft.Text(
-                                    "Iniciar Robô Playwright",
-                                    color=ft.Colors.WHITE,
-                                    size=16,
-                                    weight=ft.FontWeight.BOLD,
-                                ),
-                            ],
-                            alignment=ft.MainAxisAlignment.CENTER,
+        self.automacao_step = ft.Column(
+            controls=[
+                ft.Row(
+                    controls=[
+                        ft.Icon(
+                            ft.Icons.ROCKET_LAUNCH, size=30, color=ft.Colors.ORANGE_500
                         ),
-                        style=ft.ButtonStyle(
-                            bgcolor=ft.Colors.ORANGE_600,
-                            padding=ft.Padding.all(20),
-                            shape=ft.RoundedRectangleBorder(radius=10),
+                        ft.Text(
+                            "Dados da Automação", size=26, weight=ft.FontWeight.BOLD
                         ),
-                        on_click=lambda e: self.controller.start_automation(
-                            self.title_input.value, self.text_input.value
+                    ],
+                    alignment=ft.MainAxisAlignment.START,
+                ),
+                self.title_input,
+                self.text_input,  # Este campo gigante dominará o centro
+                ft.Row(
+                    controls=[
+                        ft.Button(
+                            content=ft.Text(
+                                "Voltar",
+                                color=ft.Colors.BLUE_700,
+                                weight=ft.FontWeight.BOLD,
+                            ),
+                            style=ft.ButtonStyle(
+                                bgcolor=ft.Colors.TRANSPARENT,
+                                padding=ft.Padding.all(20),
+                            ),
+                            expand=True,
+                            on_click=self.voltar_passo,
                         ),
-                    ),
-                    # Botão Secundário para Voltar
-                    ft.Button(
-                        content=ft.Text(
-                            "Voltar para Credenciais", color=ft.Colors.BLUE_700
+                        ft.Button(
+                            content=ft.Row(
+                                controls=[
+                                    ft.Icon(ft.Icons.PLAY_ARROW, color=ft.Colors.WHITE),
+                                    ft.Text(
+                                        "Iniciar Automação",
+                                        color=ft.Colors.WHITE,
+                                        weight=ft.FontWeight.BOLD,
+                                    ),
+                                ],
+                            ),
+                            style=ft.ButtonStyle(
+                                bgcolor=ft.Colors.ORANGE_600,
+                                padding=ft.Padding.all(20),
+                                shape=ft.RoundedRectangleBorder(radius=10),
+                            ),
+                            on_click=lambda e: self.controller.start_automation(
+                                self.title_input.value, self.text_input.value
+                            ),
+                            expand=True,  # Faz o botão esticar horizontalmente
                         ),
-                        style=ft.ButtonStyle(
-                            bgcolor=ft.Colors.TRANSPARENT,
-                            overlay_color=ft.Colors.BLUE_50,
-                        ),
-                        on_click=self.voltar_passo,
-                    ),
-                ],
-                horizontal_alignment=ft.CrossAxisAlignment.CENTER,
-                alignment=ft.MainAxisAlignment.CENTER,
-            ),
-            expand=True,
-            padding=40,
-            border_radius=15,
-            bgcolor=ft.Colors.WHITE_10,
-            border=ft.border.all(1, ft.Colors.WHITE_24),
-            shadow=ft.BoxShadow(
-                spread_radius=1, blur_radius=20, color=ft.Colors.BLACK12
-            ),
+                    ],
+                    alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
+                ),
+            ],
             visible=False,
+            expand=True,
+            horizontal_alignment=ft.CrossAxisAlignment.START,
         )
-
         # O layout principal que organiza os passos
         content = ft.Column(
             controls=[self.login_step, self.automacao_step],
