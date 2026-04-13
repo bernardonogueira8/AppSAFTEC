@@ -18,7 +18,7 @@ class EsusTreinaController:
         self.model = model or Esus_treinaModel(db_connection)
 
     def get_title(self):
-        return "E-SUS Treinamento"
+        return "E-SUS Treinamento - Em Desenvolvimento"
 
     def load_saved_credentials(self, system_name):
         try:

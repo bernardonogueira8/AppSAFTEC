@@ -4,7 +4,7 @@ from controllers.sei_caj_controller import SeiCajController
 
 
 class Sei_cajView:
-    def __init__(self, page: ft.Page, router):
+    def __init__(self, page, router):
         self.page = page
         self.router = router
         self.controller = SeiCajController(page=self.page)
@@ -26,7 +26,7 @@ class Sei_cajView:
 
         # Campos de Login
         self.user_input = ft.TextField(
-            label="Usuário SEI",
+            label=f"Usuário {self.system_name}",
             value=user_padrao,
             prefix_icon=ft.Icons.PERSON_OUTLINE,
             border_radius=10,
@@ -34,7 +34,7 @@ class Sei_cajView:
             filled=True,
         )
         self.pass_input = ft.TextField(
-            label="Senha SEI",
+            label=f"Senha {self.system_name}",
             password=True,
             can_reveal_password=True,
             expand=True,
@@ -43,7 +43,6 @@ class Sei_cajView:
             border_radius=10,
             filled=True,
         )
-
         # Passo 1: Interface de Login
         self.login_step = ft.Column(
             controls=[

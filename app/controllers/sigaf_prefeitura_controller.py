@@ -10,4 +10,4 @@ class SigafPrefeituraController:
         self.model = model or Sigaf_prefeituraModel
 
     def get_title(self):
-        return "SIGAF: Informações do Secretarias de saúde"
+        return "SIGAF: Informações do Secretarias de saúde - Em Desenvolvimento"

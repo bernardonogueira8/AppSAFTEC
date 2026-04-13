@@ -7,7 +7,7 @@ class Sigaf_contrapartidaView:
     def __init__(self, page, router):
         self.page = page
         self.router = router
-        self.controller = SigafContrapartidaController()
+        self.controller = SigafContrapartidaController(page=self.page)
         self.system_name = "SIGAF"
 
     async def pick_file_handler(self, e):
@@ -26,7 +26,7 @@ class Sigaf_contrapartidaView:
 
         # Campos de Login
         self.user_input = ft.TextField(
-            label="Usuário SEI",
+            label=f"Usuário {self.system_name}",
             value=user_padrao,
             prefix_icon=ft.Icons.PERSON_OUTLINE,
             border_radius=10,
@@ -34,7 +34,7 @@ class Sigaf_contrapartidaView:
             filled=True,
         )
         self.pass_input = ft.TextField(
-            label="Senha SEI",
+            label=f"Senha {self.system_name}",
             password=True,
             can_reveal_password=True,
             expand=True,
@@ -128,7 +128,7 @@ class Sigaf_contrapartidaView:
                     ],
                     alignment=ft.MainAxisAlignment.START,
                 ),
-                self.numero_sei_input,
+                self.number_cib_input,
                 self.arquivo_input,
                 ft.Row(
                     controls=[
@@ -162,8 +162,9 @@ class Sigaf_contrapartidaView:
                                 shape=ft.RoundedRectangleBorder(radius=10),
                             ),
                             on_click=lambda _: self.controller.start_automation(
-                                self.numero_sei_input.value,
+                                self.number_cib_input.value,
                                 self.caminho_arquivo_input.value,
+                                self.system_name,
                             ),
                             expand=True,
                         ),

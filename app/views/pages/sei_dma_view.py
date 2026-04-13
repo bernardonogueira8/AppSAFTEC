@@ -16,7 +16,7 @@ class Sei_dmaView:
         pass_padrao = credenciais_salvas[1] if credenciais_salvas else ""
 
         self.user_input = ft.TextField(
-            label="Usuário SEI",
+            label=f"Usuário {self.system_name}",
             value=user_padrao,
             prefix_icon=ft.Icons.PERSON_OUTLINE,
             border_radius=10,
@@ -24,7 +24,7 @@ class Sei_dmaView:
             filled=True,
         )
         self.pass_input = ft.TextField(
-            label="Senha SEI",
+            label=f"Senha {self.system_name}",
             password=True,
             can_reveal_password=True,
             expand=True,

@@ -47,7 +47,7 @@ class SeiCajController:
         self.page.snack_bar.open = True
         self.page.update()
 
-    def start_automation(self, titulo, texto):  # <--- Modificar
+    def start_automation(self, titulo, texto):  
         # 1. Recupera as credenciais salvas previamente
         credentials = self.load_saved_credentials("SEI")
 
@@ -82,10 +82,6 @@ class SeiCajController:
                 logger.info("Navegador aberto. Acessando a página de login...")
 
                 self.open_browser(page, username, password)
-                self.create_process(
-                    page,
-                    n_sei,
-                )
                 browser.close()
 
         except Exception as e:
@@ -98,6 +94,3 @@ class SeiCajController:
         page.get_by_role("textbox", name="Senha").fill(password)
         page.locator("#selOrgao").select_option("23")
         page.get_by_role("button", name="ACESSAR").click()
-
-    def create_process(self, page, n_sei, texto):  # <--- Modificar
-        pass

@@ -2295,3 +2295,300 @@ AttributeError: 'Sei_cajView' object has no attribute 'arquivos_selecionados_pat
 2026-04-13 10:38:22,551 | INFO | Router | Navigating to: /sei_dma
 2026-04-13 10:38:28,696 | INFO | Router | Navigating to: /sei_caj
 2026-04-13 10:38:41,966 | INFO | flet | Session was garbage collected: g1O1YDlfL8FUhNFn
+2026-04-13 10:45:15,735 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:45:15,737 | INFO | flet | Starting up TCP server on localhost:54706
+2026-04-13 10:45:15,744 | INFO | flet | Flet app has started...
+2026-04-13 10:45:16,620 | INFO | flet | App session started
+2026-04-13 10:45:16,633 | INFO | Router | Navigating to: /
+2026-04-13 10:45:16,656 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:45:17,593 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:45:22,226 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 10:45:25,394 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:45:29,514 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 10:45:29,525 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sigaf_contrapartida_view.py", line 23, in render
+    credenciais_salvas = self.controller.load_saved_credentials(self.system_name)
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SigafContrapartidaController' object has no attribute 'load_saved_credentials'
+2026-04-13 10:47:39,985 | INFO | flet | Session was garbage collected: s59Tj3NBe5oX3qbX
+2026-04-13 10:47:44,522 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:47:44,523 | INFO | flet | Starting up TCP server on localhost:54769
+2026-04-13 10:47:44,531 | INFO | flet | Flet app has started...
+2026-04-13 10:47:44,955 | INFO | flet | App session started
+2026-04-13 10:47:44,959 | INFO | Router | Navigating to: /
+2026-04-13 10:47:44,970 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:47:46,953 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 10:47:47,070 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sigaf_contrapartida_view.py", line 10, in __init__
+    self.controller = SigafContrapartidaController()
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: SigafContrapartidaController.__init__() missing 1 required positional argument: 'page'
+2026-04-13 10:47:51,075 | INFO | flet | Session was garbage collected: I1WSdrvSUSdKAhpK
+2026-04-13 10:48:14,003 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:48:14,005 | INFO | flet | Starting up TCP server on localhost:54788
+2026-04-13 10:48:14,012 | INFO | flet | Flet app has started...
+2026-04-13 10:48:14,388 | INFO | flet | App session started
+2026-04-13 10:48:14,394 | INFO | Router | Navigating to: /
+2026-04-13 10:48:14,406 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:48:17,234 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-13 10:48:17,923 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-13 10:48:18,434 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 10:48:18,529 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sigaf_contrapartida_view.py", line 10, in __init__
+    self.controller = SigafContrapartidaController()
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: SigafContrapartidaController.__init__() missing 1 required positional argument: 'page'
+2026-04-13 10:48:23,096 | INFO | flet | Session was garbage collected: 4fYrHB4xXS6njDd0
+2026-04-13 10:48:49,445 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:48:49,447 | INFO | flet | Starting up TCP server on localhost:54800
+2026-04-13 10:48:49,454 | INFO | flet | Flet app has started...
+2026-04-13 10:48:49,837 | INFO | flet | App session started
+2026-04-13 10:48:49,842 | INFO | Router | Navigating to: /
+2026-04-13 10:48:49,853 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:48:51,140 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 10:48:51,244 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sigaf_contrapartida_view.py", line 10, in __init__
+    self.controller = SigafContrapartidaController(page=self.page)
+                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 17, in __init__
+    self.model = model or Sigaf_contrapartidaModel(db_connection)
+                          ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: Sigaf_contrapartidaModel() takes no arguments
+2026-04-13 10:48:57,322 | INFO | flet | Session was garbage collected: 8XYcQnyM0B5Rvask
+2026-04-13 10:50:31,269 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:50:31,270 | INFO | flet | Starting up TCP server on localhost:54844
+2026-04-13 10:50:31,278 | INFO | flet | Flet app has started...
+2026-04-13 10:50:31,666 | INFO | flet | App session started
+2026-04-13 10:50:31,671 | INFO | Router | Navigating to: /
+2026-04-13 10:50:31,682 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:50:32,729 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 10:50:32,846 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sigaf_contrapartida_view.py", line 131, in render
+    self.numero_sei_input,
+    ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Sigaf_contrapartidaView' object has no attribute 'numero_sei_input'. Did you mean: 'number_cib_input'?
+2026-04-13 10:51:01,166 | INFO | flet | Session was garbage collected: tLixu2hmtTws7qgL
+2026-04-13 10:51:05,147 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:51:05,149 | INFO | flet | Starting up TCP server on localhost:54860
+2026-04-13 10:51:05,156 | INFO | flet | Flet app has started...
+2026-04-13 10:51:05,681 | INFO | flet | App session started
+2026-04-13 10:51:05,686 | INFO | Router | Navigating to: /
+2026-04-13 10:51:05,699 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:51:07,314 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-13 10:51:07,963 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 10:51:53,493 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sigaf_contrapartida_view.py", line 190, in avancar_passo
+    sucesso = self.controller.save_credentials(
+        self.user_input.value, self.pass_input.value, self.system_name
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 31, in save_credentials
+    self._show_snack("Preencha usuário e senha!")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 44, in _show_snack
+    self.page.snack_bar = ft.SnackBar(ft.Text(message))
+    ^^^^^^^^^
+AttributeError: 'SigafContrapartidaController' object has no attribute 'page'
+2026-04-13 10:51:55,565 | INFO | flet | Session was garbage collected: PzCWblfkoj8OS3UV
+2026-04-13 10:55:49,886 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:55:49,888 | INFO | flet | Starting up TCP server on localhost:54986
+2026-04-13 10:55:49,895 | INFO | flet | Flet app has started...
+2026-04-13 10:55:50,417 | INFO | flet | App session started
+2026-04-13 10:55:50,437 | INFO | Router | Navigating to: /
+2026-04-13 10:55:50,457 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:55:51,391 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:55:55,057 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 10:55:57,400 | INFO | Router | Navigating to: /esus_treina
+2026-04-13 10:55:57,410 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\esus_treina_view.py", line 10, in __init__
+    self.controller = EsusTreinaController(page=self.page)
+                      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\esus_treina_controller.py", line 18, in __init__
+    self.model = model or Esus_treinaModel(db_connection)
+                          ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: Esus_treinaModel() takes no arguments
+2026-04-13 10:56:00,045 | INFO | flet | Session was garbage collected: fLvaxSkLtk7AUk8q
+2026-04-13 10:56:04,094 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:56:04,096 | INFO | flet | Starting up TCP server on localhost:54993
+2026-04-13 10:56:04,105 | INFO | flet | Flet app has started...
+2026-04-13 10:56:04,601 | INFO | flet | App session started
+2026-04-13 10:56:04,607 | INFO | Router | Navigating to: /
+2026-04-13 10:56:04,619 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:56:14,497 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 10:56:15,769 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sigaf_contrapartida_view.py", line 190, in avancar_passo
+    sucesso = self.controller.save_credentials(
+        self.user_input.value, self.pass_input.value, self.system_name
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 31, in save_credentials
+    self._show_snack("Preencha usuário e senha!")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 44, in _show_snack
+    self.page.snack_bar = ft.SnackBar(ft.Text(message))
+    ^^^^^^^^^
+AttributeError: 'SigafContrapartidaController' object has no attribute 'page'
+2026-04-13 10:56:41,094 | INFO | flet | Session was garbage collected: Zp56sCCvQdQj13od
+2026-04-13 10:56:45,345 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:56:45,347 | INFO | flet | Starting up TCP server on localhost:55006
+2026-04-13 10:56:45,354 | INFO | flet | Flet app has started...
+2026-04-13 10:56:45,734 | INFO | flet | App session started
+2026-04-13 10:56:45,739 | INFO | Router | Navigating to: /
+2026-04-13 10:56:45,750 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:56:47,219 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-13 10:56:48,186 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 10:56:52,713 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 36, in save_credentials
+    self._show_snack(f"Credenciais do {system_name} prontas!")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 44, in _show_snack
+    self.page.snack_bar = ft.SnackBar(ft.Text(message))
+    ^^^^^^^^^
+AttributeError: 'SigafContrapartidaController' object has no attribute 'page'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sigaf_contrapartida_view.py", line 190, in avancar_passo
+    sucesso = self.controller.save_credentials(
+        self.user_input.value, self.pass_input.value, self.system_name
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 39, in save_credentials
+    self._show_snack(f"Erro ao salvar: {e}")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 44, in _show_snack
+    self.page.snack_bar = ft.SnackBar(ft.Text(message))
+    ^^^^^^^^^
+AttributeError: 'SigafContrapartidaController' object has no attribute 'page'
+2026-04-13 10:56:56,582 | INFO | flet | Session was garbage collected: Xl4xOU9XFIlPFq4k
+2026-04-13 10:57:33,028 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:57:33,030 | INFO | flet | Starting up TCP server on localhost:55024
+2026-04-13 10:57:33,039 | INFO | flet | Flet app has started...
+2026-04-13 10:57:33,453 | INFO | flet | App session started
+2026-04-13 10:57:33,458 | INFO | Router | Navigating to: /
+2026-04-13 10:57:33,470 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:57:35,052 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-13 10:57:35,780 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 10:57:36,772 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 36, in save_credentials
+    self._show_snack(f"Credenciais do {system_name} prontas!")
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'SigafContrapartidaController' object has no attribute '_show_snack'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sigaf_contrapartida_view.py", line 190, in avancar_passo
+    sucesso = self.controller.save_credentials(
+        self.user_input.value, self.pass_input.value, self.system_name
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 39, in save_credentials
+    self._show_snack(f"Erro ao salvar: {e}")
+    ^^^^^^^^^^^^^^^^
+AttributeError: 'SigafContrapartidaController' object has no attribute '_show_snack'
+2026-04-13 10:57:42,380 | INFO | flet | Session was garbage collected: BZgnfnZIWQufQYAj
+2026-04-13 11:01:55,734 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:01:55,735 | INFO | flet | Starting up TCP server on localhost:55110
+2026-04-13 11:01:55,744 | INFO | flet | Flet app has started...
+2026-04-13 11:01:56,130 | INFO | flet | App session started
+2026-04-13 11:01:56,135 | INFO | Router | Navigating to: /
+2026-04-13 11:01:56,145 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:01:57,320 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 11:01:57,816 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-13 11:01:58,504 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 11:01:59,306 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 36, in save_credentials
+    self._show_snack(f"Credenciais do {system_name} prontas!")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 44, in _show_snack
+    self.page.snack_bar = ft.SnackBar(ft.Text(message))
+    ^^^^^^^^^
+AttributeError: 'SigafContrapartidaController' object has no attribute 'page'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sigaf_contrapartida_view.py", line 190, in avancar_passo
+    sucesso = self.controller.save_credentials(
+        self.user_input.value, self.pass_input.value, self.system_name
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 39, in save_credentials
+    self._show_snack(f"Erro ao salvar: {e}")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 44, in _show_snack
+    self.page.snack_bar = ft.SnackBar(ft.Text(message))
+    ^^^^^^^^^
+AttributeError: 'SigafContrapartidaController' object has no attribute 'page'
+2026-04-13 11:02:23,700 | INFO | flet | Session was garbage collected: MLDDfxs7p3UUHE9y
+2026-04-13 11:02:29,496 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:02:29,498 | INFO | flet | Starting up TCP server on localhost:55121
+2026-04-13 11:02:29,505 | INFO | flet | Flet app has started...
+2026-04-13 11:02:29,876 | INFO | flet | App session started
+2026-04-13 11:02:29,881 | INFO | Router | Navigating to: /
+2026-04-13 11:02:29,893 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:02:30,713 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:03:46,259 | INFO | flet | Session was garbage collected: 1ZgJubuOGFyeOui2

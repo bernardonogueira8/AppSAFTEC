@@ -1,4 +1,3 @@
-import sqlite3
 from core.base_model import BaseModel
 from core.database import _connect_sqlite
 

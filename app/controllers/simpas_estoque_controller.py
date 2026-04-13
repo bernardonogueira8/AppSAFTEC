@@ -10,4 +10,4 @@ class SimpasEstoqueController:
         self.model = model or Simpas_estoqueModel
 
     def get_title(self):
-        return "SIMPAS: Cruzamento de Estoque"
+        return "SIMPAS: Cruzamento de Estoque - Em Desenvolvimento"
