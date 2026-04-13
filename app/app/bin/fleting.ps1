@@ -1,1 +1,0 @@
-& "C:\Projects\AppSAFTEC\.venv\Scripts\fleting.exe" @args

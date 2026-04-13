@@ -1,5 +1,6 @@
 from models.plan_ceaf_model import Plan_ceafModel
 
+
 class PlanCeafController:
     """
     Controller for plan_ceaf page

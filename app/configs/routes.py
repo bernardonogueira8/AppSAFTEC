@@ -10,7 +10,6 @@ ROUTES = [
         "show_in_top": True,
         "show_in_bottom": False,
     },
-
     {
         "path": "/simpas_estoque",
         "view": "views.pages.simpas_estoque_view.Simpas_estoqueView",
@@ -19,7 +18,6 @@ ROUTES = [
         "show_in_top": False,
         "show_in_bottom": False,
     },
-
     {
         "path": "/simpas_entradas_saidas",
         "view": "views.pages.simpas_entradas_saidas_view.Simpas_entradas_saidasView",
@@ -28,7 +26,6 @@ ROUTES = [
         "show_in_top": True,
         "show_in_bottom": False,
     },
-
     {
         "path": "/sigaf_contrapartida",
         "view": "views.pages.sigaf_contrapartida_view.Sigaf_contrapartidaView",
@@ -37,7 +34,6 @@ ROUTES = [
         "show_in_top": True,
         "show_in_bottom": False,
     },
-
     {
         "path": "/sigaf_prefeitura",
         "view": "views.pages.sigaf_prefeitura_view.Sigaf_prefeituraView",
@@ -46,7 +42,6 @@ ROUTES = [
         "show_in_top": True,
         "show_in_bottom": False,
     },
-
     {
         "path": "/esus_treina",
         "view": "views.pages.esus_treina_view.Esus_treinaView",
@@ -55,7 +50,6 @@ ROUTES = [
         "show_in_top": True,
         "show_in_bottom": False,
     },
-
     {
         "path": "/sei_caj",
         "view": "views.pages.sei_caj_view.Sei_cajView",
@@ -64,7 +58,6 @@ ROUTES = [
         "show_in_top": True,
         "show_in_bottom": False,
     },
-
     {
         "path": "/sei_dma",
         "view": "views.pages.sei_dma_view.Sei_dmaView",

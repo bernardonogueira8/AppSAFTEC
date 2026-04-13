@@ -1,5 +1,6 @@
 from models.sigaf_prefeitura_model import Sigaf_prefeituraModel
 
+
 class SigafPrefeituraController:
     """
     Controller for sigaf_prefeitura page

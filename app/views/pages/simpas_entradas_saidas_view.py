@@ -2,6 +2,7 @@ import flet as ft
 from views.layouts.main_layout import MainLayout
 from controllers.simpas_entradas_saidas_controller import SimpasEntradasSaidasController
 
+
 class Simpas_entradas_saidasView:
     def __init__(self, page, router):
         self.page = page

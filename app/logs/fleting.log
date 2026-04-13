@@ -221,3 +221,2077 @@ TypeError: EsusTreinaController.__init__() got an unexpected keyword argument 'p
 2026-04-08 14:50:11,920 | INFO | Router | Navigating to: /plan_ceaf
 2026-04-08 14:50:12,256 | INFO | Router | Navigating to: /simpas_entradas_saidas
 2026-04-08 14:50:51,312 | INFO | flet | Session was garbage collected: P8XBfKRoW7xELtfM
+2026-04-08 15:10:11,007 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:10:11,009 | INFO | flet | Starting up TCP server on localhost:56721
+2026-04-08 15:10:11,017 | INFO | flet | Flet app has started...
+2026-04-08 15:10:11,524 | INFO | flet | App session started
+2026-04-08 15:10:11,539 | INFO | Router | Navigating to: /
+2026-04-08 15:10:11,550 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:10:12,601 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-08 15:10:13,041 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-08 15:10:13,489 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-08 15:10:13,929 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-08 15:10:14,337 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-08 15:10:14,794 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:10:15,346 | INFO | Router | Navigating to: /esus_treina
+2026-04-08 15:10:15,365 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 121, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\esus_treina_view.py", line 9, in __init__
+    self.controller = EsusTreinaController()
+                      ~~~~~~~~~~~~~~~~~~~~^^
+TypeError: EsusTreinaController.__init__() missing 1 required positional argument: 'page'
+2026-04-08 15:10:20,068 | INFO | flet | Session was garbage collected: XM9ivre9SneJQtEw
+2026-04-08 15:10:29,180 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:10:29,182 | INFO | flet | Starting up TCP server on localhost:56726
+2026-04-08 15:10:29,190 | INFO | flet | Flet app has started...
+2026-04-08 15:10:29,940 | INFO | flet | App session started
+2026-04-08 15:10:29,949 | INFO | Router | Navigating to: /
+2026-04-08 15:10:29,979 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:10:57,997 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:10:58,901 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:11:00,637 | INFO | Router | Navigating to: /help
+2026-04-08 15:11:01,254 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:11:02,222 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:11:03,705 | INFO | flet | Session was garbage collected: 9OMF7q7bU25LByu7
+2026-04-08 15:15:35,654 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:15:35,656 | INFO | flet | Starting up TCP server on localhost:56843
+2026-04-08 15:15:35,665 | INFO | flet | Flet app has started...
+2026-04-08 15:15:36,092 | INFO | flet | App session started
+2026-04-08 15:15:36,097 | INFO | Router | Navigating to: /
+2026-04-08 15:15:36,113 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:15:39,800 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:15:39,905 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 121, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 9, in __init__
+    self.controller = SeiCajController(page=self.page)
+                      ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+TypeError: SeiCajController.__init__() got an unexpected keyword argument 'page'
+2026-04-08 15:17:10,347 | INFO | flet | Session was garbage collected: dFoWWwdVxZa12cIH
+2026-04-08 15:17:17,234 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:17:17,237 | INFO | flet | Starting up TCP server on localhost:56887
+2026-04-08 15:17:17,244 | INFO | flet | Flet app has started...
+2026-04-08 15:17:17,649 | INFO | flet | App session started
+2026-04-08 15:17:17,654 | INFO | Router | Navigating to: /
+2026-04-08 15:17:17,665 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:17:19,553 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:17:29,426 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:17:30,058 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:17:30,850 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:17:33,571 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:17:37,883 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:17:39,339 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:17:40,187 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:17:43,156 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:18:18,829 | INFO | flet | Session was garbage collected: aswSFayZ1hFvw3Qi
+2026-04-08 15:26:47,848 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:26:47,850 | INFO | flet | Starting up TCP server on localhost:57083
+2026-04-08 15:26:47,858 | INFO | flet | Flet app has started...
+2026-04-08 15:26:48,264 | INFO | flet | App session started
+2026-04-08 15:26:48,269 | INFO | Router | Navigating to: /
+2026-04-08 15:26:48,284 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:26:53,295 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:26:53,927 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:26:53,938 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 121, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~^^^^^^
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 107, in load_view
+    module = importlib.import_module(module_name)
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 759, in exec_module
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 3, in <module>
+    from controllers.sei_caj_controller import SeiCajController
+  File "C:\Projects\AppSAFTEC\app\controllers\sei_caj_controller.py", line 100
+    page.
+         ^
+SyntaxError: invalid syntax
+2026-04-08 15:26:56,518 | INFO | flet | Session was garbage collected: aYHZyrbWDeTWcdnq
+2026-04-08 15:27:15,415 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:27:15,417 | INFO | flet | Starting up TCP server on localhost:57097
+2026-04-08 15:27:15,425 | INFO | flet | Flet app has started...
+2026-04-08 15:27:15,922 | INFO | flet | App session started
+2026-04-08 15:27:15,927 | INFO | Router | Navigating to: /
+2026-04-08 15:27:15,939 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:27:17,137 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:28:12,637 | INFO | flet | Session was garbage collected: cmbx5aoYMn8F1aot
+2026-04-08 15:36:22,912 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:36:22,914 | INFO | flet | Starting up TCP server on localhost:57308
+2026-04-08 15:36:22,922 | INFO | flet | Flet app has started...
+2026-04-08 15:36:23,316 | INFO | flet | App session started
+2026-04-08 15:36:23,321 | INFO | Router | Navigating to: /
+2026-04-08 15:36:23,338 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:36:24,716 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:36:25,332 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:36:25,345 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 16, in __init__
+    "Nenhum arquivo selecionado", color=ft.colors.GREY_500
+                                        ^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\__init__.py", line 1190, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+AttributeError: module 'flet' has no attribute 'colors'. Did you mean: 'Colors'?
+2026-04-08 15:36:28,621 | INFO | flet | Session was garbage collected: ZKRkVtI705bvaDZe
+2026-04-08 15:36:47,669 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:36:47,671 | INFO | flet | Starting up TCP server on localhost:57321
+2026-04-08 15:36:47,678 | INFO | flet | Flet app has started...
+2026-04-08 15:36:48,085 | INFO | flet | App session started
+2026-04-08 15:36:48,089 | INFO | Router | Navigating to: /
+2026-04-08 15:36:48,101 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:36:49,126 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:36:49,226 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 18, in __init__
+    self.file_picker = ft.FilePicker(on_result=self.on_file_selected)
+                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-08 15:36:50,756 | INFO | flet | Session was garbage collected: 8ZVeMCFvZU7bHZAJ
+2026-04-08 15:37:05,233 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:37:05,235 | INFO | flet | Starting up TCP server on localhost:57331
+2026-04-08 15:37:05,242 | INFO | flet | Flet app has started...
+2026-04-08 15:37:05,738 | INFO | flet | App session started
+2026-04-08 15:37:05,743 | INFO | Router | Navigating to: /
+2026-04-08 15:37:05,756 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:37:07,023 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:37:07,107 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 18, in __init__
+    self.file_picker = ft.FilePicker(on_result=self.on_file_selected)
+                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-08 15:39:25,096 | INFO | flet | Session was garbage collected: BAIkqJxntosq2g04
+2026-04-08 15:39:28,858 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:39:28,860 | INFO | flet | Starting up TCP server on localhost:57363
+2026-04-08 15:39:28,868 | INFO | flet | Flet app has started...
+2026-04-08 15:39:29,364 | INFO | flet | App session started
+2026-04-08 15:39:29,369 | INFO | Router | Navigating to: /
+2026-04-08 15:39:29,381 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:39:30,437 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:39:42,114 | INFO | flet | Session was garbage collected: BLeondTG3Xq33sPk
+2026-04-08 15:40:03,396 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:40:03,398 | INFO | flet | Starting up TCP server on localhost:57372
+2026-04-08 15:40:03,406 | INFO | flet | Flet app has started...
+2026-04-08 15:40:03,890 | INFO | flet | App session started
+2026-04-08 15:40:03,894 | INFO | Router | Navigating to: /
+2026-04-08 15:40:03,908 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:40:05,072 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:40:15,463 | INFO | flet | Session was garbage collected: HC7M8LqIzGH0hovA
+2026-04-08 15:42:52,895 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:42:52,897 | INFO | flet | Starting up TCP server on localhost:57416
+2026-04-08 15:42:52,905 | INFO | flet | Flet app has started...
+2026-04-08 15:42:53,475 | INFO | flet | App session started
+2026-04-08 15:42:53,480 | INFO | Router | Navigating to: /
+2026-04-08 15:42:53,496 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:42:54,791 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:42:54,891 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 15, in __init__
+    self.texto_arquivo = ft.Text("Nenhum arquivo selecionado", color=ft.colors.GREY_500)
+                                                                     ^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\__init__.py", line 1190, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+AttributeError: module 'flet' has no attribute 'colors'. Did you mean: 'Colors'?
+2026-04-08 15:42:58,068 | INFO | flet | Session was garbage collected: 9pwjryW0ZAH1zc03
+2026-04-08 15:43:13,770 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:43:13,772 | INFO | flet | Starting up TCP server on localhost:57424
+2026-04-08 15:43:13,780 | INFO | flet | Flet app has started...
+2026-04-08 15:43:14,274 | INFO | flet | App session started
+2026-04-08 15:43:14,279 | INFO | Router | Navigating to: /
+2026-04-08 15:43:14,291 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:43:15,121 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:43:15,222 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 18, in __init__
+    self.file_picker = ft.FilePicker(on_result=self.on_file_selected)
+                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-08 15:43:18,572 | INFO | flet | Session was garbage collected: w3qPkNySG2LP8Mgn
+2026-04-08 15:45:23,125 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:45:23,127 | INFO | flet | Starting up TCP server on localhost:51159
+2026-04-08 15:45:23,135 | INFO | flet | Flet app has started...
+2026-04-08 15:45:23,625 | INFO | flet | App session started
+2026-04-08 15:45:23,630 | INFO | Router | Navigating to: /
+2026-04-08 15:45:23,646 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:45:24,749 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:45:26,078 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:45:26,082 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 18, in __init__
+    self.file_picker = ft.FilePicker(on_result=self.on_file_selected)
+                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-08 15:45:28,039 | INFO | flet | Session was garbage collected: 2Vl1XjYUtnOCaW5S
+2026-04-08 15:46:57,642 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:46:57,644 | INFO | flet | Starting up TCP server on localhost:51264
+2026-04-08 15:46:57,653 | INFO | flet | Flet app has started...
+2026-04-08 15:46:58,063 | INFO | flet | App session started
+2026-04-08 15:46:58,068 | INFO | Router | Navigating to: /
+2026-04-08 15:46:58,081 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:46:59,544 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:47:00,088 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:50:39,880 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:50:39,882 | INFO | flet | Starting up TCP server on localhost:51324
+2026-04-08 15:50:39,889 | INFO | flet | Flet app has started...
+2026-04-08 15:50:40,294 | INFO | flet | App session started
+2026-04-08 15:50:40,298 | INFO | Router | Navigating to: /
+2026-04-08 15:50:40,314 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:50:41,789 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:50:42,700 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:50:42,713 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 138, in render
+    ft.Button(
+    ~~~~~~~~~^
+        text="Selecionar anexo",
+        ^^^^^^^^^^^^^^^^^^^^^^^^
+        icon=ft.Icons.ATTACH_FILE,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        on_click=self.abrir_seletor
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+TypeError: Button.__init__() got an unexpected keyword argument 'text'
+2026-04-08 15:51:46,350 | INFO | flet | Session was garbage collected: Pcf7LgKfaggpc1gp
+2026-04-08 15:51:52,141 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:51:52,143 | INFO | flet | Starting up TCP server on localhost:51357
+2026-04-08 15:51:52,152 | INFO | flet | Flet app has started...
+2026-04-08 15:51:52,552 | INFO | flet | App session started
+2026-04-08 15:51:52,557 | INFO | Router | Navigating to: /
+2026-04-08 15:51:52,568 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:51:53,748 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:51:54,476 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:51:55,700 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:52:00,571 | INFO | flet | Session was garbage collected: HnpY8tb1DpMXTh4B
+2026-04-08 15:53:26,206 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:53:26,208 | INFO | flet | Starting up TCP server on localhost:51385
+2026-04-08 15:53:26,256 | INFO | flet | Flet app has started...
+2026-04-08 15:53:26,692 | INFO | flet | App session started
+2026-04-08 15:53:26,697 | INFO | Router | Navigating to: /
+2026-04-08 15:53:26,708 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:53:27,887 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:53:28,655 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:53:28,663 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 16, in __init__
+    self.texto_arquivo = ft.Text("Nenhum arquivo selecionado", color=ft.colors.GREY_500)
+                                                                     ^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\__init__.py", line 1190, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+AttributeError: module 'flet' has no attribute 'colors'. Did you mean: 'Colors'?
+2026-04-08 15:53:32,545 | INFO | flet | Session was garbage collected: qLe33g1iWDditQFT
+2026-04-08 15:54:02,969 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:54:02,971 | INFO | flet | Starting up TCP server on localhost:51400
+2026-04-08 15:54:02,978 | INFO | flet | Flet app has started...
+2026-04-08 15:54:03,375 | INFO | flet | App session started
+2026-04-08 15:54:03,379 | INFO | Router | Navigating to: /
+2026-04-08 15:54:03,391 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:54:04,555 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:54:05,027 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:54:05,037 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 52, in render
+    pass_padrao = credenciais[3] if credenciais else ""
+                  ~~~~~~~~~~~^^^
+IndexError: tuple index out of range
+2026-04-08 15:54:25,312 | INFO | flet | Session was garbage collected: lbptbEJaiwdjK2sf
+2026-04-08 15:54:29,178 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:54:29,180 | INFO | flet | Starting up TCP server on localhost:51414
+2026-04-08 15:54:29,187 | INFO | flet | Flet app has started...
+2026-04-08 15:54:29,720 | INFO | flet | App session started
+2026-04-08 15:54:29,725 | INFO | Router | Navigating to: /
+2026-04-08 15:54:29,735 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:54:30,782 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:54:31,446 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:54:45,816 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:54:46,704 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:54:48,762 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 32, in abrir_seletor
+    await self.file_picker.pick_files()
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(105).pick_files
+2026-04-08 15:54:49,537 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 32, in abrir_seletor
+    await self.file_picker.pick_files()
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(105).pick_files
+2026-04-08 15:54:49,753 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 32, in abrir_seletor
+    await self.file_picker.pick_files()
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(105).pick_files
+2026-04-08 15:54:50,232 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 32, in abrir_seletor
+    await self.file_picker.pick_files()
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(105).pick_files
+2026-04-08 15:54:50,496 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 32, in abrir_seletor
+    await self.file_picker.pick_files()
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(105).pick_files
+2026-04-08 15:54:50,962 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 32, in abrir_seletor
+    await self.file_picker.pick_files()
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(105).pick_files
+2026-04-08 15:54:52,458 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 32, in abrir_seletor
+    await self.file_picker.pick_files()
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(105).pick_files
+2026-04-08 15:54:52,978 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 32, in abrir_seletor
+    await self.file_picker.pick_files()
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(105).pick_files
+2026-04-08 15:54:53,235 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 32, in abrir_seletor
+    await self.file_picker.pick_files()
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(105).pick_files
+2026-04-08 15:54:53,466 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 32, in abrir_seletor
+    await self.file_picker.pick_files()
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(105).pick_files
+2026-04-08 15:54:53,762 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 32, in abrir_seletor
+    await self.file_picker.pick_files()
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(105).pick_files
+2026-04-08 15:54:59,732 | INFO | flet | Session was garbage collected: XQ3r8mriRkbXlApj
+2026-04-08 15:55:04,868 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-08 15:55:04,871 | INFO | flet | Starting up TCP server on localhost:51429
+2026-04-08 15:55:04,880 | INFO | flet | Flet app has started...
+2026-04-08 15:55:05,382 | INFO | flet | App session started
+2026-04-08 15:55:05,387 | INFO | Router | Navigating to: /
+2026-04-08 15:55:05,406 | INFO | App | Aplicação iniciada com sucesso
+2026-04-08 15:55:06,354 | INFO | Router | Navigating to: /sei_dma
+2026-04-08 15:55:07,002 | INFO | Router | Navigating to: /sei_caj
+2026-04-08 15:55:09,953 | INFO | flet | Session was garbage collected: OtXWCwKcqrHsUY6E
+2026-04-09 13:42:53,390 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:42:53,394 | INFO | flet | Starting up TCP server on localhost:53171
+2026-04-09 13:42:53,404 | INFO | flet | Flet app has started...
+2026-04-09 13:42:54,547 | INFO | flet | App session started
+2026-04-09 13:42:54,567 | INFO | Router | Navigating to: /
+2026-04-09 13:42:54,580 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:42:56,957 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:42:57,164 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 94, in render
+    padding=ft.Padding(vertical=10, horizontal=15),
+            ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\value_types.py", line 197, in _value_init
+    orig_init(self, *args, **kwargs)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Padding.__init__() got an unexpected keyword argument 'vertical'
+2026-04-09 13:43:18,462 | INFO | flet | Session was garbage collected: IQ4e6DD4rD5IrS8h
+2026-04-09 13:43:23,754 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:43:23,756 | INFO | flet | Starting up TCP server on localhost:53183
+2026-04-09 13:43:23,762 | INFO | flet | Flet app has started...
+2026-04-09 13:43:24,360 | INFO | flet | App session started
+2026-04-09 13:43:24,364 | INFO | Router | Navigating to: /
+2026-04-09 13:43:24,380 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:43:27,656 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:43:27,762 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 91, in render
+    style=ft.ButtonStyle(
+          ~~~~~~~~~~~~~~^
+        bgcolor=ft.Colors.TRANSPARENT,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        border=ft.Border(bottom=ft.BorderSide(1, ft.Colors.GREY_400)),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\value_types.py", line 197, in _value_init
+    orig_init(self, *args, **kwargs)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: ButtonStyle.__init__() got an unexpected keyword argument 'border'
+2026-04-09 13:43:32,065 | INFO | flet | Session was garbage collected: VMGnM2Up5bSWKhfp
+2026-04-09 13:43:42,215 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:43:42,216 | INFO | flet | Starting up TCP server on localhost:53190
+2026-04-09 13:43:42,223 | INFO | flet | Flet app has started...
+2026-04-09 13:43:42,599 | INFO | flet | App session started
+2026-04-09 13:43:42,603 | INFO | Router | Navigating to: /
+2026-04-09 13:43:42,615 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:43:43,757 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:44:51,895 | INFO | flet | Session was garbage collected: oNu7vqDx4UVP1tjH
+2026-04-09 13:47:55,511 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:47:55,513 | INFO | flet | Starting up TCP server on localhost:53257
+2026-04-09 13:47:55,519 | INFO | flet | Flet app has started...
+2026-04-09 13:47:55,902 | INFO | flet | App session started
+2026-04-09 13:47:55,906 | INFO | Router | Navigating to: /
+2026-04-09 13:47:55,921 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:47:57,320 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:47:57,408 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 91, in render
+    on_click=handle_pick_files,
+             ^^^^^^^^^^^^^^^^^
+NameError: name 'handle_pick_files' is not defined
+2026-04-09 13:48:00,414 | INFO | flet | Session was garbage collected: 4hCHARjlTGaAeOO7
+2026-04-09 13:48:13,596 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:48:13,598 | INFO | flet | Starting up TCP server on localhost:53268
+2026-04-09 13:48:13,605 | INFO | flet | Flet app has started...
+2026-04-09 13:48:13,990 | INFO | flet | App session started
+2026-04-09 13:48:13,993 | INFO | Router | Navigating to: /
+2026-04-09 13:48:14,004 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:48:15,310 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:48:15,395 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 91, in render
+    on_click=handle_pick_files,
+             ^^^^^^^^^^^^^^^^^
+NameError: name 'handle_pick_files' is not defined
+2026-04-09 13:48:17,240 | INFO | flet | Session was garbage collected: CwDcEIR6IFPcqYmw
+2026-04-09 13:48:27,900 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:48:27,902 | INFO | flet | Starting up TCP server on localhost:53275
+2026-04-09 13:48:27,909 | INFO | flet | Flet app has started...
+2026-04-09 13:48:28,290 | INFO | flet | App session started
+2026-04-09 13:48:28,294 | INFO | Router | Navigating to: /
+2026-04-09 13:48:28,305 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:48:29,461 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:48:29,545 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 91, in render
+    on_click=handle_pick_files,
+             ^^^^^^^^^^^^^^^^^
+NameError: name 'handle_pick_files' is not defined
+2026-04-09 13:48:31,907 | INFO | flet | Session was garbage collected: cBcu8N88f35LLrwG
+2026-04-09 13:51:49,637 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:51:49,639 | INFO | flet | Starting up TCP server on localhost:53322
+2026-04-09 13:51:49,646 | INFO | flet | Flet app has started...
+2026-04-09 13:51:50,037 | INFO | flet | App session started
+2026-04-09 13:51:50,041 | INFO | Router | Navigating to: /
+2026-04-09 13:51:50,051 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:51:50,974 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:51:51,064 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 91, in render
+    on_click=handle_pick_files,
+             ^^^^^^^^^^^^^^^^^
+NameError: name 'handle_pick_files' is not defined
+2026-04-09 13:51:54,164 | INFO | flet | Session was garbage collected: KbXS3ftVm97QowSa
+2026-04-09 13:52:16,554 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:52:16,559 | INFO | flet | Starting up TCP server on localhost:53330
+2026-04-09 13:52:16,570 | INFO | flet | Flet app has started...
+2026-04-09 13:52:16,986 | INFO | flet | App session started
+2026-04-09 13:52:16,991 | INFO | Router | Navigating to: /
+2026-04-09 13:52:17,007 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:52:18,163 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:52:18,248 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 91, in render
+    on_click=handle_pick_files,
+             ^^^^^^^^^^^^^^^^^
+NameError: name 'handle_pick_files' is not defined
+2026-04-09 13:52:19,652 | INFO | flet | Session was garbage collected: ynunwv2OyJHP3RhE
+2026-04-09 13:52:25,520 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:52:25,521 | INFO | flet | Starting up TCP server on localhost:53337
+2026-04-09 13:52:25,529 | INFO | flet | Flet app has started...
+2026-04-09 13:52:25,924 | INFO | flet | App session started
+2026-04-09 13:52:25,928 | INFO | Router | Navigating to: /
+2026-04-09 13:52:25,939 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:52:26,866 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:52:26,951 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 91, in render
+    on_click=handle_pick_files,
+             ^^^^^^^^^^^^^^^^^
+NameError: name 'handle_pick_files' is not defined
+2026-04-09 13:52:29,321 | INFO | flet | Session was garbage collected: naVua53QjVnr5BWC
+2026-04-09 13:53:01,358 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:53:01,360 | INFO | flet | Starting up TCP server on localhost:53350
+2026-04-09 13:53:01,367 | INFO | flet | Flet app has started...
+2026-04-09 13:53:01,752 | INFO | flet | App session started
+2026-04-09 13:53:01,755 | INFO | Router | Navigating to: /
+2026-04-09 13:53:01,766 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:53:02,911 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:53:03,000 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 13, in __init__
+    self.file_picker = ft.FilePicker(on_result=self.on_file_picked)
+                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-09 13:53:05,825 | INFO | flet | Session was garbage collected: M2iJFHbY7MjmEjEL
+2026-04-09 13:53:38,249 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:53:38,250 | INFO | flet | Starting up TCP server on localhost:53365
+2026-04-09 13:53:38,257 | INFO | flet | Flet app has started...
+2026-04-09 13:53:38,634 | INFO | flet | App session started
+2026-04-09 13:53:38,637 | INFO | Router | Navigating to: /
+2026-04-09 13:53:38,648 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:53:39,845 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:53:39,928 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 13, in __init__
+    self.file_picker = ft.FilePicker(on_result=self.on_file_picked)
+                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-09 13:53:43,206 | INFO | flet | Session was garbage collected: P2gkKkCA3iFArksJ
+2026-04-09 13:54:12,344 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:54:12,346 | INFO | flet | Starting up TCP server on localhost:53397
+2026-04-09 13:54:12,357 | INFO | flet | Flet app has started...
+2026-04-09 13:54:12,781 | INFO | flet | App session started
+2026-04-09 13:54:12,790 | INFO | Router | Navigating to: /
+2026-04-09 13:54:12,810 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:54:14,523 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:54:14,607 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 13, in __init__
+    self.file_picker = ft.FilePicker(on_result=self.on_file_picked)
+                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-09 13:55:10,026 | INFO | flet | Session was garbage collected: DffES6Mv5Hw4bb7c
+2026-04-09 13:55:14,122 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:55:14,125 | INFO | flet | Starting up TCP server on localhost:53409
+2026-04-09 13:55:14,132 | INFO | flet | Flet app has started...
+2026-04-09 13:55:14,517 | INFO | flet | App session started
+2026-04-09 13:55:14,521 | INFO | Router | Navigating to: /
+2026-04-09 13:55:14,532 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:55:15,791 | INFO | Router | Navigating to: /esus_treina
+2026-04-09 13:55:15,804 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\esus_treina_view.py", line 10, in __init__
+    self.controller = EsusTreinaController()
+                      ~~~~~~~~~~~~~~~~~~~~^^
+TypeError: EsusTreinaController.__init__() missing 1 required positional argument: 'page'
+2026-04-09 13:55:18,904 | INFO | flet | Session was garbage collected: fBrFAoEPPfMMXGhW
+2026-04-09 13:55:23,830 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:55:23,831 | INFO | flet | Starting up TCP server on localhost:53413
+2026-04-09 13:55:23,839 | INFO | flet | Flet app has started...
+2026-04-09 13:55:24,261 | INFO | flet | App session started
+2026-04-09 13:55:24,266 | INFO | Router | Navigating to: /
+2026-04-09 13:55:24,281 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:55:31,338 | INFO | flet | Session was garbage collected: kW8ciU14x0RxRfxm
+2026-04-09 13:55:35,171 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:55:35,173 | INFO | flet | Starting up TCP server on localhost:53419
+2026-04-09 13:55:35,180 | INFO | flet | Flet app has started...
+2026-04-09 13:55:35,681 | INFO | flet | App session started
+2026-04-09 13:55:35,686 | INFO | Router | Navigating to: /
+2026-04-09 13:55:35,699 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:55:37,341 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-09 13:55:38,069 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-09 13:55:38,709 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-09 13:55:39,341 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-09 13:55:40,694 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:55:40,797 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 119, in render
+    ft.Button(
+    ~~~~~~~~~^
+        text="Escolher Arquivos",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        icon=ft.Icons.UPLOAD_FILE,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        on_click=self.handle_pick_files,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+TypeError: Button.__init__() got an unexpected keyword argument 'text'
+2026-04-09 13:56:38,972 | INFO | flet | Session was garbage collected: EjFEUKCaQ1oxpSKE
+2026-04-09 13:56:42,907 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 13:56:42,908 | INFO | flet | Starting up TCP server on localhost:53435
+2026-04-09 13:56:42,916 | INFO | flet | Flet app has started...
+2026-04-09 13:56:43,421 | INFO | flet | App session started
+2026-04-09 13:56:43,426 | INFO | Router | Navigating to: /
+2026-04-09 13:56:43,439 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 13:56:44,346 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 13:56:44,436 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 119, in render
+    ft.ElevatedButton( # <--- Mudámos para ElevatedButton
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        text="Escolher Arquivos",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^
+        icon=ft.Icons.UPLOAD_FILE,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        on_click=self.handle_pick_files,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\utils\deprecated.py", line 122, in new_init
+    orig_init(self, *args, **kwargs)
+    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: Button.__init__() got an unexpected keyword argument 'text'
+2026-04-09 13:56:46,870 | INFO | flet | Session was garbage collected: 2msH4Z0b5YPnuoIx
+2026-04-09 14:16:04,752 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:16:04,755 | INFO | flet | Starting up TCP server on localhost:53856
+2026-04-09 14:16:04,763 | INFO | flet | Flet app has started...
+2026-04-09 14:16:05,161 | INFO | flet | App session started
+2026-04-09 14:16:05,166 | INFO | Router | Navigating to: /
+2026-04-09 14:16:05,175 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:16:06,406 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:16:21,217 | INFO | flet | Session was garbage collected: VUh2ohPY8uSHNjNk
+2026-04-09 14:17:53,001 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:17:53,003 | INFO | flet | Starting up TCP server on localhost:53868
+2026-04-09 14:17:53,011 | INFO | flet | Flet app has started...
+2026-04-09 14:17:53,394 | INFO | flet | App session started
+2026-04-09 14:17:53,397 | INFO | Router | Navigating to: /
+2026-04-09 14:17:53,408 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:17:54,577 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:18:07,117 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:08,068 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:08,658 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:09,170 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:09,427 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:09,691 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:09,947 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:10,276 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:10,603 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:12,405 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:12,986 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:13,435 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:13,867 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:15,179 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:15,932 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:18:31,750 | INFO | flet | Session was garbage collected: ebmbIbVYnYuiMO7v
+2026-04-09 14:18:38,623 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:18:38,626 | INFO | flet | Starting up TCP server on localhost:53879
+2026-04-09 14:18:38,632 | INFO | flet | Flet app has started...
+2026-04-09 14:18:39,107 | INFO | flet | App session started
+2026-04-09 14:18:39,110 | INFO | Router | Navigating to: /
+2026-04-09 14:18:39,123 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:18:42,187 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:18:55,468 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:19:34,713 | INFO | flet | Session was garbage collected: HXwc5RXYasgg92tN
+2026-04-09 14:20:03,918 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:20:03,920 | INFO | flet | Starting up TCP server on localhost:53894
+2026-04-09 14:20:03,927 | INFO | flet | Flet app has started...
+2026-04-09 14:20:04,327 | INFO | flet | App session started
+2026-04-09 14:20:04,332 | INFO | Router | Navigating to: /
+2026-04-09 14:20:04,343 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:20:05,582 | INFO | Router | Navigating to: /sei_dma
+2026-04-09 14:20:06,294 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:20:18,322 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 31, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(104).pick_files
+2026-04-09 14:21:41,150 | INFO | flet | Session was garbage collected: XdPme3dWhruTH0du
+2026-04-09 14:21:44,756 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:21:44,758 | INFO | flet | Starting up TCP server on localhost:53922
+2026-04-09 14:21:44,766 | INFO | flet | Flet app has started...
+2026-04-09 14:21:45,275 | INFO | flet | App session started
+2026-04-09 14:21:45,280 | INFO | Router | Navigating to: /
+2026-04-09 14:21:45,295 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:21:46,409 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:21:50,527 | INFO | flet | Session was garbage collected: bbjoGxOEuW8jAz1c
+2026-04-09 14:23:59,262 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:23:59,263 | INFO | flet | Starting up TCP server on localhost:53971
+2026-04-09 14:23:59,271 | INFO | flet | Flet app has started...
+2026-04-09 14:23:59,773 | INFO | flet | App session started
+2026-04-09 14:23:59,776 | INFO | Router | Navigating to: /
+2026-04-09 14:23:59,787 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:24:01,238 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:24:13,418 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 33, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:24:15,052 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 33, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:24:15,526 | INFO | flet | Session was garbage collected: a4tJnN4qZnwY4MlM
+2026-04-09 14:25:50,167 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:25:50,169 | INFO | flet | Starting up TCP server on localhost:53984
+2026-04-09 14:25:50,177 | INFO | flet | Flet app has started...
+2026-04-09 14:25:50,680 | INFO | flet | App session started
+2026-04-09 14:25:50,686 | INFO | Router | Navigating to: /
+2026-04-09 14:25:50,700 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:25:53,482 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:25:53,585 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 15, in __init__
+    self.file_picker = ft.FilePicker(on_result=self.on_file_picked)
+                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-09 14:26:43,008 | INFO | flet | Session was garbage collected: bb9iULlmq0BGzjY4
+2026-04-09 14:26:46,976 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:26:46,978 | INFO | flet | Starting up TCP server on localhost:64662
+2026-04-09 14:26:46,985 | INFO | flet | Flet app has started...
+2026-04-09 14:26:47,431 | INFO | flet | App session started
+2026-04-09 14:26:47,434 | INFO | Router | Navigating to: /
+2026-04-09 14:26:47,444 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:26:48,805 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:27:05,048 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 22, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:29:55,693 | INFO | flet | Session was garbage collected: C3MGZF9dMc3KUiNf
+2026-04-09 14:29:59,855 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:29:59,856 | INFO | flet | Starting up TCP server on localhost:64708
+2026-04-09 14:29:59,863 | INFO | flet | Flet app has started...
+2026-04-09 14:30:00,254 | INFO | flet | App session started
+2026-04-09 14:30:00,257 | INFO | Router | Navigating to: /
+2026-04-09 14:30:00,268 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:30:01,501 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:30:08,994 | INFO | flet | Session was garbage collected: gDzUfrhXKOFSeNRC
+2026-04-09 14:30:15,268 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:30:15,270 | INFO | flet | Starting up TCP server on localhost:64722
+2026-04-09 14:30:15,276 | INFO | flet | Flet app has started...
+2026-04-09 14:30:15,786 | INFO | flet | App session started
+2026-04-09 14:30:15,792 | INFO | Router | Navigating to: /
+2026-04-09 14:30:15,806 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:30:17,086 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:30:30,352 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 34, in handle_pick_files
+    await self.file_picker.pick_files(allow_multiple=True)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\services\file_picker.py", line 332, in pick_files
+    files = await self._invoke_method(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<10 lines>...
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 398, in _invoke_method
+    return await self.page.session.invoke_method(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._i, method_name, arguments, timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 392, in invoke_method
+    raise RuntimeError(err)
+RuntimeError: TimeoutException after 0:00:10.000000: Timeout waiting for invoke method listener for FilePicker(47).pick_files
+2026-04-09 14:33:38,599 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:33:38,601 | INFO | flet | Starting up TCP server on localhost:64722
+2026-04-09 14:33:38,609 | INFO | flet | Flet app has started...
+2026-04-09 14:33:39,316 | INFO | flet | App session started
+2026-04-09 14:33:39,320 | INFO | Router | Navigating to: /
+2026-04-09 14:33:39,332 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:33:41,852 | INFO | flet | Session was garbage collected: PTeb3ssA5eIp91fm
+2026-04-09 14:33:46,270 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:33:46,272 | INFO | flet | Starting up TCP server on localhost:64777
+2026-04-09 14:33:46,279 | INFO | flet | Flet app has started...
+2026-04-09 14:33:46,665 | INFO | flet | App session started
+2026-04-09 14:33:46,669 | INFO | Router | Navigating to: /
+2026-04-09 14:33:46,680 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:33:47,759 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:33:51,636 | INFO | flet | Session was garbage collected: PsfYSkzzUO9k3oZt
+2026-04-09 14:46:16,005 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:46:16,011 | INFO | flet | Starting up TCP server on localhost:64980
+2026-04-09 14:46:16,019 | INFO | flet | Flet app has started...
+2026-04-09 14:46:17,537 | INFO | flet | App session started
+2026-04-09 14:46:17,542 | INFO | Router | Navigating to: /
+2026-04-09 14:46:17,570 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:46:21,197 | INFO | Router | Navigating to: /sei_dma
+2026-04-09 14:46:23,693 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:46:29,509 | INFO | Router | Navigating to: /sei_dma
+2026-04-09 14:46:30,309 | INFO | Router | Navigating to: /esus_treina
+2026-04-09 14:46:30,314 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\esus_treina_view.py", line 10, in __init__
+    self.controller = EsusTreinaController()
+                      ~~~~~~~~~~~~~~~~~~~~^^
+TypeError: EsusTreinaController.__init__() missing 1 required positional argument: 'page'
+2026-04-09 14:46:45,194 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:46:45,195 | INFO | flet | Starting up TCP server on localhost:64992
+2026-04-09 14:46:45,203 | INFO | flet | Flet app has started...
+2026-04-09 14:46:46,872 | INFO | flet | App session started
+2026-04-09 14:46:46,878 | INFO | Router | Navigating to: /
+2026-04-09 14:46:46,905 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:47:50,430 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:47:50,431 | INFO | flet | Starting up TCP server on localhost:65032
+2026-04-09 14:47:50,438 | INFO | flet | Flet app has started...
+2026-04-09 14:47:51,745 | INFO | flet | App session started
+2026-04-09 14:47:51,749 | INFO | Router | Navigating to: /
+2026-04-09 14:47:51,765 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:47:53,498 | INFO | Router | Navigating to: /esus_treina
+2026-04-09 14:47:53,510 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\esus_treina_view.py", line 10, in __init__
+    self.controller = EsusTreinaController()
+                      ~~~~~~~~~~~~~~~~~~~~^^
+TypeError: EsusTreinaController.__init__() missing 1 required positional argument: 'page'
+2026-04-09 14:48:31,835 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:48:31,836 | INFO | flet | Starting up TCP server on localhost:65050
+2026-04-09 14:48:31,843 | INFO | flet | Flet app has started...
+2026-04-09 14:48:33,238 | INFO | flet | App session started
+2026-04-09 14:48:33,244 | INFO | Router | Navigating to: /
+2026-04-09 14:48:33,269 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:48:37,788 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:48:38,844 | INFO | Router | Navigating to: /esus_treina
+2026-04-09 14:48:38,852 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\esus_treina_view.py", line 10, in __init__
+    self.controller = EsusTreinaController(page=self.page)
+                      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\controllers\esus_treina_controller.py", line 18, in __init__
+    self.model = model or Esus_treinaModel(db_connection)
+                          ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: Esus_treinaModel() takes no arguments
+2026-04-09 14:48:51,649 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:48:51,651 | INFO | flet | Starting up TCP server on localhost:65061
+2026-04-09 14:48:51,657 | INFO | flet | Flet app has started...
+2026-04-09 14:48:53,004 | INFO | flet | App session started
+2026-04-09 14:48:53,009 | INFO | Router | Navigating to: /
+2026-04-09 14:48:53,027 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:48:54,740 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:51:03,112 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:51:03,114 | INFO | flet | Starting up TCP server on localhost:65097
+2026-04-09 14:51:03,120 | INFO | flet | Flet app has started...
+2026-04-09 14:51:04,417 | INFO | flet | App session started
+2026-04-09 14:51:04,422 | INFO | Router | Navigating to: /
+2026-04-09 14:51:04,441 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:51:05,828 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:51:08,118 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 193, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 318, in _trigger_event
+    await event_handler(e)
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 23, in handle_pick_files
+    self.page.overlay = [c for c in self.page.overlay if type(c).__name__ != "FilePicker"]
+    ^^^^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\.venv\Lib\site-packages\flet\controls\object_patch.py", line 1181, in control_setattr
+    object.__setattr__(obj, name, value)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+AttributeError: property 'overlay' of 'Page' object has no setter
+2026-04-09 14:52:00,672 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:52:00,673 | INFO | flet | Starting up TCP server on localhost:65110
+2026-04-09 14:52:00,680 | INFO | flet | Flet app has started...
+2026-04-09 14:52:01,884 | INFO | flet | App session started
+2026-04-09 14:52:01,888 | INFO | Router | Navigating to: /
+2026-04-09 14:52:01,905 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:52:03,373 | INFO | Router | Navigating to: /sei_dma
+2026-04-09 14:52:05,591 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:54:50,112 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:54:50,113 | INFO | flet | Starting up TCP server on localhost:65195
+2026-04-09 14:54:50,120 | INFO | flet | Flet app has started...
+2026-04-09 14:54:51,583 | INFO | flet | App session started
+2026-04-09 14:54:51,588 | INFO | Router | Navigating to: /
+2026-04-09 14:54:51,609 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:54:53,376 | INFO | Router | Navigating to: /sei_dma
+2026-04-09 14:54:54,000 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:57:04,460 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:57:04,462 | INFO | flet | Starting up TCP server on localhost:65215
+2026-04-09 14:57:04,469 | INFO | flet | Flet app has started...
+2026-04-09 14:57:05,788 | INFO | flet | App session started
+2026-04-09 14:57:05,792 | INFO | Router | Navigating to: /
+2026-04-09 14:57:05,809 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:57:06,921 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:57:07,020 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Projects\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Projects\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Projects\AppSAFTEC\app\views\pages\sei_caj_view.py", line 16, in __init__
+    self.file_picker = ft.FilePicker(on_result=self.on_file_picked)
+                       ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-09 14:57:52,364 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:57:52,365 | INFO | flet | Starting up TCP server on localhost:65232
+2026-04-09 14:57:52,373 | INFO | flet | Flet app has started...
+2026-04-09 14:57:53,633 | INFO | flet | App session started
+2026-04-09 14:57:53,637 | INFO | Router | Navigating to: /
+2026-04-09 14:57:53,655 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:57:54,605 | INFO | Router | Navigating to: /sei_caj
+2026-04-09 14:59:02,031 | INFO | flet | Assets path configured: C:\Projects\AppSAFTEC\app\assets
+2026-04-09 14:59:02,032 | INFO | flet | Starting up TCP server on localhost:65250
+2026-04-09 14:59:02,039 | INFO | flet | Flet app has started...
+2026-04-09 14:59:03,530 | INFO | flet | App session started
+2026-04-09 14:59:03,539 | INFO | Router | Navigating to: /
+2026-04-09 14:59:03,582 | INFO | App | Aplicação iniciada com sucesso
+2026-04-09 14:59:05,476 | INFO | Router | Navigating to: /sei_caj
+2026-04-10 17:02:46,545 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-10 17:02:46,567 | INFO | flet | Starting up TCP server on localhost:55730
+2026-04-10 17:02:46,578 | INFO | flet | Flet app has started...
+2026-04-10 17:02:47,718 | INFO | flet | App session started
+2026-04-10 17:02:47,735 | INFO | Router | Navigating to: /
+2026-04-10 17:02:47,748 | INFO | App | Aplicação iniciada com sucesso
+2026-04-10 17:02:50,855 | INFO | Router | Navigating to: /sei_dma
+2026-04-10 17:05:13,563 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: FIX: Falha no envio de e-mails para domínios Gmail e Ebserh
+2026-04-10 17:05:17,852 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: FIX: Falha no envio de e-mails para domínios Gmail e Ebserh
+2026-04-10 17:05:24,374 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-10 17:05:25,747 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-10 17:05:29,156 | ERROR | App | Erro: Locator.fill: Target page, context or browser has been closed
+Call log:
+  - waiting for get_by_role("textbox", name="Usuário")
+
+2026-04-10 17:06:07,065 | ERROR | App | Erro: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("iframe[name=\"ifrVisualizacao\"]").content_frame.locator("a").filter(has_text="TI/DMA")
+    - waiting for" https://seibahia.ba.gov.br/sei/controlador.php?acao=infra_trocar_unidade&acao_origem=infra_trocar_unidade&infra_sistema=100000100&infra_unidade_atual=110005022&infra_hash=402c6436d9cfafd304eeb14a268c…" navigation to finish...
+    - navigated to "https://seibahia.ba.gov.br/sei/controlador.php?acao=procedimento_controlar&infra_sistema=100000100&infra_unidade_atual=110005165&infra_hash=bf2c74d5cb3f53850d446da3ca8abe9c2aea637648b37d7daaa94a535e4…"
+
+2026-04-10 17:06:11,449 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: FIX: Falha no envio de e-mails para domínios Gmail e Ebserh
+2026-04-10 17:06:15,580 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-10 17:07:28,088 | ERROR | App | Erro: Page.goto: Timeout 30000ms exceeded.
+Call log:
+  - navigating to "https://seibahia.ba.gov.br/", waiting until "load"
+
+2026-04-10 17:09:01,543 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: FIX: Falha no envio de e-mails para domínios Gmail e Ebserh
+2026-04-10 17:09:04,962 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-10 17:09:43,921 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: FIX: Falha no envio de e-mails para domínios Gmail e Ebserh
+2026-04-10 17:09:59,084 | ERROR | App | Erro: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="ACESSAR")
+    - locator resolved to <button type="submit" accesskey="e" tabindex="505" id="sbmAcessar" name="sbmAcessar" class="btn text-white  flex-grow-1 infraCorBarraSuperior">↵                      ACESSAR↵                  …</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+    - click action done
+    - waiting for scheduled navigations to finish
+
+2026-04-10 17:10:01,213 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-10 17:10:35,612 | ERROR | App | Erro: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="ACESSAR")
+    - locator resolved to <button type="submit" accesskey="e" tabindex="505" id="sbmAcessar" name="sbmAcessar" class="btn text-white  flex-grow-1 infraCorBarraSuperior">↵                      ACESSAR↵                  …</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+2026-04-10 17:10:59,559 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: FIX: Falha no envio de e-mails para domínios Gmail e Ebserh
+2026-04-10 17:11:03,169 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-10 17:14:30,437 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: FIX(Farmacia/Pedido): Data do pedido alterada para data atual na visualização
+2026-04-10 17:14:33,974 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-10 17:23:58,974 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br | Título: FIX: Lentidão na geração de arquivos DBF e erro crítico na unidade Hospital Ana Nery
+2026-04-10 17:24:03,252 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-13 10:02:44,769 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:02:44,774 | INFO | flet | Starting up TCP server on localhost:57172
+2026-04-13 10:02:44,787 | INFO | flet | Flet app has started...
+2026-04-13 10:02:46,061 | INFO | flet | App session started
+2026-04-13 10:02:46,084 | INFO | Router | Navigating to: /
+2026-04-13 10:02:46,119 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:02:47,859 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:02:51,598 | INFO | flet | Session was garbage collected: xTmGOPGXhd04huxn
+2026-04-13 10:14:38,346 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:14:38,350 | INFO | flet | Starting up TCP server on localhost:53736
+2026-04-13 10:14:38,363 | INFO | flet | Flet app has started...
+2026-04-13 10:14:39,062 | INFO | flet | App session started
+2026-04-13 10:14:39,073 | INFO | Router | Navigating to: /
+2026-04-13 10:14:39,091 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:14:40,408 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:14:40,622 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 79, in render
+    prefix_icon=ft.Icons.FILE_PRESENTATION,
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\material\icons.py", line 72, in __getattr__
+    raise AttributeError(name) from None
+AttributeError: FILE_PRESENTATION
+2026-04-13 10:14:57,282 | INFO | flet | Session was garbage collected: 68tD2T5nwzkETqlC
+2026-04-13 10:15:02,749 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:15:02,752 | INFO | flet | Starting up TCP server on localhost:53746
+2026-04-13 10:15:02,760 | INFO | flet | Flet app has started...
+2026-04-13 10:15:03,219 | INFO | flet | App session started
+2026-04-13 10:15:03,224 | INFO | Router | Navigating to: /
+2026-04-13 10:15:03,236 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:15:14,309 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:15:21,054 | INFO | flet | Session was garbage collected: hFi0lOf5QgH6T2vb
+2026-04-13 10:18:30,934 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:18:30,936 | INFO | flet | Starting up TCP server on localhost:53898
+2026-04-13 10:18:30,948 | INFO | flet | Flet app has started...
+2026-04-13 10:18:31,370 | INFO | flet | App session started
+2026-04-13 10:18:31,378 | INFO | Router | Navigating to: /
+2026-04-13 10:18:31,392 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:18:32,505 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:18:32,650 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 75, in render
+    self.file = ft.FilePicker(
+                ~~~~~~~~~~~~~^
+        on_result=self.controller.handle_file_picker_result
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-13 10:18:35,586 | INFO | flet | Session was garbage collected: mhnhejWqbFjcBtXp
+2026-04-13 10:18:56,820 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:18:56,822 | INFO | flet | Starting up TCP server on localhost:53912
+2026-04-13 10:18:56,831 | INFO | flet | Flet app has started...
+2026-04-13 10:18:57,250 | INFO | flet | App session started
+2026-04-13 10:18:57,261 | INFO | Router | Navigating to: /
+2026-04-13 10:18:57,278 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:19:04,331 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:19:04,494 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 12, in __init__
+    self.file = ft.FilePicker(
+                ~~~~~~~~~~~~~^
+        on_result=self.controller.handle_file_picker_result
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-13 10:19:06,153 | INFO | flet | Session was garbage collected: OR3NEvzJVeL3G4MO
+2026-04-13 10:19:11,796 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:19:11,799 | INFO | flet | Starting up TCP server on localhost:53921
+2026-04-13 10:19:11,808 | INFO | flet | Flet app has started...
+2026-04-13 10:19:12,217 | INFO | flet | App session started
+2026-04-13 10:19:12,224 | INFO | Router | Navigating to: /
+2026-04-13 10:19:12,238 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:19:15,035 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:19:15,126 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 12, in __init__
+    self.file = ft.FilePicker(
+                ~~~~~~~~~~~~~^
+        on_result=self.controller.handle_file_picker_result
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-13 10:19:17,489 | INFO | flet | Session was garbage collected: Fn3jH4MDtBEd1nxQ
+2026-04-13 10:20:25,709 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:20:25,711 | INFO | flet | Starting up TCP server on localhost:53961
+2026-04-13 10:20:25,719 | INFO | flet | Flet app has started...
+2026-04-13 10:20:26,122 | INFO | flet | App session started
+2026-04-13 10:20:26,127 | INFO | Router | Navigating to: /
+2026-04-13 10:20:26,139 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:20:27,865 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:20:27,869 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 100, in load_view
+    module = importlib.import_module(module_name)
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 893, in get_code
+  File "<frozen importlib._bootstrap_external>", line 823, in source_to_code
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 91
+    tooltip="Escolher Arquivo"
+            ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2026-04-13 10:20:53,793 | INFO | flet | Session was garbage collected: n9DgR0oxjxg6Ea87
+2026-04-13 10:21:00,624 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:21:00,626 | INFO | flet | Starting up TCP server on localhost:53971
+2026-04-13 10:21:00,633 | INFO | flet | Flet app has started...
+2026-04-13 10:21:01,030 | INFO | flet | App session started
+2026-04-13 10:21:01,036 | INFO | Router | Navigating to: /
+2026-04-13 10:21:01,049 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:21:02,036 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:21:02,039 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 100, in load_view
+    module = importlib.import_module(module_name)
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\importlib\__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1398, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1371, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1342, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 938, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 755, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 893, in get_code
+  File "<frozen importlib._bootstrap_external>", line 823, in source_to_code
+  File "<frozen importlib._bootstrap>", line 491, in _call_with_frames_removed
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 91
+    tooltip="Escolher Arquivo"
+            ^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+2026-04-13 10:21:13,432 | INFO | flet | Session was garbage collected: 3nmqMT6MEW1w9FgP
+2026-04-13 10:21:17,328 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:21:17,330 | INFO | flet | Starting up TCP server on localhost:53983
+2026-04-13 10:21:17,337 | INFO | flet | Flet app has started...
+2026-04-13 10:21:17,726 | INFO | flet | App session started
+2026-04-13 10:21:17,731 | INFO | Router | Navigating to: /
+2026-04-13 10:21:17,741 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:21:18,966 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:21:19,062 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 12, in __init__
+    self.file = ft.FilePicker(
+                ~~~~~~~~~~~~~^
+        on_result=self.controller.handle_file_picker_result
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-13 10:21:23,860 | INFO | flet | Session was garbage collected: lQLyI1CwcYUQ3ChF
+2026-04-13 10:23:08,909 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:23:08,911 | INFO | flet | Starting up TCP server on localhost:54049
+2026-04-13 10:23:08,918 | INFO | flet | Flet app has started...
+2026-04-13 10:23:09,297 | INFO | flet | App session started
+2026-04-13 10:23:09,302 | INFO | Router | Navigating to: /
+2026-04-13 10:23:09,313 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:23:10,223 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:23:10,341 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 92, in render
+    self.file = ft.FilePicker(
+                ~~~~~~~~~~~~~^
+        on_result=self.controller.handle_file_picker_result
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-13 10:23:12,188 | INFO | flet | Session was garbage collected: soW22zYOL4jYHMsM
+2026-04-13 10:23:54,127 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:23:54,129 | INFO | flet | Starting up TCP server on localhost:54070
+2026-04-13 10:23:54,137 | INFO | flet | Flet app has started...
+2026-04-13 10:23:54,552 | INFO | flet | App session started
+2026-04-13 10:23:54,558 | INFO | Router | Navigating to: /
+2026-04-13 10:23:54,574 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:23:55,529 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:24:02,772 | INFO | flet | Session was garbage collected: 9kEQNrxnTPOlEnGA
+2026-04-13 10:25:11,040 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:25:11,042 | INFO | flet | Starting up TCP server on localhost:54101
+2026-04-13 10:25:11,050 | INFO | flet | Flet app has started...
+2026-04-13 10:25:11,455 | INFO | flet | App session started
+2026-04-13 10:25:11,459 | INFO | Router | Navigating to: /
+2026-04-13 10:25:11,470 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:25:12,318 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:25:12,434 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 83, in render
+    self.file = ft.FilePicker(
+                ~~~~~~~~~~~~~^
+        on_result=self.handle_file_picker_result
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        )
+        ^
+TypeError: FilePicker.__init__() got an unexpected keyword argument 'on_result'
+2026-04-13 10:25:14,532 | INFO | flet | Session was garbage collected: Zn3e2o3hwfxqtbN1
+2026-04-13 10:32:57,322 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:32:57,323 | INFO | flet | Starting up TCP server on localhost:54334
+2026-04-13 10:32:57,331 | INFO | flet | Flet app has started...
+2026-04-13 10:32:57,719 | INFO | flet | App session started
+2026-04-13 10:32:57,724 | INFO | Router | Navigating to: /
+2026-04-13 10:32:57,735 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:33:00,613 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:33:02,940 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_caj_controller.py", line 25, in pick_file_handler
+    files = await self.file.pick_files(
+                  ^^^^^^^^^
+AttributeError: 'SeiCajController' object has no attribute 'file'
+2026-04-13 10:33:04,810 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_caj_controller.py", line 25, in pick_file_handler
+    files = await self.file.pick_files(
+                  ^^^^^^^^^
+AttributeError: 'SeiCajController' object has no attribute 'file'
+2026-04-13 10:33:04,813 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 454, in _trigger_event
+    await event_handler(e)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_caj_controller.py", line 25, in pick_file_handler
+    files = await self.file.pick_files(
+                  ^^^^^^^^^
+AttributeError: 'SeiCajController' object has no attribute 'file'
+2026-04-13 10:33:10,003 | INFO | flet | Session was garbage collected: zqTcMqOGRDbMQLsH
+2026-04-13 10:36:22,454 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:36:22,456 | INFO | flet | Starting up TCP server on localhost:54435
+2026-04-13 10:36:22,462 | INFO | flet | Flet app has started...
+2026-04-13 10:36:22,845 | INFO | flet | App session started
+2026-04-13 10:36:22,850 | INFO | Router | Navigating to: /
+2026-04-13 10:36:22,860 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:36:24,539 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:36:41,309 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 140, in <lambda>
+    self.numero_sei_input.value, self.arquivos_selecionados_paths
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'Sei_cajView' object has no attribute 'arquivos_selecionados_paths'
+2026-04-13 10:36:57,540 | INFO | flet | Session was garbage collected: N4q8HWJdrNXhWG9b
+2026-04-13 10:37:53,285 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 10:37:53,287 | INFO | flet | Starting up TCP server on localhost:54466
+2026-04-13 10:37:53,293 | INFO | flet | Flet app has started...
+2026-04-13 10:37:53,665 | INFO | flet | App session started
+2026-04-13 10:37:53,670 | INFO | Router | Navigating to: /
+2026-04-13 10:37:53,680 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 10:37:54,732 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:37:55,525 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 10:37:56,124 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:38:02,997 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 10:38:04,005 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:38:05,053 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 10:38:06,517 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:38:08,077 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 10:38:10,558 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:38:16,590 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 10:38:19,550 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:38:22,551 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 10:38:28,696 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 10:38:41,966 | INFO | flet | Session was garbage collected: g1O1YDlfL8FUhNFn

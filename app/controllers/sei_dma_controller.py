@@ -121,7 +121,7 @@ class SeiDmaController:
         page.goto("https://seibahia.ba.gov.br")
         page.get_by_role("textbox", name="Usuário").fill(username)
         page.get_by_role("textbox", name="Senha").fill(password)
-        page.locator("#selOrgao").select_option("23")  # Exemplo: CGTICS ou SESAB
+        page.locator("#selOrgao").select_option("23")
         page.get_by_role("button", name="ACESSAR").click()
 
     def create_process(self, page, title, content):

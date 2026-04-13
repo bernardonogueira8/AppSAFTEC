@@ -2,6 +2,7 @@ import flet as ft
 from views.layouts.main_layout import MainLayout
 from controllers.sigaf_prefeitura_controller import SigafPrefeituraController
 
+
 class Sigaf_prefeituraView:
     def __init__(self, page, router):
         self.page = page

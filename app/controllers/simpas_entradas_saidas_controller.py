@@ -1,5 +1,6 @@
 from models.simpas_entradas_saidas_model import Simpas_entradas_saidasModel
 
+
 class SimpasEntradasSaidasController:
     """
     Controller for simpas_entradas_saidas page

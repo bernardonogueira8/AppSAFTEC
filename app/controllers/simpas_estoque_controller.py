@@ -1,5 +1,6 @@
 from models.simpas_estoque_model import Simpas_estoqueModel
 
+
 class SimpasEstoqueController:
     """
     Controller for simpas_estoque page

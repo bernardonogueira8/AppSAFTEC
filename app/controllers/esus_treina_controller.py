@@ -7,6 +7,7 @@ from models.esus_treina_model import Esus_treinaModel
 
 logger = get_logger("App")
 
+
 class EsusTreinaController:
     """
     Controller for esus_treina page
@@ -18,7 +19,7 @@ class EsusTreinaController:
 
     def get_title(self):
         return "E-SUS Treinamento"
-    
+
     def load_saved_credentials(self, system_name):
         try:
             return self.model.buscar_credenciais(system_name)
@@ -77,7 +78,7 @@ class EsusTreinaController:
             f"Iniciando automação no SEI para o usuário: {username} | Título: {titulo}"
         )
         # Configurações de URL
-        BASE_URL = 'https://treinamento.esus.saude.ba.gov.br/'
+        BASE_URL = "https://treinamento.esus.saude.ba.gov.br/"
         try:
             # Inicializa o Playwright de forma síncrona
             with sync_playwright() as p:

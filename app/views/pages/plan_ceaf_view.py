@@ -2,6 +2,7 @@ import flet as ft
 from views.layouts.main_layout import MainLayout
 from controllers.plan_ceaf_controller import PlanCeafController
 
+
 class Plan_ceafView:
     def __init__(self, page, router):
         self.page = page
