@@ -10,4 +10,4 @@ class SimpasEntradasSaidasController:
         self.model = model or Simpas_entradas_saidasModel
 
     def get_title(self):
-        return "SIMPAS: Entradas e Saídas"
+        return "SIMPAS: Entradas e Saídas - Em Desenvolvimento"

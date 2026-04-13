@@ -10,4 +10,4 @@ class PlanCeafController:
         self.model = model or Plan_ceafModel
 
     def get_title(self):
-        return "Planilhas de Avaliação CEAF"
+        return "Planilhas de Avaliação CEAF - Em Desenvolvimento"

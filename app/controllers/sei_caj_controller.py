@@ -43,11 +43,11 @@ class SeiCajController:
 
     def _show_snack(self, message):
         """Método auxiliar para exibir alertas rápidos na tela"""
-        self.page.snack_bar = ft.SnackBar(ft.Text(message))
-        self.page.snack_bar.open = True
+        snack = ft.SnackBar(content=ft.Text(message), open=True)
+        self.page.overlay.append(snack)
         self.page.update()
 
-    def start_automation(self, titulo, texto):  
+    def start_automation(self, numero_sei_input, caminho_arquivo_input):  
         # 1. Recupera as credenciais salvas previamente
         credentials = self.load_saved_credentials("SEI")
 
@@ -55,25 +55,23 @@ class SeiCajController:
             self._show_snack("Credenciais não encontradas. Salve-as primeiro!")
             return
 
-        if not titulo or not texto:
-            self._show_snack("Preencha o título e o texto!")
+        if bool(numero_sei_input) == bool(caminho_arquivo_input):
+            self._show_snack("Preencha o número SEI ou selecione o arquivo!")
             return
 
         self._show_snack("Iniciando automação Playwright...")
 
         automacao_thread = threading.Thread(
             target=self._run_playwright_script,
-            args=(credentials[0], credentials[1], titulo, texto),
+            args=(credentials[0], credentials[1], numero_sei_input, caminho_arquivo_input),
         )
         automacao_thread.start()
 
-    def _run_playwright_script(self, username, password, titulo, texto):
+    def _run_playwright_script(self, username, password, numero_sei, caminho_arquivo):
         """
         Executa a rotina de automação no sistema SEI.
         """
-        logger.info(
-            f"Iniciando automação no SEI para o usuário: {username} | Título: {titulo}"
-        )
+        self._show_snack(f"Iniciando automação no SEI para o usuário: {username}")
         try:
             # Inicializa o Playwright de forma síncrona
             with sync_playwright() as p:

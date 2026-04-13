@@ -105,7 +105,7 @@ class Sei_cajView:
         )
         self.button_pick_file = ft.IconButton(
             icon=ft.Icons.UPLOAD_FILE,
-            icon_color=ft.Colors.ORANGE_500,
+            icon_color=ft.Colors.GREEN_500,
             tooltip="Escolher Arquivo",
             on_click=self.pick_file_handler,  # self aqui é a View
         )
@@ -128,8 +128,13 @@ class Sei_cajView:
                         ft.Text(
                             "Dados da Automação", size=26, weight=ft.FontWeight.BOLD
                         ),
+
                     ],
                     alignment=ft.MainAxisAlignment.START,
+                ),
+                ft.Text(
+                    "Caso queria automatizar um processo preencha apenas número SEI, caso queira automatizar mais de um processo SEi, anexe o arquivo. Click no botão verde para selecionar o arquivo.",
+                    color=ft.Colors.GREY_500,
                 ),
                 self.numero_sei_input,
                 self.arquivo_input,

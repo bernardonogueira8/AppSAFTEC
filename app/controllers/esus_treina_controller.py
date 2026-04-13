@@ -42,8 +42,8 @@ class EsusTreinaController:
 
     def _show_snack(self, message):
         """Método auxiliar para exibir alertas rápidos na tela"""
-        self.page.snack_bar = ft.SnackBar(ft.Text(message))
-        self.page.snack_bar.open = True
+        snack = ft.SnackBar(content=ft.Text(message), open=True)
+        self.page.overlay.append(snack)
         self.page.update()
 
     def start_automation(self, titulo, texto):

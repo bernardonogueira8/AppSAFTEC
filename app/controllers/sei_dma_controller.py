@@ -2,11 +2,11 @@ import flet as ft
 import json
 import os
 import threading
-from core.logger import get_logger
 from playwright.sync_api import sync_playwright
 from models.sei_dma_model import Sei_dmaModel
 
-logger = get_logger("App")
+# from core.logger import get_logger
+# logger = get_logger("App")
 
 
 class SeiDmaController:
@@ -26,7 +26,7 @@ class SeiDmaController:
         try:
             return self.model.buscar_credenciais(system_name)
         except Exception as e:
-            print(f"Erro ao buscar: {e}")
+            self._show_snack(f"Erro ao buscar: {e}")
             return None
 
     def save_credentials(self, username, password, system_name):
@@ -44,8 +44,8 @@ class SeiDmaController:
 
     def _show_snack(self, message):
         """Método auxiliar para exibir alertas rápidos na tela"""
-        self.page.snack_bar = ft.SnackBar(ft.Text(message))
-        self.page.snack_bar.open = True
+        snack = ft.SnackBar(content=ft.Text(message), open=True)
+        self.page.overlay.append(snack)
         self.page.update()
 
     def start_automation(self, titulo, texto):
@@ -76,15 +76,13 @@ class SeiDmaController:
         Esta função recebe apenas dados puros (strings, dicionários, etc.)
         e não tem NENHUMA dependência da interface gráfica (Tkinter).
         """
-        logger.info(
-            f"Iniciando automação no SEI para o usuário: {username} | Título: {titulo}"
-        )
+        self._show_snack(f"Iniciando automação no SEI para o usuário: {username} | Título: {titulo}")
         try:
             # Inicializa o Playwright de forma síncrona
             with sync_playwright() as p:
                 browser = p.firefox.launch(headless=False, slow_mo=500)
                 page = browser.new_page()  # [1]
-                logger.info("Navegador aberto. Acessando a página de login...")
+                self._show_snack("Navegador aberto. Acessando a página de login...")
 
                 self.open_browser(page, username, password)
                 numero_sei = self.create_process(page, titulo, texto)
@@ -93,7 +91,7 @@ class SeiDmaController:
                 return numero_sei  # Retorna o número do processo/Documento criado para exibir na UI
 
         except Exception as e:
-            logger.error(f"Erro: {e}")
+            self._show_snack(f"Erro: {e}")
             raise e
 
     def formatar_para_sei(self, content):
@@ -155,7 +153,7 @@ class SeiDmaController:
         span_processo = tree_frame.locator(".infraArvoreNoSelecionado")
         numero_sei = span_processo.inner_text()
 
-        print(f"Processo/Documento identificado: {numero_sei}")
+        self._show_snack(f"Processo/Documento identificado: {numero_sei}")
         # Clicar no link (<a>) que contém esse número
         tree_frame.locator("a:has(.infraArvoreNoSelecionado)").click()
 
@@ -243,9 +241,9 @@ class SeiDmaController:
             final_path = os.path.join(save_path, download.suggested_filename)
             download.save_as(final_path)
 
-            print(f"PDF salvo com sucesso em: {final_path}")
+            self._show_snack(f"PDF salvo com sucesso em: {final_path}")
             return final_path
 
         except Exception as e:
-            print(f"Erro ao baixar o PDF: {e}")
+            self._show_snack(f"Erro ao baixar o PDF: {e}")
             return None

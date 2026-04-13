@@ -2592,3 +2592,235 @@ AttributeError: 'SigafContrapartidaController' object has no attribute 'page'
 2026-04-13 11:02:29,893 | INFO | App | Aplicação iniciada com sucesso
 2026-04-13 11:02:30,713 | INFO | Router | Navigating to: /sei_caj
 2026-04-13 11:03:46,259 | INFO | flet | Session was garbage collected: 1ZgJubuOGFyeOui2
+2026-04-13 11:25:02,062 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:25:02,064 | INFO | flet | Starting up TCP server on localhost:50118
+2026-04-13 11:25:02,072 | INFO | flet | Flet app has started...
+2026-04-13 11:25:02,607 | INFO | flet | App session started
+2026-04-13 11:25:02,680 | INFO | Router | Navigating to: /
+2026-04-13 11:25:02,705 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:25:06,407 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-13 11:25:07,887 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-13 11:25:08,695 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 11:25:13,399 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-13 11:25:15,111 | INFO | Router | Navigating to: /esus_treina
+2026-04-13 11:25:15,118 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\esus_treina_view.py", line 10, in __init__
+    self.controller = EsusTreinaController(page=self.page)
+                      ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\esus_treina_controller.py", line 18, in __init__
+    self.model = model or Esus_treinaModel(db_connection)
+                          ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^
+TypeError: Esus_treinaModel() takes no arguments
+2026-04-13 11:27:33,233 | INFO | flet | Session was garbage collected: jkBmXO62LzU4FSNR
+2026-04-13 11:27:38,952 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:27:38,954 | INFO | flet | Starting up TCP server on localhost:50165
+2026-04-13 11:27:38,962 | INFO | flet | Flet app has started...
+2026-04-13 11:27:39,343 | INFO | flet | App session started
+2026-04-13 11:27:39,347 | INFO | Router | Navigating to: /
+2026-04-13 11:27:39,358 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:27:40,622 | INFO | Router | Navigating to: /esus_treina
+2026-04-13 11:27:41,886 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-13 11:27:42,630 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:27:43,455 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 11:27:44,134 | INFO | Router | Navigating to: /help
+2026-04-13 11:27:44,135 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 114, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+TypeError: 'NoneType' object is not callable
+2026-04-13 11:27:46,358 | INFO | flet | Session was garbage collected: Hdes6zfLuPskd7Du
+2026-04-13 11:28:53,187 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:28:53,189 | INFO | flet | Starting up TCP server on localhost:50187
+2026-04-13 11:28:53,196 | INFO | flet | Flet app has started...
+2026-04-13 11:28:53,575 | INFO | flet | App session started
+2026-04-13 11:28:53,580 | INFO | Router | Navigating to: /
+2026-04-13 11:28:53,592 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:29:07,178 | INFO | Router | Navigating to: /
+2026-04-13 11:29:48,784 | INFO | flet | Session was garbage collected: 4OdyNOCdAz8txKiC
+2026-04-13 11:29:52,877 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:29:52,880 | INFO | flet | Starting up TCP server on localhost:50211
+2026-04-13 11:29:52,889 | INFO | flet | Flet app has started...
+2026-04-13 11:29:53,303 | INFO | flet | App session started
+2026-04-13 11:29:53,307 | INFO | Router | Navigating to: /
+2026-04-13 11:29:53,320 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:29:54,532 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 11:29:55,445 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:29:56,052 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 11:29:56,733 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-13 11:29:57,493 | INFO | Router | Navigating to: /esus_treina
+2026-04-13 11:29:58,181 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-13 11:29:59,541 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-13 11:30:00,214 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-13 11:30:00,653 | INFO | Router | Navigating to: /esus_treina
+2026-04-13 11:30:01,117 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-13 11:30:02,117 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 11:30:02,861 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 11:30:04,085 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:30:05,126 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-13 11:30:06,197 | INFO | Router | Navigating to: /sei_dma
+2026-04-13 11:30:10,597 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:32:47,379 | INFO | flet | Session was garbage collected: 2HxtCMqic3BQ1Zxa
+2026-04-13 11:32:51,078 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:32:51,080 | INFO | flet | Starting up TCP server on localhost:50642
+2026-04-13 11:32:51,087 | INFO | flet | Flet app has started...
+2026-04-13 11:32:51,469 | INFO | flet | App session started
+2026-04-13 11:32:51,473 | INFO | Router | Navigating to: /
+2026-04-13 11:32:51,485 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:32:54,085 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:33:28,660 | INFO | flet | Session was garbage collected: kmUFwtjEo4BjdJpx
+2026-04-13 11:33:32,563 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:33:32,571 | INFO | flet | Starting up TCP server on localhost:50876
+2026-04-13 11:33:32,581 | INFO | flet | Flet app has started...
+2026-04-13 11:33:33,013 | INFO | flet | App session started
+2026-04-13 11:33:33,018 | INFO | Router | Navigating to: /
+2026-04-13 11:33:33,031 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:33:34,070 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:33:34,190 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 106, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 131, in render
+    ft.row(
+    ^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\__init__.py", line 1190, in __getattr__
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+AttributeError: module 'flet' has no attribute 'row'. Did you mean: 'Row'?
+2026-04-13 11:33:37,156 | INFO | flet | Session was garbage collected: Dw8CywjO7MzvhH21
+2026-04-13 11:34:06,623 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:34:06,625 | INFO | flet | Starting up TCP server on localhost:50891
+2026-04-13 11:34:06,632 | INFO | flet | Flet app has started...
+2026-04-13 11:34:07,013 | INFO | flet | App session started
+2026-04-13 11:34:07,018 | INFO | Router | Navigating to: /
+2026-04-13 11:34:07,028 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:34:08,289 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:34:26,327 | INFO | flet | Session was garbage collected: UiPJnHJs0JZ9xZC6
+2026-04-13 11:36:19,741 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:36:19,743 | INFO | flet | Starting up TCP server on localhost:50937
+2026-04-13 11:36:19,752 | INFO | flet | Flet app has started...
+2026-04-13 11:36:20,162 | INFO | flet | App session started
+2026-04-13 11:36:20,168 | INFO | Router | Navigating to: /
+2026-04-13 11:36:20,183 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:36:21,166 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:37:12,539 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br
+2026-04-13 11:37:13,371 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br
+2026-04-13 11:37:13,931 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br
+2026-04-13 11:37:14,155 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br
+2026-04-13 11:37:14,899 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br
+2026-04-13 11:37:15,131 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br
+2026-04-13 11:37:27,666 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-13 11:37:28,909 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-13 11:37:30,591 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-13 11:37:32,317 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-13 11:37:34,082 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-13 11:37:37,353 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-13 11:37:39,607 | ERROR | App | Erro: Locator.fill: Target page, context or browser has been closed
+2026-04-13 11:37:39,657 | ERROR | App | Erro: Locator.fill: Target page, context or browser has been closed
+2026-04-13 11:37:39,743 | ERROR | App | Erro: Locator.fill: Target page, context or browser has been closed
+2026-04-13 11:37:39,873 | ERROR | App | Erro: 'dict' object has no attribute '_object'
+2026-04-13 11:37:40,512 | ERROR | App | Erro: Page.goto: Target page, context or browser has been closed
+Call log:
+  - navigating to "https://seibahia.ba.gov.br/", waiting until "load"
+
+2026-04-13 11:37:41,720 | INFO | flet | Session was garbage collected: 2A49qtjmeTxsyCwf
+2026-04-13 11:37:46,152 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:37:46,154 | INFO | flet | Starting up TCP server on localhost:51034
+2026-04-13 11:37:46,162 | INFO | flet | Flet app has started...
+2026-04-13 11:37:46,662 | INFO | flet | App session started
+2026-04-13 11:37:46,666 | INFO | Router | Navigating to: /
+2026-04-13 11:37:46,681 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:37:50,322 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:40:09,206 | INFO | flet | Session was garbage collected: h3oIBNLy0LYEOy1G
+2026-04-13 11:40:13,486 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:40:13,488 | INFO | flet | Starting up TCP server on localhost:51084
+2026-04-13 11:40:13,497 | INFO | flet | Flet app has started...
+2026-04-13 11:40:13,917 | INFO | flet | App session started
+2026-04-13 11:40:13,922 | INFO | Router | Navigating to: /
+2026-04-13 11:40:13,935 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:40:14,885 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:40:15,010 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\configs\routes.py", line 106, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 139, in render
+    self.controller.__show_snack(),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SeiCajController' object has no attribute '_Sei_cajView__show_snack'
+2026-04-13 11:46:23,803 | INFO | flet | Session was garbage collected: 2pXq13H4OURaYkHc
+2026-04-13 11:49:33,297 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:49:33,299 | INFO | flet | Starting up TCP server on localhost:51268
+2026-04-13 11:49:33,306 | INFO | flet | Flet app has started...
+2026-04-13 11:49:33,836 | INFO | flet | App session started
+2026-04-13 11:49:33,841 | INFO | Router | Navigating to: /
+2026-04-13 11:49:33,859 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:49:37,763 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:49:38,811 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_caj_controller.py", line 38, in save_credentials
+    self._show_snack(f"Credenciais do {system_name} prontas!")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_caj_controller.py", line 46, in _show_snack
+    self.page.open(
+    ^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'open'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\views\pages\sei_caj_view.py", line 198, in avancar_passo
+    sucesso = self.controller.save_credentials(
+        self.user_input.value, self.pass_input.value, self.system_name
+    )
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_caj_controller.py", line 41, in save_credentials
+    self._show_snack(f"Erro ao salvar: {e}")
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\controllers\sei_caj_controller.py", line 46, in _show_snack
+    self.page.open(
+    ^^^^^^^^^^^^^^
+AttributeError: 'Page' object has no attribute 'open'
+2026-04-13 11:49:40,845 | INFO | flet | Session was garbage collected: DZelIBCHicU6TdVi
+2026-04-13 11:49:51,571 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:49:51,573 | INFO | flet | Starting up TCP server on localhost:51277
+2026-04-13 11:49:51,580 | INFO | flet | Flet app has started...
+2026-04-13 11:49:51,959 | INFO | flet | App session started
+2026-04-13 11:49:51,965 | INFO | Router | Navigating to: /
+2026-04-13 11:49:51,975 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:49:53,811 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:50:40,242 | INFO | flet | Session was garbage collected: U3Qnk3DoaMJP1yXI
+2026-04-13 11:50:44,281 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:50:44,282 | INFO | flet | Starting up TCP server on localhost:51296
+2026-04-13 11:50:44,290 | INFO | flet | Flet app has started...
+2026-04-13 11:50:44,704 | INFO | flet | App session started
+2026-04-13 11:50:44,710 | INFO | Router | Navigating to: /
+2026-04-13 11:50:44,723 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:50:47,483 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:52:43,512 | INFO | flet | Session was garbage collected: uQuJifLGbXagc3ju
+2026-04-13 11:52:48,304 | INFO | flet | Assets path configured: C:\Users\bernardo.silva\SynologyDrive\3.Arquivos\Script\Python Scripts\2. Projetos\AppSAFTEC\app\assets
+2026-04-13 11:52:48,305 | INFO | flet | Starting up TCP server on localhost:51346
+2026-04-13 11:52:48,314 | INFO | flet | Flet app has started...
+2026-04-13 11:52:48,821 | INFO | flet | App session started
+2026-04-13 11:52:48,826 | INFO | Router | Navigating to: /
+2026-04-13 11:52:48,839 | INFO | App | Aplicação iniciada com sucesso
+2026-04-13 11:52:49,963 | INFO | Router | Navigating to: /sei_caj
+2026-04-13 11:52:57,854 | INFO | App | Iniciando automação no SEI para o usuário: bernardo.silva@saude.ba.gov.br
+2026-04-13 11:53:01,364 | INFO | App | Navegador aberto. Acessando a página de login...
+2026-04-13 11:53:43,273 | INFO | flet | Session was garbage collected: ob3D1w0hBnQESLWi
