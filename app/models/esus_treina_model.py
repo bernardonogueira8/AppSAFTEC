@@ -37,4 +37,3 @@ class Esus_treinaModel(BaseModel):
                 (username, password, system_name),
             )
         self.db.commit()
-

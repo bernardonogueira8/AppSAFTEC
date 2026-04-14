@@ -1,6 +1,7 @@
 from core.base_model import BaseModel
 from core.database import _connect_sqlite
 
+
 class Sigaf_contrapartidaModel(BaseModel):
     def __init__(self, db_connection=None):
         # A conexão com o banco de dados é injetada no modelo

@@ -1,6 +1,5 @@
 import flet as ft
-import json
-import os
+import pandas as pd
 import threading
 from core.logger import get_logger
 from playwright.sync_api import sync_playwright
@@ -8,17 +7,19 @@ from models.sigaf_contrapartida_model import Sigaf_contrapartidaModel
 
 logger = get_logger("App")
 
+
 class SigafContrapartidaController:
     """
     Controller for sigaf_contrapartida page
     """
 
-    def __init__(self, page,db_connection=None, model=None):
+    def __init__(self, page, db_connection=None, model=None):
+        self.page = page
         self.model = model or Sigaf_contrapartidaModel(db_connection)
 
     def get_title(self):
         return "SIGAF: Repasse de Contrapartida"
-    
+
     def load_saved_credentials(self, system_name):
         try:
             return self.model.buscar_credenciais(system_name)
@@ -36,7 +37,7 @@ class SigafContrapartidaController:
             self._show_snack(f"Credenciais do {system_name} prontas!")
             return True  # Retorna Verdadeiro, permite avançar
         except Exception as e:
-            self._show_snack(f"Erro ao salvar: {e}")
+            print(f"Erro ao salvar: {e}")
             return False
 
     def _show_snack(self, message):
@@ -45,7 +46,7 @@ class SigafContrapartidaController:
         self.page.overlay.append(snack)
         self.page.update()
 
-    def start_automation(self,number_cib_input, caminho_arquivo_input, system_name):  
+    def start_automation(self, number_cib_input, caminho_arquivo_input, system_name):
         credentials = self.load_saved_credentials(system_name)
 
         if not credentials:
@@ -60,7 +61,12 @@ class SigafContrapartidaController:
 
         automacao_thread = threading.Thread(
             target=self._run_playwright_script,
-            args=(credentials[0], credentials[1], number_cib_input, caminho_arquivo_input),
+            args=(
+                credentials[0],
+                credentials[1],
+                number_cib_input,
+                caminho_arquivo_input,
+            ),
         )
         automacao_thread.start()
 
@@ -68,35 +74,76 @@ class SigafContrapartidaController:
         """
         Executa a rotina de automação no sistema SEI.
         """
-        logger.info(
+        self._show_snack(
             f"Iniciando automação no SIGAF para o usuário: {username} | Número da CIB: {number_cib}"
         )
         try:
             df = pd.read_excel(caminho_arquivo).copy()
             # Verificação básica de colunas
-            colunas_necessarias = ["DATA", "MUNICIPIO", "COMPETENCIA", "Nº NOB", "VALOR"]
+            colunas_necessarias = [
+                "DATA",
+                "MUNICIPIO",
+                "COMPETENCIA",
+                "Nº NOB",
+                "VALOR",
+            ]
             if not all(col in df.columns for col in colunas_necessarias):
                 raise ValueError("A planilha não possui as colunas necessárias.")
             # Forma mais segura de criar colunas:
-            df.loc[:, "DESCRIÇÃO"] = "REPASSE FINANCEIRO AO FUNDO MUNICIPAL DE SAÚDE CONFORME RES CIB/BA Nº " + valor_cib + " COMPETÊNCIA " + df["COMPETENCIA"].astype(str) + " -  NOB  " + df["Nº NOB"].astype(str)
-            df.loc[:, "VALOR_STR"] = df["VALOR"].apply(lambda x: "{:.2f}".format(x).replace(".", ","))
-            df.loc[:, "MUNICIPIO_BUSCA"] = "PREFEITURA MUNICIPAL DE " + df["MUNICIPIO"].str.upper()
+            df.loc[:, "DESCRIÇÃO"] = (
+                "REPASSE FINANCEIRO AO FUNDO MUNICIPAL DE SAÚDE CONFORME RES CIB/BA Nº "
+                + number_cib
+                + " COMPETÊNCIA "
+                + df["COMPETENCIA"].astype(str)
+                + " -  NOB  "
+                + df["Nº NOB"].astype(str)
+            )
+            df.loc[:, "VALOR_STR"] = df["VALOR"].apply(
+                lambda x: "{:.2f}".format(x).replace(".", ",")
+            )
+            df.loc[:, "MUNICIPIO_BUSCA"] = (
+                "PREFEITURA MUNICIPAL DE " + df["MUNICIPIO"].str.upper()
+            )
             # Inicializa o Playwright de forma síncrona
             with sync_playwright() as p:
                 browser = p.firefox.launch(headless=False, slow_mo=500)
                 page = browser.new_page()
                 logger.info("Navegador aberto. Acessando a página de login...")
-                
-                self.open_browser(page, username, password)
+
+                self.open_browser(page, username, password, df)
                 browser.close()
 
         except Exception as e:
-            logger.error(f"Erro: {e}")
+            self._show_snack(f"Erro: {e}")
             raise e
 
-    def open_browser(self, page, username, password):
-        page.goto("https://seibahia.ba.gov.br")
-        page.get_by_role("textbox", name="Usuário").fill(username)
-        page.get_by_role("textbox", name="Senha").fill(password)
-        page.locator("#selOrgao").select_option("23")
-        page.get_by_role("button", name="ACESSAR").click()
+    def open_browser(self, page, username, password,df):
+        page.goto("http://homologa2.sigaf.sesab.ba.gov.br/")
+        page.locator("#login").click()
+        page.locator("#login").fill(username)
+        page.locator("input[name=\"senha\"]").click()
+        page.locator("input[name=\"senha\"]").fill(password)
+        with page.expect_popup() as page3_info:
+            page.get_by_role("button", name="Login de usuário").click()
+        page3 = page3_info.value
+        page.goto("http://homologa2.sigaf.sesab.ba.gov.br/?page=meta/view&id_view=tb_lancamento_1&_menu_acessado=406")
+        for index, row in df.iterrows():
+            page.get_by_role("button", name="Adicionar Lançamento").click()
+            page.locator("input[name=\"dia_dth_lancamento**246,0;201___dta//0/0\"]").fill(row["DATA"].strftime("%d"))
+            page.locator("input[name=\"mes_dth_lancamento**246,0;201___dta//0/0\"]").fill(row["DATA"].strftime("%m"))
+            page.locator("input[name=\"ano_dth_lancamento**246,0;201___dta//0/0\"]").fill(row["DATA"].strftime("%Y"))
+            page.locator("input[name=\"dsc_lancamento**246,0;201___str//0/0\"]").fill(row["DESCRIÇÃO"])
+            page.locator("select[name=\"cod_lancamento_tipo**246,0;201___int//0/0\"]").select_option("3")
+            page.locator("input[name=\"vlr_lancamento**246,0;201___rea//0/0\"]").fill(row["VALOR"])
+            with page.expect_popup() as page4_info:
+                page.locator("[id=\"cod_unidade_saude**246,0;201___nfm//0/0_seleciona\"]").click()
+            page4 = page4_info.value
+            page4.get_by_role("textbox").click()
+            page4.get_by_role("textbox").fill("PREFEITURA MUNICIPAL DE " + row["MUNICIPIO"].upper())
+            page4.get_by_role("button", name="Buscar").click()
+            page4.locator(".pad_over").first.click()
+            page4.locator("#link_listagem #btn_lista_selecao_selecionar").click()
+            page4.get_by_role("button", name="Selecionar").click()
+            page4.close()
+            page.once("dialog", lambda dialog: dialog.dismiss())
+            page.get_by_role("button", name="Adicionar").click()

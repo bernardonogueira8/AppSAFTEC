@@ -26,7 +26,7 @@ class SeiDmaController:
         try:
             return self.model.buscar_credenciais(system_name)
         except Exception as e:
-            self._show_snack(f"Erro ao buscar: {e}")
+            print(f"Erro ao buscar: {e}")
             return None
 
     def save_credentials(self, username, password, system_name):
@@ -36,10 +36,10 @@ class SeiDmaController:
 
         try:
             self.model.salvar_credenciais(username, password, system_name)
-            self._show_snack(f"Credenciais do {system_name} prontas!")
+            self._show_snack(f"Credenciais do {system_name} salvas!")
             return True  # Retorna Verdadeiro, permite avançar
         except Exception as e:
-            self._show_snack(f"Erro ao salvar: {e}")
+            print(f"Erro ao salvar: {e}")
             return False
 
     def _show_snack(self, message):
@@ -76,7 +76,9 @@ class SeiDmaController:
         Esta função recebe apenas dados puros (strings, dicionários, etc.)
         e não tem NENHUMA dependência da interface gráfica (Tkinter).
         """
-        self._show_snack(f"Iniciando automação no SEI para o usuário: {username} | Título: {titulo}")
+        self._show_snack(
+            f"Iniciando automação no SEI para o usuário: {username} | Título: {titulo}"
+        )
         try:
             # Inicializa o Playwright de forma síncrona
             with sync_playwright() as p:

@@ -128,7 +128,6 @@ class Sei_cajView:
                         ft.Text(
                             "Dados da Automação", size=26, weight=ft.FontWeight.BOLD
                         ),
-
                     ],
                     alignment=ft.MainAxisAlignment.START,
                 ),
