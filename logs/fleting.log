@@ -3411,3 +3411,58 @@ AttributeError: 'Sei_dmaView' object has no attribute 'btn_opcoes'
 2026-04-16 09:02:19,518 | INFO | Router | Navigating to: /plan_ceaf
 2026-04-16 09:02:19,966 | INFO | Router | Navigating to: /simpas_entradas_saidas
 2026-04-16 09:02:23,293 | INFO | flet | Session was garbage collected: cQbjPOb1nxdtfZvf
+2026-04-16 15:14:02,416 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-16 15:14:02,438 | INFO | flet | Starting up TCP server on localhost:59121
+2026-04-16 15:14:02,452 | INFO | flet | Flet app has started...
+2026-04-16 15:14:04,226 | INFO | flet | App session started
+2026-04-16 15:14:04,259 | INFO | Router | Navigating to: /
+2026-04-16 15:14:04,269 | INFO | App | Aplicação iniciada com sucesso
+2026-04-16 15:14:06,684 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 15:14:07,492 | INFO | Router | Navigating to: /sei_caj
+2026-04-16 15:14:08,132 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-16 15:14:08,668 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-16 15:14:09,492 | INFO | Router | Navigating to: /esus_treina
+2026-04-16 15:14:09,980 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-16 15:14:10,516 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-16 15:14:34,310 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-16 15:14:34,975 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-16 15:14:35,471 | INFO | Router | Navigating to: /sei_caj
+2026-04-16 15:14:35,782 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 15:14:38,076 | INFO | flet | Session was garbage collected: a0lHxB3aI3a74bz8
+2026-04-16 15:17:46,167 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-16 15:17:46,169 | INFO | flet | Starting up TCP server on localhost:59182
+2026-04-16 15:17:46,177 | INFO | flet | Flet app has started...
+2026-04-16 15:17:46,648 | INFO | flet | App session started
+2026-04-16 15:17:46,652 | INFO | Router | Navigating to: /
+2026-04-16 15:17:46,662 | INFO | App | Aplicação iniciada com sucesso
+2026-04-16 15:17:58,837 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 15:17:59,309 | INFO | Router | Navigating to: /sei_caj
+2026-04-16 15:17:59,733 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-16 15:18:00,302 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-16 15:18:01,054 | INFO | Router | Navigating to: /esus_treina
+2026-04-16 15:18:01,405 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-16 15:18:01,821 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-16 15:18:02,733 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 15:18:03,125 | INFO | Router | Navigating to: /sei_caj
+2026-04-16 15:18:03,494 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-16 15:18:03,861 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-16 15:18:04,205 | INFO | Router | Navigating to: /esus_treina
+2026-04-16 15:18:04,598 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-16 15:18:05,166 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-16 15:18:05,966 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-16 15:18:07,790 | INFO | Router | Navigating to: /
+2026-04-16 15:18:21,725 | INFO | flet | Session was garbage collected: SH1gGQbR9mT4FGbj
+2026-04-16 15:23:13,525 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-16 15:23:13,526 | INFO | flet | Starting up TCP server on localhost:59257
+2026-04-16 15:23:13,535 | INFO | flet | Flet app has started...
+2026-04-16 15:23:13,944 | INFO | flet | App session started
+2026-04-16 15:23:13,948 | INFO | Router | Navigating to: /
+2026-04-16 15:23:13,959 | INFO | App | Aplicação iniciada com sucesso
+2026-04-16 15:23:16,290 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 15:23:16,721 | INFO | Router | Navigating to: /sei_caj
+2026-04-16 15:23:17,449 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-16 15:23:17,889 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-16 15:23:18,345 | INFO | Router | Navigating to: /esus_treina
+2026-04-16 15:23:18,713 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-16 15:23:19,033 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-16 15:23:20,955 | INFO | flet | Session was garbage collected: 9XLsPD4eBXzDcbIs
