@@ -65,6 +65,19 @@ class SeiDmaController:
         )
         automacao_thread.start()  # Inicia a thread para não travar a UI
 
+    def copy_from_sei(self, e):
+        # O número SEI foi guardado no 'data' do componente lá no passo anterior
+        numero = self.view.btn_copy_sei.data
+        
+        if numero:
+            # Comando oficial do Flet para copiar
+            self.view.page.set_clipboard(numero)
+            self._show_snack(f"Número {numero} copiado para a área de transferência!")
+        else:
+            self._show_snack("Nenhum número encontrado para copiar.")
+    
+    
+    
     def _run_playwright_script(self, username, password, titulo, texto):
         """
         Executa a rotina de automação no sistema SEI.
@@ -72,24 +85,41 @@ class SeiDmaController:
         Esta função recebe apenas dados puros (strings, dicionários, etc.)
         e não tem NENHUMA dependência da interface gráfica (Tkinter).
         """
-        self._show_snack(
-            f"Iniciando automação no SEI para o usuário: {username} | Título: {titulo}"
-        )
+        self._show_snack(f"Iniciando automação...")
         try:
-            # Inicializa o Playwright de forma síncrona
             with sync_playwright() as p:
                 browser = p.firefox.launch(headless=False, slow_mo=500)
-                page = browser.new_page()  # [1]
-                self._show_snack("Navegador aberto. Acessando a página de login...")
-
+                page = browser.new_page()
+                
                 self.open_browser(page, username, password)
                 numero_sei = self.create_process(page, titulo, texto)
-                self.download_file(page)
+                
+                # Captura o caminho do arquivo retornado pelo download
+                caminho_pdf = self.download_file(page)
+                
                 browser.close()
-                return numero_sei  # Retorna o número do processo/Documento criado para exibir na UI
+
+                # --- ATUALIZAÇÃO DA UI ---
+                # 1. Habilita o botão de copiar
+                self.view.btn_copy_sei.disabled = False
+                
+                # 2. Armazena o número SEI no botão ou no controller para uso posterior
+                self.view.btn_copy_sei.data = numero_sei 
+                
+                # 3. Atualiza o texto do caminho
+                if caminho_pdf:
+                    self.view.text_caminho.value = f"Caminho do arquivo: {caminho_pdf}"
+                
+                # 4. Dá o refresh na tela
+                self.view.update() 
+                
+                return numero_sei
 
         except Exception as e:
             self._show_snack(f"Erro: {e}")
+            # Caso dê erro, é bom garantir que o botão continue desabilitado
+            self.view.btn_copy_sei.disabled = True
+            self.view.update()
             raise e
 
     def formatar_para_sei(self, content):

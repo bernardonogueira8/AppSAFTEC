@@ -3320,3 +3320,94 @@ NameError: name 'threading' is not defined. Did you forget to import 'threading'
 2026-04-15 17:15:01,813 | INFO | Router | Navigating to: /sei_caj
 2026-04-15 17:15:02,285 | INFO | Router | Navigating to: /sigaf_contrapartida
 2026-04-15 17:22:07,651 | INFO | flet | Session was garbage collected: G4LBZ5SVC35SurDW
+2026-04-16 08:50:29,548 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-16 08:50:29,551 | INFO | flet | Starting up TCP server on localhost:55614
+2026-04-16 08:50:29,560 | INFO | flet | Flet app has started...
+2026-04-16 08:50:30,097 | INFO | flet | App session started
+2026-04-16 08:50:30,103 | INFO | Router | Navigating to: /
+2026-04-16 08:50:30,114 | INFO | App | Aplicação iniciada com sucesso
+2026-04-16 08:50:31,532 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 08:50:31,546 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Dev\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Dev\AppSAFTEC\app\configs\routes.py", line 106, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\app\views\pages\sei_dma_view.py", line 113, in render
+    on_click=self.controller.copy_from_sei,
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SeiDmaController' object has no attribute 'copy_from_sei'
+2026-04-16 08:50:42,637 | INFO | flet | Session was garbage collected: WbPd1FBR9p5BGMej
+2026-04-16 08:58:31,814 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-16 08:58:31,816 | INFO | flet | Starting up TCP server on localhost:55830
+2026-04-16 08:58:31,823 | INFO | flet | Flet app has started...
+2026-04-16 08:58:32,289 | INFO | flet | App session started
+2026-04-16 08:58:32,293 | INFO | Router | Navigating to: /
+2026-04-16 08:58:32,303 | INFO | App | Aplicação iniciada com sucesso
+2026-04-16 08:58:33,544 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 08:58:33,548 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Dev\AppSAFTEC\app\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Dev\AppSAFTEC\app\configs\routes.py", line 106, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\app\views\pages\sei_dma_view.py", line 187, in render
+    controls=[self.login_step, self.automacao_step, self.btn_opcoes],
+                                                    ^^^^^^^^^^^^^^^
+AttributeError: 'Sei_dmaView' object has no attribute 'btn_opcoes'
+2026-04-16 08:59:01,158 | INFO | flet | Session was garbage collected: Gm0ELQvVm9ZOqKZ1
+2026-04-16 08:59:05,593 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-16 08:59:05,595 | INFO | flet | Starting up TCP server on localhost:55844
+2026-04-16 08:59:05,602 | INFO | flet | Flet app has started...
+2026-04-16 08:59:05,960 | INFO | flet | App session started
+2026-04-16 08:59:05,965 | INFO | Router | Navigating to: /
+2026-04-16 08:59:05,976 | INFO | App | Aplicação iniciada com sucesso
+2026-04-16 08:59:07,222 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 08:59:53,886 | INFO | flet | Session was garbage collected: BmVgHHQXQwEHCqlB
+2026-04-16 09:00:01,396 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-16 09:00:01,398 | INFO | flet | Starting up TCP server on localhost:55880
+2026-04-16 09:00:01,406 | INFO | flet | Flet app has started...
+2026-04-16 09:00:01,765 | INFO | flet | App session started
+2026-04-16 09:00:01,770 | INFO | Router | Navigating to: /
+2026-04-16 09:00:01,784 | INFO | App | Aplicação iniciada com sucesso
+2026-04-16 09:00:03,140 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 09:00:41,166 | INFO | flet | Session was garbage collected: nsaLa2z1LFUQSb1v
+2026-04-16 09:00:45,568 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-16 09:00:45,570 | INFO | flet | Starting up TCP server on localhost:55895
+2026-04-16 09:00:45,577 | INFO | flet | Flet app has started...
+2026-04-16 09:00:45,935 | INFO | flet | App session started
+2026-04-16 09:00:45,939 | INFO | Router | Navigating to: /
+2026-04-16 09:00:45,949 | INFO | App | Aplicação iniciada com sucesso
+2026-04-16 09:00:47,234 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 09:00:51,671 | INFO | flet | Session was garbage collected: H01hJ8LFX0yAVhEr
+2026-04-16 09:01:14,770 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-16 09:01:14,772 | INFO | flet | Starting up TCP server on localhost:55910
+2026-04-16 09:01:14,780 | INFO | flet | Flet app has started...
+2026-04-16 09:01:15,155 | INFO | flet | App session started
+2026-04-16 09:01:15,159 | INFO | Router | Navigating to: /
+2026-04-16 09:01:15,170 | INFO | App | Aplicação iniciada com sucesso
+2026-04-16 09:01:16,275 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 09:01:31,713 | INFO | flet | Session was garbage collected: wZ1dlptQXb4tyBBD
+2026-04-16 09:01:36,049 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-16 09:01:36,051 | INFO | flet | Starting up TCP server on localhost:55917
+2026-04-16 09:01:36,059 | INFO | flet | Flet app has started...
+2026-04-16 09:01:36,421 | INFO | flet | App session started
+2026-04-16 09:01:36,425 | INFO | Router | Navigating to: /
+2026-04-16 09:01:36,436 | INFO | App | Aplicação iniciada com sucesso
+2026-04-16 09:01:37,636 | INFO | Router | Navigating to: /sei_caj
+2026-04-16 09:01:40,660 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 09:01:57,325 | INFO | Router | Navigating to: /sei_caj
+2026-04-16 09:02:05,341 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 09:02:06,901 | INFO | Router | Navigating to: /sei_caj
+2026-04-16 09:02:12,318 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-16 09:02:12,861 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-16 09:02:16,550 | INFO | Router | Navigating to: /sei_dma
+2026-04-16 09:02:17,054 | INFO | Router | Navigating to: /sei_caj
+2026-04-16 09:02:17,542 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-16 09:02:18,214 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-16 09:02:18,982 | INFO | Router | Navigating to: /esus_treina
+2026-04-16 09:02:19,518 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-16 09:02:19,966 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-16 09:02:23,293 | INFO | flet | Session was garbage collected: cQbjPOb1nxdtfZvf

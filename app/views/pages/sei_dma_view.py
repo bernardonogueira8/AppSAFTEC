@@ -94,7 +94,27 @@ class Sei_dmaView:
             min_lines=3,
             expand=True,
         )
+        self.btn_copy_sei = ft.ElevatedButton( # Usei ElevatedButton por padrão, mas pode manter seu style
+            content=ft.Row(
+                controls=[
+                    ft.Icon(ft.Icons.CONTENT_COPY, color=ft.Colors.WHITE),
+                    ft.Text("Copiar número do SEI", color=ft.Colors.WHITE, weight=ft.FontWeight.BOLD),
+                ],
+            ),
+            style=ft.ButtonStyle(
+                bgcolor=ft.Colors.GREEN_600,
+                padding=ft.Padding.all(20),
+                shape=ft.RoundedRectangleBorder(radius=10),
+            ),
+            on_click=self.controller.copy_from_sei,
+            expand=False,
+            disabled=True, # <--- Começa desabilitado
+        )
 
+        self.text_caminho = ft.Text(
+            "Caminho do arquivo: ",
+            color=ft.Colors.GREY_600,
+        )
         self.automacao_step = ft.Column(
             controls=[
                 ft.Row(
@@ -149,14 +169,24 @@ class Sei_dmaView:
                     ],
                     alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
                 ),
+                ft.Divider(height=30, thickness=1, color=ft.Colors.GREY_300),  # Separador visual
+                ft.Row(
+                    controls=[
+                        self.text_caminho,
+                        self.btn_copy_sei,
+                    ],
+                    alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
+                    spacing=20,
+                ),
             ],
             visible=False,
-            expand=True,
+            expand=False,
             horizontal_alignment=ft.CrossAxisAlignment.START,
         )
+        
         # O layout principal que organiza os passos
         content = ft.Column(
-            controls=[self.login_step, self.automacao_step],
+            controls=[self.login_step, self.automacao_step, ],
             scroll=ft.ScrollMode.AUTO,
             spacing=20,
         )
