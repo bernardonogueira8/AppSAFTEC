@@ -1,6 +1,6 @@
 [project]
 name = "SAFTEC"
-version = "0.1.0"
+version = "1.0.0"
 description = "Application for SAFTEC"
 readme = "README.md"
 requires-python = ">=3.14"
