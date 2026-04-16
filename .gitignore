@@ -12,3 +12,8 @@ wheels/
 # Projects
 downloads/
 *.pdf
+
+# Test outputs
+InnoSetup/Output/
+build/
+*.exe

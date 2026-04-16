@@ -13,7 +13,7 @@ UsedUserAreasWarning=no
 
 ; Pasta onde o .exe do instalador será gerado
 OutputDir=Output
-OutputBaseFilename=SAFTEC-Setup
+OutputBaseFilename=SAFTEC_Setup_
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
