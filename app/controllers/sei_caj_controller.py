@@ -1,13 +1,8 @@
 import flet as ft
-import json
 import pandas as pd
 import threading
 from playwright.sync_api import sync_playwright
 from models.sei_caj_model import Sei_cajModel
-
-# from core.logger import get_logger
-# logger = get_logger("App")
-
 
 class SeiCajController:
     """

@@ -3243,3 +3243,80 @@ AttributeError: 'SigafContrapartidaController' object has no attribute 'page'
 2026-04-14 17:38:42,159 | INFO | Router | Navigating to: /sigaf_contrapartida
 2026-04-14 17:38:52,782 | INFO | App | Navegador aberto. Acessando a página de login...
 2026-04-14 17:39:43,275 | INFO | flet | Session was garbage collected: qrDIWRPnJgw8LbUL
+2026-04-15 16:48:33,057 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-15 16:48:33,060 | INFO | flet | Starting up TCP server on localhost:64579
+2026-04-15 16:48:33,072 | INFO | flet | Flet app has started...
+2026-04-15 16:48:33,619 | INFO | flet | App session started
+2026-04-15 16:48:33,627 | INFO | Router | Navigating to: /
+2026-04-15 16:48:33,644 | INFO | App | Aplicação iniciada com sucesso
+2026-04-15 16:49:46,396 | INFO | Router | Navigating to: /sei_caj
+2026-04-15 16:49:47,093 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-15 16:51:27,573 | INFO | flet | Session was garbage collected: n116HW7DPRkFNsND
+2026-04-15 16:51:32,933 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-15 16:51:32,935 | INFO | flet | Starting up TCP server on localhost:64643
+2026-04-15 16:51:32,946 | INFO | flet | Flet app has started...
+2026-04-15 16:51:33,535 | INFO | flet | App session started
+2026-04-15 16:51:33,542 | INFO | Router | Navigating to: /
+2026-04-15 16:51:33,562 | INFO | App | Aplicação iniciada com sucesso
+2026-04-15 16:51:35,234 | INFO | Router | Navigating to: /sei_caj
+2026-04-15 16:51:35,978 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-15 16:51:45,606 | ERROR | flet | Unhandled error in 'on_click' handler
+Traceback (most recent call last):
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\flet\messaging\session.py", line 335, in dispatch_event
+    await control._trigger_event(event_name, event_data)
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\flet\controls\base_control.py", line 478, in _trigger_event
+    event_handler(e)
+    ~~~~~~~~~~~~~^^^
+  File "C:\Dev\AppSAFTEC\app\views\pages\sigaf_contrapartida_view.py", line 168, in <lambda>
+    on_click=lambda _: self.controller.start_automation(
+                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        self.number_cib_input.value,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.caminho_arquivo_input.value,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self.system_name,
+        ^^^^^^^^^^^^^^^^^
+    ),
+    ^
+  File "C:\Dev\AppSAFTEC\app\controllers\sigaf_contrapartida_controller.py", line 57, in start_automation
+    automacao_thread = threading.Thread(
+                       ^^^^^^^^^
+NameError: name 'threading' is not defined. Did you forget to import 'threading'?
+2026-04-15 16:51:55,211 | INFO | flet | Session was garbage collected: vZUHPLNgj4AKPA0V
+2026-04-15 16:52:01,353 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-15 16:52:01,355 | INFO | flet | Starting up TCP server on localhost:64654
+2026-04-15 16:52:01,363 | INFO | flet | Flet app has started...
+2026-04-15 16:52:01,735 | INFO | flet | App session started
+2026-04-15 16:52:01,739 | INFO | Router | Navigating to: /
+2026-04-15 16:52:01,751 | INFO | App | Aplicação iniciada com sucesso
+2026-04-15 16:52:04,662 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-15 16:52:05,318 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-15 16:54:05,131 | INFO | flet | Session was garbage collected: isY9as6RVubRSXsP
+2026-04-15 16:54:10,307 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-15 16:54:10,308 | INFO | flet | Starting up TCP server on localhost:64713
+2026-04-15 16:54:10,317 | INFO | flet | Flet app has started...
+2026-04-15 16:54:10,716 | INFO | flet | App session started
+2026-04-15 16:54:10,721 | INFO | Router | Navigating to: /
+2026-04-15 16:54:10,741 | INFO | App | Aplicação iniciada com sucesso
+2026-04-15 16:57:28,939 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-15 16:58:32,746 | INFO | flet | Session was garbage collected: GVWaOKbOsYWbGRcv
+2026-04-15 16:58:38,147 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-15 16:58:38,150 | INFO | flet | Starting up TCP server on localhost:64883
+2026-04-15 16:58:38,167 | INFO | flet | Flet app has started...
+2026-04-15 16:58:38,558 | INFO | flet | App session started
+2026-04-15 16:58:38,561 | INFO | Router | Navigating to: /
+2026-04-15 16:58:38,574 | INFO | App | Aplicação iniciada com sucesso
+2026-04-15 16:58:57,421 | INFO | Router | Navigating to: /sei_caj
+2026-04-15 16:58:57,861 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-15 17:00:07,533 | INFO | flet | Session was garbage collected: ht7kTFtg086v5VGB
+2026-04-15 17:13:07,175 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-15 17:13:07,176 | INFO | flet | Starting up TCP server on localhost:54420
+2026-04-15 17:13:07,184 | INFO | flet | Flet app has started...
+2026-04-15 17:13:07,575 | INFO | flet | App session started
+2026-04-15 17:13:07,580 | INFO | Router | Navigating to: /
+2026-04-15 17:13:07,593 | INFO | App | Aplicação iniciada com sucesso
+2026-04-15 17:14:59,055 | INFO | Router | Navigating to: /sei_caj
+2026-04-15 17:15:00,438 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-15 17:15:01,813 | INFO | Router | Navigating to: /sei_caj
+2026-04-15 17:15:02,285 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-15 17:22:07,651 | INFO | flet | Session was garbage collected: G4LBZ5SVC35SurDW

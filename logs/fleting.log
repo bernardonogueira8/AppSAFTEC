@@ -1,0 +1,27 @@
+2026-04-15 15:15:28,332 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\fleting\assets
+2026-04-15 15:15:28,358 | INFO | flet | Starting up TCP server on localhost:58566
+2026-04-15 15:15:28,370 | INFO | flet | Flet app has started...
+2026-04-15 15:15:29,276 | INFO | flet | App URL: tcp://localhost:58566
+2026-04-15 15:15:29,276 | INFO | flet_desktop | Starting Flet View app...
+2026-04-15 15:15:29,286 | INFO | flet_desktop | Flet client found in cache: C:\Users\bernardo.silva\.flet\client\flet-desktop-full-0.84.0
+2026-04-15 15:15:30,485 | INFO | flet | App session started
+2026-04-15 15:15:30,504 | INFO | Router | Navigating to: /
+2026-04-15 15:15:30,514 | INFO | App | Aplicação iniciada com sucesso
+2026-04-15 15:15:32,420 | INFO | flet | Session was garbage collected: U4x8bAhHMkF6IJvG
+2026-04-15 15:18:28,224 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\app\assets
+2026-04-15 15:18:28,226 | INFO | flet | Starting up TCP server on localhost:58646
+2026-04-15 15:18:28,233 | INFO | flet | Flet app has started...
+2026-04-15 15:18:28,271 | INFO | flet | App URL: tcp://localhost:58646
+2026-04-15 15:18:28,271 | INFO | flet_desktop | Starting Flet View app...
+2026-04-15 15:18:28,280 | INFO | flet_desktop | Flet client found in cache: C:\Users\bernardo.silva\.flet\client\flet-desktop-full-0.84.0
+2026-04-15 15:18:28,692 | INFO | flet | App session started
+2026-04-15 15:18:28,697 | INFO | Router | Navigating to: /
+2026-04-15 15:18:28,710 | INFO | App | Aplicação iniciada com sucesso
+2026-04-15 15:18:29,931 | INFO | Router | Navigating to: /sei_dma
+2026-04-15 15:18:30,611 | INFO | Router | Navigating to: /sei_caj
+2026-04-15 15:18:31,099 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-15 15:18:31,555 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-15 15:18:32,163 | INFO | Router | Navigating to: /esus_treina
+2026-04-15 15:18:32,603 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-15 15:18:32,979 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-15 15:18:34,467 | INFO | flet | Session was garbage collected: WCYHoOVBKZHXF05z

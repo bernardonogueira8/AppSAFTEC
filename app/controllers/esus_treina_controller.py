@@ -1,6 +1,4 @@
 import flet as ft
-import json
-import os
 import threading
 from core.logger import get_logger
 from models.esus_treina_model import Esus_treinaModel

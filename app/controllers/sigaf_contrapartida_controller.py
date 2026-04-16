@@ -1,12 +1,8 @@
 import flet as ft
 import pandas as pd
 import threading
-from core.logger import get_logger
 from playwright.sync_api import sync_playwright
 from models.sigaf_contrapartida_model import Sigaf_contrapartidaModel
-
-logger = get_logger("App")
-
 
 class SigafContrapartidaController:
     """
@@ -108,7 +104,7 @@ class SigafContrapartidaController:
             with sync_playwright() as p:
                 browser = p.firefox.launch(headless=False, slow_mo=500)
                 page = browser.new_page()
-                logger.info("Navegador aberto. Acessando a página de login...")
+                self._show_snack(f"Navegador aberto. Acessando a página de login...")
 
                 self.open_browser(page, username, password, df)
                 browser.close()
@@ -118,7 +114,7 @@ class SigafContrapartidaController:
             raise e
 
     def open_browser(self, page, username, password,df):
-        page.goto("http://homologa2.sigaf.sesab.ba.gov.br/")
+        page.goto("http://sigaf.sesab.ba.gov.br/")
         page.locator("#login").click()
         page.locator("#login").fill(username)
         page.locator("input[name=\"senha\"]").click()
@@ -126,7 +122,7 @@ class SigafContrapartidaController:
         with page.expect_popup() as page3_info:
             page.get_by_role("button", name="Login de usuário").click()
         page3 = page3_info.value
-        page.goto("http://homologa2.sigaf.sesab.ba.gov.br/?page=meta/view&id_view=tb_lancamento_1&_menu_acessado=406")
+        page.goto("http://sigaf.sesab.ba.gov.br/?page=meta/view&id_view=tb_lancamento_1&_menu_acessado=406")
         for index, row in df.iterrows():
             page.get_by_role("button", name="Adicionar Lançamento").click()
             page.locator("input[name=\"dia_dth_lancamento**246,0;201___dta//0/0\"]").fill(row["DATA"].strftime("%d"))
@@ -134,14 +130,16 @@ class SigafContrapartidaController:
             page.locator("input[name=\"ano_dth_lancamento**246,0;201___dta//0/0\"]").fill(row["DATA"].strftime("%Y"))
             page.locator("input[name=\"dsc_lancamento**246,0;201___str//0/0\"]").fill(row["DESCRIÇÃO"])
             page.locator("select[name=\"cod_lancamento_tipo**246,0;201___int//0/0\"]").select_option("3")
-            page.locator("input[name=\"vlr_lancamento**246,0;201___rea//0/0\"]").fill(row["VALOR"])
+            page.locator("input[name=\"vlr_lancamento**246,0;201___rea//0/0\"]").fill(row["VALOR_STR"])
+            page.wait_for_timeout(2000)
+            self._show_snack(f"Adicionando lançamento para o município: {row['MUNICIPIO']} | Valor: {row['VALOR_STR']}")
             with page.expect_popup() as page4_info:
                 page.locator("[id=\"cod_unidade_saude**246,0;201___nfm//0/0_seleciona\"]").click()
             page4 = page4_info.value
             page4.get_by_role("textbox").click()
             page4.get_by_role("textbox").fill("PREFEITURA MUNICIPAL DE " + row["MUNICIPIO"].upper())
             page4.get_by_role("button", name="Buscar").click()
-            page4.locator(".pad_over").first.click()
+            page4.locator("#ctr_item_listagem_0").check()
             page4.locator("#link_listagem #btn_lista_selecao_selecionar").click()
             page4.get_by_role("button", name="Selecionar").click()
             page4.close()

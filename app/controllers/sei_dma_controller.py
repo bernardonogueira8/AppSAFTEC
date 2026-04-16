@@ -5,10 +5,6 @@ import threading
 from playwright.sync_api import sync_playwright
 from models.sei_dma_model import Sei_dmaModel
 
-# from core.logger import get_logger
-# logger = get_logger("App")
-
-
 class SeiDmaController:
     """
     Controller for sei_dma page
