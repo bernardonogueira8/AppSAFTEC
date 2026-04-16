@@ -87,12 +87,9 @@ class MainLayout(ft.Column):
                         weight=(
                             ft.FontWeight.BOLD if is_selected else ft.FontWeight.NORMAL
                         ),
-                        color=ft.Colors.WHITE if is_selected else ft.Colors.WHITE70,
                     ),
                     padding=ft.Padding.symmetric(vertical=12, horizontal=15),
                     border_radius=8,
-                    # Cor de destaque se estiver selecionado
-                    bgcolor=ft.Colors.WHITE10 if is_selected else None,
                     ink=True,
                     on_click=lambda e, path=r["path"]: self._handle_sidebar_change(
                         path
