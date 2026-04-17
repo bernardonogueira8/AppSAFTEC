@@ -1,11 +1,47 @@
-import flet as ft
 from configs.app_config import AppConfig
 from core.logger import get_logger
 from core.error_handler import GlobalErrorHandler
+from core import ft, threading
 import runtime_imports
 
 logger = get_logger("App")
 
+def _check_update_background(page: ft.Page):
+    """Roda em background ao abrir o app."""
+    try:
+        from controllers.update_controller import UpdateController
+        remote = UpdateController.get_remote_version()
+        if not remote or not UpdateController.needs_update(remote):
+            return
+
+        def on_confirm(e):
+            dlg.open = False
+            page.update()
+            # Navega para a tela de update para mostrar progresso
+            from configs.routes import routes
+            page.go("/update")
+
+        def on_dismiss(e):
+            dlg.open = False
+            page.update()
+
+        dlg = ft.AlertDialog(
+            modal=True,
+            title=ft.Text("Nova versão disponível"),
+            content=ft.Text(
+                f"Versão {remote['version']} disponível.\nDeseja atualizar agora?"
+            ),
+            actions=[
+                ft.TextButton("Atualizar agora", on_click=on_confirm),
+                ft.TextButton("Depois", on_click=on_dismiss),
+            ],
+        )
+        page.overlay.append(dlg)
+        dlg.open = True
+        page.update()
+
+    except Exception as e:
+        logger.warning(f"Falha na verificação de update: {e}")
 
 def main(page: ft.Page):
     try:
@@ -31,6 +67,13 @@ def main(page: ft.Page):
         router = Router(page)
         router.navigate("/")
 
+        # Verifica update em background sem travar a UI
+        threading.Thread(
+            target=_check_update_background,
+            args=(page,),
+            daemon=True
+        ).start()
+        
         logger.info("Aplicação iniciada com sucesso")
 
     except Exception as e:

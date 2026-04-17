@@ -247,15 +247,16 @@ class SeiCajController:
                 "button", name="Assinar"
             ).click()
 
-            page.wait_for_timeout(4000)
+            page.wait_for_timeout(2000)
             frame = page.frame_locator('iframe[name="ifrVisualizacao"]')
             frame.get_by_role("link", name="Enviar Processo").click()
             unidade_input = frame.locator("#txtUnidade")
             unidade_input.wait_for(state="visible", timeout=5000)
             unidade_input.press_sequentially("SESAB/GAB/NAJS", delay=100)
-            page.wait_for_timeout(4000)
+            page.wait_for_timeout(2000)
             opcao_link = frame.get_by_role("link", name="SESAB/GAB/NAJS - Núcleo de")
             opcao_link.wait_for(state="visible", timeout=5000)
             opcao_link.click()
-            page.wait_for_timeout(4000)
-            page.close()
+            page.wait_for_timeout(1000)
+            page.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_role("button", name="Enviar").click()
+

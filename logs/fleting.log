@@ -3732,3 +3732,41 @@ AttributeError: 'super' object has no attribute '__getattr__'. Did you mean: '__
 2026-04-17 15:56:11,541 | INFO | Router | Navigating to: /
 2026-04-17 15:56:11,554 | INFO | App | Aplicação iniciada com sucesso
 2026-04-17 15:56:15,206 | INFO | flet | Session was garbage collected: ZrRHs0AOacpv7OHP
+2026-04-17 16:06:25,086 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 16:06:25,087 | INFO | flet | Starting up TCP server on localhost:57801
+2026-04-17 16:06:25,095 | INFO | flet | Flet app has started...
+2026-04-17 16:06:25,486 | INFO | flet | App session started
+2026-04-17 16:06:25,490 | INFO | Router | Navigating to: /
+2026-04-17 16:06:25,502 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 16:06:54,644 | INFO | Router | Navigating to: /sei_dma
+2026-04-17 16:06:55,180 | INFO | Router | Navigating to: /sei_caj
+2026-04-17 16:06:55,708 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-17 16:06:56,388 | INFO | Router | Navigating to: /sei_dma
+2026-04-17 16:06:56,845 | INFO | Router | Navigating to: /sei_caj
+2026-04-17 16:06:57,293 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-17 16:06:57,821 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-17 16:06:58,373 | INFO | Router | Navigating to: /esus_treina
+2026-04-17 16:06:58,781 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-17 16:06:59,405 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-17 16:07:00,358 | INFO | Router | Navigating to: /sei_caj
+2026-04-17 16:07:00,654 | INFO | Router | Navigating to: /sei_dma
+2026-04-17 16:07:04,039 | INFO | Router | Navigating to: /update
+2026-04-17 16:07:08,164 | INFO | flet | Session was garbage collected: 0zKsthjVdubA77A0
+2026-04-17 16:22:34,701 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 16:22:34,703 | INFO | flet | Starting up TCP server on localhost:58129
+2026-04-17 16:22:34,710 | INFO | flet | Flet app has started...
+2026-04-17 16:22:35,179 | INFO | flet | App session started
+2026-04-17 16:22:35,184 | INFO | Router | Navigating to: /
+2026-04-17 16:22:35,198 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 16:22:37,078 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 404 Not Found"
+2026-04-17 16:22:37,737 | INFO | flet | Session was garbage collected: oUy2tF7Tvdsb0Xqv
+2026-04-17 16:22:52,664 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 16:22:52,665 | INFO | flet | Starting up TCP server on localhost:58148
+2026-04-17 16:22:52,672 | INFO | flet | Flet app has started...
+2026-04-17 16:22:53,030 | INFO | flet | App session started
+2026-04-17 16:22:53,034 | INFO | Router | Navigating to: /
+2026-04-17 16:22:53,050 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 16:22:53,342 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 404 Not Found"
+2026-04-17 16:23:13,072 | INFO | Router | Navigating to: /update
+2026-04-17 16:23:14,405 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 404 Not Found"
+2026-04-17 16:23:23,054 | INFO | flet | Session was garbage collected: rPgVzSvcHEpCmm3B
