@@ -66,8 +66,8 @@ if errorlevel 1 (
 
 REM ── Build Flet ─────────────────────────────────────────
 echo [5/7] Gerando Build Flet para Windows...
-uv run fletting db init
-uv run fletting db migrate 
+uv run fleting db init
+uv run fleting db migrate 
 uv run flet build windows
 if errorlevel 1 (
     echo ERRO: Falha no flet build.
@@ -112,7 +112,7 @@ if /i "%PUBLISH%"=="s" (
         git add version.py InnoSetup\installer.iss
         git commit -m "chore: bump version to %VERSION%"
         git tag v%VERSION%
-        git push origin main
+        git push origin main --force
         git push origin v%VERSION%
         gh release create v%VERSION% ^
             "InnoSetup\Output\SAFTEC_Setup_%VERSION%.exe" ^
