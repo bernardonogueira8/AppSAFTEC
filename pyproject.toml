@@ -21,3 +21,6 @@ company = "DASF"
 org = "sesab.dasf"
 copyright = "Copyright (C) 2026 Bernardo Nogueira"
 build_number = 1
+
+[tool.flet.windows]
+resources = ["ms-playwright"]
