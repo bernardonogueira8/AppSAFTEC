@@ -1,6 +1,5 @@
-import flet as ft
-import threading
 from core.logger import get_logger
+from core import os, ft, threading, sync_playwright
 from models.esus_treina_model import Esus_treinaModel
 
 logger = get_logger("App")
@@ -72,9 +71,6 @@ class EsusTreinaController:
         Esta função recebe apenas dados puros (strings, dicionários, etc.)
         e não tem NENHUMA dependência da interface gráfica (Tkinter).
         """
-        logger.info(
-            f"Iniciando automação no SEI para o usuário: {username} | Título: {titulo}"
-        )
         # Configurações de URL
         BASE_URL = "https://treinamento.esus.saude.ba.gov.br/"
         try:

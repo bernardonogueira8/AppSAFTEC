@@ -3466,3 +3466,11 @@ AttributeError: 'Sei_dmaView' object has no attribute 'btn_opcoes'
 2026-04-16 15:23:18,713 | INFO | Router | Navigating to: /plan_ceaf
 2026-04-16 15:23:19,033 | INFO | Router | Navigating to: /simpas_entradas_saidas
 2026-04-16 15:23:20,955 | INFO | flet | Session was garbage collected: 9XLsPD4eBXzDcbIs
+2026-04-17 09:36:55,116 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 09:36:55,120 | INFO | flet | Starting up TCP server on localhost:58234
+2026-04-17 09:36:55,131 | INFO | flet | Flet app has started...
+2026-04-17 09:36:56,017 | INFO | flet | App session started
+2026-04-17 09:36:56,032 | INFO | Router | Navigating to: /
+2026-04-17 09:36:56,041 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 09:36:57,310 | INFO | Router | Navigating to: /sei_dma
+2026-04-17 09:37:21,178 | INFO | flet | Session was garbage collected: KgN1O9oPmNw7jRZz

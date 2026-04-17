@@ -3,7 +3,6 @@
         "**/*.pyc": { "when": "$(basename).py" },
         "**/__pycache__": true,
         "**/*.pytest_cache": true,
-        "**/__init__.py": true
     },
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,

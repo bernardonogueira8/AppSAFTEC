@@ -1,7 +1,4 @@
-import flet as ft
-import pandas as pd
-import threading
-from playwright.sync_api import sync_playwright
+from core import ft, threading, pd, sync_playwright
 from models.sei_caj_model import Sei_cajModel
 
 class SeiCajController:
