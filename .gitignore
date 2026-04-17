@@ -16,4 +16,5 @@ downloads/
 # Test outputs
 InnoSetup/Output/
 build/
+ms-playwright/
 *.exe
