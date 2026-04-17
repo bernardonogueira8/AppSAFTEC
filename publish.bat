@@ -36,6 +36,9 @@ echo.
 
 REM ── Pergunta se quer publicar no GitHub ────────────────
 set /p PUBLISH="Publicar release no GitHub agora? [s/n]: "
+:: Deleta a tag local se ela já existir para evitar o erro fatal
+git tag -d v%VERSION% 2>nul
+git tag v%VERSION%
 if /i "%PUBLISH%"=="s" (
     where gh >nul 2>&1
     if errorlevel 1 (
