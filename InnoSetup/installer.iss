@@ -38,4 +38,5 @@ Name: "{userdesktop}\SAFTEC"; Filename: "{app}\SAFTEC-app.exe"; Tasks: desktopic
 
 [Run]
 ; Abre o SAFTEC automaticamente após a instalação
+Filename: "{cmd}"; Parameters: "/c npm install && npx playwright install firefox"; WorkingDir: "{app}"; Flags: runhidden; StatusMsg: "Configurando ambiente e navegadores..."
 Filename: "{app}\SAFTEC-app.exe"; Description: "{cm:LaunchProgram,SAFTEC}"; Flags: nowait postinstall skipifsilent

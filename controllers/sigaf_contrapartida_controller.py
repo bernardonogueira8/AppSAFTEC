@@ -1,7 +1,4 @@
-import flet as ft
-import pandas as pd
-import threading
-from playwright.sync_api import sync_playwright
+from core import ft, pd, threading, sync_playwright
 from models.sigaf_contrapartida_model import Sigaf_contrapartidaModel
 
 class SigafContrapartidaController:

@@ -1,9 +1,6 @@
-import flet as ft
-import json
-import os
-import threading
-from playwright.sync_api import sync_playwright
+from core import ft, json, os, threading, sync_playwright
 from models.sei_dma_model import Sei_dmaModel
+
 
 class SeiDmaController:
     """
