@@ -1,0 +1,30 @@
+{
+  "app": {
+    "name": "SAFTEC"
+  },
+  "menu": {
+    "home": "Home",
+    "help": "Help",
+    "update": "Update",
+    "exit": "Exit"
+  },
+  "home": {
+    "title": "Welcome to fleting"
+  },
+  "sei": {
+    "dma": "Automation: SEI to DMA",
+    "caj": "Automation: SEI to CAJ"
+  },
+  "sigaf": {
+    "prefeitura": "SIGAF: Health Department Information",
+    "contrapartida": "SIGAF: Counterpart Funding"
+  },
+  "simpas": {
+    "entradas_saidas": "SIMPAS: Inbound and Outbound",
+    "estoque": "SIMPAS: Stock Cross-Checking"
+  },
+  "outros": {
+    "esus_treina": "E-SUS Training",
+    "plan_ceaf": "CEAF Evaluation Spreadsheets"
+  }
+}

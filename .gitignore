@@ -11,6 +11,8 @@ wheels/
 
 # Projects
 downloads/
+data/
+logs/
 *.pdf
 
 # Test outputs

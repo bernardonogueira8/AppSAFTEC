@@ -3693,3 +3693,35 @@ AttributeError: 'super' object has no attribute '__getattr__'. Did you mean: '__
 2026-04-17 12:36:21,158 | INFO | Router | Navigating to: /
 2026-04-17 12:36:21,175 | INFO | App | Aplicação iniciada com sucesso
 2026-04-17 12:36:26,450 | INFO | flet | Session was garbage collected: Lf1t5domOzJYaz6C
+2026-04-17 13:10:35,938 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 13:10:35,941 | INFO | flet | Starting up TCP server on localhost:59468
+2026-04-17 13:10:35,953 | INFO | flet | Flet app has started...
+2026-04-17 13:10:36,651 | INFO | flet | App session started
+2026-04-17 13:10:36,671 | INFO | Router | Navigating to: /
+2026-04-17 13:10:36,690 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 13:10:39,803 | INFO | Router | Navigating to: /update
+2026-04-17 13:10:43,344 | INFO | flet | Session was garbage collected: xIWoURzO1wCoHMv8
+2026-04-17 13:12:04,777 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 13:12:04,778 | INFO | flet | Starting up TCP server on localhost:59497
+2026-04-17 13:12:04,785 | INFO | flet | Flet app has started...
+2026-04-17 13:12:05,148 | INFO | flet | App session started
+2026-04-17 13:12:05,152 | INFO | Router | Navigating to: /
+2026-04-17 13:12:05,164 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 13:13:00,538 | INFO | Router | Navigating to: /sei_dma
+2026-04-17 13:13:01,083 | INFO | Router | Navigating to: /sei_caj
+2026-04-17 13:13:42,334 | INFO | flet | Session was garbage collected: rnR7wYUDr5iUXsgL
+2026-04-17 13:13:47,207 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 13:13:47,209 | INFO | flet | Starting up TCP server on localhost:59529
+2026-04-17 13:13:47,216 | INFO | flet | Flet app has started...
+2026-04-17 13:13:47,668 | INFO | flet | App session started
+2026-04-17 13:13:47,674 | INFO | Router | Navigating to: /
+2026-04-17 13:13:47,693 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 13:14:00,129 | INFO | Router | Navigating to: /update
+2026-04-17 13:18:42,955 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 13:18:42,958 | INFO | flet | Starting up TCP server on localhost:59529
+2026-04-17 13:18:42,967 | INFO | flet | Flet app has started...
+2026-04-17 13:18:43,655 | INFO | flet | App session started
+2026-04-17 13:18:43,659 | INFO | Router | Navigating to: /
+2026-04-17 13:18:43,671 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 13:22:21,262 | INFO | Router | Navigating to: /update
+2026-04-17 13:22:22,219 | INFO | flet | Session was garbage collected: PB1qJiedaY4i3aQq

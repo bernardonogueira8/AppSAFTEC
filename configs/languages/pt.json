@@ -5,6 +5,7 @@
   "menu": {
     "home": "Inicio",
     "help": "Ajuda",
+    "update": "Atualizar",
     "exit": "Sair"
   },
   "home": {

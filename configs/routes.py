@@ -2,6 +2,8 @@ import flet as ft
 import importlib
 
 ROUTES = [
+    
+
     {
         "path": "/sei_dma",
         "view": "views.pages.sei_dma_view.Sei_dmaView",
@@ -71,6 +73,14 @@ ROUTES = [
         "view": "views.pages.home_view.HomeView",
         "label": "menu.home",
         "icon": ft.Icons.HOME,
+        "show_in_top": False,
+        "show_in_bottom": True,
+    },
+    {
+        "path": "/update",
+        "view": "views.pages.update_view.UpdateView",
+        "label": "menu.update",
+        "icon": ft.Icons.SYSTEM_UPDATE_ALT,
         "show_in_top": False,
         "show_in_bottom": True,
     },
