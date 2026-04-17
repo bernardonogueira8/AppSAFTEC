@@ -32,8 +32,8 @@ class HomeView:
                         ft.Image(src="icon.png", width=50, height=50),
                         ft.Text("Automações da SAFTEC", size=42, weight="bold"),
                         ft.Container(
-                            content=ft.Text(f"v{APP_VERSION}", size=24, weight="bold"),
-                            bgcolor=ft.Colors.BLUE_GREY_800,
+                            content=ft.Text(f"v{APP_VERSION}", size=24, weight="bold", color=ft.Colors.PRIMARY),
+                            bgcolor=ft.Colors.PRIMARY_CONTAINER,
                             padding=ft.padding.symmetric(horizontal=12, vertical=4),
                             border_radius=20,
                         ),
@@ -45,20 +45,20 @@ class HomeView:
                         "Aplicação para automação de tarefas e gestão de dados.",
                         size=18,
                         text_align=ft.TextAlign.CENTER,
-                        color=ft.Colors.GREY_400,
+                        color=ft.Colors.SECONDARY,
                     ),
                     width=450,
                 ),
                 ft.Text(
                     "Micro Framework MVC desenvolvido em Flet, Python e Playwright.",
                     size=14,
-                    color=ft.Colors.GREY_500,
+                    color=ft.Colors.SECONDARY,
                     italic=True
                 ),
                 ft.Text(
                     "Desenvolido por Bernardo Nogueira, SAFTEC/DASF",
                     size=16,
-                    color=ft.Colors.GREY_400,
+                    color=ft.Colors.SECONDARY,
                     italic=True
                 ),
             ]
