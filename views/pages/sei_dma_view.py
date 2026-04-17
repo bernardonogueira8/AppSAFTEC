@@ -94,11 +94,15 @@ class Sei_dmaView:
             min_lines=3,
             expand=True,
         )
-        self.btn_copy_sei = ft.ElevatedButton( # Usei ElevatedButton por padrão, mas pode manter seu style
+        self.btn_copy_sei = ft.ElevatedButton(  # Usei ElevatedButton por padrão, mas pode manter seu style
             content=ft.Row(
                 controls=[
                     ft.Icon(ft.Icons.CONTENT_COPY, color=ft.Colors.WHITE),
-                    ft.Text("Copiar número do SEI", color=ft.Colors.WHITE, weight=ft.FontWeight.BOLD),
+                    ft.Text(
+                        "Copiar número do SEI",
+                        color=ft.Colors.WHITE,
+                        weight=ft.FontWeight.BOLD,
+                    ),
                 ],
             ),
             style=ft.ButtonStyle(
@@ -108,7 +112,7 @@ class Sei_dmaView:
             ),
             on_click=self.controller.copy_from_sei,
             expand=False,
-            disabled=True, # <--- Começa desabilitado
+            disabled=True,  # <--- Começa desabilitado
         )
 
         self.text_caminho = ft.Text(
@@ -169,7 +173,9 @@ class Sei_dmaView:
                     ],
                     alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
                 ),
-                ft.Divider(height=30, thickness=1, color=ft.Colors.GREY_300),  # Separador visual
+                ft.Divider(
+                    height=30, thickness=1, color=ft.Colors.GREY_300
+                ),  # Separador visual
                 ft.Row(
                     controls=[
                         self.text_caminho,
@@ -183,10 +189,13 @@ class Sei_dmaView:
             expand=False,
             horizontal_alignment=ft.CrossAxisAlignment.START,
         )
-        
+
         # O layout principal que organiza os passos
         content = ft.Column(
-            controls=[self.login_step, self.automacao_step, ],
+            controls=[
+                self.login_step,
+                self.automacao_step,
+            ],
             scroll=ft.ScrollMode.AUTO,
             spacing=20,
         )

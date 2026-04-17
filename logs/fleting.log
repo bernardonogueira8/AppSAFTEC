@@ -3602,3 +3602,94 @@ AttributeError: 'super' object has no attribute '__getattr__'. Did you mean: '__
 2026-04-17 12:24:47,923 | INFO | Router | Navigating to: /sei_caj
 2026-04-17 12:24:50,978 | INFO | Router | Navigating to: /sigaf_contrapartida
 2026-04-17 12:24:58,615 | INFO | flet | Session was garbage collected: dp6ojHBTYawwL0EB
+2026-04-17 12:27:08,512 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:27:08,514 | INFO | flet | Starting up TCP server on localhost:57346
+2026-04-17 12:27:08,523 | INFO | flet | Flet app has started...
+2026-04-17 12:27:08,888 | INFO | flet | App session started
+2026-04-17 12:27:08,891 | INFO | Router | Navigating to: /
+2026-04-17 12:27:08,903 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:27:15,642 | INFO | flet | Session was garbage collected: bs82dlCm1wTXO0D7
+2026-04-17 12:27:28,125 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:27:28,126 | INFO | flet | Starting up TCP server on localhost:57359
+2026-04-17 12:27:28,134 | INFO | flet | Flet app has started...
+2026-04-17 12:27:28,472 | INFO | flet | App session started
+2026-04-17 12:27:28,476 | INFO | Router | Navigating to: /
+2026-04-17 12:27:28,489 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:27:30,783 | INFO | flet | Session was garbage collected: kj5FkKchOMvPK0VP
+2026-04-17 12:27:42,354 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:27:42,355 | INFO | flet | Starting up TCP server on localhost:57366
+2026-04-17 12:27:42,363 | INFO | flet | Flet app has started...
+2026-04-17 12:27:42,842 | INFO | flet | App session started
+2026-04-17 12:27:42,847 | INFO | Router | Navigating to: /
+2026-04-17 12:27:42,861 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:27:47,790 | INFO | flet | Session was garbage collected: NiwvsLLSLja6GP7n
+2026-04-17 12:28:31,768 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:28:31,770 | INFO | flet | Starting up TCP server on localhost:57386
+2026-04-17 12:28:31,777 | INFO | flet | Flet app has started...
+2026-04-17 12:28:32,138 | INFO | flet | App session started
+2026-04-17 12:28:32,141 | INFO | Router | Navigating to: /
+2026-04-17 12:28:32,152 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:28:40,772 | INFO | flet | Session was garbage collected: W14Q8qMMNLFCQOEq
+2026-04-17 12:31:06,458 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:31:06,460 | INFO | flet | Starting up TCP server on localhost:57457
+2026-04-17 12:31:06,466 | INFO | flet | Flet app has started...
+2026-04-17 12:31:06,921 | INFO | flet | App session started
+2026-04-17 12:31:06,924 | INFO | Router | Navigating to: /
+2026-04-17 12:31:06,936 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:31:21,837 | INFO | flet | Session was garbage collected: C46LeLQcFuHNll5q
+2026-04-17 12:32:26,128 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:32:26,130 | INFO | flet | Starting up TCP server on localhost:57497
+2026-04-17 12:32:26,139 | INFO | flet | Flet app has started...
+2026-04-17 12:32:26,522 | INFO | flet | App session started
+2026-04-17 12:32:26,527 | INFO | Router | Navigating to: /
+2026-04-17 12:32:26,539 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:33:16,770 | INFO | flet | Session was garbage collected: kCE0cPwSA1x8l9VE
+2026-04-17 12:33:21,900 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:33:21,901 | INFO | flet | Starting up TCP server on localhost:57519
+2026-04-17 12:33:21,908 | INFO | flet | Flet app has started...
+2026-04-17 12:33:22,254 | INFO | flet | App session started
+2026-04-17 12:33:22,257 | INFO | Router | Navigating to: /
+2026-04-17 12:33:22,267 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:33:35,877 | INFO | flet | Session was garbage collected: E3wZ9vCrTL9rZXd9
+2026-04-17 12:33:40,665 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:33:40,666 | INFO | flet | Starting up TCP server on localhost:57528
+2026-04-17 12:33:40,673 | INFO | flet | Flet app has started...
+2026-04-17 12:33:41,009 | INFO | flet | App session started
+2026-04-17 12:33:41,014 | INFO | Router | Navigating to: /
+2026-04-17 12:33:41,026 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:33:44,784 | INFO | flet | Session was garbage collected: alCYZGUxeMvnMGQS
+2026-04-17 12:33:53,041 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:33:53,043 | INFO | flet | Starting up TCP server on localhost:57535
+2026-04-17 12:33:53,051 | INFO | flet | Flet app has started...
+2026-04-17 12:33:53,406 | INFO | flet | App session started
+2026-04-17 12:33:53,410 | INFO | Router | Navigating to: /
+2026-04-17 12:33:53,421 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:34:37,786 | INFO | flet | Session was garbage collected: a63YymLXrPebVQa8
+2026-04-17 12:34:42,319 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:34:42,321 | INFO | flet | Starting up TCP server on localhost:58950
+2026-04-17 12:34:42,333 | INFO | flet | Flet app has started...
+2026-04-17 12:34:42,723 | INFO | flet | App session started
+2026-04-17 12:34:42,728 | INFO | Router | Navigating to: /
+2026-04-17 12:34:42,739 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:34:57,949 | INFO | flet | Session was garbage collected: tupZSJGViqzpVI3e
+2026-04-17 12:35:28,285 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:35:28,287 | INFO | flet | Starting up TCP server on localhost:58973
+2026-04-17 12:35:28,294 | INFO | flet | Flet app has started...
+2026-04-17 12:35:28,661 | INFO | flet | App session started
+2026-04-17 12:35:28,665 | INFO | Router | Navigating to: /
+2026-04-17 12:35:28,676 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:35:49,831 | INFO | flet | Session was garbage collected: ZF5YYH7BtvxnYp6N
+2026-04-17 12:35:55,754 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:35:55,755 | INFO | flet | Starting up TCP server on localhost:58991
+2026-04-17 12:35:55,763 | INFO | flet | Flet app has started...
+2026-04-17 12:35:56,141 | INFO | flet | App session started
+2026-04-17 12:35:56,145 | INFO | Router | Navigating to: /
+2026-04-17 12:35:56,156 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:36:11,393 | INFO | flet | Session was garbage collected: J71AjuTDvj4KyRim
+2026-04-17 12:36:20,801 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 12:36:20,802 | INFO | flet | Starting up TCP server on localhost:59004
+2026-04-17 12:36:20,809 | INFO | flet | Flet app has started...
+2026-04-17 12:36:21,153 | INFO | flet | App session started
+2026-04-17 12:36:21,158 | INFO | Router | Navigating to: /
+2026-04-17 12:36:21,175 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 12:36:26,450 | INFO | flet | Session was garbage collected: Lf1t5domOzJYaz6C

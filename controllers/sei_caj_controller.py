@@ -1,6 +1,7 @@
 from core import ft, threading, pd, sync_playwright
 from models.sei_caj_model import Sei_cajModel
 
+
 class SeiCajController:
     """
     Controller for sei_caj page
@@ -111,14 +112,14 @@ class SeiCajController:
             if senha_input.is_visible(timeout=2000):
                 senha_input.fill(password)
                 modal_frame.get_by_role("button", name="Acessar").click()
-            
+
             try:
                 page.frame_locator('iframe[name="ifrVisualizacao"]').get_by_role(
                     "link", name="Reabrir Processo"
                 ).click(timeout=1500)
             except:
                 pass
-            
+
             # Incluido documento, informação para processo, marcar como sigiloso e selecionar hipótese legal
             page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
                 "link", name="Incluir Documento"
@@ -126,7 +127,9 @@ class SeiCajController:
             page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
                 "link", name="Informação para Processo"
             ).click()
-            page.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_text("Público").click()
+            page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_text(
+                "Público"
+            ).click()
             with page.expect_popup() as page1_info:
                 page.locator('iframe[name="ifrVisualizacao"]').content_frame.locator(
                     "#divInfraBarraComandosSuperior"
@@ -208,43 +211,51 @@ class SeiCajController:
 
             <p cke-dissolved="true" cke-list-level="1" cke-symbol="·">&nbsp;</p>
             """
-            
-            
-            page1.locator("iframe[title=\"Corpo do Texto\"]").content_frame.get_by_text("[Insira aqui o conteúdo do").click()
+
+            page1.locator('iframe[title="Corpo do Texto"]').content_frame.get_by_text(
+                "[Insira aqui o conteúdo do"
+            ).click()
             page1.get_by_role("button", name="Código-Fonte").click()
             campo = page1.get_by_role("textbox", name="Corpo do Texto")
             valor_atual = campo.input_value()
             parte_remover = '<p class="Texto_Justificado_Arial_12_Espaçamento_Simples">[Insira aqui&nbsp;o conte&uacute;do do documento]</p>'
             valor_limpo = valor_atual.replace(parte_remover, "")
-            parte_remover = '\n\n<p>&nbsp;</p>'
+            parte_remover = "\n\n<p>&nbsp;</p>"
             valor_limpo = valor_limpo.replace(parte_remover, "")
             parte_remover = '<p style="font-size:12pt;">&nbsp;</p>'
             valor_limpo = valor_limpo.replace(parte_remover, "")
             valor_final = valor_limpo + content
-            campo.evaluate("(el, val) => { el.value = val; el.dispatchEvent(new Event('input', {bubbles: true})); el.dispatchEvent(new Event('change', {bubbles: true})); }", valor_final)
+            campo.evaluate(
+                "(el, val) => { el.value = val; el.dispatchEvent(new Event('input', {bubbles: true})); el.dispatchEvent(new Event('change', {bubbles: true})); }",
+                valor_final,
+            )
             page1.get_by_role("button", name="Salvar").click()
             page1.get_by_role("button", name="Código-Fonte").click()
             page1.get_by_role("button", name="Salvar").click()
             page1.close()
-            
-            page.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_role("link", name="Assinar Documento").click()
-            page.locator("iframe[name=\"modal-frame\"]").content_frame.get_by_role("textbox", name="Senha").click()
-            page.locator("iframe[name=\"modal-frame\"]").content_frame.get_by_role("textbox", name="Senha").fill(password)
-            page.locator("iframe[name=\"modal-frame\"]").content_frame.get_by_role("button", name="Assinar").click()
-            
-            
+
+            page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
+                "link", name="Assinar Documento"
+            ).click()
+            page.locator('iframe[name="modal-frame"]').content_frame.get_by_role(
+                "textbox", name="Senha"
+            ).click()
+            page.locator('iframe[name="modal-frame"]').content_frame.get_by_role(
+                "textbox", name="Senha"
+            ).fill(password)
+            page.locator('iframe[name="modal-frame"]').content_frame.get_by_role(
+                "button", name="Assinar"
+            ).click()
+
             page.wait_for_timeout(4000)
             frame = page.frame_locator('iframe[name="ifrVisualizacao"]')
             frame.get_by_role("link", name="Enviar Processo").click()
             unidade_input = frame.locator("#txtUnidade")
-            unidade_input.wait_for(state="visible", timeout=5000) 
+            unidade_input.wait_for(state="visible", timeout=5000)
             unidade_input.press_sequentially("SESAB/GAB/NAJS", delay=100)
             page.wait_for_timeout(4000)
             opcao_link = frame.get_by_role("link", name="SESAB/GAB/NAJS - Núcleo de")
             opcao_link.wait_for(state="visible", timeout=5000)
             opcao_link.click()
-            page.wait_for_timeout(4000) 
+            page.wait_for_timeout(4000)
             page.close()
-            
-            
-            

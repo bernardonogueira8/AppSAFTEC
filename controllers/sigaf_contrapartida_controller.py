@@ -1,6 +1,7 @@
 from core import ft, pd, threading, sync_playwright
 from models.sigaf_contrapartida_model import Sigaf_contrapartidaModel
 
+
 class SigafContrapartidaController:
     """
     Controller for sigaf_contrapartida page
@@ -110,31 +111,51 @@ class SigafContrapartidaController:
             self._show_snack(f"Erro: {e}")
             raise e
 
-    def open_browser(self, page, username, password,df):
+    def open_browser(self, page, username, password, df):
         page.goto("http://sigaf.sesab.ba.gov.br/")
         page.locator("#login").click()
         page.locator("#login").fill(username)
-        page.locator("input[name=\"senha\"]").click()
-        page.locator("input[name=\"senha\"]").fill(password)
+        page.locator('input[name="senha"]').click()
+        page.locator('input[name="senha"]').fill(password)
         with page.expect_popup() as page3_info:
             page.get_by_role("button", name="Login de usuário").click()
         page3 = page3_info.value
-        page.goto("http://sigaf.sesab.ba.gov.br/?page=meta/view&id_view=tb_lancamento_1&_menu_acessado=406")
+        page.goto(
+            "http://sigaf.sesab.ba.gov.br/?page=meta/view&id_view=tb_lancamento_1&_menu_acessado=406"
+        )
         for index, row in df.iterrows():
             page.get_by_role("button", name="Adicionar Lançamento").click()
-            page.locator("input[name=\"dia_dth_lancamento**246,0;201___dta//0/0\"]").fill(row["DATA"].strftime("%d"))
-            page.locator("input[name=\"mes_dth_lancamento**246,0;201___dta//0/0\"]").fill(row["DATA"].strftime("%m"))
-            page.locator("input[name=\"ano_dth_lancamento**246,0;201___dta//0/0\"]").fill(row["DATA"].strftime("%Y"))
-            page.locator("input[name=\"dsc_lancamento**246,0;201___str//0/0\"]").fill(row["DESCRIÇÃO"])
-            page.locator("select[name=\"cod_lancamento_tipo**246,0;201___int//0/0\"]").select_option("3")
-            page.locator("input[name=\"vlr_lancamento**246,0;201___rea//0/0\"]").fill(row["VALOR_STR"])
+            page.locator('input[name="dia_dth_lancamento**246,0;201___dta//0/0"]').fill(
+                row["DATA"].strftime("%d")
+            )
+            page.locator('input[name="mes_dth_lancamento**246,0;201___dta//0/0"]').fill(
+                row["DATA"].strftime("%m")
+            )
+            page.locator('input[name="ano_dth_lancamento**246,0;201___dta//0/0"]').fill(
+                row["DATA"].strftime("%Y")
+            )
+            page.locator('input[name="dsc_lancamento**246,0;201___str//0/0"]').fill(
+                row["DESCRIÇÃO"]
+            )
+            page.locator(
+                'select[name="cod_lancamento_tipo**246,0;201___int//0/0"]'
+            ).select_option("3")
+            page.locator('input[name="vlr_lancamento**246,0;201___rea//0/0"]').fill(
+                row["VALOR_STR"]
+            )
             page.wait_for_timeout(2000)
-            self._show_snack(f"Adicionando lançamento para o município: {row['MUNICIPIO']} | Valor: {row['VALOR_STR']}")
+            self._show_snack(
+                f"Adicionando lançamento para o município: {row['MUNICIPIO']} | Valor: {row['VALOR_STR']}"
+            )
             with page.expect_popup() as page4_info:
-                page.locator("[id=\"cod_unidade_saude**246,0;201___nfm//0/0_seleciona\"]").click()
+                page.locator(
+                    '[id="cod_unidade_saude**246,0;201___nfm//0/0_seleciona"]'
+                ).click()
             page4 = page4_info.value
             page4.get_by_role("textbox").click()
-            page4.get_by_role("textbox").fill("PREFEITURA MUNICIPAL DE " + row["MUNICIPIO"].upper())
+            page4.get_by_role("textbox").fill(
+                "PREFEITURA MUNICIPAL DE " + row["MUNICIPIO"].upper()
+            )
             page4.get_by_role("button", name="Buscar").click()
             page4.locator("#ctr_item_listagem_0").check()
             page4.locator("#link_listagem #btn_lista_selecao_selecionar").click()
