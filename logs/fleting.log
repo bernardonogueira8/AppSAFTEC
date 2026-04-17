@@ -3725,3 +3725,10 @@ AttributeError: 'super' object has no attribute '__getattr__'. Did you mean: '__
 2026-04-17 13:18:43,671 | INFO | App | Aplicação iniciada com sucesso
 2026-04-17 13:22:21,262 | INFO | Router | Navigating to: /update
 2026-04-17 13:22:22,219 | INFO | flet | Session was garbage collected: PB1qJiedaY4i3aQq
+2026-04-17 15:56:10,934 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-17 15:56:10,936 | INFO | flet | Starting up TCP server on localhost:57587
+2026-04-17 15:56:10,943 | INFO | flet | Flet app has started...
+2026-04-17 15:56:11,537 | INFO | flet | App session started
+2026-04-17 15:56:11,541 | INFO | Router | Navigating to: /
+2026-04-17 15:56:11,554 | INFO | App | Aplicação iniciada com sucesso
+2026-04-17 15:56:15,206 | INFO | flet | Session was garbage collected: ZrRHs0AOacpv7OHP

@@ -51,6 +51,7 @@ echo installer.iss atualizado.
 
 REM ── Limpa builds antigos ───────────────────────────────
 echo [3/7] Limpando builds antigos...
+if exist data rmdir /s /q data
 if exist build rmdir /s /q build
 if exist InnoSetup\Output rmdir /s /q InnoSetup\Output
 
@@ -65,6 +66,8 @@ if errorlevel 1 (
 
 REM ── Build Flet ─────────────────────────────────────────
 echo [5/7] Gerando Build Flet para Windows...
+uv run fletting db init
+uv run fletting db migrate 
 uv run flet build windows
 if errorlevel 1 (
     echo ERRO: Falha no flet build.
