@@ -3770,3 +3770,109 @@ AttributeError: 'super' object has no attribute '__getattr__'. Did you mean: '__
 2026-04-17 16:23:13,072 | INFO | Router | Navigating to: /update
 2026-04-17 16:23:14,405 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 404 Not Found"
 2026-04-17 16:23:23,054 | INFO | flet | Session was garbage collected: rPgVzSvcHEpCmm3B
+2026-04-22 12:48:28,911 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-22 12:48:28,915 | INFO | flet | Starting up TCP server on localhost:57578
+2026-04-22 12:48:28,925 | INFO | flet | Flet app has started...
+2026-04-22 12:48:30,398 | INFO | flet | App session started
+2026-04-22 12:48:30,413 | INFO | Router | Navigating to: /
+2026-04-22 12:48:30,424 | INFO | App | Aplicação iniciada com sucesso
+2026-04-22 12:48:31,023 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-22 12:48:33,243 | INFO | Router | Navigating to: /sei_caj
+2026-04-22 12:48:33,827 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 12:49:38,461 | INFO | flet | Session was garbage collected: mDZZ1ti8v1QkcPwH
+2026-04-22 12:50:05,164 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-22 12:50:05,166 | INFO | flet | Starting up TCP server on localhost:57622
+2026-04-22 12:50:05,172 | INFO | flet | Flet app has started...
+2026-04-22 12:50:05,655 | INFO | flet | App session started
+2026-04-22 12:50:05,663 | INFO | Router | Navigating to: /
+2026-04-22 12:50:05,678 | INFO | App | Aplicação iniciada com sucesso
+2026-04-22 12:50:06,083 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-22 12:50:07,810 | INFO | Router | Navigating to: /sei_caj
+2026-04-22 12:50:08,355 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 12:50:34,895 | INFO | flet | Session was garbage collected: 1yOBaumzvWZpD7Fl
+2026-04-22 12:54:44,465 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-22 12:54:44,467 | INFO | flet | Starting up TCP server on localhost:57742
+2026-04-22 12:54:44,473 | INFO | flet | Flet app has started...
+2026-04-22 12:54:44,872 | INFO | flet | App session started
+2026-04-22 12:54:44,876 | INFO | Router | Navigating to: /
+2026-04-22 12:54:44,888 | INFO | App | Aplicação iniciada com sucesso
+2026-04-22 12:54:45,378 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-22 12:54:55,207 | INFO | Router | Navigating to: /sei_caj
+2026-04-22 12:54:55,600 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 12:56:21,762 | INFO | flet | Session was garbage collected: vvVOiXYxmfT8iSf0
+2026-04-22 12:56:26,384 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-22 12:56:26,385 | INFO | flet | Starting up TCP server on localhost:57813
+2026-04-22 12:56:26,392 | INFO | flet | Flet app has started...
+2026-04-22 12:56:26,739 | INFO | flet | App session started
+2026-04-22 12:56:26,742 | INFO | Router | Navigating to: /
+2026-04-22 12:56:26,752 | INFO | App | Aplicação iniciada com sucesso
+2026-04-22 12:56:27,102 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-22 12:56:28,134 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 12:58:04,953 | INFO | flet | Session was garbage collected: pI8SGS4EwJKn43Qc
+2026-04-22 12:58:10,003 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-22 12:58:10,005 | INFO | flet | Starting up TCP server on localhost:57851
+2026-04-22 12:58:10,011 | INFO | flet | Flet app has started...
+2026-04-22 12:58:10,366 | INFO | flet | App session started
+2026-04-22 12:58:10,370 | INFO | Router | Navigating to: /
+2026-04-22 12:58:10,381 | INFO | App | Aplicação iniciada com sucesso
+2026-04-22 12:58:10,858 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-22 12:58:13,237 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 12:59:09,048 | INFO | flet | Session was garbage collected: psL5dO1oZXtYW1FA
+2026-04-22 12:59:13,589 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-22 12:59:13,591 | INFO | flet | Starting up TCP server on localhost:57886
+2026-04-22 12:59:13,597 | INFO | flet | Flet app has started...
+2026-04-22 12:59:13,935 | INFO | flet | App session started
+2026-04-22 12:59:13,939 | INFO | Router | Navigating to: /
+2026-04-22 12:59:13,949 | INFO | App | Aplicação iniciada com sucesso
+2026-04-22 12:59:14,257 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-22 12:59:15,827 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 12:59:16,218 | INFO | Router | Navigating to: /sei_caj
+2026-04-22 12:59:16,659 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 13:00:28,191 | INFO | flet | Session was garbage collected: clyIT69VdAJ2LNdu
+2026-04-22 13:00:32,470 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-22 13:00:32,471 | INFO | flet | Starting up TCP server on localhost:57922
+2026-04-22 13:00:32,477 | INFO | flet | Flet app has started...
+2026-04-22 13:00:32,821 | INFO | flet | App session started
+2026-04-22 13:00:32,824 | INFO | Router | Navigating to: /
+2026-04-22 13:00:32,836 | INFO | App | Aplicação iniciada com sucesso
+2026-04-22 13:00:33,103 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-22 13:00:38,018 | INFO | Router | Navigating to: /sei_caj
+2026-04-22 13:00:39,922 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 13:01:37,509 | INFO | flet | Session was garbage collected: y9JkSDusxqr26GOS
+2026-04-22 13:01:42,642 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-22 13:01:42,644 | INFO | flet | Starting up TCP server on localhost:53459
+2026-04-22 13:01:42,650 | INFO | flet | Flet app has started...
+2026-04-22 13:01:42,992 | INFO | flet | App session started
+2026-04-22 13:01:42,996 | INFO | Router | Navigating to: /
+2026-04-22 13:01:43,007 | INFO | App | Aplicação iniciada com sucesso
+2026-04-22 13:01:43,365 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-22 13:01:45,073 | INFO | Router | Navigating to: /sei_caj
+2026-04-22 13:01:46,353 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 13:01:59,452 | INFO | flet | Session was garbage collected: vZ5U4BSFS52fHD9s
+2026-04-22 13:02:42,839 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-22 13:02:42,840 | INFO | flet | Starting up TCP server on localhost:53493
+2026-04-22 13:02:42,848 | INFO | flet | Flet app has started...
+2026-04-22 13:02:43,193 | INFO | flet | App session started
+2026-04-22 13:02:43,196 | INFO | Router | Navigating to: /
+2026-04-22 13:02:43,207 | INFO | App | Aplicação iniciada com sucesso
+2026-04-22 13:02:43,484 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-22 13:02:44,374 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 13:03:27,863 | INFO | flet | Session was garbage collected: gm5hVtTOmj5khejc
+2026-04-22 13:03:32,639 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-22 13:03:32,640 | INFO | flet | Starting up TCP server on localhost:53525
+2026-04-22 13:03:32,647 | INFO | flet | Flet app has started...
+2026-04-22 13:03:32,996 | INFO | flet | App session started
+2026-04-22 13:03:33,000 | INFO | Router | Navigating to: /
+2026-04-22 13:03:33,011 | INFO | App | Aplicação iniciada com sucesso
+2026-04-22 13:03:33,286 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-22 13:03:34,010 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 13:03:43,538 | INFO | flet | Session was garbage collected: CcVb9pSKkjuVLsYo
+2026-04-22 13:04:28,833 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-22 13:04:28,834 | INFO | flet | Starting up TCP server on localhost:53554
+2026-04-22 13:04:28,841 | INFO | flet | Flet app has started...
+2026-04-22 13:04:29,196 | INFO | flet | App session started
+2026-04-22 13:04:29,199 | INFO | Router | Navigating to: /
+2026-04-22 13:04:29,209 | INFO | App | Aplicação iniciada com sucesso
+2026-04-22 13:04:29,471 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-22 13:04:31,246 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-22 13:04:39,707 | INFO | flet | Session was garbage collected: DgmYTyfsZjBjSEYq

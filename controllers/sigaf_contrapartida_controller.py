@@ -98,6 +98,7 @@ class SigafContrapartidaController:
             df.loc[:, "MUNICIPIO_BUSCA"] = (
                 "PREFEITURA MUNICIPAL DE " + df["MUNICIPIO"].str.upper()
             )
+            df['DATA'] = df['DATA'].apply(lambda x: x.replace(month=x.day, day=x.month) if pd.notna(x) else x)
             # Inicializa o Playwright de forma síncrona
             with sync_playwright() as p:
                 browser = p.firefox.launch(headless=False, slow_mo=500)
@@ -125,6 +126,7 @@ class SigafContrapartidaController:
         )
         for index, row in df.iterrows():
             page.get_by_role("button", name="Adicionar Lançamento").click()
+            
             page.locator('input[name="dia_dth_lancamento**246,0;201___dta//0/0"]').fill(
                 row["DATA"].strftime("%d")
             )
@@ -139,7 +141,7 @@ class SigafContrapartidaController:
             )
             page.locator(
                 'select[name="cod_lancamento_tipo**246,0;201___int//0/0"]'
-            ).select_option("3")
+            ).select_option("6")
             page.locator('input[name="vlr_lancamento**246,0;201___rea//0/0"]').fill(
                 row["VALOR_STR"]
             )
