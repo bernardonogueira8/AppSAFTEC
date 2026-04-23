@@ -15,20 +15,15 @@ class MainLayout(ft.Column):
 
     def _build(self):
         self.controls.clear()
-
-        # TOP BAR continua no topo (dentro da Column principal)
         self.controls.append(self._top_bar())
-
-        # Criamos um Row para colocar a Sidebar e o Content lado a lado
-        # O expand=True aqui faz esse Row ocupar todo o resto da tela
         main_content_area = ft.Row(
             controls=[
-                self._sidebar(),  # Chamada renomeada para _sidebar()
-                ft.VerticalDivider(width=1),  # Linha sutil de separação
+                self._sidebar(),  
+                ft.VerticalDivider(width=1), 
                 ft.Container(
                     content=self.content,
                     expand=True,
-                    padding=20,  # Um respiro para o conteúdo não colar na borda
+                    padding=20, 
                 ),
             ],
             expand=True,

@@ -18,9 +18,12 @@ class UpdateController:
     @staticmethod
     def get_remote_version() -> dict | None:
         try:
-            r = httpx.get(GITHUB_VERSION_URL, timeout=5)
+            # Adicione follow_redirects=True aqui também!
+            r = httpx.get(GITHUB_VERSION_URL, timeout=5, follow_redirects=True)
+            r.raise_for_status() # Garante que não é um 404
             return r.json()
-        except Exception:
+        except Exception as e:
+            print(f"Erro detalhado: {e}") # Debug temporário
             return None
 
     @staticmethod
@@ -29,17 +32,25 @@ class UpdateController:
 
     @staticmethod
     def download_and_install(url: str, on_progress=None) -> str:
-        with httpx.stream("GET", url, follow_redirects=True) as r:
-            total = int(r.headers.get("content-length", 0))
-            tmp = tempfile.NamedTemporaryFile(delete=False, suffix=".exe")
-            downloaded = 0
-            for chunk in r.iter_bytes(chunk_size=8192):
-                tmp.write(chunk)
-                downloaded += len(chunk)
-                if on_progress and total:
-                    on_progress(downloaded / total)
-            tmp.close()
-            return tmp.name
+        tmp_path = ""
+        try:
+            with httpx.stream("GET", url, follow_redirects=True) as r:
+                r.raise_for_status() # Garante que não é um 404 ou 500
+                total = int(r.headers.get("content-length", 0))
+                
+                with tempfile.NamedTemporaryFile(delete=False, suffix=".exe") as tmp:
+                    tmp_path = tmp.name
+                    downloaded = 0
+                    for chunk in r.iter_bytes(chunk_size=8192):
+                        tmp.write(chunk)
+                        downloaded += len(chunk)
+                        if on_progress and total:
+                            on_progress(downloaded / total)
+            return tmp_path
+        except Exception as e:
+            if tmp_path and os.path.exists(tmp_path):
+                os.remove(tmp_path)
+            raise e
 
     @staticmethod
     def launch_installer_and_exit(exe_path: str):

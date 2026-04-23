@@ -3,11 +3,11 @@ from core.logger import get_logger
 from core.error_handler import GlobalErrorHandler
 from core import ft, threading
 import runtime_imports
+from configs.routes import ROUTES
 
 logger = get_logger("App")
 
-def _check_update_background(page: ft.Page):
-    """Roda em background ao abrir o app."""
+def _check_update_background(page: ft.Page, router):
     try:
         from controllers.update_controller import UpdateController
         remote = UpdateController.get_remote_version()
@@ -17,10 +17,9 @@ def _check_update_background(page: ft.Page):
         def on_confirm(e):
             dlg.open = False
             page.update()
-            # Navega para a tela de update para mostrar progresso
-            from configs.routes import routes
-            page.go("/update")
-
+            # AGORA SIM: Usando o seu sistema de rotas original
+            router.navigate("/update")
+            
         def on_dismiss(e):
             dlg.open = False
             page.update()
@@ -70,7 +69,7 @@ def main(page: ft.Page):
         # Verifica update em background sem travar a UI
         threading.Thread(
             target=_check_update_background,
-            args=(page,),
+            args=(page, router),
             daemon=True
         ).start()
         

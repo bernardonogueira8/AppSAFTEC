@@ -11,12 +11,14 @@ class UpdateView:
     def render(self):
         progress = ft.ProgressBar(width=400, value=0, visible=False)
         status_text = ft.Text("", size=13, visible=False)
-        btn_update = ft.ElevatedButton("Verificar atualização", on_click=self._check_update)
+        
+        btn_update = ft.TextButton("Verificar atualização", on_click=self._check_update)
 
         self._progress = progress
         self._status = status_text
         self._btn = btn_update
-
+        self._check_update()  # Verificar atualização ao carregar a página
+        
         content = ft.Column(
             controls=[
                 ft.Text(self.controller.get_title(), size=24),
@@ -41,7 +43,7 @@ class UpdateView:
         threading.Thread(target=self._run_check, daemon=True).start()
 
     def _run_check(self):
-        remote = UpdateController.get_remote_version()
+        remote = self.controller.get_remote_version()
 
         if not remote:
             self._status.value = "Sem conexão ou falha ao verificar."
@@ -49,7 +51,7 @@ class UpdateView:
             self.page.update()
             return
 
-        if not UpdateController.needs_update(remote):
+        if not self.controller.needs_update(remote):
             self._status.value = "✓ Você já está na versão mais recente."
             self._btn.disabled = False
             self.page.update()

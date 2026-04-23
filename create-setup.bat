@@ -77,7 +77,7 @@ if errorlevel 1 (
 REM ── Gera version.json para auto-update ─────────────────
 echo [6/7] Gerando version.json...
 if not exist InnoSetup\Output mkdir InnoSetup\Output
-echo {"version": "%VERSION%", "url": "https://github.com/bernardonogueira8/AppSAFTE/releases/download/v%VERSION%/SAFTEC_Setup_%VERSION%.exe"} > InnoSetup\Output\version.json
+echo {"version": "%VERSION%", "url": "https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v%VERSION%/SAFTEC_Setup_%VERSION%.exe"} > InnoSetup\Output\version.json
 echo version.json gerado.
 
 REM ── Compila instalador ─────────────────────────────────

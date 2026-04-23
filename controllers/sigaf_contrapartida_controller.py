@@ -63,7 +63,37 @@ class SigafContrapartidaController:
             ),
         )
         automacao_thread.start()
-
+    def _format_df(self, caminho_arquivo, number_cib):
+        df = pd.read_excel(caminho_arquivo).copy()
+        #df = pd.read_excel("c:/Users/bernardo.silva/Downloads/PLANILHA_PARA_CHAMADO.xlsx").copy()
+        #number_cib = '2'
+        colunas_necessarias = [
+            "DATA",
+            "MUNICIPIO",
+            "COMPETENCIA",
+            "Nº NOB",
+            "VALOR",
+        ]
+        if not all(col in df.columns for col in colunas_necessarias):
+            raise ValueError("A planilha não possui as colunas necessárias.")
+        df.loc[:, "DESCRIÇÃO"] = (
+            "REPASSE FINANCEIRO AO FUNDO MUNICIPAL DE SAÚDE CONFORME RES CIB/BA Nº "
+            + number_cib
+            + " COMPETÊNCIA "
+            + df["COMPETENCIA"].astype(str)
+            + " -  NOB  "
+            + df["Nº NOB"].astype(str)
+        )
+        df.loc[:, "VALOR_STR"] = df["VALOR"].apply(
+            lambda x: "{:.2f}".format(x).replace(".", ",")
+        )
+        df.loc[:, "MUNICIPIO_BUSCA"] = (
+            "PREFEITURA MUNICIPAL DE " + df["MUNICIPIO"].str.upper()
+        )
+        df['DATA'] = df['DATA'].apply(lambda x: x.replace(month=x.day, day=x.month) if pd.notna(x) else x)
+        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("CABACEIRA DO PARAGUACU", "CABACEIRAS DO PARAGUAÇU")
+        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("MARAGOJIPE ", "MARAGOGIPE ")
+        return df
     def _run_playwright_script(self, username, password, number_cib, caminho_arquivo):
         """
         Executa a rotina de automação no sistema SEI.
@@ -72,33 +102,9 @@ class SigafContrapartidaController:
             f"Iniciando automação no SIGAF para o usuário: {username} | Número da CIB: {number_cib}"
         )
         try:
-            df = pd.read_excel(caminho_arquivo).copy()
+           
             # Verificação básica de colunas
-            colunas_necessarias = [
-                "DATA",
-                "MUNICIPIO",
-                "COMPETENCIA",
-                "Nº NOB",
-                "VALOR",
-            ]
-            if not all(col in df.columns for col in colunas_necessarias):
-                raise ValueError("A planilha não possui as colunas necessárias.")
-            # Forma mais segura de criar colunas:
-            df.loc[:, "DESCRIÇÃO"] = (
-                "REPASSE FINANCEIRO AO FUNDO MUNICIPAL DE SAÚDE CONFORME RES CIB/BA Nº "
-                + number_cib
-                + " COMPETÊNCIA "
-                + df["COMPETENCIA"].astype(str)
-                + " -  NOB  "
-                + df["Nº NOB"].astype(str)
-            )
-            df.loc[:, "VALOR_STR"] = df["VALOR"].apply(
-                lambda x: "{:.2f}".format(x).replace(".", ",")
-            )
-            df.loc[:, "MUNICIPIO_BUSCA"] = (
-                "PREFEITURA MUNICIPAL DE " + df["MUNICIPIO"].str.upper()
-            )
-            df['DATA'] = df['DATA'].apply(lambda x: x.replace(month=x.day, day=x.month) if pd.notna(x) else x)
+            df = self._format_df(caminho_arquivo, number_cib)
             # Inicializa o Playwright de forma síncrona
             with sync_playwright() as p:
                 browser = p.firefox.launch(headless=False, slow_mo=500)
