@@ -1,7 +1,8 @@
 # 💊 Automações da SAFTEC
 
 Aplicação robusta para automação de tarefas e gestão de dados, construída com um micro framework MVC sob medida.
-[[![MVC](assets/Projeto_MVC.gif)]]
+![MVC](assets/Projeto_MVC.gif)
+
 ## 📝 Descrição
 
 O **AppSAFTEC** é uma ferramenta desenvolvida para otimizar processos e aumentar a produtividade. Utilizando o poder do **Flet** para a interface, **Playwright** para automações web complexas e o ecossistema **Python**, o projeto segue o padrão de arquitetura **MVC (Model-View-Controller)** para garantir escalabilidade e fácil manutenção.
