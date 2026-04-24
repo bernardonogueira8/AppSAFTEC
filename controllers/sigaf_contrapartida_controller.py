@@ -144,7 +144,7 @@ class SigafContrapartidaController:
             raise e
 
     def open_browser(self, page, username, password, df):
-        page.goto("http://homologa2.sigaf.sesab.ba.gov.br/")
+        page.goto("http://sigaf.sesab.ba.gov.br/")
         page.locator("#login").click()
         page.locator("#login").fill(username)
         page.locator('input[name="senha"]').click()
@@ -152,9 +152,7 @@ class SigafContrapartidaController:
         with page.expect_popup() as page3_info:
             page.get_by_role("button", name="Login de usuário").click()
         page3 = page3_info.value
-        page.goto(
-            "http://homologa2.sigaf.sesab.ba.gov.br/?page=meta/view&id_view=tb_lancamento_1&_menu_acessado=406"
-        )
+        page.goto("http://sigaf.sesab.ba.gov.br/?page=meta/view&id_view=tb_lancamento_1&_menu_acessado=406")
         ultima_linha_processada = "Iniciando iteração no DataFrame"
         
         for index, row in df.iterrows():
