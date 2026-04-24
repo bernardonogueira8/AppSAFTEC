@@ -659,3 +659,17 @@ Call log:
 2026-04-24 14:42:42,805 | INFO | App | Progresso: XIQUE-XIQUE processado.
 2026-04-24 14:42:43,235 | INFO | App | Automação concluída com sucesso!
 2026-04-24 14:42:50,112 | INFO | flet | Session was garbage collected: FOPniVlRuToM9mev
+2026-04-24 14:47:22,036 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 14:47:22,038 | INFO | flet | Starting up TCP server on localhost:55264
+2026-04-24 14:47:22,045 | INFO | flet | Flet app has started...
+2026-04-24 14:47:22,498 | INFO | flet | App session started
+2026-04-24 14:47:22,502 | INFO | Router | Navigating to: /
+2026-04-24 14:47:22,517 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 14:47:22,987 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:47:23,226 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:47:23,291 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T18%3A28%3A32Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T17%3A27%3A51Z&ske=2026-04-24T18%3A28%3A32Z&sks=b&skv=2018-11-09&sig=VJUAp7My6%2FzJp6PS7jRnFJ2s6n96Tb%2B8pa8KE19A1DY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA1MzE0MywibmJmIjoxNzc3MDUyODQzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.fQZWmqlzH7MLjESGsEDdAPcxheQe5cZWACvDqarH1Fc&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 14:47:37,591 | INFO | Router | Navigating to: /update
+2026-04-24 14:47:37,735 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:47:37,767 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:47:37,829 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T18%3A28%3A32Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T17%3A27%3A51Z&ske=2026-04-24T18%3A28%3A32Z&sks=b&skv=2018-11-09&sig=VJUAp7My6%2FzJp6PS7jRnFJ2s6n96Tb%2B8pa8KE19A1DY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA1MzE0MywibmJmIjoxNzc3MDUyODQzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.fQZWmqlzH7MLjESGsEDdAPcxheQe5cZWACvDqarH1Fc&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 14:47:44,231 | INFO | flet | Session was garbage collected: 4FWWXekOIT631mRu
