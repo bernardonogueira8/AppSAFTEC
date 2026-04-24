@@ -1,0 +1,12 @@
+{
+    "files.exclude": {
+        "**/*.pyc": { "when": "$(basename).py" },
+        "**/__pycache__": true,
+        "**/*.pytest_cache": true,
+        "**/ms-playwright": true,
+        "**/build": true,
+    },
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "editor.defaultFormatter": "ms-python.black-formatter"
+}

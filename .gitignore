@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Projects
+downloads/
+data/
+logs/
+*.pdf
+
+# Test outputs
+InnoSetup/Output/
+build/
+ms-playwright/
+*.exe
