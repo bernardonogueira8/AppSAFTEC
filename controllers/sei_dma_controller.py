@@ -1,6 +1,7 @@
 from core import ft, json, os, threading, sync_playwright
 from models.sei_dma_model import Sei_dmaModel
-
+from core.logger import get_logger
+logger = get_logger("App")
 
 class SeiDmaController:
     """
@@ -19,7 +20,7 @@ class SeiDmaController:
         try:
             return self.model.buscar_credenciais(system_name)
         except Exception as e:
-            print(f"Erro ao buscar: {e}")
+            logger.error(f"Erro ao buscar: {e}")
             return None
 
     def save_credentials(self, username, password, system_name):
@@ -32,7 +33,7 @@ class SeiDmaController:
             self._show_snack(f"Credenciais do {system_name} salvas!")
             return True  # Retorna Verdadeiro, permite avançar
         except Exception as e:
-            print(f"Erro ao salvar: {e}")
+            logger.error(f"Erro ao salvar: {e}")
             return False
 
     def _show_snack(self, message):

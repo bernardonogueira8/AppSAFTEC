@@ -17,7 +17,6 @@ def _check_update_background(page: ft.Page, router):
         def on_confirm(e):
             dlg.open = False
             page.update()
-            # AGORA SIM: Usando o seu sistema de rotas original
             router.navigate("/update")
             
         def on_dismiss(e):

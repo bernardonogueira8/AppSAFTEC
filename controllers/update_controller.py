@@ -3,27 +3,32 @@ from packaging import version
 from version import APP_VERSION
 from models.update_model import UpdateModel
 
-GITHUB_VERSION_URL = "https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json"
+from core.logger import get_logger
+logger = get_logger("App")
+
+GITHUB_VERSION_URL = (
+    "https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json"
+)
 
 class UpdateController:
     """
     Controller for update page
     """
+
     def __init__(self, model=None):
         self.model = model or UpdateModel
 
     def get_title(self):
         return "Atualizar Sistema"
-    
+
     @staticmethod
     def get_remote_version() -> dict | None:
         try:
-            # Adicione follow_redirects=True aqui também!
             r = httpx.get(GITHUB_VERSION_URL, timeout=5, follow_redirects=True)
-            r.raise_for_status() # Garante que não é um 404
+            r.raise_for_status()
             return r.json()
         except Exception as e:
-            print(f"Erro detalhado: {e}") # Debug temporário
+            logger.error(f"Erro detalhado: {e}")
             return None
 
     @staticmethod
@@ -35,9 +40,9 @@ class UpdateController:
         tmp_path = ""
         try:
             with httpx.stream("GET", url, follow_redirects=True) as r:
-                r.raise_for_status() # Garante que não é um 404 ou 500
+                r.raise_for_status()
                 total = int(r.headers.get("content-length", 0))
-                
+
                 with tempfile.NamedTemporaryFile(delete=False, suffix=".exe") as tmp:
                     tmp_path = tmp.name
                     downloaded = 0
@@ -53,9 +58,6 @@ class UpdateController:
             raise e
 
     @staticmethod
-    def launch_installer_and_exit(exe_path: str):
+    def launch_installer_and_exit(exe_path: str):   # <-- self removido
         subprocess.Popen([exe_path, "/SILENT"])
         os._exit(0)
-
-
-

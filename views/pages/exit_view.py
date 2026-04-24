@@ -8,8 +8,9 @@ class ExitView:
         self.page = page
         self.router = router
         self.controller = ExitController()
-
+        
     def render(self):
+        self.controller.launch_exit()
         content = ft.Column(
             controls=[
                 ft.Text(self.controller.get_title(), size=24),

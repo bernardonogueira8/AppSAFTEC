@@ -1,7 +1,7 @@
-from core.logger import get_logger
 from core import os, ft, threading, sync_playwright
 from models.esus_treina_model import Esus_treinaModel
 
+from core.logger import get_logger
 logger = get_logger("App")
 
 
@@ -21,7 +21,7 @@ class EsusTreinaController:
         try:
             return self.model.buscar_credenciais(system_name)
         except Exception as e:
-            print(f"Erro ao buscar: {e}")
+            logger.error(f"Erro ao buscar: {e}")
             return None
 
     def save_credentials(self, username, password, system_name):

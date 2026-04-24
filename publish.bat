@@ -34,6 +34,12 @@ echo.
 echo [OK] Versao %VERSION% validada!
 echo.
 
+REM ── Gera version.json para auto-update ─────────────────
+echo [6/7] Gerando version.json...
+if not exist InnoSetup\Output mkdir InnoSetup\Output
+echo {"version": "%VERSION%", "url": "https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v%VERSION%/SAFTEC_Setup_%VERSION%.exe"} > InnoSetup\Output\version.json
+echo version.json gerado.
+
 REM ── Pergunta se quer publicar no GitHub ────────────────
 set /p PUBLISH="Publicar release no GitHub agora? [s/n]: "
 :: Deleta a tag local se ela já existir para evitar o erro fatal
