@@ -1,6 +1,6 @@
-from views.pages.home_view import HomeView
 from views.pages.esus_treina_view import Esus_treinaView
 from views.pages.exit_view import ExitView
+from views.pages.home_view import HomeView
 from views.pages.plan_ceaf_view import Plan_ceafView
 from views.pages.sei_caj_view import Sei_cajView
 from views.pages.sei_dma_view import Sei_dmaView
@@ -8,3 +8,4 @@ from views.pages.sigaf_contrapartida_view import Sigaf_contrapartidaView
 from views.pages.sigaf_prefeitura_view import Sigaf_prefeituraView
 from views.pages.simpas_entradas_saidas_view import Simpas_entradas_saidasView
 from views.pages.simpas_estoque_view import Simpas_estoqueView
+from views.pages.update_view import UpdateView

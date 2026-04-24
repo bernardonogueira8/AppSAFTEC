@@ -113,6 +113,9 @@ class SigafContrapartidaController:
         df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("MUQUEM DO SAO FRANCISCO", "MUQUÉM DE SÃO FRANCISCO")
         df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("MARAGOJIPE", "MARAGOGIPE")
         df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("São Felix", "São Félix")
+        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA CRUZ CABRALIA", "SANTA CRUZ")
+        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA CRUZ DA VITORIA", "SANTA CRUZ DA")
+        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA TERESINHA", "SANTA TEREZINHA")
         
         return df
 
@@ -156,9 +159,10 @@ class SigafContrapartidaController:
         
         for index, row in df.iterrows():
             # Atualizamos o status a cada iteração
-            ultima_linha_processada = f"Linha {index + 1}/{len(df)}: {row['MUNICIPIO']}"
+            ultima_linha_processada = f"Linha {index + 2}/{len(df)+1}: {row['MUNICIPIO']}"
             logger.info(ultima_linha_processada)
             try:
+                page.wait_for_timeout(1000)
                 page.get_by_role("button", name="Adicionar Lançamento").click()
                 
                 page.locator('input[name="dia_dth_lancamento**246,0;201___dta//0/0"]').fill(
@@ -179,8 +183,8 @@ class SigafContrapartidaController:
                 page.locator('input[name="vlr_lancamento**246,0;201___rea//0/0"]').fill(
                     row["VALOR_STR"]
                 )
-                page.wait_for_timeout(2000)
-                self._show_snack(
+                page.wait_for_timeout(1000)
+                logger.info(
                     f"Adicionando lançamento para o município: {row['MUNICIPIO']} | Valor: {row['VALOR_STR']}"
                 )
                 with page.expect_popup() as page4_info:
@@ -197,9 +201,13 @@ class SigafContrapartidaController:
                 page4.locator("#link_listagem #btn_lista_selecao_selecionar").click()
                 page4.get_by_role("button", name="Selecionar").click()
                 page4.close()
-                page.once("dialog", lambda dialog: dialog.dismiss())
+                try:
+                    page.once("dialog", lambda dialog: dialog.dismiss())
+                except:
+                    pass
+                page.wait_for_timeout(1000)
                 page.get_by_role("button", name="Adicionar").click()
-                self._show_snack(f"Progresso: {row['MUNICIPIO']} processado.")
+                logger.info(f"Progresso: {row['MUNICIPIO']} processado.")
 
             except Exception as error:
                 raise Exception(f"Falha ao processar Município '{row['MUNICIPIO']}'. Detalhes: {error}")

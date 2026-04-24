@@ -1,1 +1,661 @@
 2026-04-24 13:21:49,790 | INFO | flet | Session was garbage collected: nutAYEoNvz6K74Ix
+2026-04-24 13:23:56,375 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 13:23:56,377 | INFO | flet | Starting up TCP server on localhost:54844
+2026-04-24 13:23:56,384 | INFO | flet | Flet app has started...
+2026-04-24 13:23:56,896 | INFO | flet | App session started
+2026-04-24 13:23:56,903 | INFO | Router | Navigating to: /
+2026-04-24 13:23:56,917 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 13:23:57,414 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:23:57,660 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:23:57,729 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T17%3A21%3A17Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T16%3A21%3A08Z&ske=2026-04-24T17%3A21%3A17Z&sks=b&skv=2018-11-09&sig=YWNO9WOUfR8ojIRQ7U6K7ZP6IvLIJnquL6zvJAmAj4Q%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA0ODEzNywibmJmIjoxNzc3MDQ3ODM3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Q0xTvR3HWGU4bhvJVLi8-5-NGM_mFDzJeJR-0phtQt8&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 13:24:00,400 | INFO | Router | Navigating to: /sei_caj
+2026-04-24 13:24:13,569 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-24 13:24:19,737 | INFO | flet | Session was garbage collected: GkdWUiryRtxZh9i7
+2026-04-24 13:25:10,372 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 13:25:10,374 | INFO | flet | Starting up TCP server on localhost:54871
+2026-04-24 13:25:10,383 | INFO | flet | Flet app has started...
+2026-04-24 13:25:10,758 | INFO | flet | App session started
+2026-04-24 13:25:10,762 | INFO | Router | Navigating to: /
+2026-04-24 13:25:10,781 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 13:25:11,105 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:25:11,138 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:25:11,215 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T17%3A21%3A17Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T16%3A21%3A08Z&ske=2026-04-24T17%3A21%3A17Z&sks=b&skv=2018-11-09&sig=YWNO9WOUfR8ojIRQ7U6K7ZP6IvLIJnquL6zvJAmAj4Q%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA0ODEzNywibmJmIjoxNzc3MDQ3ODM3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Q0xTvR3HWGU4bhvJVLi8-5-NGM_mFDzJeJR-0phtQt8&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 13:25:13,053 | INFO | flet | Session was garbage collected: pHXg9XfqrFBST8Az
+2026-04-24 13:26:27,301 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 13:26:27,303 | INFO | flet | Starting up TCP server on localhost:54900
+2026-04-24 13:26:27,315 | INFO | flet | Flet app has started...
+2026-04-24 13:26:27,699 | INFO | flet | App session started
+2026-04-24 13:26:27,703 | INFO | Router | Navigating to: /
+2026-04-24 13:26:27,716 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 13:26:28,204 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:26:28,466 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:26:28,532 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T17%3A26%3A42Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T16%3A26%3A21Z&ske=2026-04-24T17%3A26%3A42Z&sks=b&skv=2018-11-09&sig=gRUcoDBSgE4Y%2FjEuF3865IruFntnztwMs7sKxKaFTXI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA0ODI4OCwibmJmIjoxNzc3MDQ3OTg4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.v9CgTsQ2BtrEIjvBwq16MHs8A4OvZrKxL5MKBu2uXE4&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 13:26:32,850 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-24 13:26:51,826 | INFO | App | Linha 1/149: MUQUÉM DE SÃO FRANCISCO
+2026-04-24 13:27:30,459 | ERROR | App | Erro crítico: Falha ao processar Município 'MUQUÉM DE SÃO FRANCISCO'. Detalhes: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("textbox")
+    - locator resolved to <input value="" size="60" type="text" maxlength="100" id="busca__nom_grs**140,0;213___str//0/0" onfocus=" ;  SetarMascara(this, "___str")" name="busca__nom_grs**140,0;213___str//0/0" onblur=" ;  VerificarMascara(this, "___str")"/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+Último status: Preparando dados...
+2026-04-24 13:29:22,175 | INFO | flet | Session was garbage collected: 8Rqq3u9zcoqpQxKk
+2026-04-24 13:29:28,166 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 13:29:28,169 | INFO | flet | Starting up TCP server on localhost:54987
+2026-04-24 13:29:28,177 | INFO | flet | Flet app has started...
+2026-04-24 13:29:28,576 | INFO | flet | App session started
+2026-04-24 13:29:28,580 | INFO | Router | Navigating to: /
+2026-04-24 13:29:28,595 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 13:29:29,205 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:29:29,480 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:29:29,619 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T17%3A28%3A57Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T16%3A28%3A33Z&ske=2026-04-24T17%3A28%3A57Z&sks=b&skv=2018-11-09&sig=E7ehw9laGPYYJRLmsJPbQpUq3tpIHV4Laae%2B0ktDFCc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA0ODQ2OSwibmJmIjoxNzc3MDQ4MTY5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.cOOLgGiL-YC91woxgDGyireaAJ78e-QfhszID_pKi08&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 13:29:30,488 | INFO | Router | Navigating to: /sei_caj
+2026-04-24 13:29:31,632 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-24 13:29:49,139 | INFO | App | Linha 1/149: MUQUÉM DE SÃO FRANCISCO
+2026-04-24 13:30:02,166 | INFO | App | Linha 2/149: MURITIBA
+2026-04-24 13:30:15,218 | INFO | App | Linha 3/149: MUTUIPE
+2026-04-24 13:30:28,167 | INFO | App | Linha 4/149: NAZARE
+2026-04-24 13:30:41,277 | INFO | App | Linha 5/149: NILO PECANHA
+2026-04-24 13:30:54,251 | INFO | App | Linha 6/149: NORDESTINA
+2026-04-24 13:31:07,166 | INFO | App | Linha 7/149: NOVA CANAA
+2026-04-24 13:31:20,301 | INFO | App | Linha 8/149: NOVA FATIMA
+2026-04-24 13:31:33,169 | INFO | App | Linha 9/149: NOVA IBIA
+2026-04-24 13:31:45,623 | ERROR | asyncio | Exception in callback SyncBase._sync.<locals>.<lambda>() at C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py:111>
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 472, in _listener_with_error_handler_attached
+    potential_future = listener(params)
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_browser_context.py", line 163, in <lambda>
+    "dialog", lambda params: self._on_dialog(from_channel(params["dialog"]))
+                             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_browser_context.py", line 703, in _on_dialog
+    has_listeners = page.emit(Page.Events.Dialog, dialog) or has_listeners
+                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 70, in emit
+    return super().emit(event, *args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 220, in emit
+    handled = self._call_handlers(event, args, kwargs)
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 196, in _call_handlers
+    self._emit_run(f, args, kwargs)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 81, in _emit_run
+    self.emit("error", exc)
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 70, in emit
+    return super().emit(event, *args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 223, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 181, in _emit_handle_potential_error
+    raise error
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 79, in _emit_run
+    coro: Any = f(*args, **kwargs)
+                ~^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 250, in g
+    return f(*args, **kwargs)
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_impl_to_api_mapping.py", line 123, in wrapper_func
+    return handler(
+        *list(map(lambda a: self.from_maybe_impl(a), args))[:arg_count]
+    )
+  File "C:\Dev\AppSAFTEC\controllers\sigaf_contrapartida_controller.py", line 200, in <lambda>
+    page.once("dialog", lambda dialog: dialog.dismiss())
+                                       ~~~~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 7282, in dismiss
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.dismiss()))
+                                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_dialog.py", line 54, in dismiss
+    await self._channel.send(
+    ...<2 lines>...
+    )
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Dialog.dismiss: Cannot dismiss dialog which is already handled!
+2026-04-24 13:31:46,136 | INFO | App | Linha 10/149: NOVA ITARANA
+2026-04-24 13:32:17,120 | ERROR | App | Erro crítico: Falha ao processar Município 'NOVA ITARANA'. Detalhes: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Adicionar Lançamento")
+
+Último status: Preparando dados...
+2026-04-24 13:33:57,669 | INFO | flet | Session was garbage collected: 30KnVsnzFq2miC1b
+2026-04-24 13:34:03,364 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 13:34:03,366 | INFO | flet | Starting up TCP server on localhost:55128
+2026-04-24 13:34:03,375 | INFO | flet | Flet app has started...
+2026-04-24 13:34:03,733 | INFO | flet | App session started
+2026-04-24 13:34:03,738 | INFO | Router | Navigating to: /
+2026-04-24 13:34:03,752 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 13:34:04,210 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:34:04,447 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:34:04,521 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T17%3A26%3A17Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T16%3A26%3A00Z&ske=2026-04-24T17%3A26%3A17Z&sks=b&skv=2018-11-09&sig=m04VEpliAjariKbn1d%2FGC8zGw%2F8t%2B4vhPKuy3voa7u0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA0ODc0NCwibmJmIjoxNzc3MDQ4NDQ0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.99JRnDnJjJui2cSRYhgWWVmlyDpjJgXzY3uHTxrSnLk&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 13:34:05,229 | INFO | Router | Navigating to: /sei_caj
+2026-04-24 13:34:10,190 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-24 13:34:28,325 | INFO | App | Linha 1/149: MUQUÉM DE SÃO FRANCISCO
+2026-04-24 13:35:27,504 | ERROR | App | Erro crítico: Falha ao processar Município 'MUQUÉM DE SÃO FRANCISCO'. Detalhes: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("textbox")
+    - locator resolved to <input value="" size="60" type="text" maxlength="100" id="busca__nom_grs**140,0;213___str//0/0" onfocus=" ;  SetarMascara(this, "___str")" name="busca__nom_grs**140,0;213___str//0/0" onblur=" ;  VerificarMascara(this, "___str")"/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+Último status: Preparando dados...
+2026-04-24 13:36:24,799 | INFO | App | Linha 1/149: MUQUÉM DE SÃO FRANCISCO
+2026-04-24 13:36:39,880 | INFO | App | Linha 2/149: MURITIBA
+2026-04-24 13:36:55,139 | INFO | App | Linha 3/149: MUTUIPE
+2026-04-24 13:37:10,168 | INFO | App | Linha 4/149: NAZARE
+2026-04-24 13:37:25,112 | INFO | App | Linha 5/149: NILO PECANHA
+2026-04-24 13:37:40,223 | INFO | App | Linha 6/149: NORDESTINA
+2026-04-24 13:37:55,417 | INFO | App | Linha 7/149: NOVA CANAA
+2026-04-24 13:38:10,787 | INFO | App | Linha 8/149: NOVA FATIMA
+2026-04-24 13:38:25,732 | INFO | App | Linha 9/149: NOVA IBIA
+2026-04-24 13:38:40,830 | INFO | App | Linha 10/149: NOVA ITARANA
+2026-04-24 13:38:55,972 | INFO | App | Linha 11/149: NOVA REDENCAO
+2026-04-24 13:39:11,158 | INFO | App | Linha 12/149: NOVA SOURE
+2026-04-24 13:39:25,958 | INFO | App | Linha 13/149: NOVA VICOSA
+2026-04-24 13:39:40,849 | INFO | App | Linha 14/149: NOVO HORIZONTE
+2026-04-24 13:39:55,592 | INFO | App | Linha 15/149: NOVO TRIUNFO
+2026-04-24 13:40:10,633 | INFO | App | Linha 16/149: OLINDINA
+2026-04-24 13:40:25,651 | INFO | App | Linha 17/149: OLIVEIRA DOS BREJINHOS
+2026-04-24 13:40:40,401 | INFO | App | Linha 18/149: OURICANGAS
+2026-04-24 13:40:55,154 | INFO | App | Linha 19/149: OUROLANDIA
+2026-04-24 13:41:10,283 | INFO | App | Linha 20/149: PALMAS DE MONTE ALTO
+2026-04-24 13:41:25,134 | INFO | App | Linha 21/149: PALMEIRAS
+2026-04-24 13:41:39,812 | INFO | App | Linha 22/149: PARAMIRIM
+2026-04-24 13:41:54,601 | INFO | App | Linha 23/149: PARATINGA
+2026-04-24 13:42:09,252 | INFO | App | Linha 24/149: PARIPIRANGA
+2026-04-24 13:42:24,044 | INFO | App | Linha 25/149: PAU BRASIL
+2026-04-24 13:42:38,817 | INFO | App | Linha 26/149: PAULO AFONSO
+2026-04-24 13:42:53,343 | INFO | App | Linha 27/149: PE DE SERRA
+2026-04-24 13:43:08,172 | INFO | App | Linha 28/149: PEDRAO
+2026-04-24 13:43:22,929 | INFO | App | Linha 29/149: PEDRO ALEXANDRE
+2026-04-24 13:43:37,978 | INFO | App | Linha 30/149: PIATA
+2026-04-24 13:43:53,465 | INFO | App | Linha 31/149: PILAO ARCADO
+2026-04-24 13:44:08,753 | INFO | App | Linha 32/149: PINDAI
+2026-04-24 13:44:31,047 | INFO | App | Linha 33/149: PINDOBACU
+2026-04-24 13:45:09,888 | INFO | App | Linha 34/149: PINTADAS
+2026-04-24 13:45:41,289 | INFO | App | Linha 35/149: PIRAI DO NORTE
+2026-04-24 13:48:40,636 | ERROR | App | Erro crítico: Falha ao processar Município 'PIRAI DO NORTE'. Detalhes: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Adicionar")
+    - locator resolved to <button type="submit" value="Adicionar" class="button_link" id="btn_cadastro_submit">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+Último status: Preparando dados...
+2026-04-24 13:48:49,998 | INFO | flet | Session was garbage collected: zH9PzoVs864Jea9N
+2026-04-24 13:50:06,982 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 13:50:06,984 | INFO | flet | Starting up TCP server on localhost:55628
+2026-04-24 13:50:06,991 | INFO | flet | Flet app has started...
+2026-04-24 13:50:07,339 | INFO | flet | App session started
+2026-04-24 13:50:07,343 | INFO | Router | Navigating to: /
+2026-04-24 13:50:07,353 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 13:50:07,822 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:50:08,073 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 13:50:08,125 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T17%3A29%3A22Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T16%3A28%3A27Z&ske=2026-04-24T17%3A29%3A22Z&sks=b&skv=2018-11-09&sig=07lMLSEjB0YWTX%2FTHG%2BtFnfmoy5pQWo4r43TXtXdP%2Bk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA0OTcwNywibmJmIjoxNzc3MDQ5NDA3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.AZrbjOIgXcA7jZv2_qHfKPvdtvigNXko9U2ZkG7nWWA&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 13:50:09,804 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-24 13:50:29,184 | INFO | App | Linha 1/115: PIRAI DO NORTE
+2026-04-24 13:51:01,823 | INFO | App | Linha 2/115: PIRIPA
+2026-04-24 13:51:16,789 | INFO | App | Linha 3/115: PIRITIBA
+2026-04-24 13:51:31,677 | INFO | App | Linha 4/115: PLANALTINO
+2026-04-24 13:51:46,595 | INFO | App | Linha 5/115: PLANALTO
+2026-04-24 13:52:01,390 | INFO | App | Linha 6/115: POCOES
+2026-04-24 13:52:16,089 | INFO | App | Linha 7/115: POJUCA
+2026-04-24 13:52:30,972 | INFO | App | Linha 8/115: PONTO NOVO
+2026-04-24 13:52:45,894 | INFO | App | Linha 9/115: PORTO SEGURO
+2026-04-24 13:53:00,740 | INFO | App | Linha 10/115: POTIRAGUA
+2026-04-24 13:53:15,613 | INFO | App | Linha 11/115: PRADO
+2026-04-24 13:53:30,320 | INFO | App | Linha 12/115: PRESIDENTE DUTRA
+2026-04-24 13:53:45,019 | INFO | App | Linha 13/115: PRESIDENTE JANIO QUADROS
+2026-04-24 13:53:59,802 | INFO | App | Linha 14/115: PRESIDENTE TANCREDO NEVES
+2026-04-24 13:54:14,724 | INFO | App | Linha 15/115: QUEIMADAS
+2026-04-24 13:54:29,515 | INFO | App | Linha 16/115: QUIJINGUE
+2026-04-24 13:54:44,137 | INFO | App | Linha 17/115: QUIXABEIRA
+2026-04-24 13:54:58,888 | INFO | App | Linha 18/115: RAFAEL JAMBEIRO
+2026-04-24 13:55:13,642 | INFO | App | Linha 19/115: REMANSO
+2026-04-24 13:55:28,214 | INFO | App | Linha 20/115: RETIROLANDIA
+2026-04-24 13:55:43,099 | INFO | App | Linha 21/115: RIACHAO DAS NEVES
+2026-04-24 13:55:57,876 | INFO | App | Linha 22/115: RIACHAO DO JACUIPE
+2026-04-24 13:56:13,006 | INFO | App | Linha 23/115: RIACHO DE SANTANA
+2026-04-24 13:56:34,488 | INFO | App | Linha 24/115: RIBEIRA DO AMPARO
+2026-04-24 13:56:49,247 | INFO | App | Linha 25/115: RIBEIRA DO POMBAL
+2026-04-24 13:57:04,063 | INFO | App | Linha 26/115: RIBEIRAO DO LARGO
+2026-04-24 13:57:18,954 | INFO | App | Linha 27/115: RIO DE CONTAS
+2026-04-24 13:57:33,931 | INFO | App | Linha 28/115: RIO DO ANTONIO
+2026-04-24 13:57:48,867 | INFO | App | Linha 29/115: RIO DO PIRES
+2026-04-24 13:58:03,674 | INFO | App | Linha 30/115: RIO REAL
+2026-04-24 13:58:18,598 | INFO | App | Linha 31/115: RODELAS
+2026-04-24 13:58:33,398 | INFO | App | Linha 32/115: RUY BARBOSA
+2026-04-24 13:58:48,122 | INFO | App | Linha 33/115: SALINAS DA MARGARIDA
+2026-04-24 13:59:02,875 | INFO | App | Linha 34/115: SALVADOR
+2026-04-24 13:59:17,674 | INFO | App | Linha 35/115: SANTA BARBARA
+2026-04-24 13:59:32,350 | INFO | App | Linha 36/115: SANTA BRIGIDA
+2026-04-24 13:59:47,103 | INFO | App | Linha 37/115: SANTA CRUZ CABRALIA
+2026-04-24 14:00:28,528 | ERROR | App | Erro crítico: Falha ao processar Município 'SANTA CRUZ CABRALIA'. Detalhes: Locator.check: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("#ctr_item_listagem_0")
+
+Último status: Preparando dados...
+2026-04-24 14:00:53,578 | INFO | flet | Session was garbage collected: dLPOGSyUu6u1YXKy
+2026-04-24 14:02:30,052 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 14:02:30,054 | INFO | flet | Starting up TCP server on localhost:53955
+2026-04-24 14:02:30,060 | INFO | flet | Flet app has started...
+2026-04-24 14:02:30,421 | INFO | flet | App session started
+2026-04-24 14:02:30,425 | INFO | Router | Navigating to: /
+2026-04-24 14:02:30,436 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 14:02:30,902 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:02:31,150 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:02:31,232 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T17%3A57%3A03Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T16%3A56%3A19Z&ske=2026-04-24T17%3A57%3A03Z&sks=b&skv=2018-11-09&sig=awujaNzMUdkwLuh%2F%2BsRm2KMZxtnKWRNMEvyQPcp72DA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA1MDQ1MSwibmJmIjoxNzc3MDUwMTUxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.gBUqh3fg5LhpbW3zob0L52uIIdq7S0FCZ1ZC53apB6g&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 14:02:43,207 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-24 14:03:07,049 | INFO | App | Linha 1/79: SANTA CRUZ CABRÁLIA
+2026-04-24 14:03:39,662 | ERROR | App | Erro crítico: Falha ao processar Município 'SANTA CRUZ CABRÁLIA'. Detalhes: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Adicionar Lançamento")
+    - locator resolved to <button type="button" id="btn_adiciona" class="button_link" value="Adicionar Lançamento" onclick=" ;  redireciona_view("?page=meta/view&acao_view=cadastra&id_view=tb_lancamento_1&cod_view=201")">…</button>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+Último status: Preparando dados...
+2026-04-24 14:05:12,252 | INFO | App | Linha 1/79: SANTA CRUZ CABRÁLIA
+2026-04-24 14:05:48,908 | INFO | App | Linha 2/79: SANTA CRUZ DA VITORIA
+2026-04-24 14:06:35,422 | ERROR | App | Erro crítico: Falha ao processar Município 'SANTA CRUZ DA VITORIA'. Detalhes: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for locator("[id=\"cod_unidade_saude**246,0;201___nfm//0/0_seleciona\"]")
+    - locator resolved to <img src="images/base_seleciona.gif" id="cod_unidade_saude**246,0;201___nfm//0/0_seleciona" onclick="chama_novo_form_campo("index2.php?page=meta/view&ctr_seleciona=1&nome_tabela=TB_GRS&cod_tabela=140&ctr_seleciona_multiplo=1", "cod_unidade_saude**246,0;201___nfm//0/0", "246", "2348", "cmp_ctr_restricao_cod_unidade_saude**246,0;201___nfm//0/0", "cmp_ctr_restricao_fixa_cod_unidade_saude**246,0;201___nfm//0/0", "tb_lancamento_1", "captura_cod_unidade_saude__2348__246__0")"/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+Último status: Preparando dados...
+2026-04-24 14:09:16,855 | INFO | flet | Session was garbage collected: FFSI081jzTolbLnH
+2026-04-24 14:09:21,882 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 14:09:21,883 | INFO | flet | Starting up TCP server on localhost:54136
+2026-04-24 14:09:21,890 | INFO | flet | Flet app has started...
+2026-04-24 14:09:22,246 | INFO | flet | App session started
+2026-04-24 14:09:22,251 | INFO | Router | Navigating to: /
+2026-04-24 14:09:22,261 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 14:09:22,716 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:09:22,931 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:09:22,993 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T17%3A56%3A03Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T16%3A55%3A04Z&ske=2026-04-24T17%3A56%3A03Z&sks=b&skv=2018-11-09&sig=4rD9Y8Ji8OS4BSlyj3XzJuW6Cy1q8w8QyVG3f8g%2BUws%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA1MDg2MiwibmJmIjoxNzc3MDUwNTYyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.o4VETEpe_e7thOhREtDgTfFFgvDFVOvnrswLAZu7Bi0&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 14:09:23,616 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-24 14:09:39,931 | INFO | App | Linha 1/79: SANTA CRUZ 
+2026-04-24 14:10:19,438 | ERROR | App | Erro crítico: Falha ao processar Município 'SANTA CRUZ '. Detalhes: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("textbox")
+    - locator resolved to <input value="" size="60" type="text" maxlength="100" id="busca__nom_grs**140,0;213___str//0/0" onfocus=" ;  SetarMascara(this, "___str")" name="busca__nom_grs**140,0;213___str//0/0" onblur=" ;  VerificarMascara(this, "___str")"/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+Último status: Preparando dados...
+2026-04-24 14:11:29,253 | INFO | flet | Session was garbage collected: PZZEgqDGYapahsTk
+2026-04-24 14:11:35,014 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 14:11:35,016 | INFO | flet | Starting up TCP server on localhost:54189
+2026-04-24 14:11:35,022 | INFO | flet | Flet app has started...
+2026-04-24 14:11:35,361 | INFO | flet | App session started
+2026-04-24 14:11:35,365 | INFO | Router | Navigating to: /
+2026-04-24 14:11:35,377 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 14:11:35,738 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:11:35,807 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:11:35,992 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T17%3A56%3A03Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T16%3A55%3A04Z&ske=2026-04-24T17%3A56%3A03Z&sks=b&skv=2018-11-09&sig=4rD9Y8Ji8OS4BSlyj3XzJuW6Cy1q8w8QyVG3f8g%2BUws%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA1MDg2MiwibmJmIjoxNzc3MDUwNTYyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.o4VETEpe_e7thOhREtDgTfFFgvDFVOvnrswLAZu7Bi0&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 14:11:37,848 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-24 14:11:57,755 | INFO | App | Linha 1/79: SANTA CRUZ
+2026-04-24 14:12:12,434 | INFO | App | Linha 2/79: SANTA CRUZ DA
+2026-04-24 14:12:27,468 | INFO | App | Linha 3/79: SANTA INES
+2026-04-24 14:12:42,339 | INFO | App | Linha 4/79: SANTA LUZIA
+2026-04-24 14:12:57,397 | INFO | App | Linha 5/79: SANTA MARIA DA VITORIA
+2026-04-24 14:13:12,232 | INFO | App | Linha 6/79: SANTA RITA DE CASSIA
+2026-04-24 14:13:26,990 | INFO | App | Linha 7/79: SANTA TERESINHA
+2026-04-24 14:14:23,483 | INFO | App | Linha 8/79: SANTALUZ
+2026-04-24 14:14:43,258 | INFO | App | Linha 9/79: SANTANA
+2026-04-24 14:14:58,076 | INFO | App | Linha 10/79: SANTANOPOLIS
+2026-04-24 14:15:13,101 | INFO | App | Linha 11/79: SANTO AMARO
+2026-04-24 14:15:28,126 | INFO | App | Linha 12/79: SANTO ANTONIO DE JESUS
+2026-04-24 14:15:43,569 | INFO | App | Linha 13/79: SANTO ESTEVAO
+2026-04-24 14:15:58,560 | INFO | App | Linha 14/79: SAO DESIDERIO
+2026-04-24 14:16:13,612 | INFO | App | Linha 15/79: SAO DOMINGOS
+2026-04-24 14:16:28,734 | INFO | App | Linha 16/79: SAO FELIPE
+2026-04-24 14:16:43,460 | INFO | App | Linha 17/79: São Félix
+2026-04-24 14:16:58,383 | INFO | App | Linha 18/79: SAO FELIX DO CORIBE
+2026-04-24 14:17:13,210 | INFO | App | Linha 19/79: SAO FRANCISCO DO CONDE
+2026-04-24 14:17:28,097 | INFO | App | Linha 20/79: SAO GABRIEL
+2026-04-24 14:17:42,900 | INFO | App | Linha 21/79: SAO GONCALO DOS CAMPOS
+2026-04-24 14:17:57,608 | INFO | App | Linha 22/79: SAO JOSE DA VITORIA
+2026-04-24 14:18:12,265 | INFO | App | Linha 23/79: SAO JOSE DO JACUIPE
+2026-04-24 14:18:26,934 | INFO | App | Linha 24/79: SAO MIGUEL DAS MATAS
+2026-04-24 14:18:41,629 | INFO | App | Linha 25/79: SAO SEBASTIAO DO PASSE
+2026-04-24 14:18:56,256 | INFO | App | Linha 26/79: SAPEACU
+2026-04-24 14:19:11,108 | INFO | App | Linha 27/79: SATIRO DIAS
+2026-04-24 14:19:25,988 | INFO | App | Linha 28/79: SAUBARA
+2026-04-24 14:19:40,801 | INFO | App | Linha 29/79: SAUDE
+2026-04-24 14:19:57,130 | INFO | App | Linha 30/79: SEABRA
+2026-04-24 14:20:11,798 | ERROR | asyncio | Exception in callback SyncBase._sync.<locals>.<lambda>() at C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py:111>
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 472, in _listener_with_error_handler_attached
+    potential_future = listener(params)
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_browser_context.py", line 163, in <lambda>
+    "dialog", lambda params: self._on_dialog(from_channel(params["dialog"]))
+                             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_browser_context.py", line 703, in _on_dialog
+    has_listeners = page.emit(Page.Events.Dialog, dialog) or has_listeners
+                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 70, in emit
+    return super().emit(event, *args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 220, in emit
+    handled = self._call_handlers(event, args, kwargs)
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 196, in _call_handlers
+    self._emit_run(f, args, kwargs)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 81, in _emit_run
+    self.emit("error", exc)
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 70, in emit
+    return super().emit(event, *args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 223, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 181, in _emit_handle_potential_error
+    raise error
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 79, in _emit_run
+    coro: Any = f(*args, **kwargs)
+                ~^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 250, in g
+    return f(*args, **kwargs)
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_impl_to_api_mapping.py", line 123, in wrapper_func
+    return handler(
+        *list(map(lambda a: self.from_maybe_impl(a), args))[:arg_count]
+    )
+  File "C:\Dev\AppSAFTEC\controllers\sigaf_contrapartida_controller.py", line 203, in <lambda>
+    page4.close()
+    
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 7282, in dismiss
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.dismiss()))
+                                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_dialog.py", line 54, in dismiss
+    await self._channel.send(
+    ...<2 lines>...
+    )
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Dialog.dismiss: Cannot dismiss dialog which is already handled!
+2026-04-24 14:20:13,316 | INFO | App | Linha 31/79: SEBASTIAO LARANJEIRAS
+2026-04-24 14:20:45,254 | ERROR | App | Erro crítico: Falha ao processar Município 'SEBASTIAO LARANJEIRAS'. Detalhes: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Adicionar Lançamento")
+
+Último status: Preparando dados...
+2026-04-24 14:23:08,481 | INFO | flet | Session was garbage collected: Jpj3u0qJnF203Zf3
+2026-04-24 14:23:35,184 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 14:23:35,186 | INFO | flet | Starting up TCP server on localhost:54602
+2026-04-24 14:23:35,193 | INFO | flet | Flet app has started...
+2026-04-24 14:23:35,654 | INFO | flet | App session started
+2026-04-24 14:23:35,658 | INFO | Router | Navigating to: /
+2026-04-24 14:23:35,670 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 14:23:36,100 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:23:36,329 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:23:36,470 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T18%3A21%3A55Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T17%3A21%3A33Z&ske=2026-04-24T18%3A21%3A55Z&sks=b&skv=2018-11-09&sig=2Kn9VtXgBF5mZ3Qy%2BqyThAQixPJ7Ixih3Iwo8xBkHzM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA1MTcxNiwibmJmIjoxNzc3MDUxNDE2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ZDWv7TN7Tfppdyg96RtJjDQqSJ5PR2fIyqtKYOIbMzQ&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 14:23:37,203 | INFO | Router | Navigating to: /sei_caj
+2026-04-24 14:23:37,931 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-24 14:23:56,833 | INFO | App | Linha 2/80: SANTA CRUZ
+2026-04-24 14:24:11,499 | INFO | App | Linha 3/80: SANTA CRUZ DA
+2026-04-24 14:24:16,678 | ERROR | App | Erro crítico: Falha ao processar Município 'SANTA CRUZ DA'. Detalhes: Locator.select_option: Target page, context or browser has been closed
+Último status: Preparando dados...
+2026-04-24 14:24:30,304 | INFO | App | Linha 2/50: SEBASTIAO LARANJEIRAS
+2026-04-24 14:24:45,429 | INFO | App | Linha 3/50: SENHOR DO BONFIM
+2026-04-24 14:25:00,643 | INFO | App | Linha 4/50: SENTO SE
+2026-04-24 14:25:15,879 | INFO | App | Linha 5/50: SERRA DO RAMALHO
+2026-04-24 14:25:31,153 | INFO | App | Linha 6/50: SERRA DOURADA
+2026-04-24 14:25:46,463 | INFO | App | Linha 7/50: SERRA PRETA
+2026-04-24 14:26:01,627 | INFO | App | Linha 8/50: SERRINHA
+2026-04-24 14:26:16,910 | INFO | App | Linha 9/50: SERROLANDIA
+2026-04-24 14:26:41,364 | INFO | App | Linha 10/50: SIMOES FILHO
+2026-04-24 14:26:56,507 | INFO | App | Linha 11/50: SITIO DO MATO
+2026-04-24 14:27:11,560 | INFO | App | Linha 12/50: SITIO DO QUINTO
+2026-04-24 14:27:26,623 | INFO | App | Linha 13/50: SOBRADINHO
+2026-04-24 14:27:41,648 | INFO | App | Linha 14/50: SOUTO SOARES
+2026-04-24 14:27:56,756 | INFO | App | Linha 15/50: TABOCAS DO BREJO VELHO
+2026-04-24 14:28:11,683 | INFO | App | Linha 16/50: TANHACU
+2026-04-24 14:28:26,730 | INFO | App | Linha 17/50: TANQUE NOVO
+2026-04-24 14:28:41,753 | INFO | App | Linha 18/50: TANQUINHO
+2026-04-24 14:28:56,959 | INFO | App | Linha 19/50: TAPEROA
+2026-04-24 14:29:11,903 | INFO | App | Linha 20/50: TAPIRAMUTA
+2026-04-24 14:29:26,926 | INFO | App | Linha 21/50: TEIXEIRA DE FREITAS
+2026-04-24 14:29:41,832 | INFO | App | Linha 22/50: TEODORO SAMPAIO
+2026-04-24 14:29:56,877 | INFO | App | Linha 23/50: TEOFILANDIA
+2026-04-24 14:30:11,798 | INFO | App | Linha 24/50: TEOLANDIA
+2026-04-24 14:30:26,776 | INFO | App | Linha 25/50: TERRA NOVA
+2026-04-24 14:30:41,726 | INFO | App | Linha 26/50: TREMEDAL
+2026-04-24 14:30:56,596 | INFO | App | Linha 27/50: TUCANO
+2026-04-24 14:31:11,525 | INFO | App | Linha 28/50: UAUA
+2026-04-24 14:31:26,347 | INFO | App | Linha 29/50: UBAIRA
+2026-04-24 14:31:41,329 | INFO | App | Linha 30/50: UBAITABA
+2026-04-24 14:31:55,739 | ERROR | asyncio | Exception in callback SyncBase._sync.<locals>.<lambda>() at C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py:111
+handle: <Handle SyncBase._sync.<locals>.<lambda>() at C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py:111>
+Traceback (most recent call last):
+  File "C:\Users\bernardo.silva\AppData\Roaming\uv\python\cpython-3.14-windows-x86_64-none\Lib\asyncio\events.py", line 94, in _run
+    self._context.run(self._callback, *self._args)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 111, in <lambda>
+    task.add_done_callback(lambda _: g_self.switch())
+                                     ~~~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 472, in _listener_with_error_handler_attached
+    potential_future = listener(params)
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_browser_context.py", line 163, in <lambda>
+    "dialog", lambda params: self._on_dialog(from_channel(params["dialog"]))
+                             ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_browser_context.py", line 703, in _on_dialog
+    has_listeners = page.emit(Page.Events.Dialog, dialog) or has_listeners
+                    ~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 70, in emit
+    return super().emit(event, *args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 220, in emit
+    handled = self._call_handlers(event, args, kwargs)
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 196, in _call_handlers
+    self._emit_run(f, args, kwargs)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 81, in _emit_run
+    self.emit("error", exc)
+    ~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 70, in emit
+    return super().emit(event, *args, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 223, in emit
+    self._emit_handle_potential_error(event, args[0] if args else None)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 181, in _emit_handle_potential_error
+    raise error
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\asyncio.py", line 79, in _emit_run
+    coro: Any = f(*args, **kwargs)
+                ~^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\pyee\base.py", line 250, in g
+    return f(*args, **kwargs)
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_impl_to_api_mapping.py", line 123, in wrapper_func
+    return handler(
+        *list(map(lambda a: self.from_maybe_impl(a), args))[:arg_count]
+    )
+  File "C:\Dev\AppSAFTEC\controllers\sigaf_contrapartida_controller.py", line 204, in <lambda>
+    page.once("dialog", lambda dialog: dialog.dismiss())
+                                       ~~~~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\sync_api\_generated.py", line 7282, in dismiss
+    return mapping.from_maybe_impl(self._sync(self._impl_obj.dismiss()))
+                                   ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_dialog.py", line 54, in dismiss
+    await self._channel.send(
+    ...<2 lines>...
+    )
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+    )
+    ^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Dialog.dismiss: Cannot dismiss dialog which is already handled!
+2026-04-24 14:31:57,282 | INFO | App | Linha 31/50: UBATA
+2026-04-24 14:32:29,239 | ERROR | App | Erro crítico: Falha ao processar Município 'UBATA'. Detalhes: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("button", name="Adicionar Lançamento")
+
+Último status: Preparando dados...
+2026-04-24 14:35:28,095 | INFO | flet | Session was garbage collected: Hx0UPLKWeJluz8cb
+2026-04-24 14:35:33,277 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 14:35:33,278 | INFO | flet | Starting up TCP server on localhost:54953
+2026-04-24 14:35:33,285 | INFO | flet | Flet app has started...
+2026-04-24 14:35:33,638 | INFO | flet | App session started
+2026-04-24 14:35:33,642 | INFO | Router | Navigating to: /
+2026-04-24 14:35:33,653 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 14:35:34,068 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:35:34,337 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:35:34,431 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T18%3A28%3A05Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T17%3A27%3A51Z&ske=2026-04-24T18%3A28%3A05Z&sks=b&skv=2018-11-09&sig=UFrABp2ey2WvBIwzMLZaopl%2B0Ue8Sgm2ox%2B%2BEZR%2Fff8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA1MjQzNCwibmJmIjoxNzc3MDUyMTM0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.0Ww5LiksQequns4RNryaEOGX5BzRz3Q7XLmiPbgB-f0&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 14:35:35,500 | INFO | Router | Navigating to: /sei_caj
+2026-04-24 14:35:35,964 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-24 14:35:51,338 | INFO | App | Linha 2/22: UBAITABA
+2026-04-24 14:36:29,928 | ERROR | App | Erro crítico: Falha ao processar Município 'UBAITABA'. Detalhes: Locator.click: Timeout 30000ms exceeded.
+Call log:
+  - waiting for get_by_role("textbox")
+    - locator resolved to <input value="" size="60" type="text" maxlength="100" id="busca__nom_grs**140,0;213___str//0/0" onfocus=" ;  SetarMascara(this, "___str")" name="busca__nom_grs**140,0;213___str//0/0" onblur=" ;  VerificarMascara(this, "___str")"/>
+  - attempting click action
+    - waiting for element to be visible, enabled and stable
+    - element is visible, enabled and stable
+    - scrolling into view if needed
+    - done scrolling
+    - performing click action
+
+Último status: Preparando dados...
+2026-04-24 14:36:35,954 | INFO | flet | Session was garbage collected: Jn9L1f9JadgpZjPn
+2026-04-24 14:37:11,757 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-24 14:37:11,759 | INFO | flet | Starting up TCP server on localhost:54999
+2026-04-24 14:37:11,765 | INFO | flet | Flet app has started...
+2026-04-24 14:37:12,117 | INFO | flet | App session started
+2026-04-24 14:37:12,122 | INFO | Router | Navigating to: /
+2026-04-24 14:37:12,132 | INFO | App | Aplicação iniciada com sucesso
+2026-04-24 14:37:12,420 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:37:12,453 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
+2026-04-24 14:37:12,502 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T18%3A28%3A05Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T17%3A27%3A51Z&ske=2026-04-24T18%3A28%3A05Z&sks=b&skv=2018-11-09&sig=UFrABp2ey2WvBIwzMLZaopl%2B0Ue8Sgm2ox%2B%2BEZR%2Fff8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA1MjQzNCwibmJmIjoxNzc3MDUyMTM0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.0Ww5LiksQequns4RNryaEOGX5BzRz3Q7XLmiPbgB-f0&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-24 14:37:13,562 | INFO | Router | Navigating to: /sei_caj
+2026-04-24 14:37:13,962 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-24 14:37:29,729 | INFO | App | Linha 2/22: UBAITABA
+2026-04-24 14:37:35,930 | INFO | App | Adicionando lançamento para o município: UBAITABA | Valor: 4413,66
+2026-04-24 14:37:43,484 | INFO | App | Progresso: UBAITABA processado.
+2026-04-24 14:37:43,484 | INFO | App | Linha 3/22: UBATA
+2026-04-24 14:37:49,778 | INFO | App | Adicionando lançamento para o município: UBATA | Valor: 6847,00
+2026-04-24 14:37:57,389 | INFO | App | Progresso: UBATA processado.
+2026-04-24 14:37:57,389 | INFO | App | Linha 4/22: UIBAI
+2026-04-24 14:38:03,685 | INFO | App | Adicionando lançamento para o município: UIBAI | Valor: 3369,19
+2026-04-24 14:38:11,700 | INFO | App | Progresso: UIBAI processado.
+2026-04-24 14:38:11,701 | INFO | App | Linha 5/22: UMBURANAS
+2026-04-24 14:38:17,978 | INFO | App | Adicionando lançamento para o município: UMBURANAS | Valor: 4851,87
+2026-04-24 14:38:26,059 | INFO | App | Progresso: UMBURANAS processado.
+2026-04-24 14:38:26,060 | INFO | App | Linha 6/22: UNA
+2026-04-24 14:38:32,350 | INFO | App | Adicionando lançamento para o município: UNA | Valor: 6183,04
+2026-04-24 14:38:40,322 | INFO | App | Progresso: UNA processado.
+2026-04-24 14:38:40,322 | INFO | App | Linha 7/22: URANDI
+2026-04-24 14:38:46,582 | INFO | App | Adicionando lançamento para o município: URANDI | Valor: 3851,55
+2026-04-24 14:39:16,104 | INFO | App | Progresso: URANDI processado.
+2026-04-24 14:39:16,105 | INFO | App | Linha 8/22: URUCUCA
+2026-04-24 14:39:22,318 | INFO | App | Adicionando lançamento para o município: URUCUCA | Valor: 5372,85
+2026-04-24 14:39:30,177 | INFO | App | Progresso: URUCUCA processado.
+2026-04-24 14:39:30,178 | INFO | App | Linha 9/22: UTINGA
+2026-04-24 14:39:36,350 | INFO | App | Adicionando lançamento para o município: UTINGA | Valor: 4082,81
+2026-04-24 14:39:43,853 | INFO | App | Progresso: UTINGA processado.
+2026-04-24 14:39:43,853 | INFO | App | Linha 10/22: VALENCA
+2026-04-24 14:39:50,027 | INFO | App | Adicionando lançamento para o município: VALENCA | Valor: 21485,13
+2026-04-24 14:39:57,550 | INFO | App | Progresso: VALENCA processado.
+2026-04-24 14:39:57,551 | INFO | App | Linha 11/22: VALENTE
+2026-04-24 14:40:03,733 | INFO | App | Adicionando lançamento para o município: VALENTE | Valor: 6110,80
+2026-04-24 14:40:11,330 | INFO | App | Progresso: VALENTE processado.
+2026-04-24 14:40:11,331 | INFO | App | Linha 12/22: VARZEA DA ROCA
+2026-04-24 14:40:17,531 | INFO | App | Adicionando lançamento para o município: VARZEA DA ROCA | Valor: 3461,50
+2026-04-24 14:40:25,041 | INFO | App | Progresso: VARZEA DA ROCA processado.
+2026-04-24 14:40:25,042 | INFO | App | Linha 13/22: VARZEA DO POCO
+2026-04-24 14:40:31,233 | INFO | App | Adicionando lançamento para o município: VARZEA DO POCO | Valor: 2032,00
+2026-04-24 14:40:38,814 | INFO | App | Progresso: VARZEA DO POCO processado.
+2026-04-24 14:40:38,814 | INFO | App | Linha 14/22: VARZEA NOVA
+2026-04-24 14:40:44,991 | INFO | App | Adicionando lançamento para o município: VARZEA NOVA | Valor: 3355,40
+2026-04-24 14:40:52,572 | INFO | App | Progresso: VARZEA NOVA processado.
+2026-04-24 14:40:52,572 | INFO | App | Linha 15/22: VARZEDO
+2026-04-24 14:40:58,762 | INFO | App | Adicionando lançamento para o município: VARZEDO | Valor: 2486,51
+2026-04-24 14:41:06,398 | INFO | App | Progresso: VARZEDO processado.
+2026-04-24 14:41:06,399 | INFO | App | Linha 16/22: VERA CRUZ
+2026-04-24 14:41:12,662 | INFO | App | Adicionando lançamento para o município: VERA CRUZ | Valor: 10667,69
+2026-04-24 14:41:20,107 | INFO | App | Progresso: VERA CRUZ processado.
+2026-04-24 14:41:20,107 | INFO | App | Linha 17/22: VEREDA
+2026-04-24 14:41:26,381 | INFO | App | Adicionando lançamento para o município: VEREDA | Valor: 1505,75
+2026-04-24 14:41:33,995 | INFO | App | Progresso: VEREDA processado.
+2026-04-24 14:41:33,996 | INFO | App | Linha 18/22: VITORIA DA CONQUISTA
+2026-04-24 14:41:40,175 | INFO | App | Adicionando lançamento para o município: VITORIA DA CONQUISTA | Valor: 93028,82
+2026-04-24 14:41:47,753 | INFO | App | Progresso: VITORIA DA CONQUISTA processado.
+2026-04-24 14:41:47,753 | INFO | App | Linha 19/22: WAGNER
+2026-04-24 14:41:53,919 | INFO | App | Adicionando lançamento para o município: WAGNER | Valor: 2383,67
+2026-04-24 14:42:01,509 | INFO | App | Progresso: WAGNER processado.
+2026-04-24 14:42:01,510 | INFO | App | Linha 20/22: WANDERLEY
+2026-04-24 14:42:07,662 | INFO | App | Adicionando lançamento para o município: WANDERLEY | Valor: 3252,81
+2026-04-24 14:42:15,217 | INFO | App | Progresso: WANDERLEY processado.
+2026-04-24 14:42:15,217 | INFO | App | Linha 21/22: WENCESLAU GUIMARAES
+2026-04-24 14:42:21,489 | INFO | App | Adicionando lançamento para o município: WENCESLAU GUIMARAES | Valor: 6138,90
+2026-04-24 14:42:29,054 | INFO | App | Progresso: WENCESLAU GUIMARAES processado.
+2026-04-24 14:42:29,055 | INFO | App | Linha 22/22: XIQUE-XIQUE
+2026-04-24 14:42:35,216 | INFO | App | Adicionando lançamento para o município: XIQUE-XIQUE | Valor: 11226,55
+2026-04-24 14:42:42,805 | INFO | App | Progresso: XIQUE-XIQUE processado.
+2026-04-24 14:42:43,235 | INFO | App | Automação concluída com sucesso!
+2026-04-24 14:42:50,112 | INFO | flet | Session was garbage collected: FOPniVlRuToM9mev

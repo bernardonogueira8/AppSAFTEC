@@ -15,6 +15,7 @@ class UpdateView:
         self.btn_update = ft.TextButton(
             "Verificar atualização", on_click=self._on_check_click
         )
+    
     def _refresh(self):
         """Chama page.update() de forma segura de qualquer thread."""
         try:
