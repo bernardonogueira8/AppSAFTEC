@@ -9,10 +9,10 @@ O **AppSAFTEC** é uma ferramenta desenvolvida para otimizar processos e aumenta
 
 ## 🚀 Tecnologias e Ferramentas
 
-- **Linguagem:** Python
+- **Linguagem:** Python 3.14
 - **Interface:** [Flet](https://flet.dev/) (Flutter for Python)
 - **Automação Web:** [Playwright](https://playwright.dev/python/)
-- **Gerenciador de Pacotes:** [uv](https://github.com/astral-sh/uv) (Extremamente rápido)
+- **Gerenciador de Pacotes:** [uv](https://github.com/astral-sh/uv)
 - **Framework de Estrutura:** [fleting](https://github.com/fleting-py/fleting)
 
 ## ⚙️ Funcionalidades
@@ -29,7 +29,7 @@ Certifique-se de ter o `uv` instalado em sua máquina. Caso não tenha, instale 
 
 1. **Clone o repositório:**
    ```bash
-   git clone [url-do-seu-repositorio]
+   git clone https://github.com/bernardonogueira8/AppSAFTEC.git
    cd AppSAFTEC
    ```
 
