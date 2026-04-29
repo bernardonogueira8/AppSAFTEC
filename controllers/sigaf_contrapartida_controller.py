@@ -109,13 +109,16 @@ class SigafContrapartidaController:
             "PREFEITURA MUNICIPAL DE " + df["MUNICIPIO"].str.upper()
         )
         df['DATA'] = df['DATA'].apply(lambda x: x.replace(month=x.day, day=x.month) if pd.notna(x) else x)
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("CABACEIRA DO PARAGUACU", "CABACEIRAS DO PARAGUAÇU")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("MUQUEM DO SAO FRANCISCO", "MUQUÉM DE SÃO FRANCISCO")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("MARAGOJIPE", "MARAGOGIPE")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("São Felix", "São Félix")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA CRUZ CABRALIA", "SANTA CRUZ")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA CRUZ DA VITORIA", "SANTA CRUZ DA")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA TERESINHA", "SANTA TEREZINHA")
+        try:
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("CABACEIRA DO PARAGUACU", "CABACEIRAS DO PARAGUAÇU")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("MARAGOJIPE", "MARAGOGIPE")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("MUQUEM DO SAO FRANCISCO", "MUQUÉM DE SÃO FRANCISCO")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("São Felix", "São Félix")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA CRUZ CABRALIA", "SANTA CRUZ")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA CRUZ DA VITORIA", "SANTA CRUZ DA")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA TERESINHA", "SANTA TEREZINHA")
+        except Exception as e:
+            pass
         
         return df
 
