@@ -673,3 +673,250 @@ Call log:
 2026-04-24 14:47:37,767 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.0.1/version.json "HTTP/1.1 302 Found"
 2026-04-24 14:47:37,829 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/b33958fa-cdaf-48b6-a84b-27cc8b6e5864?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-24T18%3A28%3A32Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-24T17%3A27%3A51Z&ske=2026-04-24T18%3A28%3A32Z&sks=b&skv=2018-11-09&sig=VJUAp7My6%2FzJp6PS7jRnFJ2s6n96Tb%2B8pa8KE19A1DY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzA1MzE0MywibmJmIjoxNzc3MDUyODQzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.fQZWmqlzH7MLjESGsEDdAPcxheQe5cZWACvDqarH1Fc&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
 2026-04-24 14:47:44,231 | INFO | flet | Session was garbage collected: 4FWWXekOIT631mRu
+2026-04-29 10:16:07,017 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:16:07,022 | INFO | flet | Starting up TCP server on localhost:59258
+2026-04-29 10:16:07,033 | INFO | flet | Flet app has started...
+2026-04-29 10:16:08,259 | INFO | flet | App session started
+2026-04-29 10:16:08,320 | INFO | Router | Navigating to: /
+2026-04-29 10:16:08,337 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:16:09,003 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:16:09,318 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:16:09,525 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T13%3A57%3A34Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T12%3A57%3A29Z&ske=2026-04-29T13%3A57%3A34Z&sks=b&skv=2018-11-09&sig=O5Pm6XZfKLpSpcMb42OE2rcWbP9cfeWMFWg6rMGg2VE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2ODg2OSwibmJmIjoxNzc3NDY4NTY5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.2KA_SOHWAXQ8yCI9ZBp0oLN1NlERLGpKqV8HKuph180&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:16:10,959 | INFO | Router | Navigating to: /exit
+2026-04-29 10:17:13,915 | INFO | flet | Session was garbage collected: 63YiaeaUTTfWaIIe
+2026-04-29 10:17:19,008 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:17:19,010 | INFO | flet | Starting up TCP server on localhost:59302
+2026-04-29 10:17:19,018 | INFO | flet | Flet app has started...
+2026-04-29 10:17:19,439 | INFO | flet | App session started
+2026-04-29 10:17:19,445 | INFO | Router | Navigating to: /
+2026-04-29 10:17:19,474 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:17:19,837 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:17:19,873 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:17:19,929 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T13%3A57%3A34Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T12%3A57%3A29Z&ske=2026-04-29T13%3A57%3A34Z&sks=b&skv=2018-11-09&sig=O5Pm6XZfKLpSpcMb42OE2rcWbP9cfeWMFWg6rMGg2VE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2ODg2OSwibmJmIjoxNzc3NDY4NTY5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.2KA_SOHWAXQ8yCI9ZBp0oLN1NlERLGpKqV8HKuph180&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:17:21,670 | INFO | Router | Navigating to: /exit
+2026-04-29 10:17:25,185 | INFO | flet | Session was garbage collected: b4MNKiXvmJrrVVjB
+2026-04-29 10:25:20,927 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:25:20,929 | INFO | flet | Starting up TCP server on localhost:59576
+2026-04-29 10:25:20,940 | INFO | flet | Flet app has started...
+2026-04-29 10:25:21,338 | INFO | flet | App session started
+2026-04-29 10:25:21,341 | INFO | Router | Navigating to: /
+2026-04-29 10:25:21,353 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:25:21,848 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:25:22,145 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:25:22,203 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A01%3A08Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A01%3A03Z&ske=2026-04-29T14%3A01%3A08Z&sks=b&skv=2018-11-09&sig=PuQFax6d5t6lVpdzve3qbpBtt%2BRyvliVhfGC3ohXNyg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTQyMiwibmJmIjoxNzc3NDY5MTIyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.holMlAnknG0Kod3W2GpgQrM84WZfxtc3cD6FzR-WVl8&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:25:25,658 | INFO | Router | Navigating to: /exit
+2026-04-29 10:25:29,831 | INFO | flet | Session was garbage collected: 0SUdSOhcHceRx0JL
+2026-04-29 10:25:47,179 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:25:47,181 | INFO | flet | Starting up TCP server on localhost:59600
+2026-04-29 10:25:47,189 | INFO | flet | Flet app has started...
+2026-04-29 10:25:47,659 | INFO | flet | App session started
+2026-04-29 10:25:47,664 | INFO | Router | Navigating to: /
+2026-04-29 10:25:47,682 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:25:48,020 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:25:48,057 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:25:48,136 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A01%3A08Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A01%3A03Z&ske=2026-04-29T14%3A01%3A08Z&sks=b&skv=2018-11-09&sig=PuQFax6d5t6lVpdzve3qbpBtt%2BRyvliVhfGC3ohXNyg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTQyMiwibmJmIjoxNzc3NDY5MTIyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.holMlAnknG0Kod3W2GpgQrM84WZfxtc3cD6FzR-WVl8&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:25:52,373 | INFO | Router | Navigating to: /exit
+2026-04-29 10:25:52,374 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Dev\AppSAFTEC\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Dev\AppSAFTEC\configs\routes.py", line 116, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\views\pages\exit_view.py", line 10, in __init__
+    self.controller = ExitController(page=self.page)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+TypeError: ExitController() takes no arguments
+2026-04-29 10:25:55,243 | INFO | flet | Session was garbage collected: h0RNagAA2MzDeDdb
+2026-04-29 10:26:06,788 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:26:06,789 | INFO | flet | Starting up TCP server on localhost:59620
+2026-04-29 10:26:06,797 | INFO | flet | Flet app has started...
+2026-04-29 10:26:07,210 | INFO | flet | App session started
+2026-04-29 10:26:07,215 | INFO | Router | Navigating to: /
+2026-04-29 10:26:07,230 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:26:07,545 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:26:07,579 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:26:07,644 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A01%3A08Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A01%3A03Z&ske=2026-04-29T14%3A01%3A08Z&sks=b&skv=2018-11-09&sig=PuQFax6d5t6lVpdzve3qbpBtt%2BRyvliVhfGC3ohXNyg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTQyMiwibmJmIjoxNzc3NDY5MTIyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.holMlAnknG0Kod3W2GpgQrM84WZfxtc3cD6FzR-WVl8&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:26:08,991 | INFO | Router | Navigating to: /exit
+2026-04-29 10:26:08,991 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Dev\AppSAFTEC\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Dev\AppSAFTEC\configs\routes.py", line 116, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\views\pages\exit_view.py", line 10, in __init__
+    self.controller = ExitController(page=self.page)
+                      ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+TypeError: ExitController() takes no arguments
+2026-04-29 10:26:11,102 | INFO | flet | Session was garbage collected: IAfCHHKg63qsRmxC
+2026-04-29 10:26:21,729 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:26:21,732 | INFO | flet | Starting up TCP server on localhost:59640
+2026-04-29 10:26:21,740 | INFO | flet | Flet app has started...
+2026-04-29 10:26:22,112 | INFO | flet | App session started
+2026-04-29 10:26:22,116 | INFO | Router | Navigating to: /
+2026-04-29 10:26:22,138 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:26:22,544 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:26:22,582 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:26:22,635 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A01%3A08Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A01%3A03Z&ske=2026-04-29T14%3A01%3A08Z&sks=b&skv=2018-11-09&sig=PuQFax6d5t6lVpdzve3qbpBtt%2BRyvliVhfGC3ohXNyg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTQyMiwibmJmIjoxNzc3NDY5MTIyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.holMlAnknG0Kod3W2GpgQrM84WZfxtc3cD6FzR-WVl8&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:26:23,704 | INFO | Router | Navigating to: /exit
+2026-04-29 10:27:56,739 | INFO | flet | Session was garbage collected: eA3Fh0f4mdeGVFUm
+2026-04-29 10:28:01,601 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:28:01,604 | INFO | flet | Starting up TCP server on localhost:59712
+2026-04-29 10:28:01,613 | INFO | flet | Flet app has started...
+2026-04-29 10:28:02,078 | INFO | flet | App session started
+2026-04-29 10:28:02,083 | INFO | Router | Navigating to: /
+2026-04-29 10:28:02,095 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:28:02,565 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:28:02,796 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:28:02,845 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A12%3A25Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A12%3A25Z&ske=2026-04-29T14%3A12%3A25Z&sks=b&skv=2018-11-09&sig=yCgwCUq2hjYKrKO8Wo%2Bsa4OdkE6NVuAjhseOvxQ2BOw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTU4MiwibmJmIjoxNzc3NDY5MjgyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.OTAnKZtWamH7q-A3SetKiiHcDhZ3yI2Bs-NrOic-dG8&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:28:04,250 | INFO | Router | Navigating to: /exit
+2026-04-29 10:28:09,386 | INFO | flet | Session was garbage collected: 3cacQNz2IDinKkPJ
+2026-04-29 10:28:50,840 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:28:50,842 | INFO | flet | Starting up TCP server on localhost:59745
+2026-04-29 10:28:50,849 | INFO | flet | Flet app has started...
+2026-04-29 10:28:51,213 | INFO | flet | App session started
+2026-04-29 10:28:51,220 | INFO | Router | Navigating to: /
+2026-04-29 10:28:51,233 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:28:51,713 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:28:51,748 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:28:51,819 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A12%3A25Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A12%3A25Z&ske=2026-04-29T14%3A12%3A25Z&sks=b&skv=2018-11-09&sig=yCgwCUq2hjYKrKO8Wo%2Bsa4OdkE6NVuAjhseOvxQ2BOw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTU4MiwibmJmIjoxNzc3NDY5MjgyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.OTAnKZtWamH7q-A3SetKiiHcDhZ3yI2Bs-NrOic-dG8&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:29:10,889 | INFO | Router | Navigating to: /exit
+2026-04-29 10:29:10,889 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Dev\AppSAFTEC\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Dev\AppSAFTEC\configs\routes.py", line 116, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\views\pages\exit_view.py", line 10, in __init__
+    self.controller = ExitController()
+                      ~~~~~~~~~~~~~~^^
+TypeError: ExitController.__init__() missing 1 required positional argument: 'page'
+2026-04-29 10:29:14,861 | INFO | flet | Session was garbage collected: 8bXwlv84ek49xWnV
+2026-04-29 10:30:09,152 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:30:09,153 | INFO | flet | Starting up TCP server on localhost:59802
+2026-04-29 10:30:09,161 | INFO | flet | Flet app has started...
+2026-04-29 10:30:09,586 | INFO | flet | App session started
+2026-04-29 10:30:09,591 | INFO | Router | Navigating to: /
+2026-04-29 10:30:09,603 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:30:09,907 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:30:09,940 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:30:10,014 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A12%3A25Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A12%3A25Z&ske=2026-04-29T14%3A12%3A25Z&sks=b&skv=2018-11-09&sig=yCgwCUq2hjYKrKO8Wo%2Bsa4OdkE6NVuAjhseOvxQ2BOw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTU4MiwibmJmIjoxNzc3NDY5MjgyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.OTAnKZtWamH7q-A3SetKiiHcDhZ3yI2Bs-NrOic-dG8&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:30:12,032 | INFO | Router | Navigating to: /exit
+2026-04-29 10:30:12,032 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Dev\AppSAFTEC\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Dev\AppSAFTEC\configs\routes.py", line 116, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\views\pages\exit_view.py", line 13, in render
+    self.page.run_task(self.controller.exit_app, self.page)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\flet\controls\page.py", line 731, in run_task
+    raise TypeError("handler must be a coroutine function")
+TypeError: handler must be a coroutine function
+2026-04-29 10:30:15,906 | INFO | flet | Session was garbage collected: SSrASuHsrZk4pcQ0
+2026-04-29 10:30:29,047 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:30:29,049 | INFO | flet | Starting up TCP server on localhost:59816
+2026-04-29 10:30:29,056 | INFO | flet | Flet app has started...
+2026-04-29 10:30:29,414 | INFO | flet | App session started
+2026-04-29 10:30:29,419 | INFO | Router | Navigating to: /
+2026-04-29 10:30:29,431 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:30:29,821 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:30:29,860 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:30:29,916 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A27%3A41Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A27%3A23Z&ske=2026-04-29T14%3A27%3A41Z&sks=b&skv=2018-11-09&sig=wVlJsUDgybLSTMStP5tfWtkP2%2FB5GPFTskugCeYtHHA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTcxMCwibmJmIjoxNzc3NDY5NDEwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.P54Br64HyW-lPsxgeDZ0d0N6MmbvswgncUzSNQRt_QE&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:30:31,603 | INFO | Router | Navigating to: /exit
+2026-04-29 10:30:31,603 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Dev\AppSAFTEC\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Dev\AppSAFTEC\configs\routes.py", line 116, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\views\pages\exit_view.py", line 13, in render
+    self.page.run_task(self.controller.exit_app, self.page)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\flet\controls\page.py", line 731, in run_task
+    raise TypeError("handler must be a coroutine function")
+TypeError: handler must be a coroutine function
+2026-04-29 10:30:33,180 | INFO | flet | Session was garbage collected: i9jkUKelrzOarveo
+2026-04-29 10:30:48,472 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:30:48,474 | INFO | flet | Starting up TCP server on localhost:59835
+2026-04-29 10:30:48,483 | INFO | flet | Flet app has started...
+2026-04-29 10:30:48,900 | INFO | flet | App session started
+2026-04-29 10:30:48,905 | INFO | Router | Navigating to: /
+2026-04-29 10:30:48,919 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:30:49,233 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:30:49,266 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:30:49,325 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A27%3A41Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A27%3A23Z&ske=2026-04-29T14%3A27%3A41Z&sks=b&skv=2018-11-09&sig=wVlJsUDgybLSTMStP5tfWtkP2%2FB5GPFTskugCeYtHHA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTcxMCwibmJmIjoxNzc3NDY5NDEwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.P54Br64HyW-lPsxgeDZ0d0N6MmbvswgncUzSNQRt_QE&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:30:51,796 | INFO | Router | Navigating to: /exit
+2026-04-29 10:30:51,797 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Dev\AppSAFTEC\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Dev\AppSAFTEC\configs\routes.py", line 116, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\views\pages\exit_view.py", line 13, in render
+    self.page.run_task(self.controller.exit_app, self.page)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\flet\controls\page.py", line 731, in run_task
+    raise TypeError("handler must be a coroutine function")
+TypeError: handler must be a coroutine function
+2026-04-29 10:31:58,991 | INFO | flet | Session was garbage collected: 00R4iTSbjWG16t1U
+2026-04-29 10:32:04,078 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:32:04,080 | INFO | flet | Starting up TCP server on localhost:59879
+2026-04-29 10:32:04,087 | INFO | flet | Flet app has started...
+2026-04-29 10:32:04,452 | INFO | flet | App session started
+2026-04-29 10:32:04,457 | INFO | Router | Navigating to: /
+2026-04-29 10:32:04,473 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:32:04,765 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:32:04,799 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:32:04,858 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A27%3A41Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A27%3A23Z&ske=2026-04-29T14%3A27%3A41Z&sks=b&skv=2018-11-09&sig=wVlJsUDgybLSTMStP5tfWtkP2%2FB5GPFTskugCeYtHHA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTcxMCwibmJmIjoxNzc3NDY5NDEwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.P54Br64HyW-lPsxgeDZ0d0N6MmbvswgncUzSNQRt_QE&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:32:09,661 | INFO | Router | Navigating to: /update
+2026-04-29 10:32:09,800 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:32:09,835 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:32:09,885 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A27%3A41Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A27%3A23Z&ske=2026-04-29T14%3A27%3A41Z&sks=b&skv=2018-11-09&sig=wVlJsUDgybLSTMStP5tfWtkP2%2FB5GPFTskugCeYtHHA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTcxMCwibmJmIjoxNzc3NDY5NDEwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.P54Br64HyW-lPsxgeDZ0d0N6MmbvswgncUzSNQRt_QE&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:32:11,581 | INFO | Router | Navigating to: /exit
+2026-04-29 10:32:14,360 | INFO | flet | Session was garbage collected: V9HerTstMf8jTZBc
+2026-04-29 10:32:29,220 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:32:29,223 | INFO | flet | Starting up TCP server on localhost:59901
+2026-04-29 10:32:29,233 | INFO | flet | Flet app has started...
+2026-04-29 10:32:29,649 | INFO | flet | App session started
+2026-04-29 10:32:29,654 | INFO | Router | Navigating to: /
+2026-04-29 10:32:29,665 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:32:29,927 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:32:29,964 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:32:30,023 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A27%3A41Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A27%3A23Z&ske=2026-04-29T14%3A27%3A41Z&sks=b&skv=2018-11-09&sig=wVlJsUDgybLSTMStP5tfWtkP2%2FB5GPFTskugCeYtHHA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTcxMCwibmJmIjoxNzc3NDY5NDEwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.P54Br64HyW-lPsxgeDZ0d0N6MmbvswgncUzSNQRt_QE&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:32:33,816 | INFO | Router | Navigating to: /exit
+2026-04-29 10:32:33,816 | ERROR | Router | Error rendering view
+Traceback (most recent call last):
+  File "C:\Dev\AppSAFTEC\core\router.py", line 30, in navigate
+    view = routes[route](self.page, self)
+  File "C:\Dev\AppSAFTEC\configs\routes.py", line 116, in <lambda>
+    return lambda page, router: load_view(path)(page, router).render()
+                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Dev\AppSAFTEC\views\pages\exit_view.py", line 13, in render
+    self.page.run_task(self.controller.exit_app)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Dev\AppSAFTEC\.venv\Lib\site-packages\flet\controls\page.py", line 734, in run_task
+    handler(*args, **kwargs), self.session.connection.loop
+    ~~~~~~~^^^^^^^^^^^^^^^^^
+TypeError: ExitController.exit_app() missing 1 required positional argument: 'page'
+2026-04-29 10:32:35,096 | INFO | flet | Session was garbage collected: yvu8hQf6VEYQD0fq
+2026-04-29 10:32:53,118 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-29 10:32:53,120 | INFO | flet | Starting up TCP server on localhost:59939
+2026-04-29 10:32:53,131 | INFO | flet | Flet app has started...
+2026-04-29 10:32:53,572 | INFO | flet | App session started
+2026-04-29 10:32:53,577 | INFO | Router | Navigating to: /
+2026-04-29 10:32:53,594 | INFO | App | Aplicação iniciada com sucesso
+2026-04-29 10:32:53,920 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:32:53,954 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:32:54,012 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A06%3A56Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A06%3A18Z&ske=2026-04-29T14%3A06%3A56Z&sks=b&skv=2018-11-09&sig=yhef33hk0YsMy3cqeXgFWd2%2FtoslXMJUDkOPUOdSn6E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTg1MCwibmJmIjoxNzc3NDY5NTUwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.hUySrRujArd8zPQkr_JnBT5PU5RQ4veShc8ZmeJQa_k&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:32:55,690 | INFO | Router | Navigating to: /update
+2026-04-29 10:32:55,832 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:32:55,866 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
+2026-04-29 10:32:55,914 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A06%3A56Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A06%3A18Z&ske=2026-04-29T14%3A06%3A56Z&sks=b&skv=2018-11-09&sig=yhef33hk0YsMy3cqeXgFWd2%2FtoslXMJUDkOPUOdSn6E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTg1MCwibmJmIjoxNzc3NDY5NTUwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.hUySrRujArd8zPQkr_JnBT5PU5RQ4veShc8ZmeJQa_k&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-29 10:32:57,202 | INFO | Router | Navigating to: /exit
