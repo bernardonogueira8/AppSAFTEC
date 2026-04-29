@@ -8,9 +8,13 @@ echo           SAFTEC - BUILD AUTOMATIZADO
 echo ======================================================
 echo.
 
+REM ── Lê versão atual do version.py ─────────────────────
+for /f "tokens=2 delims=='\"" %%V in ('findstr "APP_VERSION" version.py') do set "CURRENT_VERSION=%%V"
+set "CURRENT_VERSION=!CURRENT_VERSION: =!"
+
 REM ── Limpa a variável e pede a versão ───────────────────
 set "VERSION="
-set /p VERSION=">>> Digite a versao (ex: 1.2.0): "
+set /p VERSION=">>> Digite a versao (Atual: !CURRENT_VERSION!): "
 
 if "%VERSION%"=="" (
     echo.
