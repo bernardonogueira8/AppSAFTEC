@@ -920,3 +920,56 @@ TypeError: ExitController.exit_app() missing 1 required positional argument: 'pa
 2026-04-29 10:32:55,866 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.0/version.json "HTTP/1.1 302 Found"
 2026-04-29 10:32:55,914 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/5ade3274-d2e5-4c43-b6db-29e384b70a6e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-29T14%3A06%3A56Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-29T13%3A06%3A18Z&ske=2026-04-29T14%3A06%3A56Z&sks=b&skv=2018-11-09&sig=yhef33hk0YsMy3cqeXgFWd2%2FtoslXMJUDkOPUOdSn6E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzQ2OTg1MCwibmJmIjoxNzc3NDY5NTUwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.hUySrRujArd8zPQkr_JnBT5PU5RQ4veShc8ZmeJQa_k&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
 2026-04-29 10:32:57,202 | INFO | Router | Navigating to: /exit
+2026-04-30 09:22:24,331 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-30 09:22:24,363 | INFO | flet | Starting up TCP server on localhost:58525
+2026-04-30 09:22:24,420 | INFO | flet | Flet app has started...
+2026-04-30 09:22:43,686 | INFO | flet | App session started
+2026-04-30 09:22:43,849 | INFO | Router | Navigating to: /
+2026-04-30 09:22:43,876 | INFO | App | Aplicação iniciada com sucesso
+2026-04-30 09:22:46,612 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-30 09:22:46,877 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.1/version.json "HTTP/1.1 302 Found"
+2026-04-30 09:22:47,025 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/de644388-f0b7-4720-9424-3e5957342059?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-30T13%3A18%3A54Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-30T12%3A18%3A14Z&ske=2026-04-30T13%3A18%3A54Z&sks=b&skv=2018-11-09&sig=D5XxiI9lIL2Cl5nO8pw3JUXBi0IN0Sfh2teFmfkNJoQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzU1MjA2NiwibmJmIjoxNzc3NTUxNzY2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.MPwrGza0vKEOg_ETLkAJhHz1mM5JX5Kyemp8Di05o3I&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-30 09:22:47,268 | INFO | Router | Navigating to: /update
+2026-04-30 09:22:47,428 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-30 09:22:47,462 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.1/version.json "HTTP/1.1 302 Found"
+2026-04-30 09:22:47,520 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/de644388-f0b7-4720-9424-3e5957342059?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-30T13%3A18%3A54Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-30T12%3A18%3A14Z&ske=2026-04-30T13%3A18%3A54Z&sks=b&skv=2018-11-09&sig=D5XxiI9lIL2Cl5nO8pw3JUXBi0IN0Sfh2teFmfkNJoQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzU1MjA2NiwibmJmIjoxNzc3NTUxNzY2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.MPwrGza0vKEOg_ETLkAJhHz1mM5JX5Kyemp8Di05o3I&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-30 09:22:49,692 | INFO | Router | Navigating to: /exit
+2026-04-30 09:23:03,203 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-30 09:23:03,205 | INFO | flet | Starting up TCP server on localhost:58605
+2026-04-30 09:23:03,229 | INFO | flet | Flet app has started...
+2026-04-30 09:23:03,933 | INFO | flet | App session started
+2026-04-30 09:23:03,938 | INFO | Router | Navigating to: /
+2026-04-30 09:23:03,959 | INFO | App | Aplicação iniciada com sucesso
+2026-04-30 09:23:04,354 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-30 09:23:04,404 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.1/version.json "HTTP/1.1 302 Found"
+2026-04-30 09:23:04,454 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/de644388-f0b7-4720-9424-3e5957342059?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-30T13%3A18%3A54Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-30T12%3A18%3A14Z&ske=2026-04-30T13%3A18%3A54Z&sks=b&skv=2018-11-09&sig=D5XxiI9lIL2Cl5nO8pw3JUXBi0IN0Sfh2teFmfkNJoQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzU1MjA2NiwibmJmIjoxNzc3NTUxNzY2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.MPwrGza0vKEOg_ETLkAJhHz1mM5JX5Kyemp8Di05o3I&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-30 09:28:27,057 | INFO | Router | Navigating to: /sei_dma
+2026-04-30 09:28:27,689 | INFO | Router | Navigating to: /sei_caj
+2026-04-30 09:28:28,353 | INFO | Router | Navigating to: /sei_dma
+2026-04-30 09:28:29,137 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-30 09:28:29,674 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-30 09:28:30,320 | INFO | Router | Navigating to: /esus_treina
+2026-04-30 09:28:30,761 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-30 09:28:31,330 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-30 09:28:33,097 | INFO | Router | Navigating to: /sei_dma
+2026-04-30 09:28:36,938 | INFO | Router | Navigating to: /sei_caj
+2026-04-30 09:28:37,497 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-30 09:28:38,169 | INFO | Router | Navigating to: /sei_dma
+2026-04-30 09:28:38,594 | INFO | Router | Navigating to: /sigaf_contrapartida
+2026-04-30 09:28:38,954 | INFO | Router | Navigating to: /sigaf_prefeitura
+2026-04-30 09:28:39,305 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-30 09:28:39,921 | INFO | Router | Navigating to: /esus_treina
+2026-04-30 09:28:40,378 | INFO | Router | Navigating to: /simpas_entradas_saidas
+2026-04-30 09:28:40,762 | INFO | Router | Navigating to: /plan_ceaf
+2026-04-30 09:28:42,307 | INFO | flet | Session was garbage collected: tjGHiTzhQkEhE2gQ
+2026-04-30 09:29:02,542 | INFO | flet | Assets path configured: C:\Dev\AppSAFTEC\assets
+2026-04-30 09:29:02,545 | INFO | flet | Starting up TCP server on localhost:58720
+2026-04-30 09:29:02,566 | INFO | flet | Flet app has started...
+2026-04-30 09:29:03,163 | INFO | flet | App session started
+2026-04-30 09:29:03,170 | INFO | Router | Navigating to: /
+2026-04-30 09:29:03,184 | INFO | App | Aplicação iniciada com sucesso
+2026-04-30 09:29:03,788 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/latest/download/version.json "HTTP/1.1 302 Found"
+2026-04-30 09:29:04,027 | INFO | httpx | HTTP Request: GET https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v1.1.1/version.json "HTTP/1.1 302 Found"
+2026-04-30 09:29:04,087 | INFO | httpx | HTTP Request: GET https://release-assets.githubusercontent.com/github-production-release-asset/1202956081/de644388-f0b7-4720-9424-3e5957342059?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-04-30T13%3A23%3A51Z&rscd=attachment%3B+filename%3Dversion.json&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-04-30T12%3A23%3A30Z&ske=2026-04-30T13%3A23%3A51Z&sks=b&skv=2018-11-09&sig=x7fMZXgEUxx%2BJHzvosR%2BQHld1aErmUEa7eUAd6IauEY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3NzU1MjQ0MywibmJmIjoxNzc3NTUyMTQzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.2r_DcIKP8UldtTmi7kWZCmu1IXOZOVexidOtukmThM4&response-content-disposition=attachment%3B%20filename%3Dversion.json&response-content-type=application%2Foctet-stream "HTTP/1.1 200 OK"
+2026-04-30 09:29:05,757 | INFO | Router | Navigating to: /sei_dma
+2026-04-30 10:24:02,832 | INFO | flet | Session was garbage collected: WIF6QgPeUYMl7mzx

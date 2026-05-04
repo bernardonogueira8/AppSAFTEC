@@ -3,8 +3,7 @@ import sys
 import os
 from pathlib import Path
 
-APP_NAME = "fleting"
-
+APP_NAME = "SAFTEC"
 
 def is_frozen():
     return getattr(sys, "frozen", False)
@@ -15,23 +14,19 @@ def is_android():
 
 
 def get_log_dir():
-    # ANDROID (APK)
     if is_android():
         return Path(os.getcwd()) / "files" / "logs"
-
-    # EXECUTABLE (PyInstaller)
     if is_frozen():
-        base = Path(os.getenv("LOCALAPPDATA", Path.home()))
+        # Usar APPDATA (Roaming) em vez de LOCALAPPDATA
+        base = Path(os.getenv("APPDATA", Path.home()))
         return base / APP_NAME / "logs"
-
     # DESENVOLVIMENTO
     return Path.cwd() / "logs"
-
 
 LOG_DIR = get_log_dir()
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-LOG_FILE = LOG_DIR / "fleting.log"
+LOG_FILE = LOG_DIR / "saftec.log"
 
 logging.basicConfig(
     level=logging.INFO,

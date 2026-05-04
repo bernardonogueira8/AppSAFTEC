@@ -15,7 +15,7 @@ dependencies = [
 ]
 
 [tool.flet]
-product = "Application for SAFTEC"
+product = "SAFTEC"
 artifact = "SAFTEC-app"
 company = "DASF"
 org = "sesab.dasf"
