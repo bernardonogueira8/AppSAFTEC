@@ -12,6 +12,7 @@ dependencies = [
     "playwright>=1.58.0",
     "httpx>=0.28.1",
     "packaging>=26.1",
+    "flet>=0.84.0",
 ]
 
 [tool.flet]
