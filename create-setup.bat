@@ -8,6 +8,18 @@ echo           SAFTEC - BUILD AUTOMATIZADO
 echo ======================================================
 echo.
 
+REM ── Verifica se está na branch main ──────────────────
+for /f %%B in ('git rev-parse --abbrev-ref HEAD') do set "BRANCH=%%B"
+if /i "!BRANCH!" NEQ "main" (
+    echo.
+    echo [AVISO] Voce esta na branch: !BRANCH!
+    set /p CONFIRM="Deseja continuar mesmo assim? [s/n]: "
+    if /i "!CONFIRM!" NEQ "s" (
+        echo Build cancelado.
+        pause & exit /b 1
+    )
+)
+
 REM ── Lê versão atual do version.py ─────────────────────
 for /f "tokens=3" %%V in ('type version.py ^| findstr APP_VERSION') do set "CURRENT_VERSION=%%V"
 set "CURRENT_VERSION=!CURRENT_VERSION:"=!"
@@ -54,8 +66,8 @@ if exist InnoSetup\Output rmdir /s /q InnoSetup\Output
 
 REM ── Instala Firefox do Playwright na pasta do projeto ──
 echo [4/7] Instalando Firefox do Playwright no projeto...
-set PLAYWRIGHT_BROWSERS_PATH=%CD%\ms-playwright
-uv run playwright install firefox --with-deps
+set PLAYWRIGHT_BROWSERS_PATH=0
+uv run playwright install firefox
 if errorlevel 1 (
     echo ERRO: Falha ao instalar o Firefox do Playwright.
     pause & exit /b 1

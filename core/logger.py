@@ -2,8 +2,8 @@ import logging
 import sys
 import os
 from pathlib import Path
+from core import APP_NAME
 
-APP_NAME = "SAFTEC"
 
 def is_frozen():
     return getattr(sys, "frozen", False)
@@ -17,16 +17,15 @@ def get_log_dir():
     if is_android():
         return Path(os.getcwd()) / "files" / "logs"
     if is_frozen():
-        # Usar APPDATA (Roaming) em vez de LOCALAPPDATA
-        base = Path(os.getenv("APPDATA", Path.home()))
-        return base / "logs"
+        base = Path(os.getenv("LOCALAPPDATA", Path.home()))
+        return base / APP_NAME / "logs"
     # DESENVOLVIMENTO
     return Path.cwd() / "logs"
 
 LOG_DIR = get_log_dir()
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-LOG_FILE = LOG_DIR / "saftec.log"
+LOG_FILE = LOG_DIR / f"{APP_NAME}.log"
 
 logging.basicConfig(
     level=logging.INFO,
