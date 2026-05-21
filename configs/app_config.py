@@ -1,4 +1,3 @@
-# configs/app_config.py
 import flet as ft
 
 

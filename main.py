@@ -1,9 +1,9 @@
 from configs.app_config import AppConfig
 from core.logger import get_logger
 from core.error_handler import GlobalErrorHandler
-from core import ft, threading
-import runtime_imports
 from configs.routes import ROUTES
+import runtime_imports
+from core import ft, threading
 
 logger = get_logger("App")
 

@@ -18,7 +18,7 @@ dependencies = [
 [tool.flet]
 product = "SAFTEC"
 artifact = "SAFTEC-app"
-company = "DASF"
+company = "SAFTEC"
 org = "sesab.dasf"
 copyright = "Copyright (C) 2026 Bernardo Nogueira"
 build_number = 1

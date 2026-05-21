@@ -44,6 +44,24 @@ if not exist InnoSetup\Output mkdir InnoSetup\Output
 echo {"version": "%VERSION%", "url": "https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v%VERSION%/SAFTEC_Setup_%VERSION%.exe"} > InnoSetup\Output\version.json
 echo version.json gerado.
 
+REM ── [7/7] Compila instalador ──────────────────────────
+echo [7/7] Compilando instalador com Inno Setup...
+"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" InnoSetup\installer.iss
+if errorlevel 1 (
+    echo ERRO: Falha no Inno Setup.
+    pause & exit /b 1
+)
+
+REM ── Resumo final ──────────────────────────────────────
+echo.
+echo ======================================================
+echo  BUILD CONCLUIDO COM SUCESSO!
+echo  Versao   : !VERSION!
+echo  Installer: InnoSetup\Output\SAFTEC_Setup_!VERSION!.exe
+echo  JSON     : InnoSetup\Output\version.json
+echo ======================================================
+echo.
+
 REM ── Pergunta se quer publicar no GitHub ────────────────
 set /p PUBLISH="Publicar release no GitHub agora? [s/n]: "
 :: Deleta a tag local se ela já existir para evitar o erro fatal

@@ -19,7 +19,7 @@ def get_log_dir():
     if is_frozen():
         # Usar APPDATA (Roaming) em vez de LOCALAPPDATA
         base = Path(os.getenv("APPDATA", Path.home()))
-        return base / APP_NAME / "logs"
+        return base / "logs"
     # DESENVOLVIMENTO
     return Path.cwd() / "logs"
 
