@@ -66,7 +66,7 @@ if exist InnoSetup\Output rmdir /s /q InnoSetup\Output
 
 REM ── Instala Firefox do Playwright na pasta do projeto ──
 echo [4/7] Instalando Firefox do Playwright no projeto...
-set PLAYWRIGHT_BROWSERS_PATH=0
+set PLAYWRIGHT_BROWSERS_PATH=%CD%\ms-playwright
 uv run playwright install firefox
 if errorlevel 1 (
     echo ERRO: Falha ao instalar o Firefox do Playwright.
