@@ -36,8 +36,7 @@ Name: "{userprograms}\SAFTEC"; Filename: "{app}\SAFTEC-app.exe"
 Name: "{userdesktop}\SAFTEC"; Filename: "{app}\SAFTEC-app.exe"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\python\python.exe"; Parameters: "-m playwright install firefox"; WorkingDir: "{app}"; Flags: waituntilterminated
-Filename: "{app}\SAFTEC-app.exe"; Description: "{cm:LaunchProgram,SAFTEC}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\SAFTEC-app.exe"; Parameters: "--install-playwright"; Description: "{cm:LaunchProgram,SAFTEC}"; Flags: nowait postinstall skipifsilent
 
 [Code]
 // Desinstala versão anterior automaticamente antes de instalar
