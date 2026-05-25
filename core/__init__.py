@@ -9,6 +9,7 @@ import threading
 import subprocess
 import flet as ft
 import pandas as pd
+from pathlib import Path
 from packaging import version
 
 APP_NAME = "SAFTEC"
