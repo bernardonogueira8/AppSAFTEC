@@ -64,11 +64,9 @@ class SeiDmaController:
         automacao_thread.start()  # Inicia a thread para não travar a UI
 
     def copy_from_sei(self, e):
-        # O número SEI foi guardado no 'data' do componente lá no passo anterior
         numero = self.view.btn_copy_sei.data
 
         if numero:
-            # Comando oficial do Flet para copiar
             self.view.page.set_clipboard(numero)
             self._show_snack(f"Número {numero} copiado para a área de transferência!")
         else:
@@ -94,19 +92,11 @@ class SeiDmaController:
                 caminho_pdf = self.download_file(page)
 
                 browser.close()
-
-                # --- ATUALIZAÇÃO DA UI ---
-                # 1. Habilita o botão de copiar
                 self.view.btn_copy_sei.disabled = False
-
-                # 2. Armazena o número SEI no botão ou no controller para uso posterior
                 self.view.btn_copy_sei.data = numero_sei
-
-                # 3. Atualiza o texto do caminho
                 if caminho_pdf:
                     self.view.text_caminho.value = f"Caminho do arquivo: {caminho_pdf}"
 
-                # 4. Dá o refresh na tela
                 self.view.update()
 
                 return numero_sei
@@ -233,7 +223,7 @@ class SeiDmaController:
 
         return numero_sei
 
-    def download_file(self, page, save_path="downloads/"):
+    def download_file(self, page, save_path="/downloads/"):
         # Garante que a pasta de destino existe (bom para o seu projeto de TI)
         if not os.path.exists(save_path):
             os.makedirs(save_path)

@@ -1,12 +1,12 @@
 [Setup]
 AppName=SAFTEC
-AppVersion=1.0.1
+AppVersion=1.1.5
 AppId={{4fd8628c-3d33-49ee-8505-a0889bbe77a4}}
 PrivilegesRequired=lowest
 DefaultDirName={localappdata}\SAFTEC
 UsedUserAreasWarning=no
 OutputDir=Output
-OutputBaseFilename=SAFTEC_Setup_1.0.1
+OutputBaseFilename=SAFTEC_Setup_1.1.5
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -36,7 +36,7 @@ Name: "{userprograms}\SAFTEC"; Filename: "{app}\SAFTEC-app.exe"
 Name: "{userdesktop}\SAFTEC"; Filename: "{app}\SAFTEC-app.exe"; Tasks: desktopicon
 
 [Run]
-Filename: "{app}\SAFTEC-app.exe"; Description: "{cm:LaunchProgram,SAFTEC}"; Flags: nowait postinstall skipifsilent
+Filename: "{app}\SAFTEC-app.exe"; Parameters: "--install-playwright"; Description: "{cm:LaunchProgram,SAFTEC}"; Flags: nowait postinstall skipifsilent
 
 [Code]
 // Desinstala versão anterior automaticamente antes de instalar

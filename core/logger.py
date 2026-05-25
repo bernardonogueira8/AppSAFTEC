@@ -2,8 +2,7 @@ import logging
 import sys
 import os
 from pathlib import Path
-
-APP_NAME = "fleting"
+from core import APP_NAME
 
 
 def is_frozen():
@@ -15,23 +14,18 @@ def is_android():
 
 
 def get_log_dir():
-    # ANDROID (APK)
     if is_android():
         return Path(os.getcwd()) / "files" / "logs"
-
-    # EXECUTABLE (PyInstaller)
     if is_frozen():
         base = Path(os.getenv("LOCALAPPDATA", Path.home()))
         return base / APP_NAME / "logs"
-
     # DESENVOLVIMENTO
     return Path.cwd() / "logs"
-
 
 LOG_DIR = get_log_dir()
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
-LOG_FILE = LOG_DIR / "fleting.log"
+LOG_FILE = LOG_DIR / f"{APP_NAME}.log"
 
 logging.basicConfig(
     level=logging.INFO,

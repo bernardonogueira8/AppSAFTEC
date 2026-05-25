@@ -90,6 +90,7 @@ class Sigaf_contrapartidaView:
             label="Número da CIB/BA",
             expand=True,
             border_radius=10,
+            value="485/2025",  # Valor padrão para testes
             filled=True,
             prefix_icon=ft.Icons.NUMBERS,
         )

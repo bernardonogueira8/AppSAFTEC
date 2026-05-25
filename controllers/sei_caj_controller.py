@@ -101,6 +101,7 @@ class SeiCajController:
         for df, row in df.iterrows():
             sei = row["SEI"]
             self._show_snack(f"Pesquisando o processo SEI: {sei}...")
+            page.wait_for_timeout(1000)
             page.get_by_role("textbox", name="Pesquisar...").click()
             page.get_by_role("textbox", name="Pesquisar...").fill(sei)
             page.get_by_role("img", name="Pesquisa Rápida").click()
@@ -257,6 +258,7 @@ class SeiCajController:
             opcao_link = frame.get_by_role("link", name="SESAB/GAB/NAJS - Núcleo de")
             opcao_link.wait_for(state="visible", timeout=5000)
             opcao_link.click()
-            page.wait_for_timeout(1000)
+            page.wait_for_timeout(2000)
             page.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_role("button", name="Enviar").click()
+            page.wait_for_timeout(1000)
 

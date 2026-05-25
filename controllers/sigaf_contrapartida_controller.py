@@ -109,13 +109,16 @@ class SigafContrapartidaController:
             "PREFEITURA MUNICIPAL DE " + df["MUNICIPIO"].str.upper()
         )
         df['DATA'] = df['DATA'].apply(lambda x: x.replace(month=x.day, day=x.month) if pd.notna(x) else x)
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("CABACEIRA DO PARAGUACU", "CABACEIRAS DO PARAGUAÇU")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("MUQUEM DO SAO FRANCISCO", "MUQUÉM DE SÃO FRANCISCO")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("MARAGOJIPE", "MARAGOGIPE")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("São Felix", "São Félix")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA CRUZ CABRALIA", "SANTA CRUZ")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA CRUZ DA VITORIA", "SANTA CRUZ DA")
-        df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA TERESINHA", "SANTA TEREZINHA")
+        try:
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("CABACEIRA DO PARAGUACU", "CABACEIRAS DO PARAGUAÇU")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("MARAGOJIPE", "MARAGOGIPE")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("MUQUEM DO SAO FRANCISCO", "MUQUÉM DE SÃO FRANCISCO")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("São Felix", "Sao Felix")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA CRUZ CABRALIA", "SANTA CRUZ")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA CRUZ DA VITORIA", "SANTA CRUZ DA")
+            df["MUNICIPIO"] = df["MUNICIPIO"].str.replace("SANTA TERESINHA", "SANTA TEREZINHA")
+        except Exception as e:
+            pass
         
         return df
 
@@ -144,7 +147,7 @@ class SigafContrapartidaController:
             raise e
 
     def open_browser(self, page, username, password, df):
-        page.goto("http://homologa2.sigaf.sesab.ba.gov.br/")
+        page.goto("http://sigaf.sesab.ba.gov.br/")
         page.locator("#login").click()
         page.locator("#login").fill(username)
         page.locator('input[name="senha"]').click()
@@ -152,14 +155,12 @@ class SigafContrapartidaController:
         with page.expect_popup() as page3_info:
             page.get_by_role("button", name="Login de usuário").click()
         page3 = page3_info.value
-        page.goto(
-            "http://homologa2.sigaf.sesab.ba.gov.br/?page=meta/view&id_view=tb_lancamento_1&_menu_acessado=406"
-        )
+        page.goto("http://sigaf.sesab.ba.gov.br/?page=meta/view&id_view=tb_lancamento_1&_menu_acessado=406")
         ultima_linha_processada = "Iniciando iteração no DataFrame"
         
         for index, row in df.iterrows():
             # Atualizamos o status a cada iteração
-            ultima_linha_processada = f"Linha {index + 2}/{len(df)+1}: {row['MUNICIPIO']}"
+            ultima_linha_processada = f"Linha {index + 1}/{len(df)+1}: {row['MUNICIPIO']}"
             logger.info(ultima_linha_processada)
             try:
                 page.wait_for_timeout(1000)
@@ -198,6 +199,7 @@ class SigafContrapartidaController:
                 )
                 page4.get_by_role("button", name="Buscar").click()
                 page4.locator("#ctr_item_listagem_0").check()
+                page4.wait_for_timeout(1000)
                 page4.locator("#link_listagem #btn_lista_selecao_selecionar").click()
                 page4.get_by_role("button", name="Selecionar").click()
                 page4.close()

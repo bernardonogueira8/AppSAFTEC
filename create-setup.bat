@@ -8,51 +8,60 @@ echo           SAFTEC - BUILD AUTOMATIZADO
 echo ======================================================
 echo.
 
+REM ── Verifica se está na branch main ──────────────────
+for /f %%B in ('git rev-parse --abbrev-ref HEAD') do set "BRANCH=%%B"
+if /i "!BRANCH!" NEQ "main" (
+    echo.
+    echo [AVISO] Voce esta na branch: !BRANCH!
+    set /p CONFIRM="Deseja continuar mesmo assim? [s/n]: "
+    if /i "!CONFIRM!" NEQ "s" (
+        echo Build cancelado.
+        pause & exit /b 1
+    )
+)
+
+REM ── Lê versão atual do version.py ─────────────────────
+for /f "tokens=3" %%V in ('type version.py ^| findstr APP_VERSION') do set "CURRENT_VERSION=%%V"
+set "CURRENT_VERSION=!CURRENT_VERSION:"=!"
+
 REM ── Limpa a variável e pede a versão ───────────────────
 set "VERSION="
-set /p VERSION=">>> Digite a versao (ex: 1.2.0): "
+set /p VERSION=">>> Digite a versao (Atual: !CURRENT_VERSION!): "
 
-if "%VERSION%"=="" (
+if "!VERSION!"=="" (
     echo.
     echo [ERRO] Versao nao informada.
     timeout /t 2 >nul
     goto :INICIO
 )
 
-REM ── Valida formato x.y.z (COLADO NO PIPE) ──────────────
-echo %VERSION%| findstr /R "^[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*$" >nul
-
+REM ── Valida formato x.y.z ───────────────────────────────
+echo !VERSION!| findstr /R "^[0-9][0-9]*\.[0-9][0-9]*\.[0-9][0-9]*$" >nul
 if errorlevel 1 (
     echo.
-    echo [ERRO] Formato "%VERSION%" invalido.
+    echo [ERRO] Formato "!VERSION!" invalido. Use x.y.z ex: 1.2.3
     timeout /t 3 >nul
     goto :INICIO
 )
 
-REM ── SE PASSOU NA VALIDAÇÃO, CONTINUA AQUI ──────────────
 echo.
-echo [OK] Versao %VERSION% validada!
+echo [OK] Versao !VERSION! validada!
 echo.
 
-REM ── Atualiza version.py automaticamente ────────────────
+REM ── [1/7] Atualiza version.py ──────────────────────────
 echo [1/7] Atualizando version.py...
-echo APP_VERSION = "%VERSION%" > version.py
-echo Arquivo version.py atualizado.
+echo APP_VERSION = "!VERSION!" > version.py
+echo version.py atualizado.
 
-REM ... O resto do seu código de build vem aqui ...
-REM Para testar se ele para, você pode colocar um 'pause' temporário aqui:
-echo Teste: Validacao concluida. Iniciando processos...
-pause
-
-REM ── Atualiza installer.iss automaticamente ─────────────
+REM ── [2/7] Atualiza installer.iss ──────────────────────
 echo [2/7] Atualizando installer.iss...
-powershell -Command "(Get-Content 'InnoSetup\installer.iss') -replace 'AppVersion=.*', 'AppVersion=%VERSION%' -replace 'OutputBaseFilename=.*', 'OutputBaseFilename=SAFTEC_Setup_%VERSION%' | Set-Content 'InnoSetup\installer.iss'"
+powershell -Command "(Get-Content 'InnoSetup\installer.iss') -replace 'AppVersion=.*', 'AppVersion=!VERSION!' -replace 'OutputBaseFilename=.*', 'OutputBaseFilename=SAFTEC_Setup_!VERSION!' | Set-Content 'InnoSetup\installer.iss'"
 echo installer.iss atualizado.
 
-REM ── Limpa builds antigos ───────────────────────────────
+REM ── [3/7] Limpa builds antigos ────────────────────────
 echo [3/7] Limpando builds antigos...
-if exist data rmdir /s /q data
-if exist build rmdir /s /q build
+if exist data       rmdir /s /q data
+if exist build      rmdir /s /q build
 if exist InnoSetup\Output rmdir /s /q InnoSetup\Output
 
 REM ── Instala Firefox do Playwright na pasta do projeto ──
@@ -64,23 +73,23 @@ if errorlevel 1 (
     pause & exit /b 1
 )
 
-REM ── Build Flet ─────────────────────────────────────────
+REM ── [5/7] Build Flet ──────────────────────────────────
 echo [5/7] Gerando Build Flet para Windows...
 uv run fleting db init
-uv run fleting db migrate 
+uv run fleting db migrate
 uv run flet build windows
 if errorlevel 1 (
     echo ERRO: Falha no flet build.
     pause & exit /b 1
 )
 
-REM ── Gera version.json para auto-update ─────────────────
+REM ── [6/7] Gera version.json ───────────────────────────
 echo [6/7] Gerando version.json...
 if not exist InnoSetup\Output mkdir InnoSetup\Output
-echo {"version": "%VERSION%", "url": "https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v%VERSION%/SAFTEC_Setup_%VERSION%.exe"} > InnoSetup\Output\version.json
+echo {"version": "!VERSION!", "url": "https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v!VERSION!/SAFTEC_Setup_!VERSION!.exe"} > InnoSetup\Output\version.json
 echo version.json gerado.
 
-REM ── Compila instalador ─────────────────────────────────
+REM ── [7/7] Compila instalador ──────────────────────────
 echo [7/7] Compilando instalador com Inno Setup...
 "C:\Program Files (x86)\Inno Setup 6\ISCC.exe" InnoSetup\installer.iss
 if errorlevel 1 (
@@ -88,41 +97,45 @@ if errorlevel 1 (
     pause & exit /b 1
 )
 
-REM ── Resumo final ───────────────────────────────────────
+REM ── Resumo final ──────────────────────────────────────
 echo.
 echo ======================================================
 echo  BUILD CONCLUIDO COM SUCESSO!
-echo  Versao   : %VERSION%
-echo  Installer: InnoSetup\Output\SAFTEC_Setup_%VERSION%.exe
+echo  Versao   : !VERSION!
+echo  Installer: InnoSetup\Output\SAFTEC_Setup_!VERSION!.exe
 echo  JSON     : InnoSetup\Output\version.json
 echo ======================================================
 echo.
 
-REM ── Pergunta se quer abrir a pasta de output ───────────
+REM ── Abre pasta de output ──────────────────────────────
 set /p OPEN="Abrir pasta de output? [s/n]: "
-if /i "%OPEN%"=="s" explorer InnoSetup\Output
+if /i "!OPEN!"=="s" explorer InnoSetup\Output
 
-REM ── Pergunta se quer publicar no GitHub ────────────────
+REM ── Publica no GitHub ─────────────────────────────────
 set /p PUBLISH="Publicar release no GitHub agora? [s/n]: "
-:: Deleta a tag local se ela já existir para evitar o erro fatal
-git tag -d v%VERSION% 2>nul
-git tag v%VERSION%
-if /i "%PUBLISH%"=="s" (
+if /i "!PUBLISH!"=="s" (
     where gh >nul 2>&1
     if errorlevel 1 (
         echo AVISO: GitHub CLI nao encontrado. Instale em https://cli.github.com
     ) else (
         git add version.py InnoSetup\installer.iss
-        git commit -m "chore: bump version to %VERSION%"
-        git tag v%VERSION%
+        git commit -m "chore: bump version to !VERSION!"
+
+        REM Deleta tag local e remota se já existir, depois recria
+        git tag -d v!VERSION! 2>nul
+        git push origin :refs/tags/v!VERSION! 2>nul
+        git tag v!VERSION!
+
         git push origin main --force
-        git push origin v%VERSION%
-        gh release create v%VERSION% ^
-            "InnoSetup\Output\SAFTEC_Setup_%VERSION%.exe" ^
+        git push origin v!VERSION!
+
+        gh release create v!VERSION! ^
+            "InnoSetup\Output\SAFTEC_Setup_!VERSION!.exe" ^
             "InnoSetup\Output\version.json" ^
-            --title "v%VERSION%" ^
-            --notes "Release %VERSION%"
-        echo Release v%VERSION% publicada no GitHub!
+            --title "v!VERSION!" ^
+            --notes "Release !VERSION!"
+
+        echo Release v!VERSION! publicada no GitHub!
     )
 )
 

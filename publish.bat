@@ -8,11 +8,15 @@ echo           SAFTEC - BUILD AUTOMATIZADO
 echo ======================================================
 echo.
 
+REM ── Lê versão atual do version.py ─────────────────────
+for /f "tokens=3" %%V in ('type version.py ^| findstr APP_VERSION') do set "CURRENT_VERSION=%%V"
+set "CURRENT_VERSION=!CURRENT_VERSION:"=!"
+
 REM ── Limpa a variável e pede a versão ───────────────────
 set "VERSION="
-set /p VERSION=">>> Digite a versao (ex: 1.2.0): "
+set /p VERSION=">>> Digite a versao (Atual: !CURRENT_VERSION!): "
 
-if "%VERSION%"=="" (
+if "!VERSION!"=="" (
     echo.
     echo [ERRO] Versao nao informada.
     timeout /t 2 >nul
@@ -39,6 +43,24 @@ echo [6/7] Gerando version.json...
 if not exist InnoSetup\Output mkdir InnoSetup\Output
 echo {"version": "%VERSION%", "url": "https://github.com/bernardonogueira8/AppSAFTEC/releases/download/v%VERSION%/SAFTEC_Setup_%VERSION%.exe"} > InnoSetup\Output\version.json
 echo version.json gerado.
+
+REM ── [7/7] Compila instalador ──────────────────────────
+echo [7/7] Compilando instalador com Inno Setup...
+"C:\Program Files (x86)\Inno Setup 6\ISCC.exe" InnoSetup\installer.iss
+if errorlevel 1 (
+    echo ERRO: Falha no Inno Setup.
+    pause & exit /b 1
+)
+
+REM ── Resumo final ──────────────────────────────────────
+echo.
+echo ======================================================
+echo  BUILD CONCLUIDO COM SUCESSO!
+echo  Versao   : !VERSION!
+echo  Installer: InnoSetup\Output\SAFTEC_Setup_!VERSION!.exe
+echo  JSON     : InnoSetup\Output\version.json
+echo ======================================================
+echo.
 
 REM ── Pergunta se quer publicar no GitHub ────────────────
 set /p PUBLISH="Publicar release no GitHub agora? [s/n]: "
