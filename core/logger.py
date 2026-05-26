@@ -14,7 +14,7 @@ def get_log_dir():
         return Path(os.getcwd()) / "files" / "logs"
     if is_frozen():
         base = Path(os.getenv("LOCALAPPDATA", Path.home()))
-        return base / APP_NAME / "logs"
+        return base / "logs"
     # DESENVOLVIMENTO
     return Path.cwd() / "logs"
 
