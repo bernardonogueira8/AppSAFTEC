@@ -1,5 +1,5 @@
-import flet as ft
-from version import APP_VERSION
+from core import ft, APP_VERSION
+
 from views.layouts.main_layout import MainLayout
 
 

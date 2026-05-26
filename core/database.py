@@ -1,4 +1,4 @@
-import sqlite3
+from core import sqlite3
 
 # import mysql.connector
 from configs.database import DATABASE

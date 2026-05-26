@@ -1,5 +1,4 @@
-from core import httpx, subprocess, tempfile, os
-from packaging import version
+from core import httpx, subprocess, tempfile, os, version
 from version import APP_VERSION
 from models.update_model import UpdateModel
 

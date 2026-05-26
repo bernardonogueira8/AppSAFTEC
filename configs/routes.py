@@ -1,5 +1,4 @@
-import flet as ft
-import importlib
+from core import ft, importlib
 
 ROUTES = [
     
@@ -24,22 +23,6 @@ ROUTES = [
         "path": "/sigaf_contrapartida",
         "view": "views.pages.sigaf_contrapartida_view.Sigaf_contrapartidaView",
         "label": "sigaf.contrapartida",
-        "icon": ft.Icons.CHEVRON_RIGHT,
-        "show_in_top": True,
-        "show_in_bottom": False,
-    },
-    {
-        "path": "/sigaf_prefeitura",
-        "view": "views.pages.sigaf_prefeitura_view.Sigaf_prefeituraView",
-        "label": "sigaf.prefeitura",
-        "icon": ft.Icons.CHEVRON_RIGHT,
-        "show_in_top": True,
-        "show_in_bottom": False,
-    },
-    {
-        "path": "/esus_treina",
-        "view": "views.pages.esus_treina_view.Esus_treinaView",
-        "label": "outros.esus_treina",
         "icon": ft.Icons.CHEVRON_RIGHT,
         "show_in_top": True,
         "show_in_bottom": False,

@@ -1,4 +1,4 @@
-from pathlib import Path
+from core import Path
 from core.database import get_connection
 
 MIGRATIONS_TABLE = "_fleting_migrations"

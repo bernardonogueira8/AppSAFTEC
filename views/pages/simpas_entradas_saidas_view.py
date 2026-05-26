@@ -1,4 +1,4 @@
-import flet as ft
+from core import ft
 from views.layouts.main_layout import MainLayout
 from controllers.simpas_entradas_saidas_controller import SimpasEntradasSaidasController
 

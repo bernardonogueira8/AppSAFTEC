@@ -1,7 +1,7 @@
-import flet as ft
 from core.responsive import get_device_type
 from core.state import AppState
 from core.i18n import I18n
+from core import ft
 
 
 class FletingApp:

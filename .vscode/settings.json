@@ -4,8 +4,13 @@
         "**/__pycache__": true,
         "**/*.pytest_cache": true,
         "**/build": true,
+        "**/bin": true,
+        "**/assets": true,
     },
     "editor.formatOnSave": true,
     "editor.formatOnPaste": true,
-    "editor.defaultFormatter": "ms-python.black-formatter"
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "cSpell.words": [
+        "sync_playwright"
+    ]
 }

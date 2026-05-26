@@ -1,5 +1,4 @@
-import flet as ft
-
+from core import ft
 
 class ScreenConfig:
     MOBILE = {

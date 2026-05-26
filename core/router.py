@@ -1,4 +1,4 @@
-import flet as ft
+from core import ft
 from core.logger import get_logger
 
 logger = get_logger("Router")

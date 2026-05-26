@@ -1,6 +1,6 @@
 from core.logger import get_logger
-from core import ft, pd, threading, sync_playwright
 from models.sigaf_contrapartida_model import Sigaf_contrapartidaModel
+from core import ft, pd, threading, sync_playwright
 
 logger = get_logger("App")
 

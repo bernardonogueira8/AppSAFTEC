@@ -1,4 +1,4 @@
-import flet as ft
+from core import ft
 from core.state import AppState
 from core.i18n import I18n
 from configs.routes import ROUTES

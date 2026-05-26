@@ -1,7 +1,5 @@
-import json
-from pathlib import Path
 from core.state import AppState
-
+from core import json, Path
 
 class I18n:
     translations = {}
