@@ -1,12 +1,12 @@
 [Setup]
 AppName=SAFTEC
-AppVersion=1.1.6
+AppVersion=1.1.7
 AppId={{4fd8628c-3d33-49ee-8505-a0889bbe77a4}}
 PrivilegesRequired=lowest
 DefaultDirName={localappdata}\SAFTEC
 UsedUserAreasWarning=no
 OutputDir=Output
-OutputBaseFilename=SAFTEC_Setup_1.1.6
+OutputBaseFilename=SAFTEC_Setup_1.1.7
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -27,8 +27,9 @@ Source: "..\build\windows\*"; DestDir: "{app}"; Flags: ignoreversion recursesubd
 Source: "..\ms-playwright\*"; DestDir: "{app}\ms-playwright"; Flags: ignoreversion recursesubdirs createallsubdirs
 
 [InstallDelete]
-; Limpa arquivos antigos do app antes de instalar novo
+; Limpa arquivos e pastas antigas do app antes de aplicar os novos
 Type: filesandordirs; Name: "{app}\lib"
+Type: filesandordirs; Name: "{app}\ms-playwright"
 
 [Icons]
 Name: "{userprograms}\SAFTEC"; Filename: "{app}\SAFTEC-app.exe"
