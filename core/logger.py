@@ -1,5 +1,5 @@
 from core import APP_NAME, Path, logging, sys, os
-from 
+
 
 def is_frozen():
     return getattr(sys, "frozen", False)
