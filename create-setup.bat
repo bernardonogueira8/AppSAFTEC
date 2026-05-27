@@ -71,6 +71,10 @@ if exist build            rmdir /s /q build
 if exist InnoSetup\Output rmdir /s /q InnoSetup\Output
 if exist ms-playwright    rmdir /s /q ms-playwright
 
+REM --- Sincroniza o ambiente local com o uv.lock antes do install ---
+echo Sincronizando dependencias locais...
+uv sync
+
 REM ── Instala Firefox do Playwright na pasta do projeto ──
 echo [4/7] Instalando Firefox do Playwright no projeto...
 set PLAYWRIGHT_BROWSERS_PATH=%CD%\ms-playwright
