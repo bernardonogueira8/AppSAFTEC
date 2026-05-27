@@ -9,6 +9,8 @@ class Sei_cajView:
         self.router = router
         self.controller = SeiCajController(page=self.page)
         self.system_name = "SEI"
+        # Propriedade para armazenar o dicionário lido do JSON
+        self.templates = {} 
 
     async def pick_file_handler(self, e):
         files = await self.file.pick_files(
@@ -19,10 +21,24 @@ class Sei_cajView:
             self.caminho_arquivo_input.update()
 
     def render(self):
-        # Carregar credenciais
         credenciais_salvas = self.controller.load_saved_credentials(self.system_name)
         user_padrao = credenciais_salvas[0] if credenciais_salvas else ""
         pass_padrao = credenciais_salvas[1] if credenciais_salvas else ""
+
+        # --- CARREGAR TEMPLATES DINAMICAMENTE ---
+        self.templates = self.controller.load_templates_from_json()
+
+        # Criar componente Dropdown baseado nas chaves do dicionário JSON
+        # Criar componente Dropdown baseado nas chaves do dicionário JSON
+        self.template_dropdown = ft.Dropdown(
+            label="Modelo de Documento (JSON)",
+            border_radius=10,
+            filled=True,
+            expand=True,
+            options=[ft.dropdown.Option(nome) for nome in self.templates.keys()],
+            # Seleciona a primeira opção por padrão se houver chaves no arquivo JSON
+            value=list(self.templates.keys())[0] if self.templates else None, 
+        )
 
         # Campos de Login
         self.user_input = ft.TextField(
@@ -43,30 +59,18 @@ class Sei_cajView:
             border_radius=10,
             filled=True,
         )
-        # Passo 1: Interface de Login
+        
         self.login_step = ft.Column(
             controls=[
                 ft.Icon(ft.Icons.ACCOUNT_CIRCLE, size=70, color=ft.Colors.BLUE_700),
-                ft.Text(
-                    f"Autenticação {self.system_name}",
-                    size=26,
-                    weight=ft.FontWeight.BOLD,
-                ),
-                ft.Text(
-                    "Verifique suas credenciais para acessar a automação.",
-                    color=ft.Colors.GREY_500,
-                ),
+                ft.Text(f"Autenticação {self.system_name}", size=26, weight=ft.FontWeight.BOLD),
+                ft.Text("Verifique suas credenciais para acessar a automação.", color=ft.Colors.GREY_500),
                 self.user_input,
                 self.pass_input,
                 ft.Button(
                     content=ft.Row(
                         controls=[
-                            ft.Text(
-                                "Acessar e Continuar",
-                                color=ft.Colors.WHITE,
-                                size=16,
-                                weight=ft.FontWeight.W_600,
-                            ),
+                            ft.Text("Acessar e Continuar", color=ft.Colors.WHITE, size=16, weight=ft.FontWeight.W_600),
                             ft.Icon(ft.Icons.ARROW_FORWARD, color=ft.Colors.WHITE),
                         ],
                         alignment=ft.MainAxisAlignment.CENTER,
@@ -107,10 +111,9 @@ class Sei_cajView:
             icon=ft.Icons.UPLOAD_FILE,
             icon_color=ft.Colors.GREEN_500,
             tooltip="Escolher Arquivo",
-            on_click=self.pick_file_handler,  # self aqui é a View
+            on_click=self.pick_file_handler,
         )
 
-        # Passo 2: Interface de Automação
         self.arquivo_input = ft.Row(
             [self.caminho_arquivo_input, self.button_pick_file],
             alignment=ft.MainAxisAlignment.START,
@@ -122,12 +125,8 @@ class Sei_cajView:
             controls=[
                 ft.Row(
                     controls=[
-                        ft.Icon(
-                            ft.Icons.ROCKET_LAUNCH, size=30, color=ft.Colors.ORANGE_500
-                        ),
-                        ft.Text(
-                            "Dados da Automação", size=26, weight=ft.FontWeight.BOLD
-                        ),
+                        ft.Icon(ft.Icons.ROCKET_LAUNCH, size=30, color=ft.Colors.ORANGE_500),
+                        ft.Text("Dados da Automação", size=26, weight=ft.FontWeight.BOLD),
                     ],
                     alignment=ft.MainAxisAlignment.START,
                 ),
@@ -135,20 +134,15 @@ class Sei_cajView:
                     "Caso queria automatizar um processo preencha apenas número SEI, caso queira automatizar mais de um processo SEi, anexe o arquivo. Click no botão verde para selecionar o arquivo.",
                     color=ft.Colors.GREY_500,
                 ),
+                # --- NOVO: Adicionado o dropdown à visualização da tela ---
+                self.template_dropdown, 
                 self.numero_sei_input,
                 self.arquivo_input,
                 ft.Row(
                     controls=[
                         ft.Button(
-                            content=ft.Text(
-                                "Voltar",
-                                color=ft.Colors.BLUE_700,
-                                weight=ft.FontWeight.BOLD,
-                            ),
-                            style=ft.ButtonStyle(
-                                bgcolor=ft.Colors.TRANSPARENT,
-                                padding=ft.Padding.all(20),
-                            ),
+                            content=ft.Text("Voltar", color=ft.Colors.BLUE_700, weight=ft.FontWeight.BOLD),
+                            style=ft.ButtonStyle(bgcolor=ft.Colors.TRANSPARENT, padding=ft.Padding.all(20)),
                             expand=True,
                             on_click=self.voltar_passo,
                         ),
@@ -156,11 +150,7 @@ class Sei_cajView:
                             content=ft.Row(
                                 controls=[
                                     ft.Icon(ft.Icons.PLAY_ARROW, color=ft.Colors.WHITE),
-                                    ft.Text(
-                                        "Iniciar Automação",
-                                        color=ft.Colors.WHITE,
-                                        weight=ft.FontWeight.BOLD,
-                                    ),
+                                    ft.Text("Iniciar Automação", color=ft.Colors.WHITE, weight=ft.FontWeight.BOLD),
                                 ],
                             ),
                             style=ft.ButtonStyle(
@@ -168,9 +158,11 @@ class Sei_cajView:
                                 padding=ft.Padding.all(20),
                                 shape=ft.RoundedRectangleBorder(radius=10),
                             ),
+                            # --- MODIFICADO: Captura o HTML correspondente ao nome selecionado ---
                             on_click=lambda _: self.controller.start_automation(
                                 self.numero_sei_input.value,
                                 self.caminho_arquivo_input.value,
+                                self.templates.get(self.template_dropdown.value, "") # <--- Busca o HTML no dicionário
                             ),
                             expand=True,
                         ),
@@ -183,7 +175,6 @@ class Sei_cajView:
             horizontal_alignment=ft.CrossAxisAlignment.START,
         )
 
-        # Estrutura principal
         content = ft.Column(
             controls=[self.login_step, self.automacao_step],
             scroll=ft.ScrollMode.AUTO,
@@ -192,7 +183,6 @@ class Sei_cajView:
 
         return MainLayout(page=self.page, content=content, router=self.router)
 
-    # --- Navegação ---
     def avancar_passo(self, e):
         sucesso = self.controller.save_credentials(
             self.user_input.value, self.pass_input.value, self.system_name
