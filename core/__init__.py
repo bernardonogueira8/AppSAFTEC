@@ -19,13 +19,22 @@ from version import APP_VERSION
 
 APP_NAME = "SAFTEC"
 
-# 1. Captura o caminho do diretório onde o SAFTEC-app.exe está executando
-install_dir = os.path.dirname(sys.executable)
+APP_NAME = "SAFTEC"
 
-# 2. Aponta para a pasta ms-playwright que o Inno Setup colocará na raiz
+# Verifica se está rodando via Python (.venv/desenvolvimento) ou via executável compilado
+if sys.executable.lower().endswith("python.exe") or sys.executable.lower().endswith("pythonw.exe"):
+    # MODO DESENVOLVIMENTO:
+    # Como este arquivo é core/__init__.py, a raiz do projeto é a pasta pai da pasta "core"
+    install_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+else:
+    # MODO PRODUÇÃO:
+    # Captura a pasta onde o SAFTEC-app.exe está executando
+    install_dir = os.path.dirname(sys.executable)
+
+# Monta o caminho exato para a pasta ms-playwright
 playwright_path = os.path.join(install_dir, "ms-playwright")
 
-# 3. Define a variável de ambiente ANTES de importar as ferramentas do Playwright
+# Define a variável de ambiente ANTES de importar o Playwright
 os.environ["PLAYWRIGHT_BROWSERS_PATH"] = playwright_path
 
 from playwright.async_api import async_playwright
