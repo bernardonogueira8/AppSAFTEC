@@ -14,16 +14,24 @@ class SeiCajController:
     # --- NOVO MÉTODO: Carrega os templates do arquivo JSON ---
     def load_templates_from_json(self):
         try:
-            # Detecta o caminho correto se está em desenvolvimento ou compilado
+            # 1. Detecta o diretório base de onde o app está rodando
             if sys.executable.lower().endswith(("python.exe", "pythonw.exe")):
+                # MODO DESENVOLVIMENTO (uv run)
                 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+                json_path = os.path.join(base_dir, "assets", "templates.json")
             else:
+                # MODO PRODUÇÃO (Executável instalado)
                 base_dir = os.path.dirname(sys.executable)
+                # O Flet coloca os assets compilados dentro deste caminho estruturado do Flutter:
+                json_path = os.path.join(base_dir, "data", "flutter_assets", "assets", "templates.json")
 
-            json_path = os.path.join(base_dir, "assets", "templates.json")
-
+            # 2. Backup de segurança: Se não achar no caminho do Flutter, tenta na raiz do app instalado
             if not os.path.exists(json_path):
-                self._show_snack("Arquivo templates.json não encontrado em assets!")
+                json_path = os.path.join(base_dir, "assets", "templates.json")
+
+            # 3. Se mesmo assim não encontrar em lugar nenhum, avisa e retorna vazio
+            if not os.path.exists(json_path):
+                self._show_snack("Arquivo templates.json não encontrado nos diretórios do sistema!")
                 return {}
 
             with open(json_path, "r", encoding="utf-8") as f:
