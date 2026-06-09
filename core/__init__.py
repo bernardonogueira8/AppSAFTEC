@@ -19,12 +19,9 @@ from version import APP_VERSION
 
 APP_NAME = "SAFTEC"
 
-APP_NAME = "SAFTEC"
-
 # Verifica se está rodando via Python (.venv/desenvolvimento) ou via executável compilado
 if sys.executable.lower().endswith("python.exe") or sys.executable.lower().endswith("pythonw.exe"):
     # MODO DESENVOLVIMENTO:
-    # Como este arquivo é core/__init__.py, a raiz do projeto é a pasta pai da pasta "core"
     install_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 else:
     # MODO PRODUÇÃO:

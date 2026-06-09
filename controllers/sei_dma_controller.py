@@ -149,21 +149,13 @@ class SeiDmaController:
             "button", name="Salvar"
         ).click()
         # 2. Incluir em Tag
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
-            "link", name="Gerenciar Marcador"
-        ).click()
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.locator("a").nth(
-            1
-        ).click()
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.locator(
-            "a"
-        ).filter(has_text="TI/DMA").click()
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
-            "button", name="Salvar"
-        ).click()
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.get_by_role("link", name="Gerenciar Marcador").click()
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.locator("a").nth(1).click()
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.locator("a").filter(has_text="TI/DMA").click()
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_role("button", name="Salvar").click()
 
         # Capturar o número do SEI
-        tree_frame = page.frame_locator("#ifrArvore")
+        tree_frame = page.frame_locator("#divArvore")
         span_processo = tree_frame.locator(".infraArvoreNoSelecionado")
         numero_sei = span_processo.inner_text()
 
@@ -171,53 +163,31 @@ class SeiDmaController:
         # Clicar no link (<a>) que contém esse número
         tree_frame.locator("a:has(.infraArvoreNoSelecionado)").click()
 
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
-            "link", name="Incluir Documento"
-        ).click()
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
-            "link", name="Despacho"
-        ).click()
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.get_by_role("link", name="Incluir Documento").click()
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_role("link", name="Despacho").click()
         with page.expect_popup() as page1_info:
-            page.locator('iframe[name="ifrVisualizacao"]').content_frame.locator(
-                "#divInfraBarraComandosSuperior"
-            ).get_by_role("button", name="Salvar").click()
+            page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.locator("#divInfraBarraComandosSuperior").get_by_role("button", name="Salvar").click()
 
         # 3. Editando o Despacho
         page1 = page1_info.value
-        page1.locator(
-            'iframe[title="Processo e Interessado"]'
-        ).content_frame.get_by_text("Insira aqui o órgão").click()
-        page1.locator(
-            'iframe[title="Processo e Interessado"]'
-        ).content_frame.get_by_role("cell", name="[Insira aqui o órgão").fill("CGTICS")
-        page1.locator('iframe[title="Corpo do Texto"]').content_frame.get_by_text(
-            "[Insira aqui o conteúdo do"
-        ).click()
+        page1.get_by_text("[Insira aqui o órgão").click()
+        page1.get_by_role("cell", name="[Insira aqui o órgão").fill("CGTICS")
+        page1.get_by_role("textbox", name="Corpo do Texto").click()
         content = self.formatar_para_sei(content)
         content = json.dumps(content)
-        page1.locator('iframe[title="Corpo do Texto"]').content_frame.get_by_text(
-            "[Insira aqui o conteúdo do"
-        ).evaluate(f"(el) => el.innerHTML = {content}")
-        page1.get_by_role("button", name="Salvar").click()
+        page1.get_by_role("textbox", name="Corpo do Texto").evaluate(f"(el) => el.innerHTML = {content}")
+        page1.get_by_role("button", name="Salvar").click().click()
         page1.close()
         # Clicar no link (<a>) que contém esse número
         tree_frame.locator("a:has(.infraArvoreNoSelecionado)").click()
 
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
-            "link", name="Incluir em Bloco de Assinatura"
-        ).click()
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
-            "button", name="Novo Bloco"
-        ).click()
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
-            "textbox", name="Descrição:"
-        ).fill(title)
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
-            "button", name="Salvar"
-        ).click()
-        page.locator('iframe[name="ifrVisualizacao"]').content_frame.get_by_role(
-            "button", name="Incluir", exact=True
-        ).click()
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_role("button", name="Incluir", exact=True).click()
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_role("button", name="Novo Bloco").click()
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_role("textbox", name="Descrição:").click()
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_role("textbox", name="Descrição:").fill(title)
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_role("button", name="Salvar").click()
+        page.locator("iframe[name=\"ifrConteudoVisualizacao\"]").content_frame.locator("iframe[name=\"ifrVisualizacao\"]").content_frame.get_by_role("button", name="Incluir", exact=True).click()
+    
         # Clicar no link (<a>) que contém esse número
         tree_frame.locator("a:has(.infraArvoreNoSelecionado)").click()
 
