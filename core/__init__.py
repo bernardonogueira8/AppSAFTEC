@@ -21,11 +21,10 @@ APP_NAME = "SAFTEC"
 
 # Verifica se está rodando via Python (.venv/desenvolvimento) ou via executável compilado
 if sys.executable.lower().endswith("python.exe") or sys.executable.lower().endswith("pythonw.exe"):
-    # MODO DESENVOLVIMENTO:
+
     install_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 else:
-    # MODO PRODUÇÃO:
-    # Captura a pasta onde o SAFTEC-app.exe está executando
+
     install_dir = os.path.dirname(sys.executable)
 
 # Monta o caminho exato para a pasta ms-playwright

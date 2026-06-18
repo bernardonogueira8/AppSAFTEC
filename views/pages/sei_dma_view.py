@@ -23,6 +23,7 @@ class Sei_dmaView:
             expand=True,
             filled=True,
         )
+
         self.pass_input = ft.TextField(
             label=f"Senha {self.system_name}",
             password=True,
@@ -33,7 +34,7 @@ class Sei_dmaView:
             border_radius=10,
             filled=True,
         )
-        # PASSO 1: CONTAINER DE LOGIN (Visível no Início)
+
         self.login_step = ft.Column(
             controls=[
                 # Ícone de Avatar no topo do Card
@@ -77,7 +78,7 @@ class Sei_dmaView:
         )
 
         # PASSO 2: CONTAINER DE AUTOMAÇÃO (Oculto no Início)
-        # Campos da Automação
+
         self.title_input = ft.TextField(
             label="Título do Processo",
             border_radius=10,
@@ -85,6 +86,7 @@ class Sei_dmaView:
             prefix_icon=ft.Icons.TITLE,
             expand=True,
         )
+
         self.text_input = ft.TextField(
             label="Texto do Processo",
             multiline=True,
@@ -94,31 +96,7 @@ class Sei_dmaView:
             min_lines=3,
             expand=True,
         )
-        self.btn_copy_sei = ft.ElevatedButton(  # Usei ElevatedButton por padrão, mas pode manter seu style
-            content=ft.Row(
-                controls=[
-                    ft.Icon(ft.Icons.CONTENT_COPY, color=ft.Colors.WHITE),
-                    ft.Text(
-                        "Copiar número do SEI",
-                        color=ft.Colors.WHITE,
-                        weight=ft.FontWeight.BOLD,
-                    ),
-                ],
-            ),
-            style=ft.ButtonStyle(
-                bgcolor=ft.Colors.GREEN_600,
-                padding=ft.Padding.all(20),
-                shape=ft.RoundedRectangleBorder(radius=10),
-            ),
-            on_click=self.controller.copy_from_sei,
-            expand=False,
-            disabled=True,  # <--- Começa desabilitado
-        )
 
-        self.text_caminho = ft.Text(
-            "Caminho do arquivo: ",
-            color=ft.Colors.GREY_600,
-        )
         self.automacao_step = ft.Column(
             controls=[
                 ft.Row(
@@ -133,7 +111,7 @@ class Sei_dmaView:
                     alignment=ft.MainAxisAlignment.START,
                 ),
                 self.title_input,
-                self.text_input,  # Este campo gigante dominará o centro
+                self.text_input,
                 ft.Row(
                     controls=[
                         ft.Button(
@@ -176,14 +154,6 @@ class Sei_dmaView:
                 ft.Divider(
                     height=30, thickness=1, color=ft.Colors.GREY_300
                 ),  # Separador visual
-                ft.Row(
-                    controls=[
-                        self.text_caminho,
-                        self.btn_copy_sei,
-                    ],
-                    alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
-                    spacing=20,
-                ),
             ],
             visible=False,
             expand=False,
