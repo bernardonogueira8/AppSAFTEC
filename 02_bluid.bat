@@ -58,49 +58,6 @@ echo [2/7] Atualizando installer.iss...
 powershell -Command "(Get-Content 'InnoSetup\installer.iss') -replace 'AppVersion=.*', 'AppVersion=!VERSION!' -replace 'OutputBaseFilename=.*', 'OutputBaseFilename=SAFTEC_Setup_!VERSION!' | Set-Content 'InnoSetup\installer.iss'"
 echo installer.iss atualizado.
 
-REM ── [3/7] Limpa builds antigos ────────────────────────
-echo [3/7] Limpando builds antigos...
-if exist data       rmdir /s /q data
-if exist build      rmdir /s /q build
-if exist InnoSetup\Output rmdir /s /q InnoSetup\Output
-
-REM ── [3/7] Limpa builds antigos ────────────────────────
-echo [3/7] Limpando builds antigos...
-if exist data             rmdir /s /q data
-if exist build            rmdir /s /q build
-if exist InnoSetup\Output rmdir /s /q InnoSetup\Output
-if exist ms-playwright    rmdir /s /q ms-playwright
-
-REM --- Sincroniza o ambiente local com o uv.lock antes do install ---
-echo Sincronizando dependencias locais...
-uv sync
-
-REM ── Instala Firefox do Playwright na pasta do projeto ──
-echo [4/7] Instalando Firefox do Playwright no projeto...
-set PLAYWRIGHT_BROWSERS_PATH=%CD%\ms-playwright
-uv run playwright install firefox
-if errorlevel 1 (
-    echo ERRO: Falha ao instalar o Firefox do Playwright.
-    pause & exit /b 1
-)
-
-REM ── [5/7] Build Flet ──────────────────────────────────
-echo [5/7] Gerando Build Flet para Windows...
-uv run fleting db init
-uv run fleting db migrate
-
-REM Converte o estado do uv.lock para um formato que o flet build respeita rigidamente
-uv export --no-hashes --format requirements-txt > requirements.txt
-
-uv run flet build windows
-if errorlevel 1 (
-    echo ERRO: Falha no flet build.
-    pause & exit /b 1
-)
-
-REM Remove o arquivo temporário para manter o repositório limpo
-if exist requirements.txt del /f /q requirements.txt
-
 REM ── [6/7] Gera version.json ───────────────────────────
 echo [6/7] Gerando version.json...
 if not exist InnoSetup\Output mkdir InnoSetup\Output
