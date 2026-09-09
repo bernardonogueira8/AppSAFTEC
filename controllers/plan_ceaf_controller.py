@@ -148,9 +148,9 @@ class PlanCeafController:
                 ws.merge_cells(rng)
 
         ws.cell(row=footer_row, column=2).value = "QUANTIDADE A SER LIBERADA POR MÊS"
-        ws.cell(row=footer_row, column=6).value = f"=SUM(F3:F{orig_max_row})"
+        ws.cell(row=footer_row, column=6).value = f"=SUBTOTAL(9;F3:F{orig_max_row})"
         ws.cell(row=footer_row, column=max_col).value = (
-            f"=SUM({get_column_letter(max_col)}3"
+            f"=SUBTOTAL(9;{get_column_letter(max_col)}3"
             f":{get_column_letter(max_col)}{orig_max_row})"
         )
 
