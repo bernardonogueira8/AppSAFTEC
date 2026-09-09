@@ -1,12 +1,12 @@
 [Setup]
 AppName=SAFTEC
-AppVersion=1.1.8
+AppVersion=1.1.9
 AppId={{4fd8628c-3d33-49ee-8505-a0889bbe77a4}}
 PrivilegesRequired=lowest
 DefaultDirName={localappdata}\SAFTEC
 UsedUserAreasWarning=no
 OutputDir=Output
-OutputBaseFilename=SAFTEC_Setup_1.1.8
+OutputBaseFilename=SAFTEC_Setup_1.1.9
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern

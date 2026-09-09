@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.id="pyproject.toml" type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.venv" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/battery_plus/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/battery_plus/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/battery_plus/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/battery_plus/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/battery_plus/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/battery_plus/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/file_picker/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/file_picker/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/file_picker/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/file_picker/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/file_picker/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/file_picker/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/jni/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/jni/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/jni/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/jni/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/jni/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/jni/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/pasteboard/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/pasteboard/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/pasteboard/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/pasteboard/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/pasteboard/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/pasteboard/example/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/share_plus/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/share_plus/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/share_plus/build" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/share_plus/example/.dart_tool" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/share_plus/example/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/build/flutter/linux/flutter/ephemeral/.plugin_symlinks/share_plus/example/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="PackageRequirementsSettings" />
+  <component name="ReSTService" />
+</module>
