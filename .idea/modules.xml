@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SAFTEC.iml" filepath="$PROJECT_DIR$/.idea/SAFTEC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SAFTEC@1.iml" filepath="$PROJECT_DIR$/.idea/SAFTEC@1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/SAFTEC@2.iml" filepath="$PROJECT_DIR$/.idea/SAFTEC@2.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pandas.iml" filepath="$PROJECT_DIR$/.idea/pandas.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/pandas@1.iml" filepath="$PROJECT_DIR$/.idea/pandas@1.iml" />
     </modules>

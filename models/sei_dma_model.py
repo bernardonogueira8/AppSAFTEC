@@ -11,7 +11,7 @@ class Sei_dmaModel(BaseModel):
         """Busca as credenciais salvas para o sistema especificado."""
         cursor = self.db.cursor()
         cursor.execute(
-            "SELECT username, password FROM sei_dma WHERE system_name = ? LIMIT 1",
+            "SELECT username, password FROM users WHERE system_name = ? LIMIT 1",
             (system_name,),
         )
         return cursor.fetchone()  # Retorna uma tupla (user, pass) ou None se não achar
@@ -21,19 +21,19 @@ class Sei_dmaModel(BaseModel):
         cursor = self.db.cursor()
 
         # Primeiro, verificamos se já existe um registro para esse sistema
-        cursor.execute("SELECT id FROM sei_dma WHERE system_name = ?", (system_name,))
+        cursor.execute("SELECT id FROM users WHERE system_name = ?", (system_name,))
         registro = cursor.fetchone()
 
         if registro:
             # CORREÇÃO: Usar registro para extrair o ID numérico da tupla
             cursor.execute(
-                "UPDATE sei_dma SET username = ?, password = ?, system_name = ? WHERE id = ? ",
+                "UPDATE users SET username = ?, password = ?, system_name = ? WHERE id = ? ",
                 (username, password, system_name, registro[0]),
             )
         else:
             # Se não existe, inserimos (INSERT) normalmente
             cursor.execute(
-                "INSERT INTO sei_dma (username, password, system_name) VALUES (?, ?, ?)",
+                "INSERT INTO users (username, password, system_name) VALUES (?, ?, ?)",
                 (username, password, system_name),
             )
         self.db.commit()

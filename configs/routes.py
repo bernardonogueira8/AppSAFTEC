@@ -1,6 +1,15 @@
 from core import ft, importlib
 
 ROUTES = [
+    {
+        "path": "/email_ceaf",
+        "view": "views.pages.email_ceaf_view.Email_ceafView",
+        "label": "Email_ceaf",
+        "icon": ft.Icons.CHEVRON_RIGHT,
+        "show_in_top": True,
+        "show_in_bottom": False,
+    },
+
     
 
     {
