@@ -1,7 +1,7 @@
 from core.base_model import BaseModel
 from core.database import _connect_sqlite
 
-class EmailCeafModel(BaseModel):
+class EmailceafModel(BaseModel):
     def __init__(self, db_connection=None):
         # A conexão com o banco de dados é injetada no modelo
         self.db = db_connection or _connect_sqlite()

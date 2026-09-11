@@ -64,7 +64,7 @@ class HomeView:
                             italic=True,
                         ),
                         ft.Text(
-                            "Desenvolido por Bernardo Nogueira, SAFTEC/DASF",
+                            "Desenvolvido por Bernardo Nogueira, SAFTEC/DASF",
                             size=16,
                             color=ft.Colors.SECONDARY,
                             italic=True,

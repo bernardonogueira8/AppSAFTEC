@@ -1,5 +1,4 @@
-import asyncio
-from core import ft, os
+from core import ft, os, asyncio
 from views.layouts.main_layout import MainLayout
 from controllers.plan_ceaf_controller import PlanCeafController
 

@@ -1,18 +1,7 @@
 from core import ft, importlib
 
 ROUTES = [
-    {
-        "path": "/email_ceaf",
-        "view": "views.pages.email_ceaf_view.Email_ceafView",
-        "label": "Email_ceaf",
-        "icon": ft.Icons.CHEVRON_RIGHT,
-        "show_in_top": True,
-        "show_in_bottom": False,
-    },
-
-    
-
-    {
+        {
         "path": "/sei_dma",
         "view": "views.pages.sei_dma_view.Sei_dmaView",
         "label": "sei.dma",
@@ -43,6 +32,14 @@ ROUTES = [
         "icon": ft.Icons.CHEVRON_RIGHT,
         "show_in_top": True,
         "show_in_bottom": False,
+    },
+    {
+            "path": "/emailceaf",
+            "view": "views.pages.emailceaf_view.EmailceafView",
+            "label": "outros.emailceaf",
+            "icon": ft.Icons.CHEVRON_RIGHT,
+            "show_in_top": True,
+            "show_in_bottom": False,
     },
     {
         "path": "/simpas_estoque",
