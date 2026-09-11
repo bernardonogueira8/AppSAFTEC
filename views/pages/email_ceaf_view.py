@@ -1,12 +1,15 @@
 import flet as ft
 from views.layouts.main_layout import MainLayout
-from controllers.email_ceaf_controller import Email_ceafController
+from controllers.email_ceaf_controller import EmailCeafController
 
-class Email_ceafView:
+class EmailCeafView:
     def __init__(self, page, router):
         self.page = page
         self.router = router
-        self.controller = Email_ceafController()
+        self.controller = EmailCeafController(page=self.page)
+        self.system_name = "email"
+        # Propriedade para armazenar o dicionário lido do JSON
+        self.templates = {} 
 
     def render(self):
         content = ft.Column(
